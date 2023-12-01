@@ -9,3 +9,6 @@ I'll continue doing these practice problems at least until I land a job as a dat
 - [Analyst Builder](https://www.analystbuilder.com/) 
 
 I'll always specify where I got the question from. Thank you for viewing my SQL practice repository :D
+
+1. Day 1 - November 30th 2023: [Histogram of Tweets](https://github.com/LexiPugh/sql-practice/blob/main/practice_problems/day1/day1.md)
+    - Notable Concepts Covered: Subqueries, the DATE_PART function

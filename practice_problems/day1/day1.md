@@ -68,7 +68,8 @@ FROM (
   WHERE
     DATE_PART('year', tweet_date) = 2022
   GROUP BY
-    user_id) AS total_tweets
+    user_id
+) AS total_tweets
 GROUP BY tweet_count_per_user
 ```
 

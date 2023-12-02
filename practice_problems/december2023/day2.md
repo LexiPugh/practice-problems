@@ -22,6 +22,8 @@ Write a query to list the candidates who possess all of the required skills for 
 
 Assumption: There are no duplicates in the candidates table.
 
+<br>
+
 candidates Table:
 
 | Column Name           | Type                     | 

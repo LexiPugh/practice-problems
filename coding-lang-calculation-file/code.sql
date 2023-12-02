@@ -14,7 +14,6 @@ FROM (
 ) AS total_tweets
 GROUP BY tweet_count_per_user
 
-  
 SELECT 
   candidate_id
 FROM 

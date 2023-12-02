@@ -13,3 +13,17 @@ FROM (
     user_id
 ) AS total_tweets
 GROUP BY tweet_count_per_user
+
+  
+SELECT 
+  candidate_id
+FROM 
+  candidates
+WHERE
+  skill IN ('Python', 'Tableau', 'PostgreSQL')
+GROUP BY
+  candidate_id
+HAVING
+  COUNT(skill) = 3
+ORDER BY
+  candidate_id;

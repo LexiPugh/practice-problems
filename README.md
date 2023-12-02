@@ -26,4 +26,6 @@ I'll always specify where I got the question from. Thank you for viewing my SQL 
 ## List of Questions
 
 1. Day 1 - December 1st 2023: [Histogram of Tweets from DataLemur](https://github.com/LexiPugh/sql-practice/blob/main/practice_problems/december2023/day1.md)
-    - Notable Concepts Covered: Subqueries, the DATE_PART function
+    - Concepts Covered: Subqueries, the DATE_PART function
+2. Day 2 - December 2nd 2023: [Data Science Skills from DataLemur](https://github.com/LexiPugh/sql-practice/blob/main/practice_problems/december2023/day2.md)
+    - Concepts Covered: Using the HAVING keyword to filter on aggregated data

@@ -25,5 +25,5 @@ I'll always specify where I got the question from. Thank you for viewing my SQL 
 
 ## List of Questions
 
-1. Day 1 - December 1st 2023: [Histogram of Tweets from DataLemur](https://github.com/LexiPugh/sql-practice/blob/main/practice_problems/day1/day1.md)
+1. Day 1 - December 1st 2023: [Histogram of Tweets from DataLemur](https://github.com/LexiPugh/sql-practice/blob/main/practice_problems/december2023/day1.md)
     - Notable Concepts Covered: Subqueries, the DATE_PART function

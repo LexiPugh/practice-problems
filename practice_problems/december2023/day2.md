@@ -4,7 +4,7 @@
 
 <br>
 
-*This is the [Data Science Skills]([https://datalemur.com/questions/matching-skills]) practice problem from DataLemur. The question difficulty is Easy.*
+*This is the [Data Science Skills](https://datalemur.com/questions/matching-skills) practice problem from DataLemur. The question difficulty is Easy.*
 
 <br>
 

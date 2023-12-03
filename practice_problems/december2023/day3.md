@@ -4,7 +4,7 @@
 
 <br>
 
-*This is the [Combine Two Tables]([https://www.analystbuilder.com/questions/combine-two-tables-LTaKJ]) practice problem from Analyst Builder. The question difficulty is Easy.*
+*This is the [Combine Two Tables](https://www.analystbuilder.com/questions/combine-two-tables-LTaKJ) practice problem from Analyst Builder. The question difficulty is Easy.*
 
 <br>
 

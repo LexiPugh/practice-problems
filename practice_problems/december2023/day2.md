@@ -1,5 +1,6 @@
-# **SQL Practice Problem #2: Data Science Skills**
+# **Practice Problem #2: Data Science Skills**
 ### December 2nd, 2023
+### Languages Used: SQL
 
 <br>
 

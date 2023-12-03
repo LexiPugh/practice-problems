@@ -26,3 +26,14 @@ HAVING
   COUNT(skill) = 3
 ORDER BY
   candidate_id;
+
+SELECT
+  first_name,
+  last_name,
+  state
+FROM 
+  employee_name AS n
+  LEFT JOIN employee_location AS l
+  ON n.person_id = l.employee_id
+ORDER BY
+  first_name

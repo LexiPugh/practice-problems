@@ -31,3 +31,6 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 2. Day 2 - December 2nd 2023: [Data Science Skills from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day2.md)
     - Languages Used: SQL
     - Concepts Covered: Using the HAVING keyword to filter on aggregated data
+3. Day 3 - December 3rd 2023: [Combine Two Tables from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day3.md)
+    - Languages Used: SQL and Python
+    - Concepts Covered: Using a LEFT JOIN to keep all the data from one table

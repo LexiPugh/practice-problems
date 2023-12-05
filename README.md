@@ -34,3 +34,6 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 3. Day 3 - December 3rd 2023: [Combine Two Tables from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day3.md)
     - Languages Used: SQL and Python
     - Concepts Covered: Using a LEFT JOIN to keep all the data from one table
+4. Day 4 - December 4th 2023: [Page With No Likes from DataLemur](https://datalemur.com/questions/sql-page-with-no-likes)
+    - Languages Used: SQL
+    - Concepts Covered: The IS NULL keyword, using a LEFT JOIN

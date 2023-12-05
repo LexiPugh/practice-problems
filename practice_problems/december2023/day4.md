@@ -1,4 +1,4 @@
-# **Practice Problem #3: Page With No Likes**
+# **Practice Problem #4: Page With No Likes**
 ### December 4th, 2023
 ### Languages Used: SQL
 

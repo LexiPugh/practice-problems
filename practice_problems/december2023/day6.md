@@ -1,0 +1,87 @@
+# **Practice Problem #6: Shopping Cart Conversions**
+### December 6th, 2023
+### Languages Used: SQL and Python
+
+<br>
+
+*This is the [Shopping Cart Conversions](https://www.analystbuilder.com/questions/shopping-cart-conversions-oYXuK) practice problem from Analyst Builder. The question difficulty is Easy.*
+
+<br>
+
+**Table of Contents**
+
+-   [The Question](#the-question)
+-   [My Solution](#my-solution)
+  
+<br>
+
+## The Question
+
+Walmart's website tracks how many items a customer puts into their shopping cart and how many they end up purchasing.
+
+Determine the percentage of items bought vs items put in the cart for each customer.
+
+Output should have Customer ID and the percentage (rounded to 2 decimal places).
+
+Order on Customer ID from highest to lowest.
+
+<br>
+
+shopping_cart Table:
+
+| Field                 | Data Type         | 
+| :----------------     | :----------       | 
+| customer_id           | int               | 
+| carted_items          | int               |
+| purchased_items       | int               |
+
+
+shopping_cart Input:
+
+| customer_id    | carted_items | purchased_items |                                               
+| :------------  | :----------  | :----------     |                                                      
+| 1001	         | 45           | 44              |     
+| 1002	         | 3            | 3	              |             
+| 1003	         | 17           | 0               | 
+| 1004	         | 60           | 49              |  
+| 1005	         | 33           | 33              |  
+| 1006	         | 11           | 10              |  
+| 1007	         | 1            | 1               |         
+                    
+
+<br>
+
+# My Solution
+
+### First Solution: SQL
+
+``` SQL
+SELECT 
+  customer_id,
+  ROUND((purchased_items/carted_items)*100, 2) AS percentage
+FROM 
+  shopping_cart
+ORDER BY
+  customer_id DESC
+```
+
+### Second Solution: Python
+
+``` Python
+shopping_cart['percentage'] = ((shopping_cart['purchased_items'] / shopping_cart['carted_items']) * 100).round(2)
+
+shopping_cart = shopping_cart.sort_values(by='customer_id', ascending=False)
+
+shopping_cart[['customer_id', 'percentage']]
+```
+
+Output Table:
+| customer_id    | percentage   |                                               
+| :------------  | :----------  |                                                      
+| 1001	         | 100          |   
+| 1002	         | 90.91        |             
+| 1003	         | 100          |
+| 1004	         | 81.67        |  
+| 1005	         | 0            |
+| 1006	         | 100          |
+| 1007	         | 97.78        |      

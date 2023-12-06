@@ -10,3 +10,10 @@ big_gdp = big_gdp[big_gdp.gdp_per_million > 10000000]
 big_gdp = big_gdp.sort_values(by=['country'])
 
 big_gdp[['country']]
+
+
+shopping_cart['percentage'] = ((shopping_cart['purchased_items'] / shopping_cart['carted_items']) * 100).round(2)
+
+shopping_cart = shopping_cart.sort_values(by='customer_id', ascending=False)
+
+shopping_cart[['customer_id', 'percentage']]

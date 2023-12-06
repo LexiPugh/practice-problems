@@ -40,3 +40,6 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 5. Day 5 - December 5th 2023: [Big GDP from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day5.md)
     - Languages Used: SQL and Python
     - Concepts Covered: Using the WHERE keyword to filter in SQL, filtering a Pandas data frame in Python
+6. Day 6 - December 6th 2023: [Shopping Cart Conversions from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day6.md)
+    - Languages Used: SQL and Python
+    - Concepts Covered: Performing calculations to engineer new features, rounding numbers in SQL and Python

@@ -17,3 +17,10 @@ shopping_cart['percentage'] = ((shopping_cart['purchased_items'] / shopping_cart
 shopping_cart = shopping_cart.sort_values(by='customer_id', ascending=False)
 
 shopping_cart[['customer_id', 'percentage']]
+
+
+max_order = orders['number_of_orders'].max()
+
+orders = orders[(orders.number_of_orders == max_order)]
+
+orders

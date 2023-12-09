@@ -53,3 +53,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL and Python
     - Question Difficulty: Medium
     - Concepts Covered: Using a subquery to filter in SQL, filtering a Pandas data frame in Python
+6. Day 8 - December 8th 2023: [Duplicate Emails from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day8.md)
+    - Languages Used: SQL and Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Using the HAVING keyword to filter on aggregations and using the GROUP BY keyword in SQL, using the Pandas .groupby() method and filering a Pandas data frame in Python

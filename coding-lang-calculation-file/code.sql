@@ -74,3 +74,15 @@ FROM
   orders
 WHERE
    number_of_orders = (SELECT MAX(number_of_orders) FROM orders)
+
+SELECT
+  email,
+  COUNT(email) AS email_count
+FROM 
+  emails
+GROUP BY
+  email
+HAVING
+  email_count > 1
+ORDER BY
+  email

@@ -24,3 +24,12 @@ max_order = orders['number_of_orders'].max()
 orders = orders[(orders.number_of_orders == max_order)]
 
 orders
+
+
+group = emails.groupby(['email']).count().reset_index().rename(columns={'id': 'email_count'})
+
+filter = group[group['email_count'] > 1]
+
+emails = filter.sort_values(by='email')
+
+emails[['email', 'email_count']]

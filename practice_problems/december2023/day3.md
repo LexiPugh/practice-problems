@@ -36,12 +36,12 @@ employee_name Table:
 
 employee_name Input:
 
-| person_id    | first_name    | last_name                                                             
-| :------------| :----------   | :----------                                                        
-| 1	           | John          | Jackson        
-| 2	           | Sally         | Surray	                        
-| 3	           | Luke          | Lambowitz                 
-| 4            | Kurt	         | Kindly    
+| person_id    | first_name    | last_name   |                                                         
+| :------------| :----------   | :---------- |                                                       
+| 1	           | John          | Jackson     |  
+| 2	           | Sally         | Surray	     |                   
+| 3	           | Luke          | Lambowitz   |              
+| 4            | Kurt	         | Kindly      |
                     
 
 employee_location Table:
@@ -55,11 +55,11 @@ employee_location Table:
 
 employee_location Input:
 
-| employee_id  | city          | state          | state_id                                                   
-| :------------| :----------   | :----------    | :----------                                                  
-| 1	           | Charlotte     | North Carolina | NC      
-| 3	           | Austin        | Texas	        | TX              
-| 4	           | New York      | New York       | NY           
+| employee_id  | city          | state          | state_id    |                                              
+| :------------| :----------   | :----------    | :---------- |                                                
+| 1	           | Charlotte     | North Carolina | NC          |
+| 3	           | Austin        | Texas	        | TX          |    
+| 4	           | New York      | New York       | NY          | 
 
 
 <br>

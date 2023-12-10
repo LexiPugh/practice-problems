@@ -49,11 +49,15 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
     - Concepts Covered: Performing calculations to engineer new features, rounding numbers in SQL and Python
-6. Day 7 - December 7th 2023: [Most Orders from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day7.md)
+7. Day 7 - December 7th 2023: [Most Orders from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day7.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Medium
     - Concepts Covered: Using a subquery to filter in SQL, filtering a Pandas data frame in Python
-6. Day 8 - December 8th 2023: [Duplicate Emails from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day8.md)
+8. Day 8 - December 8th 2023: [Duplicate Emails from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day8.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Medium
     - Concepts Covered: Using the HAVING keyword to filter on aggregations and using the GROUP BY keyword in SQL, using the Pandas .groupby() method and filering a Pandas data frame in Python
+9. Day 9 - December 9th 2023: [Laptop vs. Mobile Viewership from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day9.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Using a CASE statement and an aggregation function to engineer new features

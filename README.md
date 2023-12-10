@@ -61,3 +61,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Using a CASE statement and an aggregation function to engineer new features
+10. Day 10 - December 10th 2023: [Unfinished Parts from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day10.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Using the IS NULL keyword to filter to instances where a row value is missing

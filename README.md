@@ -65,3 +65,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Using the IS NULL keyword to filter to instances where a row value is missing
+11. Day 11 - December 11th 2023: [Factorial Formula from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day11.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Utilizing a for loop for numeric calculations 

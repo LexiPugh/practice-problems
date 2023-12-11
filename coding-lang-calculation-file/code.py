@@ -33,3 +33,10 @@ filter = group[group['email_count'] > 1]
 emails = filter.sort_values(by='email')
 
 emails[['email', 'email_count']]
+
+
+def factorial(n):
+  factorial = 1
+  for i in range(1, n+1):
+    factorial = factorial * i
+  return factorial

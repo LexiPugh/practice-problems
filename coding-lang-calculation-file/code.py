@@ -40,3 +40,8 @@ def factorial(n):
   for i in range(1, n+1):
     factorial = factorial * i
   return factorial
+
+
+customers = customers[(customers['purchased_items'] == 'M&Ms') | (customers['purchased_items'] == 'Snickers') | (customers['purchased_items'] == 'Twizzlers')]
+
+customers[['customer_id']]

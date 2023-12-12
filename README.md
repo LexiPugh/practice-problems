@@ -68,4 +68,8 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 11. Day 11 - December 11th 2023: [Factorial Formula from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day11.md)
     - Languages Used: Python
     - Question Difficulty: Easy
-    - Concepts Covered: Utilizing a for loop for numeric calculations 
+    - Concepts Covered: Utilizing a for loop for numeric calculations
+12. Day 12 - December 12th 2023: [Movie Theater from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day12.md)
+    - Languages Used: SQL and Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Using the WHERE and IN keywords to filter on multiple values in SQL, using the OR operator to filter a Pandas data frame on multiple values in Python

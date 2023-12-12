@@ -104,3 +104,10 @@ FROM
   parts_assembly
 WHERE
   finish_date IS NULL
+
+SELECT
+  customer_id
+FROM 
+  customers
+WHERE
+  purchased_items IN ('M&Ms', 'Snickers', 'Twizzlers')

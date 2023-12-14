@@ -69,7 +69,11 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Utilizing a for loop for numeric calculations
-12. Day 12 - December 12th 2023: [Movie Theater from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day12.md)
+12. Day 12 - December 12th 2023: [Movie Theater from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day12.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
     - Concepts Covered: Using the WHERE and IN keywords to filter on multiple values in SQL, using the OR operator to filter a Pandas data frame on multiple values in Python
+12. Day 13 - December 13th 2023: [Heart Attack Risk from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day13.md)
+    - Languages Used: SQL and Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Using the AND keyword/symbol and comparison operators to filter on multiple values in SQL and Python

@@ -45,3 +45,10 @@ def factorial(n):
 customers = customers[(customers['purchased_items'] == 'M&Ms') | (customers['purchased_items'] == 'Snickers') | (customers['purchased_items'] == 'Twizzlers')]
 
 customers[['customer_id']]
+
+
+patients = patients[(patients['age'] > 50) & (patients['cholesterol'] >= 240) & (patients['weight'] >= 200)]
+
+patients = patients.sort_values(by='cholesterol', ascending=False)
+
+patients

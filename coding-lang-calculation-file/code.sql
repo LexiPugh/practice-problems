@@ -122,3 +122,10 @@ WHERE
   AND weight >= 200
 ORDER BY
   cholesterol DESC
+
+SELECT 
+  COUNT(DISTINCT customer_id) AS customer_count 
+FROM 
+  transactions
+WHERE
+  bill_total > 500

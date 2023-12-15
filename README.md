@@ -73,7 +73,11 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
     - Concepts Covered: Using the WHERE and IN keywords to filter on multiple values in SQL, using the OR operator to filter a Pandas data frame on multiple values in Python
-12. Day 13 - December 13th 2023: [Heart Attack Risk from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day13.md)
+13. Day 13 - December 13th 2023: [Heart Attack Risk from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day13.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
     - Concepts Covered: Using the AND keyword/symbol and comparison operators to filter on multiple values in SQL and Python
+14. Day 14 - December 14th 2023: [Wealthy Customers from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day14.md)
+    - Languages Used: SQL and Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Using COUNT DISTINCT to count the unique number of customers in SQL, using the Pandas .nunique() method to achieve the same output with Python

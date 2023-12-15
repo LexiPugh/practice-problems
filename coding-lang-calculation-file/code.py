@@ -52,3 +52,10 @@ patients = patients[(patients['age'] > 50) & (patients['cholesterol'] >= 240) & 
 patients = patients.sort_values(by='cholesterol', ascending=False)
 
 patients
+
+
+transactions = transactions[transactions['bill_total'] > 500]
+
+transactions = transactions['customer_id'].nunique()
+
+transactions

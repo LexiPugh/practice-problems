@@ -81,3 +81,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL and Python
     - Question Difficulty: Medium
     - Concepts Covered: Using COUNT DISTINCT to count the unique number of customers in SQL, using the Pandas .nunique() method to achieve the same output with Python
+15. Day 15 - December 15th 2023: [Ice Cream Popularity from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day15.md)
+    - Languages Used: SQL and Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Using comparison operators to compare two fields for the purpose of filtering, using ORDER BY in SQL and .sort_values() in Python to order the output

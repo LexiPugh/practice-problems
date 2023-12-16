@@ -85,3 +85,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
     - Concepts Covered: Using comparison operators to compare two fields for the purpose of filtering, using ORDER BY in SQL and .sort_values() in Python to order the output
+16. Day 16 - December 16th 2023: [Gamer Tags from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day16.md)
+    - Languages Used: SQL and Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Using the LEFT function to select part of a string, the YEAR function to select part of a date, and the CONCAT function to combine them in SQL. Using slicing to select part of a string, the split() function to select part of a date, and performing concatenation in Python.

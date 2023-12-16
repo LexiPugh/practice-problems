@@ -59,3 +59,10 @@ transactions = transactions[transactions['bill_total'] > 500]
 transactions = transactions['customer_id'].nunique()
 
 transactions
+
+
+ice_cream = ice_cream[ice_cream['community_rating'] > ice_cream['official_rating']]
+
+ice_cream = ice_cream.sort_values(by='flavor')
+
+ice_cream[['flavor']]

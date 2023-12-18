@@ -89,3 +89,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL and Python
     - Question Difficulty: Medium
     - Concepts Covered: Using the LEFT function to select part of a string, the YEAR function to select part of a date, and the CONCAT function to combine them in SQL. Using slicing to select part of a string, the split() function to select part of a date, and performing concatenation in Python.
+17. Day 17 - December 17th 2023: [Teams Power Users from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day17.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Aggregating with the COUNT() function, using the GROUP BY keyword to split the aggregation into different groups, using the DATE_PART function in combination with the WHERE keyword to filter by a specific month/year combo

@@ -23,7 +23,7 @@ Assumption: No two users have sent the same number of messages in August 2022.
 
 <br>
 
-tweets Table:
+messages Table:
 
 | Column Name        | Type         | 
 | :----------------  | :----------  | 
@@ -33,7 +33,7 @@ tweets Table:
 | content            | varchar      | 
 | sent_date          | datetime     |
 
-tweets Example Input:
+messages Example Input:
 
 | message_id  | sender_id   | receiver_id   | content                  | sent_date            |
 | :---------- | :---------  | :-----------  | :------------------      | :------------        |

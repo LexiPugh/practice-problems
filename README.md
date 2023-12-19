@@ -93,3 +93,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Aggregating with the COUNT() function, using the GROUP BY keyword to split the aggregation into different groups, using the DATE_PART function in combination with the WHERE keyword to filter by a specific month/year combo
+18. Day 18 - December 18th 2023: [ Cities With Completed Trades from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day18.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Using the INNER JOIN keyword to combine two tables on a common column, aggregating with the COUNT() function, using the GROUP BY keyword to split the aggregation into different groups

@@ -101,3 +101,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Using a CASE statement within a calculation to engineer new a feature, using the ROUND() function to give output a uniform number of decimals, using the DATE_PART function and the WHERE keyword to filter to a specific year, using the GROUP BY keyword to group the aggregation by app
+20. Day 20 - December 20th 2023: [Medium Sized Countries from AnalystBuilder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day20.md)
+    - Languages Used: SQL and Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Using the BETWEEN keyword in combination with the WHERE keyword to filter in SQL, filtering and sorting a Pandas data frame in Python

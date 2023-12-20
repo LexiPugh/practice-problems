@@ -77,3 +77,10 @@ gamer_tags['gamer_tag'] = first_three_letters + year_of_birth
 gamer_tags = gamer_tags.sort_values(by='gamer_tag')
 
 gamer_tags[['first_name', 'last_name', 'gamer_tag']]
+
+
+country = country[(country['population'] > 50000000) & (country['population'] < 100000000)]
+
+country = country.sort_values(by='population', ascending=True)
+
+country[['country', 'population']]

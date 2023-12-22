@@ -84,3 +84,12 @@ country = country[(country['population'] > 50000000) & (country['population'] < 
 country = country.sort_values(by='population', ascending=True)
 
 country[['country', 'population']]
+
+
+stores = stores.groupby('store_id').mean().round(2).reset_index()
+
+stores = stores[stores['revenue'] > 1000000]
+
+stores = stores.sort_values(by='store_id')
+
+stores[['store_id', 'revenue']]

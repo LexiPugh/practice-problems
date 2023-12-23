@@ -101,11 +101,15 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Using a CASE statement within a calculation to engineer new a feature, using the ROUND() function to give output a uniform number of decimals, using the DATE_PART function and the WHERE keyword to filter to a specific year, using the GROUP BY keyword to group the aggregation by app
-20. Day 20 - December 20th 2023: [Medium Sized Countries from AnalystBuilder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day20.md)
+20. Day 20 - December 20th 2023: [Medium Sized Countries from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day20.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
     - Concepts Covered: Using the BETWEEN keyword in combination with the WHERE keyword to filter in SQL, filtering and sorting a Pandas data frame in Python
-21. Day 21 - December 21st 2023: [Million Dollar Store from AnalystBuilder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day21.md)
+21. Day 21 - December 21st 2023: [Million Dollar Store from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day21.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
     - Concepts Covered: Using the ROUND() function to round output, using the HAVING keyword to filter on an aggregation, and using the GROUP BY keyword to group yearly revenue by store in SQL. Using the .groupby(), .mean(), and .round() Pandas functions to accomplish the same output, as well as filtering and sorting a Pandas data frame in Python.
+22. Day 22 - December 22nd 2023: [Big Countries from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day22.md)
+    - Languages Used: SQL and Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Using the OR keyword/operator to filter to places that meet at least one of the specified conditions in both SQL and Python

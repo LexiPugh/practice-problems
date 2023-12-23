@@ -213,3 +213,15 @@ HAVING
   AVG(revenue) > 1000000
 ORDER BY
   store_id
+
+SELECT 
+  country,
+  population,
+  square_kilometers
+FROM 
+  countries
+WHERE
+  square_kilometers >= 3000000
+  OR population >= 100000000
+ORDER BY
+  country

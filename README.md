@@ -88,7 +88,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 16. Day 16 - December 16th 2023: [Gamer Tags from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day16.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Medium
-    - Concepts Covered: Using the LEFT function to select part of a string, the YEAR function to select part of a date, and the CONCAT function to combine them in SQL. Using slicing to select part of a string, the split() function to select part of a date, and performing concatenation in Python.
+    - Concepts Covered: Using the LEFT function to select part of a string, the YEAR function to select part of a date, and the CONCAT function to combine them in SQL. Using slicing to select part of a string, the split() function to select part of a date, and performing concatenation in Python
 17. Day 17 - December 17th 2023: [Teams Power Users from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day17.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
@@ -108,8 +108,12 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 21. Day 21 - December 21st 2023: [Million Dollar Store from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day21.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
-    - Concepts Covered: Using the ROUND() function to round output, using the HAVING keyword to filter on an aggregation, and using the GROUP BY keyword to group yearly revenue by store in SQL. Using the .groupby(), .mean(), and .round() Pandas functions to accomplish the same output, as well as filtering and sorting a Pandas data frame in Python.
+    - Concepts Covered: Using the ROUND() function to round output, using the HAVING keyword to filter on an aggregation, and using the GROUP BY keyword to group yearly revenue by store in SQL. Using the .groupby(), .mean(), and .round() Pandas functions to accomplish the same output, as well as filtering and sorting a Pandas data frame in Python
 22. Day 22 - December 22nd 2023: [Big Countries from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day22.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
     - Concepts Covered: Using the OR keyword/operator to filter to places that meet at least one of the specified conditions in both SQL and Python
+23. Day 23 - December 23rd 2023: [Low Quality YouTube Video from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day23.md)
+    - Languages Used: SQL and Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Performing calculations with pre-existing fields to engineer new features and then filtering on the feature in both SQL and Python

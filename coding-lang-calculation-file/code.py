@@ -100,3 +100,12 @@ countries = countries[(countries['square_kilometers'] >= 3000000) | (countries['
 countries = countries.sort_values(by='country', ascending=True)
 
 countries[['country', 'square_kilometers', 'population']]
+
+
+youtube_videos['like_ratio'] = (youtube_videos['thumbs_up'] / (youtube_videos['thumbs_up'] + youtube_videos['thumbs_down']) * 100)
+
+youtube_videos = youtube_videos[(youtube_videos['like_ratio'] < 55)]
+
+youtube_videos = youtube_videos.sort_values(by='video_id', ascending=True)
+
+youtube_videos[['video_id']]

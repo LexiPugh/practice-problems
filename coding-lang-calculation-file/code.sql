@@ -234,3 +234,13 @@ WHERE
   (thumbs_up / (thumbs_up + thumbs_down) * 100 ) < 55
 ORDER BY
   video_id
+
+SELECT
+  card_name,
+  MAX(issued_amount) - MIN(issued_amount) AS difference
+FROM 
+  monthly_cards_issued
+GROUP BY
+  card_name
+ORDER BY
+  difference DESC

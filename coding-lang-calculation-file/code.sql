@@ -244,3 +244,9 @@ GROUP BY
   card_name
 ORDER BY
   difference DESC
+
+SELECT 
+  ROUND(CAST(SUM(item_count * order_occurrences) 
+  / SUM(order_occurrences) AS numeric), 1) AS mean
+FROM 
+  items_per_order

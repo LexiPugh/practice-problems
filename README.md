@@ -121,3 +121,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Using the MIN() and MAX() functions to perform calculations with aggregations, using the GROUP BY keyword to split aggregations up into groups
+25. Day 25 - December 25th 2023: [Compressed Mean from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day25.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Performing calculations to engineer new features, using the ROUND() function to round output, using the CAST() function to convert values into different data types

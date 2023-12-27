@@ -48,7 +48,7 @@ Example Output:
 Explanation:
 Let's calculate the arithmetic average:
 
-Total items = (1*500) + (2*1000) + (3*800) + (4*1000) = 8900
+Total items = (1 * 500) + (2 * 1000) + (3 * 800) + (4 * 1000) = 8900
 
 Total orders = 500 + 1000 + 800 + 1000 = 3300
 

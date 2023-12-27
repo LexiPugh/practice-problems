@@ -250,3 +250,15 @@ SELECT
   / SUM(order_occurrences) AS numeric), 1) AS mean
 FROM 
   items_per_order
+
+SELECT 
+  user_id,
+  MAX(post_date::date) - MIN(post_date::date) AS days_between
+FROM
+  posts
+WHERE
+  DATE_PART('year', post_date) = 2021
+GROUP BY
+  user_id
+HAVING
+  COUNT(user_id) >= 2

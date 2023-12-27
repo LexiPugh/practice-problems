@@ -125,3 +125,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Performing calculations to engineer new features, using the ROUND() function to round output, using the CAST() function to convert values into different data types
+26. Day 26 - December 26th 2023: [Average Post Hiatus from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day26.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Using the DATE_PART function to deal with time series data, using the ::date syntax to quickly change the data type of a timestamp variable to date, using the HAVING keyword to filter on aggregated data

@@ -1,5 +1,5 @@
-# **Practice Problem #26: Second Day Confirmation**
-### December 26th, 2023
+# **Practice Problem #27: Second Day Confirmation**
+### December 27th, 2023
 ### Languages Used: SQL
 
 <br>

@@ -26,7 +26,7 @@ Write a query that outputs the name of each credit card and the difference in th
 monthly_cards_issued Table:
 
 | Column Name   | Type    |
-| ------------- | ------- |
+| ------------- | :------ |
 | issue_month   | integer |
 | issue_year    | integer |
 | card_name     | string  |
@@ -36,7 +36,7 @@ monthly_cards_issued Table:
 monthly_cards_issued Example Input:
 
 | card_name              | issued_amount | issue_month | issue_year |
-| ---------------------- | ------------- | ----------- | ---------- |
+| :--------------------- | ------------- | ----------- | ---------- |
 | Chase Freedom Flex     | 55000         | 1           | 2021       |
 | Chase Freedom Flex     | 60000         | 2           | 2021       |
 | Chase Freedom Flex     | 65000         | 3           | 2021       |
@@ -49,7 +49,7 @@ monthly_cards_issued Example Input:
 Example Output:
 
 | card_name              | difference |
-| ---------------------- | ---------- |
+| :--------------------- | ---------- |
 | Chase Freedom Flex     | 15000      |
 | Chase Sapphire Reserve | 10000      |
 
@@ -79,6 +79,6 @@ ORDER BY
 Output Table:
 
 | card_name              | difference |
-| ---------------------- | ---------- |
+| :--------------------- | ---------- |
 | Chase Sapphire Reserve | 30000      |
 | Chase Freedom Flex     | 15000      |

@@ -109,3 +109,12 @@ youtube_videos = youtube_videos[(youtube_videos['like_ratio'] < 55)]
 youtube_videos = youtube_videos.sort_values(by='video_id', ascending=True)
 
 youtube_videos[['video_id']]
+
+
+devices = devices[devices['game'] == 'League of Legends']
+
+devices = devices.groupby('device_id').min().reset_index()
+
+devices = devices.sort_values(by='date_played', ascending=False)
+
+devices[['device_id', 'date_played']]

@@ -133,3 +133,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Performing an INNER JOIN to combine data from two different tables, using the PostgreSQL Interval function to add a specified time interval to a date value
+28. Day 28 - December 28th 2023: [Device First Used from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day28.md)
+    - Languages Used: SQL and Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Using the GROUP BY keyword and the MIN function to find the earliest occurence of a data point grouped by device in SQL, using the .groupby() function and .min() function to accomplish the same output with Python

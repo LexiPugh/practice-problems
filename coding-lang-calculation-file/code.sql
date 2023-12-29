@@ -271,3 +271,15 @@ FROM
 WHERE
   t.action_date = e.signup_date + INTERVAL '1 day'
   AND t.signup_action = 'Confirmed'
+
+SELECT 
+  device_id,
+  MIN(date_played) AS earliest_date
+FROM 
+  devices
+WHERE
+  game = 'League of Legends'
+GROUP BY
+  device_id
+ORDER BY
+  earliest_date

@@ -24,7 +24,7 @@ Given a table of Facebook posts, for each user who posted at least twice in 2021
 posts Table:
 
 | Column Name  | Type      |
-| ------------ | --------- |
+| ------------ | :-------- |
 | user_id      | integer   |
 | post_id      | integer   |
 | post_date    | timestamp |
@@ -34,7 +34,7 @@ posts Table:
 posts Example Input:
 
 | user_id | post_id | post_date           | post_content                                                                                                     |
-| ------- | ------- | ------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| ------- | ------- | :------------------ | :--------------------------------------------------------------------------------------------------------------- |
 | 151652  | 599415  | 07/10/2021 12:00:00 | Need a hug                                                                                                       |
 | 661093  | 624356  | 07/29/2021 13:00:00 | Bed. Class 8-12. Work 12-3. Gym 3-5 or 6. Then class 6-10. Another day that's gonna fly by. I miss my girlfriend |
 | 004239  | 784254  | 07/04/2021 11:00:00 | Happy 4th of July!                                                                                               |

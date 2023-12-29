@@ -28,7 +28,7 @@ Return the result table ordered by ID in ascending order.
 youtube_videos Table:
 
 | Field       | Data Type |
-| ----------- | --------- |
+| :---------- | --------- |
 | video_id    | int       |
 | thumbs_up   | int       |
 | thumbs_down | int       |

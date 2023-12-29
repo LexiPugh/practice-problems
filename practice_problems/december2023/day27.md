@@ -30,7 +30,7 @@ Definition:
 emails Table:
 
 | Column Name     | Type     |
-| --------------- | -------- |
+| --------------- | :------- |
 | email_id        | integer  |
 | user_id         | integer  |
 | signup_date     | datetime |
@@ -39,7 +39,7 @@ emails Table:
 emails Example Input:
 
 | email_id     | user_id     | signup_date         |
-| ------------ | ----------- | ------------------- |
+| ------------ | ----------- | :------------------ |
 | 125          | 7771        | 06/14/2022 00:00:00 |
 | 433          | 1052        | 07/09/2022 00:00:00 |
 
@@ -47,7 +47,7 @@ emails Example Input:
 texts Table:
 
 | Column Name     | Type                                  |
-| --------------- | ------------------------------------- |
+| --------------- | :------------------------------------ |
 | text_id         | integer                               |
 | email_id        | integer                               |
 | signup_action   | string ('Confirmed', 'Not confirmed') |
@@ -56,7 +56,7 @@ texts Table:
 texts Example Input:
 
 | text_id     | email_id     | signup_action     | action_date         |
-| ----------- | ------------ | ----------------- | ------------------- |
+| ----------- | ------------ | ----------------- | :------------------ |
 | 6878        | 125          | Confirmed         | 06/14/2022 00:00:00 |
 | 6997        | 433          | Not Confirmed     | 07/09/2022 00:00:00 |
 | 7000        | 433          | Confirmed         | 07/10/2022 00:00:00 |

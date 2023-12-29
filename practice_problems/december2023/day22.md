@@ -32,7 +32,7 @@ Return the result table by country alphabetically.
 countries Table:
 
 | Field             | Data Type |
-| ----------------- | --------- |
+| :---------------- | --------- |
 | country_id        | int       |
 | country           | text      |
 | square_kilometers | int       |
@@ -41,7 +41,7 @@ countries Table:
 countries Input:
 
 | country_id | country        | square_kilometers | population |
-| ---------- | -------------- | ----------------- | ---------- |
+| ---------- | :------------- | ----------------- | :--------- |
 | 1          | United States  | 9826630           | 325084756  |
 | 2          | China          | 9596961           | 1421021791 |
 | 3          | Japan          | 377915            | 127502725  |
@@ -99,7 +99,7 @@ countries[['country', 'square_kilometers', 'population']]
 Output Table:
 
 | country       | population | square_kilometers |
-| ------------- | ---------- | ----------------- |
+| :------------ | :--------- | ----------------- |
 | China         | 1421021791 | 9596961           |
 | India         | 1338676785 | 3287263           |
 | Japan         | 127502725  | 377915            |

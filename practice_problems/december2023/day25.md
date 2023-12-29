@@ -24,7 +24,7 @@ You're trying to find the mean number of items per order on Alibaba, rounded to 
 items_per_order Table:
 
 | Column Name       | Type    |
-| ----------------- | ------- |
+| :---------------- | :------ |
 | item_count        | integer |
 | order_occurrences | integer |
 

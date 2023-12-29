@@ -85,6 +85,6 @@ stores[['store_id', 'revenue']]
 Output Table:
 
 | store_id | revenue    |
-| -------- | ---------- |
+| -------- | :--------- |
 | 1        | 1233333.33 |
 | 2        | 1766666.67 |

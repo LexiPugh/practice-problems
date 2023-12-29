@@ -26,7 +26,7 @@ Order by the oldest to newest time played.
 devices Table:
 
 | Field       | Data Type |
-| ----------- | --------- |
+| :---------- | --------- |
 | device_id   | int       |
 | date_played | date      |
 | game        | text      |
@@ -34,7 +34,7 @@ devices Table:
 devices Input:
 
 | device_id | date_played | game              |
-| --------- | ----------- | ----------------- |
+| --------- | ----------- | :---------------- |
 | 1         | 2022-03-08  | Dota2             |
 | 1         | 2019-02-16  | League of Legends |
 | 1         | 2021-01-27  | Dota2             |

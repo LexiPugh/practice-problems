@@ -18,6 +18,7 @@ Starting on December 1st 2023, I'm going to do one practice problem per day! My 
 I'll continue doing these practice problems at least until I land a job as a data analyst, and possibly even after that! The practice questions will come from a variety of sources, such as:
 - [DataLemur](https://datalemur.com/) 
 - [Analyst Builder](https://www.analystbuilder.com/) 
+- [HackerRank](https://www.hackerrank.com/domains/sql)
 
 Some of the practice problems will be in SQL, some will be in Python, and some will be in both. Thank you for taking the time to view my practice problems repository :D
 
@@ -141,3 +142,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
     - Concepts Covered: Performing calculations to engineer new features, using the ORDER BY and LIMIT keywords to grab the record with the highest profit with SQL, using .sort_values() and .head() to achieve the same output with Python
+30. Day 30 - December 30th 2023: [The Blunder from HackerRank](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day30.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Using the CEIL() function to round output up to the nearest whole number, using the REPLACE() function to remove all zeros from a field for the purpose of fixing a miscalculation

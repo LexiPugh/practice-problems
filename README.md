@@ -136,4 +136,8 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 28. Day 28 - December 28th 2023: [Device First Used from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day28.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
-    - Concepts Covered: Using the GROUP BY keyword and the MIN function to find the earliest occurence of a data point grouped by device in SQL, using the .groupby() function and .min() function to accomplish the same output with Python
+    - Concepts Covered: Using the GROUP BY keyword and the MIN function to find the earliest occurence of a data point grouped by device with SQL, using the .groupby() function and .min() function to accomplish the same output with Python
+29. Day 29 - December 29th 2023: [Tesla Models from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day29.md)
+    - Languages Used: SQL and Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Performing calculations to engineer new features, using the ORDER BY and LIMIT keywords to grab the record with the highest profit with SQL, using .sort_values() and .head() to achieve the same output with Python

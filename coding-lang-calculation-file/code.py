@@ -118,3 +118,10 @@ devices = devices.groupby('device_id').min().reset_index()
 devices = devices.sort_values(by='date_played', ascending=False)
 
 devices[['device_id', 'date_played']]
+
+
+tesla_models['profit'] = (tesla_models['car_price'] - tesla_models['production_cost']) * tesla_models['cars_sold']
+
+tesla_models = tesla_models.sort_values(by = 'profit', ascending = False)
+
+tesla_models.head(1)

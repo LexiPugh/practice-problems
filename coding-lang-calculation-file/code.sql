@@ -293,3 +293,8 @@ ORDER BY
   profit DESC
 LIMIT
   1
+
+SELECT 
+  CEIL(AVG(Salary - REPLACE(Salary, '0', ''))) AS amount_error
+FROM
+  EMPLOYEES

@@ -1,5 +1,5 @@
-# **Practice Problem #30: The PADS**
-### December 30th, 2023
+# **Practice Problem #31: The PADS**
+### December 31st, 2023
 ### Languages Used: SQL
 
 <br>
@@ -25,7 +25,7 @@ Generate the following two result sets:
 
 ```There are a total of [occupation_count] [occupation]s.```
 
-where ```[occupation_count]``` is the number of occurrences of an occupation in **OCCUPATIONS** and ```[occupation]``` is the lowercase occupation name. If more than one Occupation has the same ```[occupation_count]```, they should be ordered alphabetically.
+Where ```[occupation_count]``` is the number of occurrences of an occupation in **OCCUPATIONS** and ```[occupation]``` is the lowercase occupation name. If more than one Occupation has the same ```[occupation_count]```, they should be ordered alphabetically.
 
 **Note**: There will be at least two entries in the table for each type of occupation.
 

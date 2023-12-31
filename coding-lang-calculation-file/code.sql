@@ -298,3 +298,17 @@ SELECT
   CEIL(AVG(Salary - REPLACE(Salary, '0', ''))) AS amount_error
 FROM
   EMPLOYEES
+
+SELECT 
+  CONCAT(Name, '(', LEFT(Occupation, 1), ')')
+FROM 
+  OCCUPATIONS 
+ORDER BY 
+  Name;
+
+SELECT 
+  CONCAT('There are a total of ', COUNT(Occupation), " ", LOWER(Occupation), "s.") as total FROM OCCUPATIONS 
+GROUP BY
+  Occupation 
+ORDER BY 
+  total

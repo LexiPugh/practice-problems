@@ -146,3 +146,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Using the CEIL() function to round output up to the nearest whole number, using the REPLACE() function to remove all zeros from a field for the purpose of fixing a miscalculation
+31. Day 31 - December 31st 2023: [The PADS from HackerRank](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day31.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Using the CONCAT() function to concatenate strings and variables in SQL

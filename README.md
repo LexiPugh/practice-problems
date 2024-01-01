@@ -6,6 +6,8 @@
 
 -   [Introduction](#introduction)
 -   [List of Questions](#list-of-questions)
+    - [December 2023](###december-2023)
+    - [January 2024](###january-2024)
 
 <br>
 
@@ -25,6 +27,8 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 <br>
 
 ## List of Questions
+
+### December 2023
 
 1. Day 1 - December 1st 2023: [Histogram of Tweets from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day1.md)
     - Languages Used: SQL
@@ -150,3 +154,11 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Using the CONCAT() function to concatenate strings and variables in SQL
+
+
+### January 2024
+
+1. Day 32 - January 1st 2024: [Profit Margin from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day32.md)
+    - Languages Used: SQL and Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Performing calculations with existing fields to engineer new features, rounding numbers to a uniform number of decimals, and ordering output by multiple criteria

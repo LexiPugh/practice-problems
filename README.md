@@ -6,8 +6,8 @@
 
 -   [Introduction](#introduction)
 -   [List of Questions](#list-of-questions)
-    - [December 2023](###december-2023)
-    - [January 2024](###january-2024)
+    - [December 2023](#december-2023)
+    - [January 2024](#january-2024)
 
 <br>
 

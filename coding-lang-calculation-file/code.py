@@ -125,3 +125,10 @@ tesla_models['profit'] = (tesla_models['car_price'] - tesla_models['production_c
 tesla_models = tesla_models.sort_values(by = 'profit', ascending = False)
 
 tesla_models.head(1)
+
+
+products['profit'] = ((products['sales_price'] - products['purchase_price']) * 0.93).round(2)
+
+products = products.sort_values(['profit', 'product_name'], ascending=[False, True])
+
+products[['product_name', 'profit']]

@@ -132,3 +132,12 @@ products['profit'] = ((products['sales_price'] - products['purchase_price']) * 0
 products = products.sort_values(['profit', 'product_name'], ascending=[False, True])
 
 products[['product_name', 'profit']]
+
+
+import pandas as pd
+
+employees['birth_date'] = pd.to_datetime(employees['birth_date'])
+
+employees = employees.sort_values(by='birth_date', ascending=True)
+
+employees[['employee_id']].head(3)

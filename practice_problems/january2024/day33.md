@@ -1,0 +1,92 @@
+# **Practice Problem #33: On The Way Out**
+### January 2nd, 2024
+### Languages Used: SQL and Python
+
+<br>
+
+*This is the [On The Way Out](https://www.analystbuilder.com/questions/on-the-way-out-LGNoQ) practice problem from Analyst Builder. The question difficulty is Easy.*
+
+<br>
+
+**Table of Contents**
+
+-   [The Question](#the-question)
+-   [My Solution](#my-solution)
+  
+<br>
+
+## The Question
+
+Herschel's Manufacturing Plant has hit some hard times with the economy and unfortunately they need to let some people go.
+
+They figure the younger employees need their jobs more as they are growing families so they decide to let go of their 3 oldest employees. They have more experience and will be able to land on their feet easier (and they had to pay them more).
+
+Write a query to identify the ids of the three oldest employees.
+
+Order output from oldest to youngest.
+
+<br>
+
+employees Table:
+
+| Field       | Data Type |
+| :---------- | :-------- |
+| employee_id | int       |
+| birth_date  | date      |
+
+employees Input:
+
+| employee_id | birth_date |
+| :---------- | :--------- |
+| 1           | 1990-01-15 |
+| 2           | 1995-05-22 |
+| 3           | 2000-08-17 |
+| 4           | 1985-12-29 |
+| 5           | 1992-04-05 |
+| 6           | 1998-06-30 |
+| 7           | 1988-09-02 |
+| 8           | 1996-11-12 |
+| 9           | 1990-02-19 |
+| 10          | 1993-07-10 |
+| 11          | 1988-03-26 |
+| 12          | 1995-10-08 |
+| 13          | 2000-01-01 |
+| 14          | 1997-05-29 |
+| 15          | 1991-12-31 |
+
+<br>
+
+# My Solution
+
+### First Solution: SQL
+
+``` SQL
+SELECT
+  employee_id
+FROM 
+  employees 
+ORDER BY
+  birth_date ASC
+LIMIT
+  3
+```
+
+### Second Solution: Python
+
+``` Python
+import pandas as pd
+
+employees['birth_date'] = pd.to_datetime(employees['birth_date'])
+
+employees = employees.sort_values(by='birth_date', ascending=True)
+
+employees[['employee_id']].head(3)
+```
+
+Output Table:
+
+| employee_id |
+| :---------- |
+| 4           |
+| 11          |
+| 7           |

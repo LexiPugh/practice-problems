@@ -162,3 +162,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
     - Concepts Covered: Performing calculations with existing fields to engineer new features, rounding numbers to a uniform number of decimals, and ordering output by multiple criteria
+2. Day 33 - January 2nd 2024: [On The Way Out from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day33.md)
+    - Languages Used: SQL and Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Using ORDER BY and LIMIT together to get the three oldest employees in SQL, using the pd.to_datetime() function, the .sort_values() function, and the .head() function to achieve the same output in Python

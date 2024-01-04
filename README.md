@@ -170,3 +170,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
     - Concepts Covered: Using the LEFT() function to check the first three characters of a string in SQL, using list slicing to accomplish the same output in Python
+4. Day 35 - January 4th 2024: [Most Reviewed Restaurant from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day35.md)
+    - Languages Used: SQL and Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Using aggregations to engineer new features, using grouping to split up the aggregations by restaurant, and ordering the output by multiple criteria in both SQL and Python

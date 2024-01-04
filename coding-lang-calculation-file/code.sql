@@ -330,3 +330,10 @@ ORDER BY
   birth_date ASC
 LIMIT
   3
+
+SELECT 
+  * 
+FROM 
+  phone_numbers
+WHERE
+  LEFT(numbers, 3) = 701

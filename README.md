@@ -166,3 +166,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
     - Concepts Covered: Using ORDER BY and LIMIT together to get the three oldest employees in SQL, using the pd.to_datetime() function, the .sort_values() function, and the .head() function to achieve the same output in Python
+3. Day 34 - January 3rd 2024: [Area Code from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day34.md)
+    - Languages Used: SQL and Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Using the LEFT() function to check the first three characters of a string in SQL, using list slicing to accomplish the same output in Python

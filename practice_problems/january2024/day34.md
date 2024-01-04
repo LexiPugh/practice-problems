@@ -1,0 +1,81 @@
+# **Practice Problem #34: Area Code**
+### January 3rd, 2024
+### Languages Used: SQL and Python
+
+<br>
+
+*This is the [Area Code](https://www.analystbuilder.com/questions/area-code-DYpNf) practice problem from Analyst Builder. The question difficulty is Easy.*
+
+<br>
+
+**Table of Contents**
+
+-   [The Question](#the-question)
+-   [My Solution](#my-solution)
+  
+<br>
+
+## The Question
+
+Write a query to return all of the phone numbers that have an area code of 701 (this means the phone numbers begins with 701)
+
+<br>
+
+phone_numbers Table:
+
+| Field   | Data Type |
+| :------ | :-------- |
+| numbers | text      |
+
+phone_numbers Input:
+
+| numbers      |
+| ------------ |
+| 701-555-1234 |
+| 555-701-5678 |
+| 555-123-4701 |
+| 701-123-4567 |
+| 123-701-6789 |
+| 123-456-7701 |
+| 701-678-9012 |
+| 678-701-1234 |
+| 678-901-7012 |
+| 555-678-1234 |
+| 555-901-6789 |
+| 701-345-6789 |
+| 345-701-9012 |
+| 345-678-7019 |
+| 701-456-7890 |
+
+<br>
+
+# My Solution
+
+### First Solution: SQL
+
+``` SQL
+SELECT 
+  * 
+FROM 
+  phone_numbers
+WHERE
+  LEFT(numbers, 3) = 701
+```
+
+### Second Solution: Python
+
+``` Python
+phone_numbers = (phone_numbers[phone_numbers['numbers'].str[:3] == '701'])
+
+phone_numbers
+```
+
+Output Table:
+
+| numbers      |
+| ------------ |
+| 701-555-1234 |
+| 701-123-4567 |
+| 701-678-9012 |
+| 701-345-6789 |
+| 701-456-7890 |

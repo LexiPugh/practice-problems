@@ -141,3 +141,8 @@ employees['birth_date'] = pd.to_datetime(employees['birth_date'])
 employees = employees.sort_values(by='birth_date', ascending=True)
 
 employees[['employee_id']].head(3)
+
+
+phone_numbers = (phone_numbers[phone_numbers['numbers'].str[:3] == '701'])
+
+phone_numbers

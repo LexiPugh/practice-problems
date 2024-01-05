@@ -146,3 +146,12 @@ employees[['employee_id']].head(3)
 phone_numbers = (phone_numbers[phone_numbers['numbers'].str[:3] == '701'])
 
 phone_numbers
+
+
+restaurant_reviews['comment_count'] = restaurant_reviews.groupby('restaurant')['comment'].transform('count')
+
+restaurant_reviews['avg_rating'] = restaurant_reviews.groupby('restaurant')['rating'].transform('mean')
+
+restaurant_reviews = restaurant_reviews.sort_values(by=['comment_count', 'avg_rating'], ascending=[False, False])
+
+restaurant_reviews[['restaurant', 'comment_count', 'avg_rating']].head(1)

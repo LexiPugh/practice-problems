@@ -337,3 +337,17 @@ FROM
   phone_numbers
 WHERE
   LEFT(numbers, 3) = 701
+
+SELECT
+  restaurant,
+  COUNT(comment) AS comment_count,
+  AVG(rating) AS average_rating
+FROM 
+  restaurant_reviews
+GROUP BY
+  restaurant
+ORDER BY
+  comment_count DESC,
+  average_rating DESC
+LIMIT
+  1

@@ -155,3 +155,10 @@ restaurant_reviews['avg_rating'] = restaurant_reviews.groupby('restaurant')['rat
 restaurant_reviews = restaurant_reviews.sort_values(by=['comment_count', 'avg_rating'], ascending=[False, False])
 
 restaurant_reviews[['restaurant', 'comment_count', 'avg_rating']].head(1)
+
+
+ratings['rating_difference'] = abs(ratings['tomato_rating'] - ratings['user_rating'])
+
+ratings = ratings.sort_values(by='rating_difference', ascending=False)
+
+ratings.head(1)

@@ -178,3 +178,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL and Python
     - Question Difficulty: Medium
     - Concepts Covered: Using the abs() function in both SQL and Python to make all output from a calculation positive, using ORDER BY and LIMIT to select the top record in SQL, using .sort_values() and .head() to accomplish the same output in Python
+6. Day 37 - January 6th 2024: [Car Failure from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day37.md)
+    - Languages Used: SQL and Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Filtering data on multiple conditions in both SQL and Python

@@ -361,3 +361,14 @@ ORDER BY
   rating_difference DESC
 LIMIT
   1
+
+SELECT 
+  owner_name,
+  vehicle
+FROM 
+  inspections 
+WHERE
+  minor_issues <= 3
+  AND critical_issues < 1
+ORDER BY
+  owner_name

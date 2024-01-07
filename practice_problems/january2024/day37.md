@@ -1,0 +1,94 @@
+# **Practice Problem #37: Car Failure**
+### January 6th, 2024
+### Languages Used: SQL and Python
+
+<br>
+
+*This is the [Car Failure](https://www.analystbuilder.com/questions/car-failure-TUsTW) practice problem from Analyst Builder. The question difficulty is Easy.*
+
+<br>
+
+**Table of Contents**
+
+-   [The Question](#the-question)
+-   [My Solution](#my-solution)
+  
+<br>
+
+## The Question
+
+Cars need to be inspected every year in order to pass inspection and be street legal. If a car has any critical issues it will fail inspection or if it has more than 3 minor issues it will also fail.
+
+Write a query to identify all of the cars that passed inspection.
+
+Output should include the owner name and vehicle name. Order by the owner name alphabetically.
+
+
+<br>
+
+inspections Table:
+
+| Field           | Data Type |
+| :-------------- | :-------- |
+| owner_name      | text      |
+| vehicle         | text      |
+| minor_issues    | int       |
+| critical_issues | int       |
+
+inspections Input:
+
+| owner_name | vehicle                | minor_issues | critical_issues |
+| :--------- | :--------------------- | :----------- | :-------------- |
+| Jim        | 2012 Ford Fusion       | 3            | 0               |
+| Mikaela    | 2021 Dodge Stratus     | 2            | 0               |
+| Karen      | 2008 Ford Escape       | 5            | 0               |
+| Michael    | 2021 Kia Telluride     | 2            | 1               |
+| Sally      | 2023 Tesla Model S     | 0            | 0               |
+| Joseph     | 2015 Toyota Highlander | 2            | 0               |
+| David      | 1998 Ford F-150        | 2            | 0               |
+| Lauren     | 2004 Honda Pilot       | 4            | 0               |
+| Chuck      | 2016 Buick Enclave     | 0            | 1               |
+| Caleb      | 2007 Toyota Forerunner | 4            | 0               |
+| Hannah     | 2018 Honda Accord      | 2            | 0               |
+
+<br>
+
+# My Solution
+
+### First Solution: SQL
+
+``` SQL
+SELECT 
+  owner_name,
+  vehicle
+FROM 
+  inspections 
+WHERE
+  minor_issues <= 3
+  AND critical_issues < 1
+ORDER BY
+  owner_name
+```
+
+### Second Solution: Python
+
+``` Python
+inspections = inspections[inspections['minor_issues'] <= 3]
+
+inspections = inspections[inspections['critical_issues'] < 1]
+
+inspections = inspections.sort_values(by='owner_name')
+
+inspections[['owner_name', 'vehicle']]
+```
+
+Output Table:
+
+| owner_name | vehicle                |
+| :--------- | :--------------------- |
+| David      | 1998 Ford F-150        |
+| Hannah     | 2018 Honda Accord      |
+| Jim        | 2012 Ford Fusion       |
+| Joseph     | 2015 Toyota Highlander |
+| Mikaela    | 2021 Dodge Stratus     |
+| Sally      | 2023 Tesla Model S     |

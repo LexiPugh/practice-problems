@@ -162,3 +162,12 @@ ratings['rating_difference'] = abs(ratings['tomato_rating'] - ratings['user_rati
 ratings = ratings.sort_values(by='rating_difference', ascending=False)
 
 ratings.head(1)
+
+
+inspections = inspections[inspections['minor_issues'] <= 3]
+
+inspections = inspections[inspections['critical_issues'] < 1]
+
+inspections = inspections.sort_values(by='owner_name')
+
+inspections[['owner_name', 'vehicle']]

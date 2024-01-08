@@ -186,3 +186,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
     - Concepts Covered: Using aggregations to engineer new features and grouping grades by different subjects to find the average grade for each subject
+8. Day 39 - January 8th 2024: [Homes Built from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day39.md)
+    - Languages Used: SQL and Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Using the AND keyword in combination with the WHERE keyword to filter on multiple conditions in SQL, using the & operator to accomplish the same output in Python

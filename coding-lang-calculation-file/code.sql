@@ -382,3 +382,11 @@ GROUP BY
   class
 ORDER BY
   average_grade DESC
+
+SELECT 
+  address
+FROM 
+  homes
+WHERE 
+  year >= 2012 
+  AND year <= 2017

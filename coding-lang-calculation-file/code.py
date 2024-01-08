@@ -178,3 +178,8 @@ classes = classes.groupby(['class'])['grade'].mean().reset_index(name='average_g
 classes = classes.sort_values(by='average_grade', ascending=False)
 
 classes
+
+
+homes = homes[(homes['year'] >= 2012) & (homes['year'] <= 2017)]
+
+homes[['address']]

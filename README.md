@@ -182,3 +182,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
     - Concepts Covered: Filtering data on multiple conditions in both SQL and Python
+7. Day 38 - January 7th 2024: [Best Classes from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day38.md)
+    - Languages Used: SQL and Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Using aggregations to engineer new features and grouping grades by different subjects to find the average grade for each subject

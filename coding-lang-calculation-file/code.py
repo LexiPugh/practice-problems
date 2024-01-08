@@ -171,3 +171,10 @@ inspections = inspections[inspections['critical_issues'] < 1]
 inspections = inspections.sort_values(by='owner_name')
 
 inspections[['owner_name', 'vehicle']]
+
+
+classes = classes.groupby(['class'])['grade'].mean().reset_index(name='average_grade')
+
+classes = classes.sort_values(by='average_grade', ascending=False)
+
+classes

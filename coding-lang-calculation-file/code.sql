@@ -372,3 +372,13 @@ WHERE
   AND critical_issues < 1
 ORDER BY
   owner_name
+
+SELECT 
+  class,
+  AVG(grade) AS average_grade
+FROM 
+  classes
+GROUP BY
+  class
+ORDER BY
+  average_grade DESC

@@ -190,3 +190,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
     - Concepts Covered: Using the AND keyword in combination with the WHERE keyword to filter on multiple conditions in SQL, using the & operator to accomplish the same output in Python
+9. Day 40 - January 9th 2024: [Higher Than 75 Marks from HackerRank](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day40.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Using the RIGHT() function in combination with the the ORDER BY keyword to sort query output based off a specific part of a string

@@ -194,3 +194,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Using the RIGHT() function in combination with the the ORDER BY keyword to sort query output based off a specific part of a string
+10. Day 41 - January 10th 2024: [Costco Rotisserie Loss from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day41.md)
+    - Languages Used: SQL and Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Using the SUM aggregation to engineer a new feature and using the ROUND() function to round to the nearest whole number in both SQL and Python, using the .astype() function in Python to convert the number from a float to an int and drop the decimal place

@@ -439,3 +439,9 @@ WHERE
 ORDER BY 
   RIGHT(Name, 3) ASC,
   ID
+
+
+SELECT
+  ROUND(SUM(lost_revenue_millions), 0) AS total_revenue_lost
+FROM 
+  sales

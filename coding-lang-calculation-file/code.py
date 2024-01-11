@@ -183,3 +183,8 @@ classes
 homes = homes[(homes['year'] >= 2012) & (homes['year'] <= 2017)]
 
 homes[['address']]
+
+
+sales = sales['lost_revenue_millions'].sum().round(0).astype(int)
+
+sales

@@ -188,3 +188,11 @@ homes[['address']]
 sales = sales['lost_revenue_millions'].sum().round(0).astype(int)
 
 sales
+
+
+import numpy as np
+
+players['skill_level'] = np.where(players['batting_average']>0.37, 'Great Hitter',
+                         np.where(players['batting_average']<0.27, 'Below Average', 'Average'))
+
+players

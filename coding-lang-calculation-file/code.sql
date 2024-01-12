@@ -455,3 +455,14 @@ WHERE
   TIMESTAMPDIFF(YEAR, birth_date, '2023-01-01') >= 55
 ORDER BY
   customer_id
+
+
+SELECT 
+  *,
+  CASE
+    WHEN batting_average > 0.37 THEN "Great Hitter"
+    WHEN batting_average < 0.27 THEN "Below Average"
+    ELSE "Average"
+  END AS "skill_level"
+FROM 
+  players

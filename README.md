@@ -202,3 +202,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Using the TIMESTAMPDIFF() function to find the difference between two dates, which I then used to filter to customers over a certain age
+12. Day 43 - January 12th 2024: [Baseball Scouts from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day43.md)
+    - Languages Used: SQL & Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Using a CASE statement to make a conditional column that has output based on specified values in SQL, using NumPy's .where() function to accomplish the same output in Python

@@ -198,3 +198,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
     - Concepts Covered: Using the SUM aggregation to engineer a new feature and using the ROUND() function to round to the nearest whole number in both SQL and Python, using the .astype() function in Python to convert the number from a float to an int and drop the decimal place
+11. Day 42 - January 11th 2024: [Senior Citizen Discount from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day42.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Using the TIMESTAMPDIFF() function to find the difference between two dates, which I then used to filter to customers over a certain age

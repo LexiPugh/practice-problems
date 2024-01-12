@@ -445,3 +445,13 @@ SELECT
   ROUND(SUM(lost_revenue_millions), 0) AS total_revenue_lost
 FROM 
   sales
+
+
+SELECT 
+  customer_id
+FROM 
+  customers
+WHERE
+  TIMESTAMPDIFF(YEAR, birth_date, '2023-01-01') >= 55
+ORDER BY
+  customer_id

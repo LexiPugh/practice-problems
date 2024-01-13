@@ -4,7 +4,7 @@
 
 <br>
 
-*This is the [Baseball Scouts](hhttps://www.analystbuilder.com/questions/baseball-scouts-JlzcH) practice problem from Analyst Builder. The question difficulty is Easy.*
+*This is the [Baseball Scouts](https://www.analystbuilder.com/questions/baseball-scouts-JlzcH) practice problem from Analyst Builder. The question difficulty is Easy.*
 
 <br>
 

@@ -1,0 +1,93 @@
+# **Practice Problem #44: Men vs Women**
+### January 13th, 2024
+### Languages Used: SQL and Python
+
+<br>
+
+*This is the [Men vs Women](https://www.analystbuilder.com/questions/men-vs-women-pKYDQ) practice problem from Analyst Builder. The question difficulty is Easy.*
+
+<br>
+
+**Table of Contents**
+
+-   [The Question](#the-question)
+-   [My Solution](#my-solution)
+  
+<br>
+
+## The Question
+
+Write a query to determine the Average Purchase price for Males and Females.
+
+Round to 2 decimal places and order by Gender.
+
+<br>
+
+purchases Table:
+
+| Field          | Data Type |
+| :------------- | :-------- |
+| gender         | text      |
+| total_purchase | int       |
+
+purchases Input:
+
+| gender | total_purchase |
+| :----- | :------------- |
+| M      | 91             |
+| F      | 38             |
+| M      | 29             |
+| F      | 189            |
+| F      | 81             |
+| M      | 22             |
+| M      | 89             |
+| F      | 164            |
+| M      | 189            |
+| F      | 193            |
+| M      | 28             |
+| F      | 19             |
+| M      | 44             |
+| F      | 146            |
+| M      | 142            |
+| F      | 148            |
+| M      | 183            |
+| F      | 157            |
+| F      | 3              |
+| F      | 92             |
+| F      | 112            |
+| M      | 103            |
+| M      | 191            |
+| M      | 32             |
+
+<br>
+
+# My Solution
+
+### First Solution: SQL
+
+``` SQL
+SELECT 
+  gender,
+  ROUND(AVG(total_purchase), 2) AS avg_purchase_price
+FROM 
+  purchases
+GROUP BY
+  gender
+ORDER BY
+  gender
+```
+
+### Second Solution: Python
+
+``` Python
+purchases = purchases['total_purchase'].groupby(purchases['gender']).mean().round(2).reset_index(name='avg_purchase_price')
+
+purchases
+```
+
+Output Table:
+
+| gender | avg_purchase_price |
+| :----- | :----------------- |
+| F      | 111.83             |
+| M      | 95.25              |

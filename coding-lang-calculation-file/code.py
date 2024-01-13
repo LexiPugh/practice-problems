@@ -196,3 +196,8 @@ players['skill_level'] = np.where(players['batting_average']>0.37, 'Great Hitter
                          np.where(players['batting_average']<0.27, 'Below Average', 'Average'))
 
 players
+
+
+purchases = purchases['total_purchase'].groupby(purchases['gender']).mean().round(2).reset_index(name='avg_purchase_price')
+
+purchases

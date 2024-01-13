@@ -466,3 +466,14 @@ SELECT
   END AS "skill_level"
 FROM 
   players
+
+
+SELECT 
+  gender,
+  ROUND(AVG(total_purchase), 2) AS avg_purchase_price
+FROM 
+  purchases
+GROUP BY
+  gender
+ORDER BY
+  gender

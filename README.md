@@ -206,3 +206,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL & Python
     - Question Difficulty: Easy
     - Concepts Covered: Using a CASE statement to make a conditional column that has output based on specified values in SQL, using NumPy's .where() function to accomplish the same output in Python
+13. Day 44 - January 13th 2024: [Men vs Women from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day44.md)
+    - Languages Used: SQL & Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Using the ROUND() function, AVG() function, and GROUP BY keyword to engineer a new feature, round it to two decimal places, and split up the values by gender in SQL. Using the .round() function, .mean() function, and .groupby() function to accomplish the same output in Python

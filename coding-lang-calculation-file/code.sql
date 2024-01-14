@@ -477,3 +477,12 @@ GROUP BY
   gender
 ORDER BY
   gender
+
+
+SELECT 
+  patient_id,
+  ROUND(weight_pounds/(POWER(height_inches, 2)) * 703, 1) AS BMI
+FROM 
+  patients
+HAVING
+  BMI > 30

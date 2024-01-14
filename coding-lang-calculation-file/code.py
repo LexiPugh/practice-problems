@@ -201,3 +201,10 @@ players
 purchases = purchases['total_purchase'].groupby(purchases['gender']).mean().round(2).reset_index(name='avg_purchase_price')
 
 purchases
+
+
+patients['BMI'] = ((patients['weight_pounds'] / (patients['height_inches']**2)) * 703).round(1)
+
+patients = patients[patients['BMI'] > 30]
+
+patients[['patient_id', 'BMI']]

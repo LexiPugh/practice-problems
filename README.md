@@ -210,3 +210,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL & Python
     - Question Difficulty: Easy
     - Concepts Covered: Using the ROUND() function, AVG() function, and GROUP BY keyword to engineer a new feature, round it to two decimal places, and split up the values by gender in SQL. Using the .round() function, .mean() function, and .groupby() function to accomplish the same output in Python
+14. Day 45 - January 14th 2024: [Obesity from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day45.md)
+    - Languages Used: SQL & Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Calculated BMI, which involved using the POWER() function and ROUND() function to make the output uniform. Then used the BMI values to filter to obese patients in both SQL and Python.

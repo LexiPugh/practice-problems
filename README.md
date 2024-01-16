@@ -214,3 +214,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL & Python
     - Question Difficulty: Easy
     - Concepts Covered: Calculated BMI, which involved using the POWER() function and ROUND() function to make the output uniform. Then used the BMI values to filter to obese patients in both SQL and Python.
+15. Day 46 - January 15th 2024: [Pharmacy Analytics (Part 1) from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day46.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Performed a calculation to engineer a new feature, used ORDER BY in combination with LIMIT to output only the top three records

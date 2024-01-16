@@ -486,3 +486,14 @@ FROM
   patients
 HAVING
   BMI > 30
+
+
+SELECT 
+  drug,
+  (total_sales - cogs) AS profit
+FROM 
+  pharmacy_sales
+ORDER BY
+  profit DESC
+LIMIT
+  3

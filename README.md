@@ -218,3 +218,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Performed a calculation to engineer a new feature, used ORDER BY in combination with LIMIT to output only the top three records
+16. Day 47 - January 16th 2024: [Pharmacy Analytics (Part 2) from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day47.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Used a combination of aggregations, filtering, grouping, and ordering to find out which drug manufacturers give CVS the most losses, along with the number of drugs produced by the manufacturer that are associated with losses. Also used the ABS() function to get the total losses as a positive number.

@@ -226,3 +226,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Calculated the total sales for CVS drugs grouped by manufacturers, used the CONCAT() and ROUND() function to give the output a uniform and easily readable format
+18. Day 49 - January 18th 2024: [Sandwich Generation from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day49.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the CROSS JOIN keyword to combine each row of one table with each row of a second table, which allowed me to find each possible sandwich combination with the provided ingredients 

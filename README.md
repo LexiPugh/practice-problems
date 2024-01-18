@@ -222,3 +222,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Used a combination of aggregations, filtering, grouping, and ordering to find out which drug manufacturers give CVS the most losses, along with the number of drugs produced by the manufacturer that are associated with losses. Also used the ABS() function to get the total losses as a positive number.
+17. Day 48 - January 17th 2024: [Pharmacy Analytics (Part 3) from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day48.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Calculated the total sales for CVS drugs grouped by manufacturers, used the CONCAT() and ROUND() function to give the output a uniform and easily readable format

@@ -213,7 +213,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 14. Day 45 - January 14th 2024: [Obesity from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day45.md)
     - Languages Used: SQL & Python
     - Question Difficulty: Easy
-    - Concepts Covered: Calculated BMI, which involved using the POWER() function and ROUND() function to make the output uniform. Then used the BMI values to filter to obese patients in both SQL and Python.
+    - Concepts Covered: Calculated BMI, which involved using the POWER() function and ROUND() function to make the output uniform. Then used the BMI values to filter to obese patients in both SQL and Python
 15. Day 46 - January 15th 2024: [Pharmacy Analytics (Part 1) from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day46.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
@@ -221,7 +221,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 16. Day 47 - January 16th 2024: [Pharmacy Analytics (Part 2) from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day47.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Used a combination of aggregations, filtering, grouping, and ordering to find out which drug manufacturers give CVS the most losses, along with the number of drugs produced by the manufacturer that are associated with losses. Also used the ABS() function to get the total losses as a positive number.
+    - Concepts Covered: Used a combination of aggregations, filtering, grouping, and ordering to find out which drug manufacturers give CVS the most losses, along with the number of drugs produced by the manufacturer that are associated with losses. Also used the ABS() function to get the total losses as a positive number
 17. Day 48 - January 17th 2024: [Pharmacy Analytics (Part 3) from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day48.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
@@ -229,4 +229,8 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 18. Day 49 - January 18th 2024: [Sandwich Generation from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day49.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Used the CROSS JOIN keyword to combine each row of one table with each row of a second table, which allowed me to find each possible sandwich combination with the provided ingredients 
+    - Concepts Covered: Used the CROSS JOIN keyword to combine each row of one table with each row of a second table, which allowed me to find each possible sandwich combination with the provided ingredients
+19. Day 50 - January 19th 2024: [Separation from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day50.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: In this question, user ID's and user first names were accidentally combined into one string. I used the LEFT() function to make a separate field for the ID's, and used the SUBSTRING() function to make a separate field for the names

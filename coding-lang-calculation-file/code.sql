@@ -541,3 +541,11 @@ SELECT
   SUBSTRING(id, 6) AS fixed_name
 FROM 
   bad_data
+
+
+SELECT 
+  DISTINCT customer_id
+FROM 
+  transactions
+ORDER BY
+  customer_id

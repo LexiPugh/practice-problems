@@ -534,3 +534,10 @@ FROM
 ORDER BY
   bread_name, 
   meat_name
+
+
+SELECT 
+  LEFT(id, 5) AS fixed_id,
+  SUBSTRING(id, 6) AS fixed_name
+FROM 
+  bad_data

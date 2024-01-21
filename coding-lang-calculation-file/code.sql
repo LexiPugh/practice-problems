@@ -549,3 +549,15 @@ FROM
   transactions
 ORDER BY
   customer_id
+
+
+SELECT
+  region
+FROM 
+  food_regions
+GROUP BY 
+  region
+ORDER BY
+  SUM(fast_food_millions) DESC
+LIMIT
+  1

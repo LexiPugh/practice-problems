@@ -234,7 +234,11 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: In this question, user ID's and user first names were accidentally combined into one string. I used the LEFT() function to make a separate field for the ID's, and used the SUBSTRING() function to make a separate field for the names
-19. Day 51 - January 20th 2024: [Unique from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day51.md)
+20. Day 51 - January 20th 2024: [Unique from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day51.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Using the DISTINCT keyword to only grab unique values from a column, using the ORDER BY keyword to sort the output
+21. Day 52 - January 21st 2024: [Food Divides Us from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day52.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the GROUP BY keyword, ORDER BY keyword, and LIMIT keyword to group fast food spending by region, order the output based on total fast food spending per region, and grabbing the top spending region

@@ -561,3 +561,15 @@ ORDER BY
   SUM(fast_food_millions) DESC
 LIMIT
   1
+
+
+SELECT 
+  u.user_id
+FROM 
+  users AS u INNER JOIN orders AS o
+  ON u.user_id = o.buyer_id
+WHERE
+  YEAR(u.join_date) = 2022
+  AND YEAR(o.order_date) = 2022
+ORDER BY
+  u.user_id

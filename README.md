@@ -242,3 +242,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used the GROUP BY keyword, ORDER BY keyword, and LIMIT keyword to group fast food spending by region, order the output based on total fast food spending per region, and grabbing the top spending region
+22. Day 53 - January 22nd 2024: [2022 Orders from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day53.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the INNER JOIN keyword to join two datasets on common columns, filtered by multiple conditions in the WHERE clause, used the YEAR() fuction to extract the year from a date for filtering purposes

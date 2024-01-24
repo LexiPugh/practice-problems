@@ -246,3 +246,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used the INNER JOIN keyword to join two datasets on common columns, filtered by multiple conditions in the WHERE clause, used the YEAR() fuction to extract the year from a date for filtering purposes
+23. Day 54 - January 23rd 2024: [Bad Bonuses from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day54.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used a subquery in the WHERE clause to filter to instances where a value in one table didn't exist in a second table, identifying employees that didn't receive bonuses

@@ -573,3 +573,14 @@ WHERE
   AND YEAR(o.order_date) = 2022
 ORDER BY
   u.user_id
+
+
+SELECT 
+  employee_id, 
+  name
+FROM 
+  employee 
+WHERE 
+  employee_id NOT IN (SELECT emp_id FROM bonus)
+ORDER BY
+ employee_id 

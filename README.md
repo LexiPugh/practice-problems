@@ -253,4 +253,8 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 24. Day 55 - January 24th 2024: [Pepperoni-flation from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day55.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Performing a calculation in the SELECT statement combined with using the WHERE keyword to calculate how much money a pizza restuarant would save by putting less pepperoni on their pizzas
+    - Concepts Covered: Performed a calculation in the SELECT statement combined with using the WHERE keyword to calculate how much money a pizza restuarant would save by putting less pepperoni on their pizzas
+25. Day 56 - January 25th 2024: [Kroger's Members from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day56.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Performed a calculation in the SELECT statement to calculate the percentage of Kroger shoppers that have a membership card, used the ROUND() function to round to two decimal places

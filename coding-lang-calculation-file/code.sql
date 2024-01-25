@@ -592,3 +592,9 @@ FROM
   orders
 WHERE
   pizza_order = 'Pepperoni'
+
+
+SELECT 
+  ROUND((COUNT(has_member_card)/COUNT(kroger_id)) *100, 2) AS member_percentage
+FROM 
+  customers

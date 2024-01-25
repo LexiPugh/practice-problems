@@ -250,3 +250,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used a subquery in the WHERE clause to filter to instances where a value in one table didn't exist in a second table, identifying employees that didn't receive bonuses
+24. Day 55 - January 24th 2024: [Pepperoni-flation from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day55.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Performing a calculation in the SELECT statement combined with using the WHERE keyword to calculate how much money a pizza restuarant would save by putting less pepperoni on their pizzas

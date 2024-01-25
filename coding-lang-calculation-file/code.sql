@@ -584,3 +584,11 @@ WHERE
   employee_id NOT IN (SELECT emp_id FROM bonus)
 ORDER BY
  employee_id 
+
+
+SELECT 
+  (COUNT(pizza_order) * (0.50 * 2)) - (COUNT(pizza_order) * (0.50 * 1.5)) AS money_saved
+FROM 
+  orders
+WHERE
+  pizza_order = 'Pepperoni'

@@ -258,3 +258,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Performed a calculation in the SELECT statement to calculate the percentage of Kroger shoppers that have a membership card, used the ROUND() function to round to two decimal places
+26. Day 57 - January 26th 2024: [Bike Price from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day57.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Performed a calculation in the SELECT statement to calculate the average sale price for bikes, using the IS NOT NULL keyword in the WHERE clause to exclude bikes that were donated so that it doesn't throw off the calculation, used the ROUND() function to round to two decimal places

@@ -598,3 +598,12 @@ SELECT
   ROUND((COUNT(has_member_card)/COUNT(kroger_id)) *100, 2) AS member_percentage
 FROM 
   customers
+
+
+SELECT 
+  ROUND(AVG(bike_price), 2) AS average_sale_price
+FROM 
+  inventory
+WHERE 
+  bike_price IS NOT NULL
+  AND bike_sold = "Y"

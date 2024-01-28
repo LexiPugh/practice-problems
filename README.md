@@ -262,3 +262,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Performed a calculation in the SELECT statement to calculate the average sale price for bikes, using the IS NOT NULL keyword in the WHERE clause to exclude bikes that were donated so that it doesn't throw off the calculation, used the ROUND() function to round to two decimal places
+27. Day 58 - January 27th 2024: [Water Pollution from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day58.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the GROUP BY keyword to group average pollution concentration by pollutant, used the HAVING keyword to filter on the aggregation, used the ROUND() function to round to two decimal places

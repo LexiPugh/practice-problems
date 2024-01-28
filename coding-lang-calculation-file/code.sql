@@ -607,3 +607,16 @@ FROM
 WHERE 
   bike_price IS NOT NULL
   AND bike_sold = "Y"
+
+
+SELECT 
+  pollutant,
+  ROUND(AVG(concentration), 2) AS avg_concentration
+FROM 
+  pollution
+GROUP BY
+  pollutant
+HAVING
+  AVG(concentration) > 0.5
+ORDER BY
+  pollutant

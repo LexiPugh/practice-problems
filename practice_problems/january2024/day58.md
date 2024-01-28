@@ -1,0 +1,80 @@
+# **Practice Problem #58: Water Pollution**
+### January 27th, 2024
+### Languages Used: SQL
+
+<br>
+
+*This is the [Water Pollution](https://www.analystbuilder.com/questions/water-pollution-CBPEI) practice problem from Analyst Builder. The question difficulty is Medium.*
+
+<br>
+
+**Table of Contents**
+
+-   [The Question](#the-question)
+-   [My Solution](#my-solution)
+  
+<br>
+
+## The Question
+
+Write a query to find the average concentration of each pollutant type across all locations in the table.
+
+Filter down to those with a concentration greater than 0.5 on average.
+
+Provide the pollutant and the average concentration in the output.
+
+Order by pollutant alphabetically.
+
+Round concentration to 2 decimal places.
+
+<br>
+
+pollution Table:
+
+| Field         | Data Type |
+| :------------ | :-------- |
+| id            | int       |
+| location      | text      |
+| pollutant     | text      |
+| concentration | float     |
+| date          | text      |
+
+pollution Input:
+
+| id | location | pollutant  | concentration | date       |
+| :- | :------- | :--------- | :------------ | :--------- |
+| 1  | River    | Mercury    | 0.23          | 2022-01-01 |
+| 2  | Lake     | Lead       | 0.18          | 2022-01-02 |
+| 3  | Ocean    | Nitrogen   | 2.04          | 2022-01-03 |
+| 4  | River    | Phosphorus | 1.12          | 2022-01-04 |
+| 5  | Pond     | Arsenic    | 0.09          | 2022-01-05 |
+| 6  | River    | Lead       | 0.29          | 2022-01-06 |
+| 7  | Lake     | Mercury    | 0.19          | 2022-01-07 |
+| 8  | Ocean    | Nitrogen   | 1.92          | 2022-01-08 |
+| 9  | River    | Phosphorus | 0.98          | 2022-01-09 |
+| 10 | Pond     | Arsenic    | 0.06          | 2022-01-10 |
+
+<br>
+
+# My Solution
+
+``` SQL
+SELECT 
+  pollutant,
+  ROUND(AVG(concentration), 2) AS avg_concentration
+FROM 
+  pollution
+GROUP BY
+  pollutant
+HAVING
+  AVG(concentration) > 0.5
+ORDER BY
+  pollutant
+```
+
+Output Table:
+
+| pollutant  | avg_concentration |
+| :--------- | :---------------- |
+| Nitrogen   | 1.98              |
+| Phosphorus | 1.05              |

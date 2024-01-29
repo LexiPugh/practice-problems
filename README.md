@@ -266,3 +266,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used the GROUP BY keyword to group average pollution concentration by pollutant, used the HAVING keyword to filter on the aggregation, used the ROUND() function to round to two decimal places
+28. Day 59 - January 28th 2024: [Company Wide Increase from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day59.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used a CASE statement to engineer a new feature that determines the new salary for each employee depending on the pay level they were on

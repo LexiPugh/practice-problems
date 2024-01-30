@@ -270,3 +270,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used a CASE statement to engineer a new feature that determines the new salary for each employee depending on the pay level they were on
+29. Day 60 - January 29th 2024: [LinkedIn Famous from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day60.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Performed a calculation to determine the populatiry score of LinkedIn posts based off their impressions and interactions, filtered and sorted by the popularity score to get posts only of a specified popularity level

@@ -631,3 +631,14 @@ SELECT
   END AS new_salary
 FROM 
   employees
+
+
+SELECT 
+  post_id,
+  (actions/impressions)*100 AS popularity_score
+FROM 
+  linkedin_posts
+HAVING
+  popularity_score >= 1
+ORDER BY
+  popularity_score DESC

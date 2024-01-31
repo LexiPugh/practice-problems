@@ -274,3 +274,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Performed a calculation to determine the populatiry score of LinkedIn posts based off their impressions and interactions, filtered and sorted by the popularity score to get posts only of a specified popularity level
+30. Day 61 - January 30th 2024: [Intern Problems from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day61.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used a CASE statement to edit certain values in a column, making the column have uniform formatting throughout

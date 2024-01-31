@@ -642,3 +642,13 @@ HAVING
   popularity_score >= 1
 ORDER BY
   popularity_score DESC
+
+
+SELECT 
+  CASE
+    WHEN response = "Yes" THEN "Y"
+    WHEN response = "No" THEN "N"
+    ELSE response
+  END AS response_fixed
+FROM 
+  responses

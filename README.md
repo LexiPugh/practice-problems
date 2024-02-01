@@ -278,3 +278,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used a CASE statement to edit certain values in a column, making the column have uniform formatting throughout
+31. Day 62 - January 31st 2024: [Big Pharma from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day62.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the ABS() function to get the absolute value of money lost, then filtered to drugs that had a negative profit and returned the three drugs that lost the most money - there ended up being only two drugs that had lost money, so the final output table had two drugs

@@ -652,3 +652,18 @@ SELECT
   END AS response_fixed
 FROM 
   responses
+
+
+SELECT
+  drug_name,
+  money_spent,
+  money_made,
+  ABS(ROUND((money_made - money_spent), 1)) AS money_lost
+FROM 
+  big_pharma 
+WHERE
+  money_made - money_spent < 0
+ORDER BY
+  money_lost DESC
+LIMIT 
+  3

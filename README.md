@@ -8,6 +8,7 @@
 -   [List of Questions](#list-of-questions)
     - [December 2023](#december-2023)
     - [January 2024](#january-2024)
+    - [February 2024](#february-2024)
 
 <br>
 
@@ -282,3 +283,11 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used the ABS() function to get the absolute value of money lost, then filtered to drugs that had a negative profit and returned the three drugs that lost the most money - there ended up being only two drugs that had lost money, so the final output table had two drugs
+  
+
+### February 2024
+
+1. Day 63 - February 1st 2024: [Buying Less from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day63.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the GROUP BY keyword to group all orderS by customer id, then used the HAVING keyword to filter on total amount of money spent and total number of orders made with the purpose of targeting advertising to customers that don't spend as much

@@ -691,3 +691,17 @@ ORDER BY
   total_emissions DESC
 LIMIT
   1
+
+
+SELECT 
+  company 
+FROM 
+  companies
+WHERE
+  year >= DATE_SUB('2023-01-01', INTERVAL 3 YEAR)
+GROUP BY 
+  company
+HAVING
+  SUM(profit) > 20000000
+ORDER BY
+  company

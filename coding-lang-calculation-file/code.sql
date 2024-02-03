@@ -678,3 +678,16 @@ GROUP BY
 HAVING
   SUM(order_total) < 250
   OR COUNT(customer_id) <= 2
+
+
+SELECT 
+  country,
+  ROUND(SUM(carbon_emissions_millions), 1) AS total_emissions
+FROM 
+  greenhouse_gases
+GROUP BY
+  country
+ORDER BY
+  total_emissions DESC
+LIMIT
+  1

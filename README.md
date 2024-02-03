@@ -291,3 +291,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used the GROUP BY keyword to group all orderS by customer id, then used the HAVING keyword to filter on total amount of money spent and total number of orders made with the purpose of targeting advertising to customers that don't spend as much
+2. Day 64 - February 2nd 2024: [Greenhouse Gases from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day64.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Performed an aggregation to calculate total carbon emissions and used the ROUND function to make the output uniform, used the GROUP BY keyword to group the total emissions by country, then used the ORDER BY and LIMIT keywords to find the country with the most carbon emissions

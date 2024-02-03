@@ -295,3 +295,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Performed an aggregation to calculate total carbon emissions and used the ROUND function to make the output uniform, used the GROUP BY keyword to group the total emissions by country, then used the ORDER BY and LIMIT keywords to find the country with the most carbon emissions
+3. Day 65 - February 3rd 2024: [Richie Rich from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day65.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the GROUP BY keyword to group total profit buy company, used the HAVING keyword to filter on the total profit aggregation, used the DATE_SUB function to filter to profit within a few years of a specified date

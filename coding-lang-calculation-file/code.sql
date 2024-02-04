@@ -705,3 +705,19 @@ HAVING
   SUM(profit) > 20000000
 ORDER BY
   company
+
+
+SELECT 
+  employee_id,
+  SUM(amount_spent) AS total_amount_spent,
+  CASE
+    WHEN SUM(amount_spent)-100 > 0 THEN SUM(amount_spent)-100
+    ELSE 0
+  END AS amount_owed
+FROM 
+  crew_spending
+GROUP BY
+  employee_id
+ORDER BY
+  amount_owed DESC,
+  employee_id

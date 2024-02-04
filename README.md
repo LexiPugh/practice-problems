@@ -299,3 +299,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used the GROUP BY keyword to group total profit buy company, used the HAVING keyword to filter on the total profit aggregation, used the DATE_SUB function to filter to profit within a few years of a specified date
+4. Day 66 - February 4th 2024: [Crew Overspending from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day66.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Performed an aggregation to calculate total spending, used a CASE statement to code different outputs based on the amount of spending, used the GROUP BY keyword to group the spending by employee

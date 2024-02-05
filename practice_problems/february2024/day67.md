@@ -1,0 +1,101 @@
+# **Practice Problem #67: Perfect Data Analyst**
+### February 5th, 2024
+### Languages Used: SQL and Python
+
+<br>
+
+*This is the [Perfect Data Analyst](https://www.analystbuilder.com/questions/perfect-data-analyst-GMFmx) practice problem from Analyst Builder. The question difficulty is Easy.*
+
+<br>
+
+**Table of Contents**
+
+-   [The Question](#the-question)
+-   [My Solution](#my-solution)
+  
+<br>
+
+## The Question
+
+Return all the candidate IDs that have problem solving skills, SQL experience, knows Python or R, and has domain knowledge.
+
+Order output on IDs from smallest to largest.
+
+<br>
+
+candidates Table:
+
+| Field                  | Data Type |
+| :--------------------- | :-------- |
+| candidate_id           | int       |
+| sql_experience         | text      |
+| excel                  | text      |
+| python                 | text      |
+| r_programming          | text      |
+| problem_solving        | text      |
+| three_years_experience | text      |
+| seven_years_experience | text      |
+| domain_knowledge       | text      |
+
+candidates Input:
+
+| candidate_id | sql_experience | excel  | python | r_programming | problem_solving | three_years_experience | seven_years_experience | domain_knowledge |
+| :----------- | :------------- | :----- | :----- | :------------ | :-------------- | :--------------------- | :--------------------- | :--------------- |
+| 1001         | X              | X      | X      | _NULL_        | X               | X                      | X                      | X                |
+| 1002         | X              | X      | _NULL_ | X             | X               | _NULL_                 | _NULL_                 | _NULL_           |
+| 1003         | X              | X      | X      | _NULL_        | X               | _NULL_                 | _NULL_                 | X                |
+| 1004         | X              | X      | _NULL_ | _NULL_        | _NULL_          | _NULL_                 | _NULL_                 | _NULL_           |
+| 1005         | X              | X      | _NULL_ | X             | X               | X                      | _NULL_                 | X                |
+| 1006         | _NULL_         | X      | _NULL_ | _NULL_        | _NULL_          | _NULL_                 | _NULL_                 | _NULL_           |
+| 1007         | X              | X      | X      | _NULL_        | _NULL_          | _NULL_                 | _NULL_                 | _NULL_           |
+| 1008         | _NULL_         | X      | _NULL_ | _NULL_        | X               | _NULL_                 | _NULL_                 | X                |
+| 1009         | X              | _NULL_ | _NULL_ | X             | _NULL_          | _NULL_                 | _NULL_                 | _NULL_           |
+| 1010         | _NULL_         | X      | _NULL_ | _NULL_        | _NULL_          | _NULL_                 | _NULL_                 | X                |
+| 1011         | _NULL_         | X      | X      | _NULL_        | X               | _NULL_                 | _NULL_                 | _NULL_           |
+| 1012         | X              | _NULL_ | _NULL_ | _NULL_        | _NULL_          | _NULL_                 | _NULL_                 | _NULL_           |
+| 1013         | X              | X      | _NULL_ | _NULL_        | _NULL_          | _NULL_                 | _NULL_                 | X                |
+| 1014         | X              | X      | _NULL_ | _NULL_        | X               | _NULL_                 | _NULL_                 | _NULL_           |
+| 1015         | X              | X      | X      | _NULL_        | X               | X                      | X                      | X                |
+| 1016         | _NULL_         | X      | _NULL_ | _NULL_        | _NULL_          | _NULL_                 | _NULL_                 | X                |
+| 1017         | X              | X      | _NULL_ | _NULL_        | X               | _NULL_                 | _NULL_                 | _NULL_           |
+| 1018         | _NULL_         | X      | _NULL_ | X             | X               | _NULL_                 | _NULL_                 | _NULL_           |
+| 1019         | X              | X      | X      | _NULL_        | X               | X                      | _NULL_                 | X                |
+
+<br>
+
+# My Solution
+
+### First Solution: SQL
+
+``` SQL
+SELECT 
+  candidate_id
+FROM 
+  candidates
+WHERE
+  problem_solving IS NOT NULL
+  AND sql_experience IS NOT NULL
+  AND domain_knowledge IS NOT NULL
+  AND (python IS NOT NULL OR r_programming IS NOT NULL)
+```
+
+### Second Solution: Python
+
+``` Python
+candidates = candidates[(candidates['problem_solving'] == 'X') & 
+             (candidates['sql_experience'] == 'X') & 
+             (candidates['domain_knowledge'] == 'X') & 
+             ((candidates['python'] == 'X') | (candidates['r_programming'] == 'X'))]
+
+candidates[['candidate_id']]
+```
+
+Output Table:
+
+| candidate_id |
+| :----------- |
+| 1001         |
+| 1003         |
+| 1005         |
+| 1015         |
+| 1019         |

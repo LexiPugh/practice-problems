@@ -303,3 +303,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Performed an aggregation to calculate total spending, used a CASE statement to code different outputs based on the amount of spending, used the GROUP BY keyword to group the spending by employee
+5. Day 67 - February 5th 2024: [Perfect Data Analyst from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day67.md)
+    - Languages Used: SQL & Python
+    - Question Difficulty: Easy
+    - Concepts Covered: In SQL I used a combination of the AND, OR, and IS NOT NULL operators to identify candidates that met specific qualifications. In Python I checked the fields for a certain value to determine if a candidate was qualified and used the & and | comparison operators to filter the data frame, accomplishing the same output.

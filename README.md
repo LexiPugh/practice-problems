@@ -307,3 +307,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL & Python
     - Question Difficulty: Easy
     - Concepts Covered: In SQL I used a combination of the AND, OR, and IS NOT NULL operators to identify candidates that met specific qualifications. In Python I checked the fields for a certain value to determine if a candidate was qualified and used the & and | comparison operators to filter the data frame, accomplishing the same output.
+6. Day 68 - February 6th 2024: [Gmail Users from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day68.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the SQL LIKE keyword and the wildcard character % to select all users who use Gmail as their email provider, AKA all emails that end in @gmail.com.

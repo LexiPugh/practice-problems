@@ -732,3 +732,15 @@ WHERE
   AND sql_experience IS NOT NULL
   AND domain_knowledge IS NOT NULL
   AND (python IS NOT NULL OR r_programming IS NOT NULL)
+
+
+SELECT 
+  customer_id,
+  name,
+  email
+FROM 
+  gmail_users
+WHERE
+  email LIKE '%@gmail.com'
+ORDER BY
+  customer_id ASC

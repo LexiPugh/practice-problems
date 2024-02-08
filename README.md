@@ -310,4 +310,8 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 6. Day 68 - February 6th 2024: [Gmail Users from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day68.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Used the SQL LIKE keyword and the wildcard character % to select all users who use Gmail as their email provider, AKA all emails that end in @gmail.com.
+    - Concepts Covered: Used the SQL LIKE keyword and the wildcard character % to select all users who use Gmail as their email provider, AKA all emails that end in @gmail.com
+7. Day 69 - February 7th 2024: [Average Gaming Session from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day69.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the AVERAGE function along with the WHERE keyword to find average time spent on gaming, used the GROUP BY keyword to group the results by user id

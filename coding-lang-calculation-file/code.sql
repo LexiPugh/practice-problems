@@ -744,3 +744,16 @@ WHERE
   email LIKE '%@gmail.com'
 ORDER BY
   customer_id ASC
+
+
+SELECT 
+  user_id,
+  AVG(minutes_per_session) AS avg_time_gaming
+FROM 
+  sessions
+WHERE
+  activity = 'Gaming'
+GROUP BY
+  user_id
+ORDER BY
+  user_id

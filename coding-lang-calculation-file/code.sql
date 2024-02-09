@@ -757,3 +757,14 @@ GROUP BY
   user_id
 ORDER BY
   user_id
+
+
+SELECT 
+  * 
+FROM 
+  uber_income
+WHERE
+  income <= 10000
+  OR income > 65000
+ORDER BY
+  income DESC

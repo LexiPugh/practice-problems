@@ -315,3 +315,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used the AVERAGE function along with the WHERE keyword to find average time spent on gaming, used the GROUP BY keyword to group the results by user id
+8. Day 70 - February 8th 2024: [Uber High and Low from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day70.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the OR keyword in combination with the WHERE keyword to filter on two separate conditions, used the ORDER BY keyword to order output

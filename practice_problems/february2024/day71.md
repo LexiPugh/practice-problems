@@ -1,0 +1,93 @@
+# **Practice Problem #71: A/B Students**
+### February 9th, 2024
+### Languages Used: SQL
+
+<br>
+
+*This is the [A/B Students](https://www.analystbuilder.com/questions/ab-students-ZspGa) practice problem from Analyst Builder. The question difficulty is Easy.*
+
+<br>
+
+**Table of Contents**
+
+-   [The Question](#the-question)
+-   [My Solution](#my-solution)
+  
+<br>
+
+## The Question
+
+Mr. Hillsborough gives out letters of recommendation for any student who can obtain a "B" or higher in his class.
+
+Write a query to retrieve the first and last name of the students who scored a "B" or better on their final exam.
+
+Order your output by the first and last name in ascending order. This is just how Mr. Hillsborough prefers it.
+
+<br>
+
+students Table:
+
+| Field      | Data Type |
+| :--------- | :-------- |
+| id         | int       |
+| first_name | text      |
+| last_name  | text      |
+| grade      | text      |
+
+students Input:
+
+| id | first_name | last_name | grade |
+| :- | :--------- | :-------- | :---- |
+| 1  | Emily      | Hernandez | A     |
+| 2  | Jasmine    | Chen      | B     |
+| 3  | Austin     | Garcia    | C     |
+| 4  | Brandon    | Lee       | D     |
+| 5  | Avery      | Davis     | C     |
+| 6  | Olivia     | Wilson    | A     |
+| 7  | Ethan      | Cooper    | B     |
+| 8  | Sophie     | Thompson  | F     |
+| 9  | Oliver     | Wright    | A     |
+| 10 | Isabella   | Perez     | B     |
+| 11 | Noah       | Carter    | C     |
+| 12 | Evelyn     | Nelson    | D     |
+| 13 | Michaela   | King      | B     |
+| 14 | Madison    | Baker     | A     |
+| 15 | Elijah     | Robinson  | C     |
+| 16 | Ava        | Green     | F     |
+| 17 | Alexander  | Hall      | B     |
+| 18 | Victoria   | Allen     | C     |
+| 19 | Michael    | Hill      | A     |
+| 20 | Emma       | Walker    | D     |
+
+<br>
+
+# My Solution
+
+``` SQL
+SELECT 
+  first_name,
+  last_name
+FROM 
+  students
+WHERE 
+  grade = 'A'
+  OR grade = 'B'
+ORDER BY
+  first_name,
+  last_name
+```
+
+Output Table:
+
+| first_name | last_name |
+| :--------- | :-------- |
+| Alexander  | Hall      |
+| Emily      | Hernandez |
+| Ethan      | Cooper    |
+| Isabella   | Perez     |
+| Jasmine    | Chen      |
+| Madison    | Baker     |
+| Michael    | Hill      |
+| Michaela   | King      |
+| Oliver     | Wright    |
+| Olivia     | Wilson    |

@@ -319,3 +319,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Used the OR keyword in combination with the WHERE keyword to filter on two separate conditions, used the ORDER BY keyword to order output
+9. Day 71 - February 9th 2024: [A/B Students from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day71.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the OR keyword in combination with the WHERE keyword to filter to students who got an A or B for their final exam, used the ORDER BY to order the output alphabetically

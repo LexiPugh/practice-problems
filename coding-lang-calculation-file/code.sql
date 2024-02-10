@@ -768,3 +768,16 @@ WHERE
   OR income > 65000
 ORDER BY
   income DESC
+
+
+SELECT 
+  first_name,
+  last_name
+FROM 
+  students
+WHERE 
+  grade = 'A'
+  OR grade = 'B'
+ORDER BY
+  first_name,
+  last_name

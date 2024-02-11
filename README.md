@@ -323,3 +323,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Used the OR keyword in combination with the WHERE keyword to filter to students who got an A or B for their final exam, used the ORDER BY to order the output alphabetically
+10. Day 72 - February 10th 2024: [Football Perfection from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day72.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the AND keyword in combination with the WHERE keyword to filter to football teams that had both a high number of points scored and a low number of penalties scored

@@ -781,3 +781,12 @@ WHERE
 ORDER BY
   first_name,
   last_name
+
+
+SELECT
+  team 
+FROM 
+  football
+WHERE
+  points_scored > 400
+  AND penalties <= 80

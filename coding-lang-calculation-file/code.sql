@@ -790,3 +790,20 @@ FROM
 WHERE
   points_scored > 400
   AND penalties <= 80
+
+
+SELECT
+  animal,
+  region,
+  average_weight
+FROM 
+  animals_main
+UNION
+SELECT
+  animal,
+  region,
+  average_weight
+FROM 
+  animals_secondary
+ORDER BY
+  animal

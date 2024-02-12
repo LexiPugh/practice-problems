@@ -327,3 +327,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Used the AND keyword in combination with the WHERE keyword to filter to football teams that had both a high number of points scored and a low number of penalties scored
+11. Day 73 - February 11th 2024: [Animals from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day73.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the UNION keyword to combine two datasets with common columns and remove any duplicates, used the ORDER BY keyword to order output alphabetically

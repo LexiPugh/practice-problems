@@ -331,3 +331,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Used the UNION keyword to combine two datasets with common columns and remove any duplicates, used the ORDER BY keyword to order output alphabetically
+12. Day 74 - February 12th 2024: [Electric Bike Replacement from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day74.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the WHERE keyword to filter to eletric bikes that need to be replaced due to a high level of battery usage, then used the COUNT() function to count how many bikes need to be replaced

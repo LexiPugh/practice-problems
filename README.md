@@ -164,6 +164,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 
 </details>
 
+<br>
 
 ### January 2024
 
@@ -299,7 +300,8 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Concepts Covered: Used the ABS() function to get the absolute value of money lost, then filtered to drugs that had a negative profit and returned the three drugs that lost the most money - there ended up being only two drugs that had lost money, so the final output table had two drugs
 
 </details>
-  
+
+<br>
 
 ### February 2024
 

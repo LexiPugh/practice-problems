@@ -29,7 +29,13 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 
 ## List of Questions
 
-### December 2023
+### December 2023 
+
+<details>
+
+<summary>December 2023 Practice Problems</summary>
+
+<br>
 
 1. Day 1 - December 1st 2023: [Histogram of Tweets from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day1.md)
     - Languages Used: SQL
@@ -156,8 +162,17 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Question Difficulty: Medium
     - Concepts Covered: Using the CONCAT() function to concatenate strings and variables in SQL
 
+</details>
+
+<br>
 
 ### January 2024
+
+<details>
+
+<summary>January 2024 Practice Problems</summary>
+
+<br>
 
 1. Day 32 - January 1st 2024: [Profit Margin from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day32.md)
     - Languages Used: SQL and Python
@@ -283,9 +298,18 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used the ABS() function to get the absolute value of money lost, then filtered to drugs that had a negative profit and returned the three drugs that lost the most money - there ended up being only two drugs that had lost money, so the final output table had two drugs
-  
+
+</details>
+
+<br>
 
 ### February 2024
+
+<details>
+
+<summary>February 2024 Practice Problems</summary>
+
+<br>
 
 1. Day 63 - February 1st 2024: [Buying Less from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day63.md)
     - Languages Used: SQL
@@ -335,3 +359,5 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Used the WHERE keyword to filter to eletric bikes that need to be replaced due to a high level of battery usage, then used the COUNT() function to count how many bikes need to be replaced
+
+</details>

@@ -807,3 +807,11 @@ FROM
   animals_secondary
 ORDER BY
   animal
+
+
+SELECT 
+  COUNT(bike_id) AS needs_replacement
+FROM 
+  bikes
+WHERE
+  miles >= 10000

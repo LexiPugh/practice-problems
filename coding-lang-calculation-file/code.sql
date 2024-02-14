@@ -815,3 +815,11 @@ FROM
   bikes
 WHERE
   miles >= 10000
+
+
+SELECT 
+  product_name
+FROM 
+  bakery_items
+WHERE
+  product_name LIKE '%Chocolate%'

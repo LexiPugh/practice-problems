@@ -361,5 +361,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Used the WHERE keyword in combination with the LIKE keyword to select all items that have the word chocolate anywhere in their name
+14. Day 76 - February 14th 2024: [Average Revenue from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day76.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the AVG() function to find average revenue, used the GROUP BY keyword to group the average revenue by store, then used the ORDER BY keyword to order by average revenue so the top earning stores showed at the top of the output table
 
 </details>

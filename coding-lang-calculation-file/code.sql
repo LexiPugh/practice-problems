@@ -823,3 +823,14 @@ FROM
   bakery_items
 WHERE
   product_name LIKE '%Chocolate%'
+
+
+SELECT
+  store_id,
+  AVG(revenue_millions) AS average_revenue
+FROM 
+  revenue
+GROUP BY
+  store_id
+ORDER BY
+  average_revenue DESC

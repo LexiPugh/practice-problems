@@ -365,5 +365,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Used the AVG() function to find average revenue, used the GROUP BY keyword to group the average revenue by store, then used the ORDER BY keyword to order by average revenue so the top earning stores showed at the top of the output table
+15. Day 77 - February 15th 2024: [Apply Discount from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day77.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the WHERE keyword in combination with the OR keyword to filter to customers that met the conditions for receiving a discount, then used the COUNT() function to count the number of customers that met the conditions
 
 </details>

@@ -834,3 +834,12 @@ GROUP BY
   store_id
 ORDER BY
   average_revenue DESC
+
+
+SELECT 
+  COUNT(customer_id) AS received_discount
+FROM 
+  customers
+WHERE
+  age > 65
+  OR total_purchase > 200

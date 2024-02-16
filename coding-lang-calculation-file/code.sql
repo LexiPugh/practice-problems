@@ -843,3 +843,14 @@ FROM
 WHERE
   age > 65
   OR total_purchase > 200
+
+
+SELECT 
+  date_visited,
+  COUNT(DISTINCT(visitor_id)) AS unique_visitors
+FROM 
+  web_traffic
+GROUP BY
+  date_visited
+ORDER BY
+  date_visited ASC

@@ -854,3 +854,14 @@ GROUP BY
   date_visited
 ORDER BY
   date_visited ASC
+
+
+SELECT 
+  company_name,
+  COUNT(CASE WHEN year = 2023 THEN 1 END) - COUNT(CASE WHEN year = 2022 THEN 1 END) AS difference
+FROM 
+  products
+GROUP BY
+  company_name
+ORDER BY
+  company_name

@@ -369,9 +369,13 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Used the WHERE keyword in combination with the OR keyword to filter to customers that met the conditions for receiving a discount, then used the COUNT() function to count the number of customers that met the conditions
-15. Day 78 - February 16th 2024: [Web Traffic from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day78.md)
+16. Day 78 - February 16th 2024: [Web Traffic from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day78.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Used the COUNT(DISTINCT) function to count the number of unique visitors on a website, used the GROUP BY keyword to group the visitors by date
+17. Day 79 - February 17th 2024: [Product Launch from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day79.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used CASE statements and the COUNT() function together to count the number of product launches in 2022 and 2023, then performed subtraction to find the difference in the number of product launches between the two years. Used the GROUP BY keyword to group the difference by company, and used the ORDER BY keyword to order the output alphabetically
 
 </details>

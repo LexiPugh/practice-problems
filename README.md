@@ -377,5 +377,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used CASE statements and the COUNT() function together to count the number of product launches in 2022 and 2023, then performed subtraction to find the difference in the number of product launches between the two years. Used the GROUP BY keyword to group the difference by company, and used the ORDER BY keyword to order the output alphabetically
+18. Day 80 - February 18th 2024: [Multi-Level Marketing from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day80.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the SUM() aggregation to add up total profits, used the MONTH() function to extract the month from a date field, then used the GROUP BY keyword to group the profits by month. Used the HAVING keyword to filter to the first half of the year and to months where the sum of the profit was greater than zero, then used the ORDER BY keyword to order by profit.
 
 </details>

@@ -865,3 +865,17 @@ GROUP BY
   company_name
 ORDER BY
   company_name
+
+
+SELECT 
+  MONTH(date) AS month,
+  SUM(profit) AS total_profit
+FROM 
+  profits
+GROUP BY
+  month
+HAVING
+  month <= 6
+  AND total_profit > 0
+ORDER BY
+  total_profit DESC

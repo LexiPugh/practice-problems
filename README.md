@@ -381,5 +381,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used the SUM() aggregation to add up total profits, used the MONTH() function to extract the month from a date field, then used the GROUP BY keyword to group the profits by month. Used the HAVING keyword to filter to the first half of the year and to months where the sum of the profit was greater than zero, then used the ORDER BY keyword to order by profit.
+19. Day 81 - February 19th 2024: [Football Attendance from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day81.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the SUM() aggregation to add up total season attendance, used the GROUP BY keyword to group the attendance by season, then used ORDER BY and LIMIT together to only output the season with the top attendance
 
 </details>

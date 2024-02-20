@@ -879,3 +879,15 @@ HAVING
   AND total_profit > 0
 ORDER BY
   total_profit DESC
+
+
+SELECT 
+  year_played,
+  SUM(season_attendance) AS total_attendance
+FROM 
+  football_attendance 
+GROUP BY
+  year_played
+ORDER BY
+  total_attendance DESC
+LIMIT 1

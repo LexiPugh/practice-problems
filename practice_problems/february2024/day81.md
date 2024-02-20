@@ -1,0 +1,81 @@
+# **Practice Problem #81: Football Attendance**
+### February 19th, 2024
+### Languages Used: SQL
+
+<br>
+
+*This is the [Football Attendance](https://www.analystbuilder.com/questions/football-attendance-ihEej) practice problem from Analyst Builder. The question difficulty is Medium.*
+
+<br>
+
+**Table of Contents**
+
+-   [The Question](#the-question)
+-   [My Solution](#my-solution)
+  
+<br>
+
+## The Question
+
+Sally is your average Stay at Home Mom so she decided to join an MLM (Multi Level Marketing) company.
+Football, I mean the real football (soccer), is attended by millions each year.
+
+Write a query to see which year had the highest attendance overall in terms of total attendance.
+
+<br>
+
+football_attendance Table:
+
+| Field             | Data Type |
+| :---------------- | :-------- |
+| team_id           | int       |
+| year_played       | int       |
+| season_attendance | int       |
+
+football_attendance Input:
+
+| team_id | year_played | season_attendance |
+| :------ | :---------- | :---------------- |
+| 1       | 2019        | 837694            |
+| 1       | 2020        | 821352            |
+| 1       | 2021        | 423164            |
+| 1       | 2022        | 1211827           |
+| 2       | 2019        | 1206641           |
+| 2       | 2020        | 1204825           |
+| 2       | 2021        | 1023770           |
+| 2       | 2022        | 633481            |
+| 3       | 2019        | 773441            |
+| 3       | 2020        | 841832            |
+| 3       | 2021        | 1270030           |
+| 3       | 2022        | 868753            |
+| 4       | 2019        | 772412            |
+| 4       | 2020        | 1280477           |
+| 4       | 2021        | 609644            |
+| 4       | 2022        | 987758            |
+| 5       | 2019        | 1136984           |
+| 5       | 2020        | 967444            |
+| 5       | 2021        | 1212176           |
+| 5       | 2022        | 1189936           |
+
+<br>
+
+# My Solution
+
+``` SQL
+SELECT 
+  year_played,
+  SUM(season_attendance) AS total_attendance
+FROM 
+  football_attendance 
+GROUP BY
+  year_played
+ORDER BY
+  total_attendance DESC
+LIMIT 1
+```
+
+Output Table:
+
+| year_played | total_attendance |
+| :---------- | :--------------- |
+| 2020        | 5115930          |

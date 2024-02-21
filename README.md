@@ -385,5 +385,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used the SUM() aggregation to add up total season attendance, used the GROUP BY keyword to group the attendance by season, then used ORDER BY and LIMIT together to only output the season with the top attendance
+20. Day 82 - February 19th 2024: [Tech Layoffs from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day82.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Performed a calculation to find the percentage of the company that got laid off from their job and used the ROUND() function to clean up the output into a uniform number of decimals. Used the GROUP BY keyword to get the percentage of the company laid off for each company in the dataset.
 
 </details>

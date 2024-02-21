@@ -891,3 +891,14 @@ GROUP BY
 ORDER BY
   total_attendance DESC
 LIMIT 1
+
+
+SELECT 
+  company,
+  ROUND((employees_fired / company_size) * 100, 2) AS pct_employees_fired
+FROM 
+  tech_layoffs
+GROUP BY
+  company
+ORDER BY
+  company

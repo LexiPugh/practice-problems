@@ -902,3 +902,14 @@ GROUP BY
   company
 ORDER BY
   company
+
+
+SELECT 
+  customer_id,
+  ABS(200 - storage_used) AS fees
+FROM 
+  cloud_storage
+WHERE
+  storage_used > 200
+ORDER BY
+  fees DESC

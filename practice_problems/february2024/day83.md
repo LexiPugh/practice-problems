@@ -35,7 +35,7 @@ cloud_storage Table:
 cloud_storage Input:
 
 | customer_id | storage_used |
-| ----------- | ------------ |
+| :---------- | :----------- |
 | 1001        | 32           |
 | 1002        | 289          |
 | 1003        | 104          |

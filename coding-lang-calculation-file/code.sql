@@ -913,3 +913,13 @@ WHERE
   storage_used > 200
 ORDER BY
   fees DESC
+
+
+SELECT 
+  customer_id
+FROM 
+  purchases
+GROUP BY
+  customer_id
+HAVING 
+  COUNT(DISTINCT product_id) = 4

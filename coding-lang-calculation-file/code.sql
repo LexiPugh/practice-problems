@@ -923,3 +923,11 @@ GROUP BY
   customer_id
 HAVING 
   COUNT(DISTINCT product_id) = 4
+
+
+SELECT 
+  computer_id
+FROM 
+  computer_replacement
+WHERE
+  date_activated < DATE_SUB("2023-01-01", INTERVAL 5 YEAR)

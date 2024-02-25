@@ -401,5 +401,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used the MySQL DATE_SUB() function in combination with the WHERE keyword to filter to computers that were bought over five years ago so they can be replaced
+24. Day 86 - February 24th 2024: [SuperCoolElectronicsStore.com from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day86.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the LIKE keyword along with the wildcard character % to find laptop names that mentioned SSD storage or HDD storage, then used a CASE statement to engineer a new column that holds the storage type
 
 </details>

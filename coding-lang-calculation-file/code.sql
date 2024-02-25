@@ -931,3 +931,15 @@ FROM
   computer_replacement
 WHERE
   date_activated < DATE_SUB("2023-01-01", INTERVAL 5 YEAR)
+
+
+SELECT 
+  *,
+  CASE
+    WHEN laptop_name LIKE '%SSD%' THEN 'SSD'
+    ELSE 'HDD'
+  END AS storage_type
+FROM 
+  laptops
+ORDER BY
+  laptop_id

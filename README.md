@@ -405,5 +405,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used the LIKE keyword along with the wildcard character % to find laptop names that mentioned SSD storage or HDD storage, then used a CASE statement to engineer a new column that holds the storage type
+25. Day 87 - February 25th 2024: [Media Addicts from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day87.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Performed an INNER JOIN to combine two datasets with information about how much time a user spent on social media and the name of each user. Then used the WHERE keyword in combination with a small subquery to filter to users that spent more time on social media than average, returning the first name of users with above average usage in alphabetical order with the help of the ORDER BY keyword.
 
 </details>

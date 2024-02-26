@@ -409,5 +409,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Performed an INNER JOIN to combine two datasets with information about how much time a user spent on social media and the name of each user. Then used the WHERE keyword in combination with a small subquery to filter to users that spent more time on social media than average, returning the first name of users with above average usage in alphabetical order with the help of the ORDER BY keyword.
+26. Day 88 - February 26th 2024: [Ranking Students from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day88.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the DENSE_RANK() function to assign students a rank number based on their grade, assigning students with the same grade value the same rank number. Used the ORDER BY keyword to order by both ranks descending and names alphabetically, that way students with the same ranks still have a defined order.
 
 </details>

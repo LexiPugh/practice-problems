@@ -954,3 +954,14 @@ WHERE
   ut.media_time_minutes > (SELECT AVG(media_time_minutes) FROM user_time)
 ORDER BY
   u.first_name
+
+
+SELECT 
+  student_name,
+  grade,
+  DENSE_RANK() OVER (ORDER BY grade DESC) AS ranks
+FROM 
+  grades
+ORDER BY
+  ranks,
+  student_name

@@ -328,7 +328,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 5. Day 67 - February 5th 2024: [Perfect Data Analyst from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day67.md)
     - Languages Used: SQL & Python
     - Question Difficulty: Easy
-    - Concepts Covered: In SQL I used a combination of the AND, OR, and IS NOT NULL operators to identify candidates that met specific qualifications. In Python I checked the fields for a certain value to determine if a candidate was qualified and used the & and | comparison operators to filter the data frame, accomplishing the same output.
+    - Concepts Covered: In SQL I used a combination of the AND, OR, and IS NOT NULL operators to identify candidates that met specific qualifications. In Python I checked the fields for a certain value to determine if a candidate was qualified and used the & and | comparison operators to filter the data frame, accomplishing the same output
 6. Day 68 - February 6th 2024: [Gmail Users from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day68.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
@@ -380,7 +380,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 18. Day 80 - February 18th 2024: [Multi-Level Marketing from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day80.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Used the SUM() aggregation to add up total profits, used the MONTH() function to extract the month from a date field, then used the GROUP BY keyword to group the profits by month. Used the HAVING keyword to filter to the first half of the year and to months where the sum of the profit was greater than zero, then used the ORDER BY keyword to order by profit.
+    - Concepts Covered: Used the SUM() aggregation to add up total profits, used the MONTH() function to extract the month from a date field, then used the GROUP BY keyword to group the profits by month. Used the HAVING keyword to filter to the first half of the year and to months where the sum of the profit was greater than zero, then used the ORDER BY keyword to order by profit
 19. Day 81 - February 19th 2024: [Football Attendance from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day81.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
@@ -392,7 +392,7 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 21. Day 83 - February 21st 2024: [Cloud Storage Fees from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day83.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Performed a calculation to see which users had gone over their alloted 200gb of cloud storage so that they could pay a fee, used the ABS() function to get the result in absolute value rather than negative.
+    - Concepts Covered: Performed a calculation to see which users had gone over their alloted 200gb of cloud storage so that they could pay a fee, used the ABS() function to get the result in absolute value rather than negative
 22. Day 84 - February 22nd 2024: [Must Buy it All from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day84.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
@@ -408,10 +408,14 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 25. Day 87 - February 25th 2024: [Media Addicts from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day87.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Performed an INNER JOIN to combine two datasets with information about how much time a user spent on social media and the name of each user. Then used the WHERE keyword in combination with a small subquery to filter to users that spent more time on social media than average, returning the first name of users with above average usage in alphabetical order with the help of the ORDER BY keyword.
+    - Concepts Covered: Performed an INNER JOIN to combine two datasets with information about how much time a user spent on social media and the name of each user. Then used the WHERE keyword in combination with a small subquery to filter to users that spent more time on social media than average, returning the first name of users with above average usage in alphabetical order with the help of the ORDER BY keyword
 26. Day 88 - February 26th 2024: [Ranking Students from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day88.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Used the DENSE_RANK() function to assign students a rank number based on their grade, assigning students with the same grade value the same rank number. Used the ORDER BY keyword to order by both ranks descending and names alphabetically, that way students with the same ranks still have a defined order.
+    - Concepts Covered: Used the DENSE_RANK() function to assign students a rank number based on their grade, assigning students with the same grade value the same rank number. Used the ORDER BY keyword to order by both ranks descending and names alphabetically, that way students with the same ranks still have a defined order
+27. Day 89 - February 27th 2024: [TMI (Too Much Information) from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day89.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the SUBSTRING_INDEX() function to split a field with customer's first and last names into two based on the position of the space, then returning the first half of the string to only select first names
 
 </details>

@@ -1,0 +1,92 @@
+# **Practice Problem #90: Movie-aholic**
+### February 28th, 2024
+### Languages Used: SQL
+
+<br>
+
+*This is the [Movie-aholic](https://www.analystbuilder.com/questions/movie-aholic-rlivN) practice problem from Analyst Builder. The question difficulty is Medium.*
+
+<br>
+
+**Table of Contents**
+
+-   [The Question](#the-question)
+-   [My Solution](#my-solution)
+  
+<br>
+
+## The Question
+
+Find the customer who has watched the greatest number of movies.
+
+Return the Customer Name.
+
+Example: If Ron watched "Lord of the Rings" 3 times and "Star Wars" 2 times (totaling 5 viewings), Leslie watched 4 movies, and Tom watched 2 movies, Ron, with his 5 total viewings, would be the answer.
+
+<br>
+
+customers Table:
+
+| Field       | Data Type |
+| :---------- | :-------- |
+| customer_id | int       |
+| name        | text      |
+
+customers Input:
+
+| customer_id | name   |
+| :---------- | :----- |
+| 1           | Ron    |
+| 2           | Leslie |
+| 3           | Tom    |
+| 4           | April  |
+
+date_viewed Table:
+
+| Field       | Data Type |
+| :---------- | :-------- |
+| customer_id | int       |
+| movie_id    | int       |
+| view_date   | date      |
+
+date_viewed Input:
+
+| customer_id | movie_id | view_date  |
+| :---------- | :------- | :--------- |
+| 4           | 1        | 2009-11-01 |
+| 2           | 1        | 2011-06-16 |
+| 3           | 1        | 2013-02-03 |
+| 2           | 2        | 2021-12-25 |
+| 1           | 2        | 2022-01-05 |
+| 3           | 2        | 2019-04-02 |
+| 4           | 3        | 2017-01-29 |
+| 1           | 3        | 2016-03-17 |
+| 2           | 3        | 2020-06-09 |
+| 3           | 4        | 2021-04-10 |
+| 1           | 4        | 2001-09-02 |
+| 3           | 4        | 2012-01-30 |
+| 4           | 4        | 2000-10-13 |
+
+<br>
+
+# My Solution
+
+``` SQL
+SELECT 
+  c.name
+FROM 
+  customers AS c INNER JOIN date_viewed AS d
+  ON c.customer_id = d.customer_id
+GROUP BY
+  c.name
+ORDER BY
+  COUNT(d.movie_id) DESC
+LIMIT
+  1
+```
+
+Output Table:
+
+| name |
+| :--- |
+| Tom  |

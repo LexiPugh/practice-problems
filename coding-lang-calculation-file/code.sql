@@ -972,3 +972,16 @@ SELECT
   SUBSTRING_INDEX(full_name, ' ', 1 ) AS first_name
 FROM 
   customers
+
+
+SELECT 
+  c.name
+FROM 
+  customers AS c INNER JOIN date_viewed AS d
+  ON c.customer_id = d.customer_id
+GROUP BY
+  c.name
+ORDER BY
+  COUNT(d.movie_id) DESC
+LIMIT
+  1

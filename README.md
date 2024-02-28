@@ -417,5 +417,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used the SUBSTRING_INDEX() function to split a field with customer's first and last names into two based on the position of the space, then returning the first half of the string to only select first names
+28. Day 90 - February 28th 2024: [Movie-aholic from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day90.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the INNER JOIN keyword to join two tables with customer data and data on the movies they watched. Used the ORDER BY keyword in combination with the COUNT() keyword to order output by the number of movies descending, using the GROUP BY keyword to group the number of movies by each customer. Then used the LIMIT keyword to only return the name of the customer that had watched the most movies
 
 </details>

@@ -991,3 +991,24 @@ SELECT
   (COUNT(CASE WHEN YEAR(date_left) = 2022 THEN 1 ELSE NULL END) / COUNT(date_started)) * 100 AS employee_turnover_pct
 FROM 
   employee_turnover
+
+
+SELECT
+  employee_name,
+  COUNT(full_time) AS num_jobs
+FROM
+  ( SELECT 
+      * 
+    FROM 
+      job_two
+    UNION
+    SELECT
+      *
+    FROM
+      job_one ) AS job_data
+WHERE
+  full_time = 'Y'
+GROUP BY 
+  employee_name
+HAVING 
+  num_jobs = 2

@@ -427,3 +427,19 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Concepts Covered: Used a CASE statement in combination with the YEAR() function and COUNT() function to count instances where employees left the company in 2022. Then divided by the total number of employees and multiplied by 100 to calculate the employee turnover rate for the year of 2022
 
 </details>
+
+
+### March 2024
+
+<details>
+
+<summary>March 2024 Practice Problems</summary>
+
+<br>
+
+1. Day 92 - March 1st 2024: [Full Time Jobs from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day92.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Combined two datasets on job data using the UNION keyword. Then used the union as a subquery so I could count the number of rows in the combined table. Used the WHERE and HAVING keyword together to filter to instances where an employee had two full-time jobs, then used the GROUP BY keyword to group the instances by employee name.
+
+</details>

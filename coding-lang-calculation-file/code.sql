@@ -985,3 +985,9 @@ ORDER BY
   COUNT(d.movie_id) DESC
 LIMIT
   1
+
+
+SELECT
+  (COUNT(CASE WHEN YEAR(date_left) = 2022 THEN 1 ELSE NULL END) / COUNT(date_started)) * 100 AS employee_turnover_pct
+FROM 
+  employee_turnover

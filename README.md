@@ -421,5 +421,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used the INNER JOIN keyword to join two tables with customer data and data on the movies they watched. Used the ORDER BY keyword in combination with the COUNT() keyword to order output by the number of movies descending, using the GROUP BY keyword to group the number of movies by each customer. Then used the LIMIT keyword to only return the name of the customer that had watched the most movies
+29. Day 91 - February 29th 2024: [Employee Turnover from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day91.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used a CASE statement in combination with the YEAR() function and COUNT() function to count instances where employees left the company in 2022. Then divided by the total number of employees and multiplied by 100 to calculate the employee turnover rate for the year of 2022
 
 </details>

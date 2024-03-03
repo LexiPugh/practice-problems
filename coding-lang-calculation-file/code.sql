@@ -1012,3 +1012,13 @@ GROUP BY
   employee_name
 HAVING 
   num_jobs = 2
+
+
+SELECT 
+  a.employee_name,
+  b.employee_name AS boss_name
+FROM 
+  boss AS a LEFT JOIN boss AS b
+  ON a.boss_id = b.employee_id
+ORDER BY
+  employee_name

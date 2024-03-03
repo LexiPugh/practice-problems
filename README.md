@@ -441,6 +441,10 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 1. Day 92 - March 1st 2024: [Full Time Jobs from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day92.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Combined two datasets on job data using the UNION keyword. Then used the union as a subquery so I could count the number of rows in the combined table. Used the WHERE and HAVING keyword together to filter to instances where an employee had two full-time jobs, then used the GROUP BY keyword to group the instances by employee name.
+    - Concepts Covered: Combined two datasets on job data using the UNION keyword. Then used the union as a subquery so I could count the number of rows in the combined table. Used the WHERE and HAVING keyword together to filter to instances where an employee had two full-time jobs, then used the GROUP BY keyword to group the instances by employee name
+2. Day 93 - March 2nd 2024: [Boss from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day93.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Performed a self join to get employee names and boss names on the same row for the purpose of finding the boss for each employee, a LEFT JOIN specifically to keep all employee data even if they don't have a boss. Used the ORDER BY keyword to get the output in alphabetical order
 
 </details>

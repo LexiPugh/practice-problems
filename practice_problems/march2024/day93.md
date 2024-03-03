@@ -1,0 +1,77 @@
+# **Practice Problem #93: Boss**
+### March 2nd, 2024
+### Languages Used: SQL
+
+<br>
+
+*This is the [Boss](https://www.analystbuilder.com/questions/boss-qXnDP) practice problem from Analyst Builder. The question difficulty is Medium.*
+
+<br>
+
+**Table of Contents**
+
+-   [The Question](#the-question)
+-   [My Solution](#my-solution)
+  
+<br>
+
+## The Question
+
+My Boss wants a report that shows each employee and their bosses name so he can try to memorize it before our quarterly social event.
+
+Provide an output that includes the employee name matched with the name of their boss.
+
+If they don't have a boss still include them in the output.
+
+Order output on employee name alphabetically.
+
+<br>
+
+boss Table:
+
+| Field         | Data Type |
+| :------------ | :-------- |
+| employee_id   | int       |
+| employee_name | text      |
+| boss_id       | int       |
+
+boss Input:
+
+| employee_id | employee_name   | boss_id |
+| :---------- | :-------------- | :------ |
+| 1           | Josh Harper     | _NULL_  |
+| 2           | Carolina Fancis | _NULL_  |
+| 3           | Gerald Butler   | 2       |
+| 4           | Richie Rich     | 3       |
+| 5           | Carol Danvers   | _NULL_  |
+| 6           | Peter McMillan  | 2       |
+| 7           | Sarah Burdauch  | 5       |
+| 8           | Donald Glover   | _NULL_  |
+
+<br>
+
+# My Solution
+
+``` SQL
+SELECT 
+  a.employee_name,
+  b.employee_name AS boss_name
+FROM 
+  boss AS a LEFT JOIN boss AS b
+  ON a.boss_id = b.employee_id
+ORDER BY
+  employee_name
+```
+
+Output Table:
+
+| employee_name   | boss_name       |
+| :-------------- | :-------------- |
+| Carol Danvers   | _NULL_          |
+| Carolina Fancis | _NULL_          |
+| Donald Glover   | _NULL_          |
+| Gerald Butler   | Carolina Fancis |
+| Josh Harper     | _NULL_          |
+| Peter McMillan  | Carolina Fancis |
+| Richie Rich     | Gerald Butler   |
+| Sarah Burdauch  | Carol Danvers   |

@@ -1036,3 +1036,13 @@ WHERE
 GROUP BY
   m.managers_id,
   e.position
+
+
+SELECT 
+  order_id
+FROM 
+  amazon_returns
+GROUP BY
+  order_id
+HAVING
+  (SUM(product_price) * 0.15) <= SUM(estimated_return_price)

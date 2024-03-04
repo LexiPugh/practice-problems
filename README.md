@@ -446,5 +446,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Performed a self join to get employee names and boss names on the same row for the purpose of finding the boss for each employee, a LEFT JOIN specifically to keep all employee data even if they don't have a boss. Used the ORDER BY keyword to get the output in alphabetical order
+3. Day 94 - March 3rd 2024: [Direct Reports from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day94.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Performed a self join to tie the employee ids to the manager ids. Used the LIKE keyword and the wildcard character % in the WHERE clause to filter to positions that had the word manager anywhere in its name. Then performed a COUNT() on the number of times each manager id showed up and used the GROUP BY keyword to group by manager id and position, finding the number of direct reports for each manager.
 
 </details>

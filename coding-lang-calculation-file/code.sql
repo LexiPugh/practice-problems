@@ -1022,3 +1022,17 @@ FROM
   ON a.boss_id = b.employee_id
 ORDER BY
   employee_name
+
+
+SELECT 
+  m.managers_id,
+  e.position AS managers_position,
+  COUNT(m.managers_id) AS direct_reports
+FROM 
+  direct_reports AS m JOIN direct_reports AS e
+  ON m.managers_id = e.employee_id
+WHERE
+  e.position LIKE '%Manager%'
+GROUP BY
+  m.managers_id,
+  e.position

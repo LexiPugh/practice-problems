@@ -1,0 +1,75 @@
+# **Practice Problem #95: Amazon Returns**
+### March 4th, 2024
+### Languages Used: SQL
+
+<br>
+
+*This is the [Amazon Returns](https://www.analystbuilder.com/questions/amazon-returns-JflHI) practice problem from Analyst Builder. The question difficulty is Medium.*
+
+<br>
+
+**Table of Contents**
+
+-   [The Question](#the-question)
+-   [My Solution](#my-solution)
+  
+<br>
+
+## The Question
+
+Amazon has made changes to their return policy to improve cost efficiency. Instead of processing returns for individual items, they are now considering entire orders for return. This approach is based on a cost-benefit analysis, where if the return costs outweigh potential profits, customers are allowed to keep the products and receive a full refund.
+
+To determine whether to initiate a return, Amazon calculates shipping and processing costs for the entire order. If these costs exceed the anticipated profit, the customer is not required to return the products.
+
+Given that Amazon typically earns a 15% profit per product sale, design a query to identify the Order IDs for which Amazon will permit customers to keep their products, considering the new return policy.
+
+<br>
+
+amazon_returns Table:
+
+| Field                  | Data Type |
+| :--------------------- | :-------- |
+| order_id               | int       |
+| product_name           | text      |
+| product_price          | int       |
+| estimated_return_price | float     |
+
+amazon_returns Input:
+
+| order_id | product_name        | product_price | estimated_return_price |
+| :------- | :------------------ | :------------ | :--------------------- |
+| 1001     | Wireless Headphones | 70            | 10.45                  |
+| 1001     | Smart Watch         | 200           | 8.65                   |
+| 1002     | Bluetooth Speaker   | 65            | 8.37                   |
+| 1002     | Laptop Charger      | 11.75         | 9.23                   |
+| 1002     | Mouse               | 25.99         | 5.56                   |
+| 1003     | Ear Plugs           | 2.15          | 3.13                   |
+| 1004     | Gaming Keyboard     | 87.5          | 10.01                  |
+| 1005     | Portable Hard Drive | 50            | 6.34                   |
+| 1005     | 10ct Screws         | 1.87          | 3.18                   |
+| 1006     | Screen Cleaner      | 2.75          | 4.57                   |
+| 1007     | VR Headset          | 450           | 12.91                  |
+
+<br>
+
+# My Solution
+
+``` SQL
+SELECT 
+  order_id
+FROM 
+  amazon_returns
+GROUP BY
+  order_id
+HAVING
+  (SUM(product_price) * 0.15) <= SUM(estimated_return_price)
+```
+
+Output Table:
+
+| order_id |
+| :------- |
+| 1002     |
+| 1003     |
+| 1005     |
+| 1006     |

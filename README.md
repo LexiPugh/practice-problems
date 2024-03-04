@@ -450,5 +450,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Performed a self join to tie the employee ids to the manager ids. Used the LIKE keyword and the wildcard character % in the WHERE clause to filter to positions that had the word manager anywhere in its name. Then performed a COUNT() on the number of times each manager id showed up and used the GROUP BY keyword to group by manager id and position, finding the number of direct reports for each manager.
+4. Day 95 - March 4th 2024: [Amazon Returns from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day95.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the GROUP BY keyword to group by order id - each product bought had its own row even if they were part of the same order, so this was necessary to look at the order total as a whole rather than by each item. Then used the HAVING keyword in combination with the SUM() function to filter to instances where the potential profit of the entire order was less than the estimated return price of the entire order.
 
 </details>

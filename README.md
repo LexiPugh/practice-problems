@@ -454,5 +454,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used the GROUP BY keyword to group by order id - each product bought had its own row even if they were part of the same order, so this was necessary to look at the order total as a whole rather than by each item. Then used the HAVING keyword in combination with the SUM() function to filter to instances where the potential profit of the entire order was less than the estimated return price of the entire order.
+4. Day 96 - March 5th 2024: [Employee Raise from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day96.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Started by writing a query that used the MIN() function to select the lowest salary, then used the GROUP BY keyword to get the lowest salary by department. Used this query as a subquery for a JOIN, joining the query with the employee data on the department and salary fields. Then performed a calculation to determine the new salaries for the lowest paid employee in each department, using the ORDER BY keyword to sort the output by largest new salary to smallest new salary.
 
 </details>

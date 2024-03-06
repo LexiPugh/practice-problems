@@ -1046,3 +1046,20 @@ GROUP BY
   order_id
 HAVING
   (SUM(product_price) * 0.15) <= SUM(estimated_return_price)
+
+
+SELECT 
+  e.employee_id,
+  e.department,
+  o.old_salary,
+  ROUND(o.old_salary * 1.15, 2) AS new_salary
+FROM 
+  employee_raise AS e
+  JOIN (SELECT department, MIN(salary) AS old_salary 
+        FROM employee_raise 
+        GROUP BY department) AS o
+  ON e.department = o.department AND e.salary = o.old_salary
+GROUP BY
+  department
+ORDER BY
+  new_salary DESC

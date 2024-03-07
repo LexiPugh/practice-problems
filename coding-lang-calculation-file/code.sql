@@ -1079,3 +1079,21 @@ GROUP BY
   s.quota
 ORDER BY
   d.employee_id
+
+
+SELECT
+  COUNT(company_id) AS duplicate_companies
+FROM
+  (SELECT 
+    company_id,
+    title,
+    description,
+    COUNT(job_id) AS number_of_jobs
+  FROM 
+    job_listings
+  GROUP BY
+    company_id,
+    title,
+    description) AS duplicate_listings
+WHERE
+  duplicate_listings.number_of_jobs > 1

@@ -102,7 +102,7 @@ ORDER BY
 Output Table:
 
 | name   | movie_name         | view_date  |
-| :----- | :----------------- | :--------- |
+| ----- | :----------------- | :--------- |
 | April  | Back to the Future | 2000-10-13 |
 | Ron    | Back to the Future | 2001-09-02 |
 | April  | Spider-Man         | 2009-11-01 |

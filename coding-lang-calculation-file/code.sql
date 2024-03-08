@@ -1097,3 +1097,16 @@ FROM
     description) AS duplicate_listings
 WHERE
   duplicate_listings.number_of_jobs > 1
+
+
+SELECT 
+  name, 
+  movie_name, 
+  view_date
+FROM 
+  date_viewed AS dv
+  INNER JOIN customers AS c ON dv.customer_id = c.customer_id
+  INNER JOIN movienames AS mn ON dv.movie_id = mn.movie_id
+ORDER BY 
+  view_date, 
+  movie_name

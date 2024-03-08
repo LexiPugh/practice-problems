@@ -466,5 +466,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Wrote a query that used the COUNT() function to count the number of jobs, then used the GROUP BY keyword to group by company id, job title, and job description to find instances where there were duplicate job listings. Used that query as a subquery to count the number of companies WHERE they have duplicate listings.
+8. Day 99 - March 8th 2024: [Movie-aholic (Joins) from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day99.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: This is an alternate version of the Movie-aholic practice problem I completed on Day 90 - this version of the problem focuses on joining multiple tables. I performed an INNER JOIN twice to get data from three different tables into one output table, then outputted the name of the customer, the movie they watched, and what date they watched it on.
 
 </details>

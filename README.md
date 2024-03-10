@@ -470,5 +470,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: This is an alternate version of the Movie-aholic practice problem I completed on Day 90 - this version of the problem focuses on joining multiple tables. I performed an INNER JOIN twice to get data from three different tables into one output table, then outputted the name of the customer, the movie they watched, and what date they watched it on.
+9. Day 100 - March 9th 2024: [Running Total from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day100.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: In this problem I used a window function to find a running total of points for each gender over multiple days. I found the SUM() of the points, used PARTITION BY to group on the gender, then used the ORDER BY keyword within the window function to order by the date. I then also ordered by the points within the window function to find the running total of points
 
 </details>

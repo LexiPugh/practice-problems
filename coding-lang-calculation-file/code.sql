@@ -1110,3 +1110,12 @@ FROM
 ORDER BY 
   view_date, 
   movie_name
+
+
+SELECT 
+  gender,
+  dates,
+  points,
+  SUM(points) OVER(PARTITION BY gender ORDER BY dates, points) AS running_total
+FROM 
+  points

@@ -1119,3 +1119,11 @@ SELECT
   SUM(points) OVER(PARTITION BY gender ORDER BY dates, points) AS running_total
 FROM 
   points
+
+
+SELECT 
+  TRIM(SUBSTRING_INDEX(address, '-', 1)) AS street,
+  TRIM(SUBSTRING_INDEX(SUBSTRING_INDEX(address, '-', 2), '-', -1)) AS city,
+  TRIM(SUBSTRING_INDEX(SUBSTRING_INDEX(address, '-', 3), '-', -1)) AS state,
+  TRIM(SUBSTRING_INDEX(address, '-', -1)) AS zip_code
+FROM addresses

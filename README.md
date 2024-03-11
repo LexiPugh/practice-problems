@@ -474,5 +474,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Hard
     - Concepts Covered: In this problem I used a window function to find a running total of points for each gender over multiple days. I found the SUM() of the points, used PARTITION BY to group on the gender, then used the ORDER BY keyword within the window function to order by the date. I then also ordered by the points within the window function to find the running total of points
+10. Day 101 - March 10th 2024: [Breaking Out Column from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day101.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Used the SUBSTRING_INDEX() function, including nested SUBSTRING_INDEX() functions, to break out an address field into separate street, city, state, and zip code columns. Used the TRIM() function to clear up any white space inconsistencies.
 
 </details>

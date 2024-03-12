@@ -478,5 +478,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Hard
     - Concepts Covered: Used the SUBSTRING_INDEX() function, including nested SUBSTRING_INDEX() functions, to break out an address field into separate street, city, state, and zip code columns. Used the TRIM() function to clear up any white space inconsistencies.
+11. Day 102 - March 11th 2024: [Contact Information from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day102.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Performed an INNER JOIN to connect customer data to their contact data. Used a CASE statement to find instances where the user's email was NULL in the contact table so we could create an email for them. It was specified that the user's email should be firstname.lastname@gmail.com in all lowercase, so I used the CONCAT() function, the LOWER() function, and customer data to create email addresses for anyone missing one.
 
 </details>

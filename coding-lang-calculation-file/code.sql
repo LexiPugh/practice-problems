@@ -1127,3 +1127,17 @@ SELECT
   TRIM(SUBSTRING_INDEX(SUBSTRING_INDEX(address, '-', 3), '-', -1)) AS state,
   TRIM(SUBSTRING_INDEX(address, '-', -1)) AS zip_code
 FROM addresses
+
+
+SELECT 
+  p.first_name,
+  p.last_name,
+  CASE
+    WHEN c.email IS NULL THEN CONCAT(LOWER(first_name), '.', LOWER(last_name), '@gmail.com')
+    ELSE c.email
+  END AS new_email
+FROM 
+  people AS p INNER JOIN contacts AS c
+  ON p.id = c.id
+ORDER BY
+  new_email

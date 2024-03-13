@@ -482,5 +482,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Hard
     - Concepts Covered: Performed an INNER JOIN to connect customer data to their contact data. Used a CASE statement to find instances where the user's email was NULL in the contact table so we could create an email for them. It was specified that the user's email should be their first name combined with their last name with a gmail domain in all lowercase, so I used the CONCAT() function, the LOWER() function, and customer data to create email addresses for anyone missing one.
+12. Day 103 - March 12th 2024: [Art Ranking from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day103.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Used the RANK() window function to assign ranks to artists based on their total score across three judges. The SUM() function was used to calculate each artists' total score, then the total score was used in the window function to order the output descending, ensuring that the artists with the highest points were ranked first.
 
 </details>

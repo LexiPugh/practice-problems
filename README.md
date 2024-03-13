@@ -486,5 +486,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Hard
     - Concepts Covered: Used the RANK() window function to assign ranks to artists based on their total score across three judges. The SUM() function was used to calculate each artists' total score, then the total score was used in the window function to order the output descending, ensuring that the artists with the highest points were ranked first.
+13. Day 104 - March 13th 2024: [Fire Them! from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day104.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Using the AND keyword in the WHERE clause to filter on multiple conditions and writing a formula to calculate the percentage of tasks that each employee has completed
 
 </details>

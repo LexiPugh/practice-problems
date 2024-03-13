@@ -1154,3 +1154,14 @@ GROUP BY
 ORDER BY
   rank_num,
   artist_id
+
+
+SELECT 
+  name 
+FROM 
+  employee_info
+WHERE
+  end_of_year_review_rating <= 5
+  AND (tasks_completed/tasks_assigned) * 100 < 75
+ORDER BY
+  name

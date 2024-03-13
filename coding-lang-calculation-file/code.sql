@@ -1141,3 +1141,16 @@ FROM
   ON p.id = c.id
 ORDER BY
   new_email
+
+
+SELECT
+  artist_id,
+  SUM(score) AS total_score,
+  RANK() OVER(ORDER BY SUM(score) DESC) AS rank_num
+FROM 
+  rankings
+GROUP BY
+  artist_id
+ORDER BY
+  rank_num,
+  artist_id

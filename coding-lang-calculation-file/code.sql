@@ -1165,3 +1165,14 @@ WHERE
   AND (tasks_completed/tasks_assigned) * 100 < 75
 ORDER BY
   name
+
+
+SELECT 
+  employee_name,
+  (SUM(CASE WHEN call_outcome = 'Y' THEN 1 ELSE 0 END)/COUNT(*)) * 100 AS pct_resolved
+FROM 
+  help_desk_manager
+GROUP BY
+  employee_name
+ORDER BY
+  employee_name

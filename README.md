@@ -449,27 +449,27 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 3. Day 94 - March 3rd 2024: [Direct Reports from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day94.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Performed a self join to tie the employee ids to the manager ids. Used the LIKE keyword and the wildcard character % in the WHERE clause to filter to positions that had the word manager anywhere in its name. Then performed a COUNT() on the number of times each manager id showed up and used the GROUP BY keyword to group by manager id and position, finding the number of direct reports for each manager.
+    - Concepts Covered: Performed a self join to tie the employee ids to the manager ids. Used the LIKE keyword and the wildcard character % in the WHERE clause to filter to positions that had the word manager anywhere in its name. Then performed a COUNT() on the number of times each manager id showed up and used the GROUP BY keyword to group by manager id and position, finding the number of direct reports for each manager
 4. Day 95 - March 4th 2024: [Amazon Returns from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day95.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Used the GROUP BY keyword to group by order id - each product bought had its own row even if they were part of the same order, so this was necessary to look at the order total as a whole rather than by each item. Then used the HAVING keyword in combination with the SUM() function to filter to instances where the potential profit of the entire order was less than the estimated return price of the entire order.
+    - Concepts Covered: Used the GROUP BY keyword to group by order id - each product bought had its own row even if they were part of the same order, so this was necessary to look at the order total as a whole rather than by each item. Then used the HAVING keyword in combination with the SUM() function to filter to instances where the potential profit of the entire order was less than the estimated return price of the entire order
 5. Day 96 - March 5th 2024: [Employee Raise from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day96.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Started by writing a query that used the MIN() function to select the lowest salary, then used the GROUP BY keyword to get the lowest salary by department. Used this query as a subquery for a JOIN, joining the query with the employee data on the department and salary fields. Then performed a calculation to determine the new salaries for the lowest paid employee in each department, using the ORDER BY keyword to sort the output by largest new salary to smallest new salary.
+    - Concepts Covered: Started by writing a query that used the MIN() function to select the lowest salary, then used the GROUP BY keyword to get the lowest salary by department. Used this query as a subquery for a JOIN, joining the query with the employee data on the department and salary fields. Then performed a calculation to determine the new salaries for the lowest paid employee in each department, using the ORDER BY keyword to sort the output by largest new salary to smallest new salary
 6. Day 97 - March 6th 2024: [Who Made Quota? from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day97.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Started off by using the INNER JOIN keyword to join data on sales and assigned sales quotas. Then used a CASE statement to engineer a new column to determine if each salesperson met their quota.
+    - Concepts Covered: Started off by using the INNER JOIN keyword to join data on sales and assigned sales quotas. Then used a CASE statement to engineer a new column to determine if each salesperson met their quota
 7. Day 98 - March 7th 2024: [Duplicate Job Listings from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day98.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Wrote a query that used the COUNT() function to count the number of jobs, then used the GROUP BY keyword to group by company id, job title, and job description to find instances where there were duplicate job listings. Used that query as a subquery to count the number of companies WHERE they have duplicate listings.
+    - Concepts Covered: Wrote a query that used the COUNT() function to count the number of jobs, then used the GROUP BY keyword to group by company id, job title, and job description to find instances where there were duplicate job listings. Used that query as a subquery to count the number of companies WHERE they have duplicate listings
 8. Day 99 - March 8th 2024: [Movie-aholic (Joins) from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day99.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: This is an alternate version of the Movie-aholic practice problem I completed on Day 90 - this version of the problem focuses on joining multiple tables. I performed an INNER JOIN twice to get data from three different tables into one output table, then outputted the name of the customer, the movie they watched, and what date they watched it on.
+    - Concepts Covered: This is an alternate version of the Movie-aholic practice problem I completed on Day 90 - this version of the problem focuses on joining multiple tables. I performed an INNER JOIN twice to get data from three different tables into one output table, then outputted the name of the customer, the movie they watched, and what date they watched it on
 9. Day 100 - March 9th 2024: [Running Total from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day100.md)
     - Languages Used: SQL
     - Question Difficulty: Hard
@@ -477,15 +477,15 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 10. Day 101 - March 10th 2024: [Breaking Out Column from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day101.md)
     - Languages Used: SQL
     - Question Difficulty: Hard
-    - Concepts Covered: Used the SUBSTRING_INDEX() function, including nested SUBSTRING_INDEX() functions, to break out an address field into separate street, city, state, and zip code columns. Used the TRIM() function to clear up any white space inconsistencies.
+    - Concepts Covered: Used the SUBSTRING_INDEX() function, including nested SUBSTRING_INDEX() functions, to break out an address field into separate street, city, state, and zip code columns. Used the TRIM() function to clear up any white space inconsistencies
 11. Day 102 - March 11th 2024: [Contact Information from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day102.md)
     - Languages Used: SQL
     - Question Difficulty: Hard
-    - Concepts Covered: Performed an INNER JOIN to connect customer data to their contact data. Used a CASE statement to find instances where the user's email was NULL in the contact table so we could create an email for them. It was specified that the user's email should be their first name combined with their last name with a gmail domain in all lowercase, so I used the CONCAT() function, the LOWER() function, and customer data to create email addresses for anyone missing one.
+    - Concepts Covered: Performed an INNER JOIN to connect customer data to their contact data. Used a CASE statement to find instances where the user's email was NULL in the contact table so we could create an email for them. It was specified that the user's email should be their first name combined with their last name with a gmail domain in all lowercase, so I used the CONCAT() function, the LOWER() function, and customer data to create email addresses for anyone missing one
 12. Day 103 - March 12th 2024: [Art Ranking from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day103.md)
     - Languages Used: SQL
     - Question Difficulty: Hard
-    - Concepts Covered: Used the RANK() window function to assign ranks to artists based on their total score across three judges. The SUM() function was used to calculate each artists' total score, then the total score was used in the window function to order the output descending, ensuring that the artists with the highest points were ranked first.
+    - Concepts Covered: Used the RANK() window function to assign ranks to artists based on their total score across three judges. The SUM() function was used to calculate each artists' total score, then the total score was used in the window function to order the output descending, ensuring that the artists with the highest points were ranked first
 13. Day 104 - March 13th 2024: [Fire Them! from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day104.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
@@ -494,5 +494,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used a CASE() statement in combination with the SUM() function to add up the number of calls that had been resolved, then used the COUNT() function to divide by the total number of calls and multiplied by 100 to get the result as a percentage. Lastly, I used the GROUP BY keyword and grouped by employee name to view the percentage of calls each employee resolved over the total number of calls they've taken
+14. Day 106 - March 15th 2024: [Unions from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day106.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the UNION ALL keyword to combine medication and dosage information from two tables, keeping duplicates. Used the ORDER BY keyword to order the output alphabetically
 
 </details>

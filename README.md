@@ -490,13 +490,17 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Using the AND keyword in the WHERE clause to filter on multiple conditions and writing a formula to calculate the percentage of tasks that each employee has completed
-13. Day 105 - March 14th 2024: [Help Desk Manager from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day105.md)
+14. Day 105 - March 14th 2024: [Help Desk Manager from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day105.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used a CASE() statement in combination with the SUM() function to add up the number of calls that had been resolved, then used the COUNT() function to divide by the total number of calls and multiplied by 100 to get the result as a percentage. Lastly, I used the GROUP BY keyword and grouped by employee name to view the percentage of calls each employee resolved over the total number of calls they've taken
-14. Day 106 - March 15th 2024: [Unions from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day106.md)
+15. Day 106 - March 15th 2024: [Unions from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day106.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used the UNION ALL keyword to combine medication and dosage information from two tables, keeping duplicates. Used the ORDER BY keyword to order the output alphabetically
+16. Day 107 - March 16th 2024: [Salary By Department from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day107.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Used the AVG() function to find the average salary, then used PARTITION BY within a window function to compare each person's salary to the AVG() salary of their department. I then ordered by department alphabetically and salary descending to order each department from their highest earners to their lowest earners
 
 </details>

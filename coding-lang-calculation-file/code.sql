@@ -1191,3 +1191,16 @@ FROM
   med_list
 ORDER BY
   medication
+
+
+SELECT 
+  department,
+  first_name,
+  last_name,
+  salary,
+  AVG(salary) OVER(PARTITION BY department) dept_avg
+FROM 
+  employee_salary
+ORDER BY
+  department ASC,
+  salary DESC

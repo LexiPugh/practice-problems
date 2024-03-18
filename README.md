@@ -502,5 +502,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Hard
     - Concepts Covered: Used the AVG() function to find the average salary, then used PARTITION BY within a window function to compare each person's salary to the AVG() salary of their department. I then ordered by department alphabetically and salary descending to order each department from their highest earners to their lowest earners
+17. Day 108 - March 17th 2024: [Temperature Fluctuations from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day108.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Used the LAG() window function to get the previous date's temperature next to the current date's temperature in the output table. Then used that query as a subquery and selected the dates from that query only when the current date's temperature was greater than the previous date's temperature.
 
 </details>

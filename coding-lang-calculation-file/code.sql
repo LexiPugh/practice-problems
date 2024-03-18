@@ -1204,3 +1204,19 @@ FROM
 ORDER BY
   department ASC,
   salary DESC
+
+
+SELECT
+  date
+FROM (
+  SELECT 
+    date,
+    temperature AS temp,
+    LAG(temperature) OVER(ORDER BY date ASC) AS previous_temp
+  FROM 
+    temperatures
+) AS temp_table
+WHERE
+  temp > previous_temp
+ORDER BY
+  date

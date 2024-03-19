@@ -1220,3 +1220,23 @@ WHERE
   temp > previous_temp
 ORDER BY
   date
+
+
+SELECT
+  customer_id,
+  transaction_id,
+  amount,
+  (amount * 0.67) AS discounted_amount
+FROM (
+  SELECT 
+    customer_id, 
+    transaction_id,
+    amount,
+    ROW_NUMBER() OVER(PARTITION BY customer_id ORDER BY transaction_id ASC) AS row_num
+  FROM 
+    purchases
+  ) AS temp_table
+WHERE
+  row_num = 3
+ORDER BY
+  customer_id ASC

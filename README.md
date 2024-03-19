@@ -506,5 +506,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Hard
     - Concepts Covered: Used the LAG() window function to get the previous date's temperature next to the current date's temperature in the output table. Then used that query as a subquery and selected the dates from that query only when the current date's temperature was greater than the previous date's temperature.
+18. Day 109 - March 18th 2024: [Kelly's 3rd Purchase from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day109.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Used the ROW_NUMBER() window function, then used PARTITION BY to split it up by customer id and used ORDER BY to order it by transaction id ascending, making sure each customer's purchases were in sequential order. That query now assigned a row number to each purchase a customer made, so I used it as a subquery and had the outer query only grab the third order from each customer, performing a calculation to apply a discount to each third order.
 
 </details>

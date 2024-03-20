@@ -1240,3 +1240,10 @@ WHERE
   row_num = 3
 ORDER BY
   customer_id ASC
+
+
+SELECT 
+  ROUND(right_vote / (right_vote + left_vote) * 100, 2) AS Right_Twix_Percentage,
+  ROUND(left_vote / (right_vote + left_vote) * 100, 2) AS Left_Twix_Percentage
+FROM 
+  candy_poll

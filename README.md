@@ -510,5 +510,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Hard
     - Concepts Covered: Used the ROW_NUMBER() window function, then used PARTITION BY to split it up by customer id and used ORDER BY to order it by transaction id ascending, making sure each customer's purchases were in sequential order. That query now assigned a row number to each purchase a customer made, so I used it as a subquery and had the outer query only grab the third order from each customer, performing a calculation to apply a discount to each third order.
+19. Day 110 - March 19th 2024: [Right Twix vs Left Twix from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day110.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Performed a calculation to see what percentage of consumers voted for right twix or left twix. Divided each side by the total number of votes and multiplied by 100 to get it as a percentage, then used the ROUND() function to round the output to 2 decimal places.
 
 </details>

@@ -1270,3 +1270,22 @@ GROUP BY
   owner_name
 ORDER BY
   owner_name ASC
+
+
+SELECT
+  student_name,
+  class_id,
+  grade
+FROM (
+  SELECT 
+    student_name,
+    class_id,
+    grade,
+    ROW_NUMBER() OVER(PARTITION BY student_name ORDER BY grade DESC, class_id ASC) AS grade_rank
+  FROM 
+    highest_grade
+) AS temp_table
+WHERE
+  grade_rank = 1
+ORDER BY
+  student_name ASC

@@ -518,5 +518,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Hard
     - Concepts Covered: Used a CASE statement to see if dog owners had walked their dogs enough to be considered a good owner. If they had multiple dogs, they must have walked both enough to be considered a good owner. Achieved this by finding the SUM() of all walks grouped by owner name and dog name to see how much each owner had walked each dog over the week. Then used that query as a subquery to check the MIN() of total walks - that way owners who had walked one of their dogs enough but not their other dogs enough would be labelled as bad owners by the CASE statement.
+21. Day 112 - March 21st 2024: [Highest Grade from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day112.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Used the ROW_NUMBER() window function in combination with the PARTITION BY keyword to group by student and the ORDER BY keyword to order by grade descending and class id ascending. This allowed me to get the top grades for each student as row number 1, and when a tie in grades happened it would be based on the lowest class id. I then used that query as a subquery to filter to instances where the row number was 1, allowing me to select the top grade and its corresponding subject and class id for each student.
 
 </details>

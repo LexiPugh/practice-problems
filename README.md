@@ -505,14 +505,18 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 17. Day 108 - March 17th 2024: [Temperature Fluctuations from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day108.md)
     - Languages Used: SQL
     - Question Difficulty: Hard
-    - Concepts Covered: Used the LAG() window function to get the previous date's temperature next to the current date's temperature in the output table. Then used that query as a subquery and selected the dates from that query only when the current date's temperature was greater than the previous date's temperature.
+    - Concepts Covered: Used the LAG() window function to get the previous date's temperature next to the current date's temperature in the output table. Then used that query as a subquery and selected the dates from that query only when the current date's temperature was greater than the previous date's temperature
 18. Day 109 - March 18th 2024: [Kelly's 3rd Purchase from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day109.md)
     - Languages Used: SQL
     - Question Difficulty: Hard
-    - Concepts Covered: Used the ROW_NUMBER() window function, then used PARTITION BY to split it up by customer id and used ORDER BY to order it by transaction id ascending, making sure each customer's purchases were in sequential order. That query now assigned a row number to each purchase a customer made, so I used it as a subquery and had the outer query only grab the third order from each customer, performing a calculation to apply a discount to each third order.
+    - Concepts Covered: Used the ROW_NUMBER() window function, then used PARTITION BY to split it up by customer id and used ORDER BY to order it by transaction id ascending, making sure each customer's purchases were in sequential order. That query now assigned a row number to each purchase a customer made, so I used it as a subquery and had the outer query only grab the third order from each customer, performing a calculation to apply a discount to each third order
 19. Day 110 - March 19th 2024: [Right Twix vs Left Twix from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day110.md)
     - Languages Used: SQL
     - Question Difficulty: Hard
-    - Concepts Covered: Performed a calculation to see what percentage of consumers voted for right twix or left twix. Divided each side by the total number of votes and multiplied by 100 to get it as a percentage, then used the ROUND() function to round the output to 2 decimal places.
+    - Concepts Covered: Performed a calculation to see what percentage of consumers voted for right twix or left twix. Divided each side by the total number of votes and multiplied by 100 to get it as a percentage, then used the ROUND() function to round the output to 2 decimal places
+20. Day 111 - March 20th 2024: [Good Dog Bad Owner from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day111.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Used a CASE statement to see if dog owners had walked their dogs enough to be considered a good owner. If they had multiple dogs, they must have walked both enough to be considered a good owner. Achieved this by finding the SUM() of all walks grouped by owner name and dog name to see how much each owner had walked each dog over the week. Then used that query as a subquery to check the MIN() of total walks - that way owners who had walked one of their dogs enough but not their other dogs enough would be labelled as bad owners by the CASE statement.
 
 </details>

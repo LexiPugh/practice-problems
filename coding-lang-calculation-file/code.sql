@@ -1247,3 +1247,26 @@ SELECT
   ROUND(left_vote / (right_vote + left_vote) * 100, 2) AS Left_Twix_Percentage
 FROM 
   candy_poll
+
+
+SELECT 
+  owner_name,
+  CASE 
+    WHEN MIN(all_walks) < 5 THEN 'Bad Owner'
+    ELSE 'Good Owner'
+  END AS owner_type
+FROM (
+  SELECT
+    owner_name,
+    dog_name,
+    SUM(times_walked) AS all_walks
+  FROM
+    walks
+  GROUP BY
+    owner_name,
+    dog_name
+) AS temp_table
+GROUP BY
+  owner_name
+ORDER BY
+  owner_name ASC

@@ -522,5 +522,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Hard
     - Concepts Covered: Used the ROW_NUMBER() window function in combination with the PARTITION BY keyword to group by student and the ORDER BY keyword to order by grade descending and class id ascending. This allowed me to get the top grades for each student as row number 1, and when a tie in grades happened it would be based on the lowest class id. I then used that query as a subquery to filter to instances where the row number was 1, allowing me to select the top grade and its corresponding subject and class id for each student.
+22. Day 113 - March 22nd 2024: [2nd Highest from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day113.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Started by using the INNER JOIN keyword to join the departments and employees tables on department id. I then used the ROW_NUMBER() window function in combination with the PARTITION BY keyword to group by department and the ORDER BY keyword to order by salary descending. I used that query as a subquery to filter to instances where the row number was 2, allowing me to select the second highest earner in each department.
 
 </details>

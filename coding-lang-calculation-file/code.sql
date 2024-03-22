@@ -1289,3 +1289,21 @@ WHERE
   grade_rank = 1
 ORDER BY
   student_name ASC
+
+
+SELECT
+  department_name,
+  employee_name,
+  salary
+FROM (
+  SELECT 
+    d.department_name,
+    e.employee_name,
+    e.salary,
+    ROW_NUMBER() OVER(PARTITION BY department_name ORDER BY salary DESC) AS row_num
+  FROM 
+    departments AS d INNER JOIN employees AS e
+    ON d.department_id = e.department_id
+  ) AS temp_table
+WHERE 
+  row_num = 2

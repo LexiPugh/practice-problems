@@ -1307,3 +1307,23 @@ FROM (
   ) AS temp_table
 WHERE 
   row_num = 2
+
+
+SELECT
+  company_id,
+  employee_id,
+  department,
+  CASE
+    WHEN total_salary > 200000 THEN (salary * 0.9)
+    WHEN total_salary <= 99000 THEN (salary * 0.6)
+    ELSE (salary * 0.75) 
+  END AS taxed_salary
+FROM (
+  SELECT 
+    company_id,
+    employee_id,
+    department,
+    salary,
+    SUM(salary) OVER(PARTITION BY company_id) AS total_salary
+  FROM
+    taxes) AS temp_table

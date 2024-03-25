@@ -1327,3 +1327,16 @@ FROM (
     SUM(salary) OVER(PARTITION BY company_id) AS total_salary
   FROM
     taxes) AS temp_table
+
+
+SELECT
+  property_id,
+  profit,
+  SUM(profit) OVER(ORDER BY purchase_price ASC) AS profit_running_total
+FROM(
+  SELECT
+    property_id,
+    purchase_price,
+    (estimated_sale_price - purchase_price) AS profit
+  FROM 
+    investment_property) AS temp_table

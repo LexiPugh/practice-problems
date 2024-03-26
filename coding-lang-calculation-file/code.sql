@@ -1340,3 +1340,11 @@ FROM(
     (estimated_sale_price - purchase_price) AS profit
   FROM 
     investment_property) AS temp_table
+
+
+SELECT 
+  COUNT(check_out) AS past_check_out
+FROM 
+  hotel_guests
+WHERE 
+  TIME(check_out) > '10:00:00'

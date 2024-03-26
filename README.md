@@ -533,6 +533,10 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 24. Day 115 - March 24th 2024: [Investment Properties from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day115.md)
     - Languages Used: SQL
     - Question Difficulty: Hard
-    - Concepts Covered: Started by calculating profit on home sales by subtracting the purchase price from the sale price. I then used that query as a subquery and used a window fuction to get a rolling total for the SUM() of profit.
+    - Concepts Covered: Started by calculating profit on home sales by subtracting the purchase price from the sale price. I then used that query as a subquery and used a window fuction to get a rolling total for the SUM() of profit
+25. Day 116 - March 25th 2024: [Hotel Guests from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day116.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Used the COUNT() function to count the number of check outs. Used the WHERE keyword in combination with the MySQL TIME() function to filter to checkouts that happened after 10am, the checkout time. The final query counted the number of guests that checked out late
 
 </details>

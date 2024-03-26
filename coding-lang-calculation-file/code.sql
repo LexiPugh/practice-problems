@@ -1348,3 +1348,19 @@ FROM
   hotel_guests
 WHERE 
   TIME(check_out) > '10:00:00'
+
+
+SELECT 
+  MONTH(transaction_date) AS month,
+  country AS country,
+  SUM(CASE WHEN state = 'Approved' THEN 1 ELSE 0 END) AS approved_transactions,
+  SUM(CASE WHEN state = 'Approved' THEN amount ELSE 0 END) AS approved_amount,
+  SUM(CASE WHEN state = 'Declined' THEN 1 ELSE 0 END) AS chargebacks,
+  SUM(CASE WHEN state = 'Declined' THEN amount ELSE 0 END) AS chargeback_amount
+FROM 
+  transactions
+GROUP BY
+  month,
+  Country
+ORDER BY
+  month ASC

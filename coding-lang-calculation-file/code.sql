@@ -1364,3 +1364,14 @@ GROUP BY
   Country
 ORDER BY
   month ASC
+
+
+SELECT 
+  type,
+  SUM(CASE WHEN state = 'Completed' THEN 1 ELSE 0 END) AS completed_requests,
+  SUM(CASE WHEN state <> 'Completed' THEN 1 ELSE 0 END) AS incomplete_requests,
+  SUM(CASE WHEN state = 'Completed' THEN 1 ELSE 0 END) / (SUM(CASE WHEN state = 'Completed' THEN 1 ELSE 0 END) + SUM(CASE WHEN state <> 'Completed' THEN 1 ELSE 0 END)) * 100 AS pct_complete
+FROM 
+  help_requests
+GROUP BY
+  type

@@ -542,5 +542,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Hard
     - Concepts Covered: Used the MONTH() function to extract the month from a date field. Used multiple CASE() statements to find the number of approved transactions and the total amount of money approved as well as the number of denied transactions and the total amount of money denied. Used the GROUP BY keyword to group by month and country so that each month from each country had its own row
+27. Day 118 - March 27th 2024: [Help Requests from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day118.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Used multiple CASE statements to count the number of completed requests, count the number of incomplete requests, and calculate the percentage of completed requests. I then used the GROUP BY keyword to group by request type, allowing us to break down the counts and percentage within each type of request
 
 </details>

@@ -1375,3 +1375,22 @@ FROM
   help_requests
 GROUP BY
   type
+
+
+SELECT
+  user_id
+FROM 
+  users
+WHERE
+  user_id NOT IN (
+  SELECT
+    user_id
+  FROM 
+    users
+  WHERE
+    activity_date > '2022-01-01'
+  )
+GROUP BY
+  user_id
+ORDER BY 
+  user_id

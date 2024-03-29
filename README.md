@@ -546,5 +546,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Hard
     - Concepts Covered: Used multiple CASE statements to count the number of completed requests, count the number of incomplete requests, and calculate the percentage of completed requests. I then used the GROUP BY keyword to group by request type, allowing us to break down the counts and percentage within each type of request
+28. Day 119 - March 28th 2024: [Inactive Accounts from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day119.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Started by writing a query that selects the user id of users that had been active recently. Used that as a subquery in the WHERE clause to find user ids that were not in the list of active users. Used the GROUP BY keyword to group by user id so that each inactive user id only showed up once in the output table
 
 </details>

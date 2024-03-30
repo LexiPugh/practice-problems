@@ -550,5 +550,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Hard
     - Concepts Covered: Started by writing a query that selects the user id of users that had been active recently. Used that as a subquery in the WHERE clause to find user ids that were not in the list of active users. Used the GROUP BY keyword to group by user id so that each inactive user id only showed up once in the output table
-
+29. Day 120 - March 29th 2024: [Customer Transactions from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day120.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Wrote a query that uses the SUM() function to calculate the total money spent and the GROUP BY function to group by customer id. Then used the RANK() window function to rank each customer by their spending and used the ORDER BY keyword to order on the total sales, the rank number, and the customer id. I then used that entire query as a subquery and filtered to rows where the rank number was 1, 2, or 3
+    
 </details>

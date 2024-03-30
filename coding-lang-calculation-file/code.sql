@@ -1394,3 +1394,21 @@ GROUP BY
   user_id
 ORDER BY 
   user_id
+
+
+SELECT
+  *
+FROM (
+  SELECT 
+    customer_id,
+    SUM(sale_amount) AS total_sales,
+    RANK() OVER(ORDER BY SUM(sale_amount) DESC) AS rank_num
+  FROM 
+    customer_transactions
+  GROUP BY
+    customer_id
+  ORDER BY
+    rank_num,
+    customer_id) AS temp_table
+WHERE
+  rank_num IN (1, 2, 3)

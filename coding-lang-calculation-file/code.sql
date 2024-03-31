@@ -1412,3 +1412,16 @@ FROM (
     customer_id) AS temp_table
 WHERE
   rank_num IN (1, 2, 3)
+
+
+SELECT
+  product_id,
+  CONCAT(UCASE(LEFT(fixed_product_name, 1)), LCASE(SUBSTRING(fixed_product_name, 2))) AS product_name,
+  amount_sold
+FROM (
+  SELECT 
+    product_id,
+    REGEXP_REPLACE(product_name, '[^0-9a-zA-Z ]', '') AS fixed_product_name,
+    amount_sold
+  FROM 
+    janines_mistakes ) AS temp_table

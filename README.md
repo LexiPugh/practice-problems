@@ -554,5 +554,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Hard
     - Concepts Covered: Wrote a query that uses the SUM() function to calculate the total money spent and the GROUP BY function to group by customer id. Then used the RANK() window function to rank each customer by their spending and used the ORDER BY keyword to order on the total sales, the rank number, and the customer id. I then used that entire query as a subquery and filtered to rows where the rank number was 1, 2, or 3
+30. Day 121 - March 30th 2024: [JANINE!! from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day121.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Used regular expression, more specifically the REGEXP_REPLACE() function, to remove any non-alphanumeric characters from the product name. Then used that query as a subquery so I could fix the capitalization of the fixed product names. I used the MySQL UCASE() function in combination with the LEFT() function to capitalize the first letter, used the LCASE() function in combination with the SUBSTRING() function to make the rest of the word after the first letter lowercase, then used the CONCAT() function to combine them into the full product name
     
 </details>

@@ -1425,3 +1425,21 @@ FROM (
     amount_sold
   FROM 
     janines_mistakes ) AS temp_table
+
+  
+SELECT
+  chef_name,
+  returned_orders
+FROM (
+  SELECT 
+    chef_name,
+    SUM(CASE WHEN order_returned = 'Y' THEN 1 ELSE 0 END) AS returned_orders,
+    RANK() OVER(ORDER BY SUM(CASE WHEN order_returned = 'Y' THEN 1 ELSE 0 END) DESC) AS rank_num
+  FROM 
+    orders
+  GROUP BY
+    chef_name ) AS temp_table
+WHERE 
+  rank_num = 1
+ORDER BY
+  chef_name ASC

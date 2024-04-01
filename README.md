@@ -558,5 +558,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Hard
     - Concepts Covered: Used regular expression, more specifically the REGEXP_REPLACE() function, to remove any non-alphanumeric characters from the product name. Then used that query as a subquery so I could fix the capitalization of the fixed product names. I used the MySQL UCASE() function in combination with the LEFT() function to capitalize the first letter, used the LCASE() function in combination with the SUBSTRING() function to make the rest of the word after the first letter lowercase, then used the CONCAT() function to combine them into the full product name
+31. Day 122 - March 31st 2024: [Chef Malpractice from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day122.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Used the SUM() function in combination with the CASE() function to add up the number of orders that were returned to the kitchen, then used the GROUP BY keyword to group by chef. Afterwards, I used the RANK() window function and nested it with the CASE() function to order by the number of returned orders descending. I then used that entire query as a subquery and used the WHERE keyword to filter the rank number to 1, allowing me to select the chef with the most food sent back to the kitchen
     
 </details>

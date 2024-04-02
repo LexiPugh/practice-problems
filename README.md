@@ -564,3 +564,19 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Concepts Covered: Used the SUM() function in combination with the CASE() function to add up the number of orders that were returned to the kitchen, then used the GROUP BY keyword to group by chef. Afterwards, I used the RANK() window function and nested it with the CASE() function to order by the number of returned orders descending. I then used that entire query as a subquery and used the WHERE keyword to filter the rank number to 1, allowing me to select the chef with the most food sent back to the kitchen
     
 </details>
+
+
+### April 2024
+
+<details>
+
+<summary>April 2024 Practice Problems</summary>
+
+<br>
+
+1. Day 123 - April 1st 2024: [Twitter Addiction from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day123.md)
+    - Languages Used: SQL
+    - Question Difficulty: Very Hard
+    - Concepts Covered: Used the TIMESTAMPDIFF() and LAG() window function together to find the time between posts for Twitter users. I used that query as a subquery and utilized the AVG() function to find the average amount of time between posts for each user.
+
+</details>

@@ -1443,3 +1443,16 @@ WHERE
   rank_num = 1
 ORDER BY
   chef_name ASC
+
+
+SELECT
+  twitter_id,
+  AVG(time_difference) AS avg_time_diff
+FROM (
+  SELECT 
+    twitter_id,
+    TIMESTAMPDIFF(MINUTE, LAG(tweet_time) OVER(PARTITION BY twitter_id ORDER BY tweet_time), tweet_time) AS time_difference
+  FROM 
+    twitter_addiction) AS tweet_time_table
+GROUP BY
+  twitter_id

@@ -1456,3 +1456,18 @@ FROM (
     twitter_addiction) AS tweet_time_table
 GROUP BY
   twitter_id
+
+
+SELECT
+  domain,
+  COUNT(domain) AS domain_count
+FROM (
+  SELECT 
+    SUBSTRING_INDEX(SUBSTRING_INDEX(email_address, "@", -1), '.', 1) AS domain
+  FROM 
+    emails ) AS temp_table
+GROUP BY
+  domain
+ORDER BY
+  domain_count DESC,
+  domain DESC

@@ -578,10 +578,14 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 1. Day 123 - April 1st 2024: [Twitter Addiction from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day123.md)
     - Languages Used: SQL
     - Question Difficulty: Very Hard
-    - Concepts Covered: Used the TIMESTAMPDIFF() and LAG() window function together to find the time between posts for Twitter users. I used that query as a subquery and utilized the AVG() function to find the average amount of time between posts for each user.
+    - Concepts Covered: Used the TIMESTAMPDIFF() and LAG() window function together to find the time between posts for Twitter users. I used that query as a subquery and utilized the AVG() function to find the average amount of time between posts for each user
 2. Day 124 - April 2nd 2024: [Domain Knowledge from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day124.md)
     - Languages Used: SQL
     - Question Difficulty: Hard
     - Concepts Covered: Used the SUBSTRING_INDEX function twice, first to split on the @ symbol and second to split on the . symbol, which allowed me to select only the domain for each email address. Then I used that query as a subquery, and in the outer query I used the COUNT() function and the GROUP BY keyword to see how many times each domain appeared in the dataset
+3. Day 125 - April 3rd 2024: [Returning Customers from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day125.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Used the MySQL DATEDIFF() function and the LAG() window function together to find out how long customers took to place a new order relative to their previous order. I used that query as a subquery and in the outer query I used the WHERE keyword to filter to where the number of days between purchases was less than or equal to 5, then used the GROUP BY keyword to group by user id
 
 </details>

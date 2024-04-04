@@ -1471,3 +1471,17 @@ GROUP BY
 ORDER BY
   domain_count DESC,
   domain DESC
+
+
+SELECT
+  customer_id
+FROM (
+  SELECT 
+    customer_id,
+    DATEDIFF(visit_date, LAG(visit_date) OVER(PARTITION BY customer_id ORDER BY customer_id ASC, visit_date ASC)) AS days_between_purchase
+  FROM 
+    customers ) AS difference_table
+WHERE
+  days_between_purchase <= 5
+GROUP BY
+  customer_id

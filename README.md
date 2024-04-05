@@ -587,5 +587,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Hard
     - Concepts Covered: Used the MySQL DATEDIFF() function and the LAG() window function together to find out how long customers took to place a new order relative to their previous order. I used that query as a subquery and in the outer query I used the WHERE keyword to filter to where the number of days between purchases was less than or equal to 5, then used the GROUP BY keyword to group by user id
+4. Day 126 - April 4th 2024: [Basketball Greatness from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day126.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Used the DENSE_RANK() window function to rank basketball players based on total points scored. The question specified that in case of a tie the next rank should be the next consecutive integer, which is how I knew to use DENSE_RANK() over RANK()
 
 </details>

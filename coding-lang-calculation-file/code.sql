@@ -1485,3 +1485,11 @@ WHERE
   days_between_purchase <= 5
 GROUP BY
   customer_id
+
+
+SELECT 
+  player,
+  points,
+  DENSE_RANK() OVER(ORDER BY points DESC) AS ranking
+FROM 
+  player_totals

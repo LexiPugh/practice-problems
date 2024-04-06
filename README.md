@@ -595,5 +595,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Hard
     - Concepts Covered: Used the RANK() window function to rank Facebook actions (such as comments, likes, etc.) based on how many times they were performed. Used the WHERE keyword to filter the date to Christmas day to look at only Christmas actions and used the GROUP BY keyword to group the count of actions by each action type
+6. Day 128 - April 6th 2024: [Name Format from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day128.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Used a combination of the LEFT() function, SUBSTRING() function, UPPER() function, and LOWER() function to fix the capitalization of name fields and put them in Proper Case, with the first letter capitalized and everything else lowercase. I then used the CONCAT() function to create a field that holds the full name in Proper Case.
 
 </details>

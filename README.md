@@ -591,5 +591,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Hard
     - Concepts Covered: Used the DENSE_RANK() window function to rank basketball players based on total points scored. The question specified that in case of a tie the next rank should be the next consecutive integer, which is how I knew to use DENSE_RANK() over RANK()
+5. Day 127 - April 5th 2024: [Merry Facebook from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day127.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Used the RANK() window function to rank Facebook actions (such as comments, likes, etc.) based on how many times they were performed. Used the WHERE keyword to filter the date to Christmas day to look at only Christmas actions and used the GROUP BY keyword to group the count of actions by each action type
 
 </details>

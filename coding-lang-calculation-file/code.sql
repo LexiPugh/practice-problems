@@ -1493,3 +1493,18 @@ SELECT
   DENSE_RANK() OVER(ORDER BY points DESC) AS ranking
 FROM 
   player_totals
+
+
+SELECT 
+  actions,
+  COUNT(actions) AS action_count,
+  RANK() OVER(ORDER BY COUNT(actions) DESC) AS rank_num
+FROM 
+  facebook
+WHERE
+  dates = '2023-12-25'
+GROUP BY
+  actions
+ORDER BY
+  rank_num ASC,
+  actions ASC

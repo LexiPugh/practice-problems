@@ -1508,3 +1508,12 @@ GROUP BY
 ORDER BY
   rank_num ASC,
   actions ASC
+
+
+SELECT 
+  CONCAT(UPPER(LEFT(first_name, 1)), LOWER(SUBSTRING(first_name, 2)), " ",
+  UPPER(LEFT(last_name, 1)), LOWER(SUBSTRING(last_name, 2))) AS full_name
+FROM 
+  names
+ORDER BY
+  full_name ASC

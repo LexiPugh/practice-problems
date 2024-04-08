@@ -600,4 +600,6 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Question Difficulty: Hard
     - Concepts Covered: Used a combination of the LEFT() function, SUBSTRING() function, UPPER() function, and LOWER() function to fix the capitalization of name fields and put them in Proper Case, with the first letter capitalized and everything else lowercase. I then used the CONCAT() function to create a field that holds the full name in Proper Case.
 
+TESTING
+
 </details>

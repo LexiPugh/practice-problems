@@ -598,10 +598,18 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 6. Day 128 - April 6th 2024: [Name Format from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day128.md)
     - Languages Used: SQL
     - Question Difficulty: Hard
-    - Concepts Covered: Used a combination of the LEFT() function, SUBSTRING() function, UPPER() function, and LOWER() function to fix the capitalization of name fields and put them in Proper Case, with the first letter capitalized and everything else lowercase. I then used the CONCAT() function to create a field that holds the full name in Proper Case.
-
-TESTING
-
-HELLO AGAIN TESTING FROM GIT BASH
+    - Concepts Covered: Used a combination of the LEFT() function, SUBSTRING() function, UPPER() function, and LOWER() function to fix the capitalization of name fields and put them in Proper Case, with the first letter capitalized and everything else lowercase. I then used the CONCAT() function to create a field that holds the full name in Proper Case
+7. Day 129 - April 7th 2024: [Job Search from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day129.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Used a combination of the AND keyword, the OR keyword, the LIKE keyword, the wildcard character %, and the SUBSTRING_INDEX() function in the WHERE clause to perform complex filtering on job postings. I filtered on job title, required skills, and salary
+8. Day 130 - April 8th 2024: [Cake vs Pie from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day130.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Used CASE statements to add up the number of cakes and pies sold, then used the GROUP BY keyword to group by date and view how many were sold each day. I then made another CASE statement to output which dessert was more popular for each date and calculated the difference in the number of products sold
+9. Day 131 - April 9th 2024: [Internet Outages from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day131.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Used the STR_TO_DATE function to convert the data type of the date fields from strings to dates. Then used the AVG() and TIMESTAMPDIFF() function to calculate the average number of minutes that an internet outage lasts, using the GROUP BY keyword to group by each ISP. I also used a CASE statement to add up cases where the end date of the outage IS NULL, meaning that the outage is still ongoing
 
 </details>

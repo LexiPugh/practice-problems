@@ -1517,3 +1517,44 @@ FROM
   names
 ORDER BY
   full_name ASC
+
+
+SELECT
+  *
+FROM 
+  job_listings
+WHERE
+  (job_title LIKE '%Senior%' OR job_title LIKE '%Lead%')
+  AND (required_skills LIKE '%SQL%' AND required_skills LIKE '%Python%')
+  AND (SUBSTRING_INDEX(SUBSTRING_INDEX(job_salary,'-', 1), "$", -1) > 85000)
+ORDER BY
+  job_id ASC
+
+
+SELECT
+  date_sold,
+  ABS(cake - pie) AS difference,
+  CASE WHEN cake > pie THEN "Cake" ELSE "Pie" END AS more_sold
+FROM (
+  SELECT 
+    date_sold,
+    SUM(CASE WHEN product = 'Cake' THEN amount_sold ELSE 0 END) AS cake,
+    SUM(CASE WHEN product = 'Pie' THEN amount_sold ELSE 0 END) AS pie
+  FROM 
+    desserts
+  GROUP BY
+    date_sold
+  ORDER BY
+    date_sold ) AS cake_pie_table
+
+  
+SELECT 
+  isp_name,
+  AVG(TIMESTAMPDIFF(MINUTE, STR_TO_DATE(start_time, "%m/%d/%Y %T"), STR_TO_DATE(end_time, "%m/%d/%Y %T"))) AS average_outage_duration,
+  SUM(CASE WHEN end_time IS NULL THEN 1 ELSE 0 END) AS ongoing_outages
+FROM 
+  isp_outages
+GROUP BY
+  isp_name
+ORDER BY
+  average_outage_duration DESC

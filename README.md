@@ -611,5 +611,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Hard
     - Concepts Covered: Used the STR_TO_DATE function to convert the data type of the date fields from strings to dates. Then used the AVG() and TIMESTAMPDIFF() function to calculate the average number of minutes that an internet outage lasts, using the GROUP BY keyword to group by each ISP. I also used a CASE statement to add up cases where the end date of the outage IS NULL, meaning that the outage is still ongoing
+10. Day 132 - April 10th 2024: [Lyft Bonuses from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day132.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Used a CASE statement to calculate bonuses for each Lyft driver depending on the number of rides they completed - $100 for 100 rides, $500 for 500 rides, $1000 for 1000 rides, and an extra $1000 for each 1,000 rides afterwards. I used the FLOOR() function within a calculation to round the rides to the lowest thousand - so a driver with 7,500 rides would be counted as having 7000 rides to calculate the bonus for the last thousand they reached.
 
 </details>

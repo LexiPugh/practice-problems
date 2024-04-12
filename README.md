@@ -614,6 +614,10 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 10. Day 132 - April 10th 2024: [Lyft Bonuses from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day132.md)
     - Languages Used: SQL
     - Question Difficulty: Hard
-    - Concepts Covered: Used a CASE statement to calculate bonuses for each Lyft driver depending on the number of rides they completed - $100 for 100 rides, $500 for 500 rides, $1000 for 1000 rides, and an extra $1000 for each 1,000 rides afterwards. I used the FLOOR() function within a calculation to round the rides to the lowest thousand - so a driver with 7,500 rides would be counted as having 7000 rides to calculate the bonus for the last thousand they reached.
+    - Concepts Covered: Used a CASE statement to calculate bonuses for each Lyft driver depending on the number of rides they completed - $100 for 100 rides, $500 for 500 rides, $1000 for 1000 rides, and an extra $1000 for each 1,000 rides afterwards. I used the FLOOR() function within a calculation to round the rides to the lowest thousand - so a driver with 7,500 rides would be counted as having 7000 rides to calculate the bonus for the last thousand they reached
+11. Day 133 - April 11th 2024: [Price Check from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day133.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Used the SELECT, GROUP BY, and WHERE keywords to select the MAX() of the date for each product before or on a certain date, grouped by product id. Then used that query as a subquery and selected the product id and price and did an INNER JOIN on the subquery output table and the base table. I joined on product id and the date from the main table being equal to the MAX() date from the subquery table, finding the most recent product price
 
 </details>

@@ -1576,3 +1576,23 @@ GROUP BY
   driver_id
 ORDER BY
   driver_id
+
+
+SELECT
+  p.product_id,
+  p.price
+FROM (
+  SELECT
+    product_id,
+    MAX(dates) AS max_date
+  FROM
+    price_check
+  WHERE 
+    dates <= '2022-04-07'
+  GROUP BY
+    product_id ) AS m
+  JOIN price_check AS p 
+  ON p.product_id = m.product_id
+  AND p.dates = m.max_date
+ORDER BY
+  product_id

@@ -1620,3 +1620,32 @@ FROM (
     consecutive_visits
   GROUP BY
     id ) AS final_consecutive_visits
+
+  
+WITH joined_data AS (
+  SELECT 
+    o.total_amount,
+    c.customer_name,
+    MONTH(order_date) AS month
+  FROM 
+    orders AS o INNER JOIN customers AS c
+    ON o.customer_id = c.customer_id
+)
+SELECT
+  month,
+  customer_name,
+  monthly_total_spending
+FROM (
+  SELECT
+    *,
+    SUM(total_amount) AS monthly_total_spending,
+    ROW_NUMBER() OVER(PARTITION BY month ORDER BY total_amount DESC) AS row_num
+  FROM
+    joined_data
+  GROUP BY 
+    month,
+    customer_name ) AS spending_table
+WHERE
+  row_num = 1
+ORDER BY
+  month ASC

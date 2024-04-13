@@ -1596,3 +1596,27 @@ FROM (
   AND p.dates = m.max_date
 ORDER BY
   product_id
+
+
+WITH consecutive_visits AS (
+  SELECT 
+      n.id,
+      name,
+      visit_date,
+      DATEDIFF(d.visit_date, LAG(visit_date) OVER(PARTITION BY id ORDER BY visit_date ASC)) AS days_between_visits
+    FROM 
+      names AS n INNER JOIN dates AS d
+      ON n.id = d.id
+)
+SELECT
+  id,
+  name,
+  MAX(num_consecutive_visits) AS max_consecutive_visits
+FROM (
+  SELECT
+    *,
+    SUM(CASE WHEN days_between_visits = 1 THEN 1 ELSE 0 END) + 1 AS num_consecutive_visits
+  FROM 
+    consecutive_visits
+  GROUP BY
+    id ) AS final_consecutive_visits

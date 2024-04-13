@@ -619,5 +619,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Hard
     - Concepts Covered: Used the SELECT, GROUP BY, and WHERE keywords to select the MAX() of the date for each product before or on a certain date, grouped by product id. Then used that query as a subquery and selected the product id and price and did an INNER JOIN on the subquery output table and the base table. I joined on product id and the date from the main table being equal to the MAX() date from the subquery table, finding the most recent product price
+12. Day 134 - April 12th 2024: [Consecutive Visits from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day134.md)
+    - Languages Used: SQL
+    - Question Difficulty: Very Hard
+    - Concepts Covered: Started off by creating a CTE. Within the CTE, I joined the two datasets on customer id, selected all the columns, and used the DATEDIFF() function to find the difference between the visit date and the last visit date. The last visit date was calulated using the LAG() window function on visit date, using the PARTITION BY keyword to group by customer id and the ORDER BY keyword to order on the visit date. I then made a query that selected everything from that CTE, along with a CASE() statement that used the SUM() function to add up cases where the days between visits were equal to 1, meaning the visit was consecutive. I also had to add 1 to the CASE statement's results to count the first visit. With all that done, I used that query as a subquery to grab the MAX() of the consecutive visits.
 
 </details>

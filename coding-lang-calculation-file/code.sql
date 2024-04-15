@@ -1649,3 +1649,33 @@ WHERE
   row_num = 1
 ORDER BY
   month ASC
+
+
+WITH rank_table AS (
+  SELECT 
+    *,
+    DENSE_RANK() OVER(ORDER BY time_in_seconds DESC) AS rank_number
+  FROM 
+    nascar_times
+)
+SELECT
+  label,
+  time_in_seconds AS time,
+  CASE WHEN label = 'Slowest' THEN RANK() OVER(PARTITION BY label ORDER BY time_in_seconds DESC)
+  ELSE RANK() OVER(PARTITION BY label ORDER BY time_in_seconds ASC)
+  END AS ranking
+FROM (
+  SELECT
+    *,
+    CASE WHEN rank_number IN (1, 2, 3) THEN 'Slowest'
+    ELSE 'Fastest'
+    END AS label
+  FROM 
+    rank_table
+  WHERE
+    rank_number IN (1, 2, 3, 23, 22, 21)
+  GROUP BY
+    rank_number ) AS laps_table
+ORDER BY
+  label DESC,
+  ranking ASC

@@ -1679,3 +1679,16 @@ FROM (
 ORDER BY
   label DESC,
   ranking ASC
+
+
+SELECT 
+  CASE
+    WHEN address LIKE '%Suite%' THEN TRIM(SUBSTRING_INDEX(address, 'Suite', 1))
+    WHEN address LIKE '%Unit%' THEN TRIM(SUBSTRING_INDEX(address, 'Unit', 1))
+    ELSE TRIM(SUBSTRING_INDEX(address, "-", 1))
+  END AS street,
+  TRIM(SUBSTRING_INDEX(SUBSTRING_INDEX(address, "-", 2), "-", -1)) AS city,
+  TRIM(SUBSTRING_INDEX(SUBSTRING_INDEX(SUBSTRING_INDEX(address, "-", 3), "-", -1), " ", 1)) AS state,
+  TRIM(SUBSTRING_INDEX(SUBSTRING_INDEX(SUBSTRING_INDEX(address, "-", 3), "-", -1), " ", -1)) AS postal_code
+FROM 
+  addresses

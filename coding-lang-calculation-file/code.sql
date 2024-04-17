@@ -1692,3 +1692,25 @@ SELECT
   TRIM(SUBSTRING_INDEX(SUBSTRING_INDEX(SUBSTRING_INDEX(address, "-", 3), "-", -1), " ", -1)) AS postal_code
 FROM 
   addresses
+
+
+WITH joined_filtered_data AS (
+SELECT 
+  status,
+  request_at
+FROM 
+  rides AS r 
+  JOIN users AS u1 ON r.client_id = u1.user_id
+  JOIN users AS u2 ON r.driver_id = u2.user_id
+WHERE
+  u1.banned <> 'Yes'
+  AND u2.banned <> 'Yes'
+  AND r.request_at BETWEEN '2023-12-23' AND '2023-12-25' 
+)
+SELECT 
+  request_at,
+  ROUND((SUM(CASE WHEN status <> 'completed' THEN 1 ELSE 0 END) / COUNT(status)) * 100, 2) AS cancellation_rate
+FROM 
+  joined_filtered_data
+GROUP BY
+  request_at

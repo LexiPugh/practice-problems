@@ -635,5 +635,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Very Hard
     - Concepts Covered: Used the SUBSTRING_INDEX() function to convert an address stored in one field to separate fields for the street, city, state, and postal code. I used a CASE statement for the street address to ensure that unnecessary information such as the unit or suite numbers are removed. I also used the TRIM() function to remove any extra whitespace from the data, ensuring consistent formatting
+16. Day 138 - April 16th 2024: [Uber Cancellation Rates from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day138.md)
+    - Languages Used: SQL
+    - Question Difficulty: Very Hard
+    - Concepts Covered: Started off by creating a CTE to filter and join the data. I had to use the JOIN keyword twice, once to join the client ids with the user ids and once to join the driver ids with the user ids. I also made sure to filter to only unbanned users and to the dates specified in the question. I selected from that CTE for my query, where I added up cancelled rides, divided by all rides, and multiplied by 100 to calculate the cancellation rate. To calculate the cancelled rides I used the SUM() function and a CASE statement together to add up the rides where the status was not equal to completed, and I just used the COUNT() function on a field to get the total rides. I ended off the query by using the ROUND() function to round the percentage to 2 decimals and used the GROUP BY keyword to group by the date, getting a separate percentage for each date in the date range.
 
 </details>

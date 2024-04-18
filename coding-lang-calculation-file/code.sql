@@ -1714,3 +1714,28 @@ FROM
   joined_filtered_data
 GROUP BY
   request_at
+
+
+WITH RECURSIVE employeehierarchy AS (
+  SELECT 
+    employee_id,
+    1 AS level 
+  FROM 
+    hierarchy
+  WHERE
+    supervisor_id IS NULL
+  UNION ALL
+  SELECT
+    h.employee_id,
+    eh.level + 1 AS level
+  FROM 
+    hierarchy AS h INNER JOIN employeehierarchy AS eh 
+    ON h.supervisor_id = eh.employee_id
+)
+SELECT
+  employee_id,
+  level
+FROM
+  employeehierarchy
+ORDER BY 
+  employee_id

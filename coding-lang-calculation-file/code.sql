@@ -1739,3 +1739,23 @@ FROM
   employeehierarchy
 ORDER BY 
   employee_id
+
+
+WITH inflation_table AS (
+SELECT 
+  country,
+  consumer_price_index AS current_rate,
+  LAG(consumer_price_index) OVER(PARTITION BY country ORDER BY year ASC) AS previous_rate
+FROM 
+  inflation
+)
+SELECT
+  country,
+  AVG(((current_rate - previous_rate) / previous_rate) * 100) AS average_inflation,
+  RANK() OVER(ORDER BY AVG(((current_rate - previous_rate) / previous_rate) * 100) DESC) AS rank_num
+FROM
+  inflation_table
+GROUP BY 
+  country
+ORDER BY
+  rank_num

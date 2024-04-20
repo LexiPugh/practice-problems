@@ -1759,3 +1759,22 @@ GROUP BY
   country
 ORDER BY
   rank_num
+
+
+WITH sending_opening_times AS (
+SELECT 
+  ab.age_bucket,
+  SUM(CASE WHEN a.activity_type = 'send' THEN a.time_spent ELSE 0 END) AS time_spent_sending,
+  SUM(CASE WHEN a.activity_type = 'open' THEN a.time_spent ELSE 0 END) AS time_spent_opening
+FROM
+  activities AS a INNER JOIN age_breakdown AS ab 
+  ON a.user_id = ab.user_id
+GROUP BY
+  age_bucket
+)
+SELECT
+  age_bucket,
+  ROUND(time_spent_sending / (time_spent_sending + time_spent_opening) * 100.0, 2) AS sending_pct,
+  ROUND(time_spent_opening / (time_spent_sending + time_spent_opening) * 100.0, 2) AS opening_pct
+FROM
+  sending_opening_times

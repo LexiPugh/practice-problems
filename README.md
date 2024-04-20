@@ -647,5 +647,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Very Hard
     - Concepts Covered: Started by creating a CTE where I selected the country, the consumer price index field to grab the current inflation rate, and the previous consumer price index to grab the previous inflation rate. The previous inflation rate was calculated with the LAG() window function, using the PARTITION BY and ORDER BY keywords to group by country and order by year. I then used that CTE to find the average inflation rate. The average inflation rate was calculated by subtracting the previous inflation rate from the current inflation rate, dividing by the previous inflation rate, multiplying by 100, then using the AVG() function to average it all. I then used the RANK() window function to rank the countries based on their average inflation rate and ordered by the rank number.
+19. Day 141 - April 19th 2024: [Sending vs. Opening Snaps from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day141.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Created a CTE that used the INNER JOIN keyword to join the activities and age breakdown tables on the user id. In the CTE I also used CASE statements to add up time spent based on whether the activity type was sending Snapchats or opening Snapchats, then used the GROUP BY keyword to group the time spent on each activity by age group. I then used that CTE to perform a calculation that finds how much time was being spent on the sending vs. opening rates as a percentage total of time spent on both activities. I finished up the query by using the ROUND() function to round the percentages to two decimal places.
 
 </details>

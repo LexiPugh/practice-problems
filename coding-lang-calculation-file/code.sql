@@ -1778,3 +1778,21 @@ SELECT
   ROUND(time_spent_opening / (time_spent_sending + time_spent_opening) * 100.0, 2) AS opening_pct
 FROM
   sending_opening_times
+
+
+WITH row_num_table AS (
+SELECT 
+  measurement_value,
+  DATE_TRUNC('day', measurement_time) as measurement_day,
+  ROW_NUMBER() OVER(PARTITION BY DATE_TRUNC('day', measurement_time) ORDER BY measurement_time ASC) AS row_num
+FROM 
+  measurements
+)
+SELECT
+  measurement_day,
+  SUM(CASE WHEN row_num % 2 = 0 THEN measurement_value ELSE 0 END) AS even_sum,
+  SUM(CASE WHEN row_num % 2 <> 0 THEN measurement_value ELSE 0 END) AS odd_sum
+FROM
+  row_num_table
+GROUP BY
+  measurement_day

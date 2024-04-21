@@ -651,5 +651,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Created a CTE that used the INNER JOIN keyword to join the activities and age breakdown tables on the user id. In the CTE I also used CASE statements to add up time spent based on whether the activity type was sending Snapchats or opening Snapchats, then used the GROUP BY keyword to group the time spent on each activity by age group. I then used that CTE to perform a calculation that finds how much time was being spent on the sending vs. opening rates as a percentage total of time spent on both activities. I finished up the query by using the ROUND() function to round the percentages to two decimal places.
+20. Day 142 - April 20th 2024: [Odd and Even Measurements from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day142.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Created a CTE that grabbed the measurement values, the DATE_TRUNC() of the date field aggregated to day, and the ROW_NUMBER() window function with a PARTITION BY the day. From that CTE I selected the measurement day, then used CASE statements to SUM() the measurement values based on whether or not the row number was even or odd. I tested this by using the modulo (%) operator on the row number, as any even number modulo 2 is 0 and odd numbers result in a 1. I finished up the query with the GROUP BY keyword to group by the day, resulting in the total even and odd measurements for each day in the dataset.
 
 </details>

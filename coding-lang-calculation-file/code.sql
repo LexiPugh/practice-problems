@@ -1796,3 +1796,17 @@ FROM
   row_num_table
 GROUP BY
   measurement_day
+
+
+SELECT
+  user_id,
+  spend,
+  transaction_date
+FROM (
+  SELECT 
+    *,
+    ROW_NUMBER() OVER(PARTITION BY user_id ORDER BY transaction_date ASC) AS row_num
+  FROM 
+    transactions ) AS row_num_table
+WHERE
+  row_num = 3

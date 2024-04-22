@@ -655,5 +655,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Created a CTE that grabbed the measurement values, the DATE_TRUNC() of the date field aggregated to day, and the ROW_NUMBER() window function with a PARTITION BY the day. From that CTE I selected the measurement day, then used CASE statements to SUM() the measurement values based on whether or not the row number was even or odd. I tested this by using the modulo (%) operator on the row number, as any even number modulo 2 is 0 and odd numbers result in a 1. I finished up the query with the GROUP BY keyword to group by the day, resulting in the total even and odd measurements for each day in the dataset.
+21. Day 143 - April 21st 2024: [User's Third Transaction from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day143.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the ROW_NUMBER() window function with a PARTITION BY user id, using the ORDER BY keyword to order by the transaction date and assign a row number to each user's transactions. I then used that query as a subquery and used the WHERE keyword to filter where the row number was equal to 3, grabbing each user's third order.
 
 </details>

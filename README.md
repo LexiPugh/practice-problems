@@ -659,5 +659,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used the ROW_NUMBER() window function with a PARTITION BY user id, using the ORDER BY keyword to order by the transaction date and assign a row number to each user's transactions. I then used that query as a subquery and used the WHERE keyword to filter where the row number was equal to 3, grabbing each user's third order.
+22. Day 144 - April 22nd 2024: [Tweets' Rolling Averages from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day144.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the AVG() window function with a PARTITION BY user id, using the ORDER BY keyword to order by the tweet date ascending, resulting in a rolling average. I then used the ROWS BETWEEN keyword to only average the two preceding rows and the current row, making a rolling 3-day average. I finished off by using the ROUND() function to round the output to 2 decimal places.
 
 </details>

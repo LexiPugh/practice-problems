@@ -1818,3 +1818,25 @@ SELECT
   ROUND(AVG(tweet_count) OVER(PARTITION BY user_id ORDER BY tweet_date ASC ROWS BETWEEN 2 PRECEDING AND CURRENT ROW), 2) AS rolling_average
 FROM 
   tweets
+
+
+WITH rank_table AS (
+  SELECT 
+    *,
+    RANK() OVER(PARTITION BY user_id ORDER BY transaction_date DESC) AS rank_num
+  FROM 
+    user_transactions
+)
+SELECT 
+  transaction_date,
+  user_id,
+  COUNT(product_id) AS purchase_count
+FROM 
+  rank_table
+WHERE
+  rank_num = 1
+GROUP BY
+  transaction_date,
+  user_id
+ORDER BY
+  transaction_date ASC

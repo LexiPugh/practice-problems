@@ -1840,3 +1840,27 @@ GROUP BY
   user_id
 ORDER BY
   transaction_date ASC
+
+
+WITH products_ranked AS (
+  SELECT 
+    category,
+    product,
+    SUM(spend) AS total_spend,
+    RANK() OVER(PARTITION BY category ORDER BY SUM(spend) DESC) AS rank_num
+  FROM 
+    product_spend
+  WHERE
+      DATE_PART('year', transaction_date) = 2022
+  GROUP BY
+    product,
+    category
+)
+SELECT
+  category,
+  product,
+  total_spend
+FROM
+  products_ranked
+WHERE
+  rank_num IN (1, 2)

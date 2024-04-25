@@ -667,5 +667,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used the RANK() window function with a PARTITION BY user id, using the ORDER BY keyword to order by the transaction date descending, resulting in the most recent transaction date for each user being assigned a rank number of 1. I then used the COUNT() function on the product id column to count the number of purchases since some customers made more than one purchase in a day. I used the WHERE keyword to filter the rank number to 1 and the GROUP BY keyword to group by transaction date and user id.
+24. Day 146 - April 24th 2024: [Highest-Grossing Items from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day146.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: I started by creating a CTE. In the CTE, I used the SUM() function to find the total amount of money spent, then used the RANK() window function with a PARTITION BY item category, using the ORDER BY keyword to order by the SUM() of money spent descending. I used the DATE_PART function in the WHERE clause to filter to purchases that took place in 2022, then used the GROUP BY keyword to group by category and product. This put the top two products based on money spent for each category in 2022 at rank number 1 and 2. I then selected the category, product, and total money spent from the CTE and used the WHERE keyword to filter to the rank being 1 or 2.
 
 </details>

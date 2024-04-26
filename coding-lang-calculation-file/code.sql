@@ -1888,3 +1888,18 @@ WHERE
   artist_rank IN (1, 2, 3, 4, 5)
 ORDER BY
   artist_rank ASC
+
+
+SELECT
+  COUNT(policy_holder_id) AS policy_holder_count
+FROM (
+  SELECT
+    policy_holder_id,
+    COUNT(case_id) AS call_count
+  FROM 
+    callers
+  GROUP BY
+    policy_holder_id
+  HAVING
+    COUNT(case_id) >= 3
+) AS calls_table

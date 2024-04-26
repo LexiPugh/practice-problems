@@ -1864,3 +1864,27 @@ FROM
   products_ranked
 WHERE
   rank_num IN (1, 2)
+
+
+WITH joined_data AS (
+  SELECT 
+    artist_name,
+    DENSE_RANK() OVER(ORDER BY COUNT(s.song_id) DESC) AS artist_rank
+  FROM 
+    artists AS a
+    INNER JOIN songs AS s ON a.artist_id = s.artist_id
+    INNER JOIN global_song_rank AS gsr ON s.song_id = gsr.song_id
+  WHERE
+    rank <= 10
+  GROUP BY
+    artist_name
+)
+SELECT
+  artist_name,
+  artist_rank
+FROM
+  joined_data
+WHERE
+  artist_rank IN (1, 2, 3, 4, 5)
+ORDER BY
+  artist_rank ASC

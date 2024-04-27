@@ -679,5 +679,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: I used the SELECT keyword to grab the policy holder's id and COUNT() the case id field. I used the GROUP BY keyword to group by policy holder id and used the HAVING keyword to filter to instances where the COUNT() of the case id field was greater than or equal to 3. I then used that query as a subquery, and in the outer query I used the COUNT() function to count the number of policy holder id's. The output represented how many policy holders in the dataset made three or more calls about their health care needs
+27. Day 149 - April 27th 2024: [Patient Support Analysis (Part 2) from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day149.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Will fill in later
 
 </details>

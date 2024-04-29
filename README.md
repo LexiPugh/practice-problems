@@ -683,5 +683,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Will fill in later
+28. Day 150 - April 28th 2024: [from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day150.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Will fill in later
 
 </details>

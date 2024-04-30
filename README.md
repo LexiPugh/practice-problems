@@ -682,14 +682,14 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 27. Day 149 - April 27th 2024: [Patient Support Analysis (Part 2) from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day149.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Will fill in later
+    - Concepts Covered: The calls category column is either NULL or has a value of 'n/a' when the call is uncategorized, so I made a CASE statement in combination with the SUM() function to count the instances where a call was uncategorized. I then used the COUNT() function to tally the total number of calls. I used that query as a subquery, and in the outer query I calculated the percentage of uncategorized calls in the table, using the ROUND() function to round the output to 1 decimal place
 28. Day 150 - April 28th 2024: [Signup Activation Rate from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day150.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Will fill in later
+    - Concepts Covered: Started by creating a CTE and joining the emails and texts table. I did a RIGHT JOIN to keep all records in the text table, that way when I used the COUNT() function it counted all the text data even if the user wasn't in the emails table. I also used a CASE statement with the SUM() function to tally the number of users that activated their account via text. With that CTE done, I divided the confirmed accounts by the total accounts and used the ROUND() function to round to 2 decimal places.
 29. Day 151 - April 29th 2024: [Compressed Mode from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day151.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Will fill in later
+    - Concepts Covered: Started by creating a CTE where I selected the item count, order occurrences, and used the RANK() window function to assign a rank to each row based on the order occurrences descending. With that CTE completed, I selected the item count from the CTE, then filtered to where the rank was equal to 1 to find the most popular item counts. I used the ORDER BY keyword to order by the item count ascending since two item counts tied for first place.
 
 </details>

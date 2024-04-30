@@ -1946,3 +1946,21 @@ WHERE
   mode_rank = 1
 ORDER BY
   mode ASC
+
+
+WITH rank_table AS (
+  SELECT
+    *,
+    RANK() OVER(PARTITION BY card_name ORDER BY issue_year ASC, issue_month ASC) AS rank_num
+  FROM
+    monthly_cards_issued
+)
+SELECT
+  card_name,
+  issued_amount
+FROM
+  rank_table
+WHERE
+  rank_num = 1
+ORDER BY
+  issued_amount DESC

@@ -686,10 +686,14 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 28. Day 150 - April 28th 2024: [Signup Activation Rate from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day150.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Started by creating a CTE and joining the emails and texts table. I did a RIGHT JOIN to keep all records in the text table, that way when I used the COUNT() function it counted all the text data even if the user wasn't in the emails table. I also used a CASE statement with the SUM() function to tally the number of users that activated their account via text. With that CTE done, I divided the confirmed accounts by the total accounts and used the ROUND() function to round to 2 decimal places.
+    - Concepts Covered: Started by creating a CTE and joining the emails and texts table. I did a RIGHT JOIN to keep all records in the text table, that way when I used the COUNT() function it counted all the text data even if the user wasn't in the emails table. I also used a CASE statement with the SUM() function to tally the number of users that activated their account via text. With that CTE done, I divided the confirmed accounts by the total accounts and used the ROUND() function to round to 2 decimal places
 29. Day 151 - April 29th 2024: [Compressed Mode from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day151.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Started by creating a CTE where I selected the item count, order occurrences, and used the RANK() window function to assign a rank to each row based on the order occurrences descending. With that CTE completed, I selected the item count from the CTE, then filtered to where the rank was equal to 1 to find the most popular item counts. I used the ORDER BY keyword to order by the item count ascending since two item counts tied for first place.
+    - Concepts Covered: Started by creating a CTE where I selected the item count, order occurrences, and used the RANK() window function to assign a rank to each row based on the order occurrences descending. With that CTE completed, I selected the item count from the CTE, then filtered to where the rank was equal to 1 to find the most popular item counts. I used the ORDER BY keyword to order by the item count ascending since two item counts tied for first place
+30. Day 152 - April 30th 2024: [Card Launch Success from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day152.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Started by creating a CTE and using the RANK() window function with a PARTITION BY the card name and an ORDER BY the issue year ascending and the issue month ascending. This assigned every initial launch of a card a rank of 1, so I wrote a query that selected the card name and issued cards amount where the rank number was equal to 1, showing how many cards were issued in the first month for each credit card type
 
 </details>

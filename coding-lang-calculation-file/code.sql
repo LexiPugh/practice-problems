@@ -1903,3 +1903,46 @@ FROM (
   HAVING
     COUNT(case_id) >= 3
 ) AS calls_table
+
+
+SELECT
+  ROUND((uncategorized_calls / total_calls) * 100.0, 1) AS uncategorized_calls_pct
+FROM (
+  SELECT 
+    SUM(CASE WHEN call_category = 'n/a' OR call_category IS NULL THEN 1.0 ELSE 0.0 END) AS uncategorized_calls,
+    COUNT(*) AS total_calls
+  FROM 
+    callers 
+) AS calls_table
+
+
+WITH confirmed_accounts AS (
+  SELECT 
+    SUM(CASE WHEN t.signup_action = 'Confirmed' THEN 1.0 ELSE 0.0 END) AS confirmed_accounts,
+    COUNT(*) AS total_accounts
+  FROM 
+    emails AS e RIGHT JOIN texts AS t  
+    ON e.email_id = t.email_id
+)
+SELECT 
+  ROUND((confirmed_accounts / total_accounts), 2) AS confirm_rate
+FROM
+  confirmed_accounts
+
+
+WITH mode_rank_table AS (
+  SELECT 
+    item_count,
+    order_occurrences,
+    RANK() OVER(ORDER BY order_occurrences DESC) AS mode_rank
+  FROM 
+    items_per_order
+)
+SELECT
+  item_count AS mode
+FROM
+  mode_rank_table
+WHERE
+  mode_rank = 1
+ORDER BY
+  mode ASC

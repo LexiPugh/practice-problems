@@ -11,6 +11,7 @@
     - [February 2024](#february-2024)
     - [March 2024](#march-2024)
     - [April 2024](#april-2024)
+    - [May 2024](#may-2024)
 
 <br>
 
@@ -695,5 +696,16 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Started by creating a CTE and using the RANK() window function with a PARTITION BY the card name and an ORDER BY the issue year ascending and the issue month ascending. This assigned every initial launch of a card a rank of 1, so I wrote a query that selected the card name and issued cards amount where the rank number was equal to 1, showing how many cards were issued in the first month for each credit card type
+
+</details>
+
+
+### May 2024
+
+<details>
+
+<summary>May 2024 Practice Problems</summary>
+
+<br>
 
 </details>

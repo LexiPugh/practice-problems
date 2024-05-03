@@ -49,9 +49,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Question Difficulty: Easy
     - Concepts Covered: Using the HAVING keyword to filter on aggregated data
 3. Day 3 - December 3rd 2023: [Combine Two Tables from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day3.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Performing a LEFT JOIN in both SQL and Python
+    - Concepts Covered: Used the LEFT JOIN keyword to join the employee names on the employee locations, being sure to keep all employee names even if they don't exist in the location table. Used the ORDER BY keyword to order by first name alphabetically.
 4. Day 4 - December 4th 2023: [Page With No Likes from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day4.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
@@ -712,5 +712,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Started by creating a CTE and doing a LEFT JOIN twice, once to join caller id on caller id and once to join receiver id on caller id. This allowed me to find the location of every person in the dataset. I then used a CASE statement in combination with the SUM() function to check for instances where the caller's country is not equal to the receiver's country, meaning it's an international call. I also used COUNT() to count the total number of calls. With that CTE complete, I wrote a query that divided the international calls by the total calls and multiplied by 100 to get the international call percentage. I used the ROUND() function to round the output to 1 decimal place.
+2. Day 154 - May 2nd 2024: [Combine Two Tables from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day154.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the .merge() function to join the employee names on the employee locations, being sure to keep all employee names even if they don't exist in the location table. Used the .sort_values() function to order by first name alphabetically, then selected the first name, last name, and state from the dataframe.
 
 </details>

@@ -26,7 +26,7 @@ I'll continue doing these practice problems at least until I land a job as a dat
 - [Analyst Builder](https://www.analystbuilder.com/) 
 - [HackerRank](https://www.hackerrank.com/domains/sql)
 
-Some of the practice problems will be in SQL, some will be in Python, and some will be in both. Thank you for taking the time to view my practice problems repository :D
+Some of the practice problems will be in SQL and some will be in Python. Thank you for taking the time to view my practice problems repository :D
 
 <br>
 

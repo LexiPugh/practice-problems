@@ -708,4 +708,9 @@ Some of the practice problems will be in SQL, some will be in Python, and some w
 
 <br>
 
+1. Day 153 - May 1st 2024: [International Call Percentage from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day153.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Started by creating a CTE and doing a LEFT JOIN twice, once to join caller id on caller id and once to join receiver id on caller id. This allowed me to find the location of every person in the dataset. I then used a CASE statement in combination with the SUM() function to check for instances where the caller's country is not equal to the receiver's country, meaning it's an international call. I also used COUNT() to count the total number of calls. With that CTE complete, I wrote a query that divided the international calls by the total calls and multiplied by 100 to get the international call percentage. I used the ROUND() function to round the output to 1 decimal place.
+
 </details>

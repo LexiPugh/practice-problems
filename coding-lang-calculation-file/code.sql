@@ -1964,3 +1964,19 @@ WHERE
   rank_num = 1
 ORDER BY
   issued_amount DESC
+
+
+WITH calls_table AS 
+( 
+  SELECT 
+    SUM(CASE WHEN caller.country_id <> receiver.country_id THEN 1.0 ELSE NULL END) AS international_calls, 
+    COUNT(*) AS total_calls 
+  FROM 
+  phone_calls AS pc 
+  LEFT JOIN phone_info AS caller ON pc.caller_id = caller.caller_id 
+  LEFT JOIN phone_info AS receiver ON pc.receiver_id = receiver.caller_id 
+) 
+SELECT 
+  ROUND((international_calls / total_calls) * 100.0, 1) AS international_calls_pct 
+FROM 
+  calls_table

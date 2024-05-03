@@ -51,15 +51,15 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 3. Day 3 - December 3rd 2023: [Combine Two Tables from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day3.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Used the LEFT JOIN keyword to join the employee names on the employee locations, being sure to keep all employee names even if they don't exist in the location table. Used the ORDER BY keyword to order by first name alphabetically.
+    - Concepts Covered: Used the LEFT JOIN keyword to join the employee names on the employee locations, being sure to keep all employee names even if they don't exist in the location table. Used the ORDER BY keyword to order by first name alphabetically
 4. Day 4 - December 4th 2023: [Page With No Likes from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day4.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: The IS NULL keyword, using a LEFT JOIN
 5. Day 5 - December 5th 2023: [Big GDP from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day5.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Using the WHERE keyword to filter in SQL, filtering a Pandas data frame in Python
+    - Concepts Covered: Used the WHERE keyword to filter by GDP and used the ORDER BY keyword to order by the country name alphabetically
 6. Day 6 - December 6th 2023: [Shopping Cart Conversions from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day6.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
@@ -711,10 +711,14 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 1. Day 153 - May 1st 2024: [International Call Percentage from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day153.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Started by creating a CTE and doing a LEFT JOIN twice, once to join caller id on caller id and once to join receiver id on caller id. This allowed me to find the location of every person in the dataset. I then used a CASE statement in combination with the SUM() function to check for instances where the caller's country is not equal to the receiver's country, meaning it's an international call. I also used COUNT() to count the total number of calls. With that CTE complete, I wrote a query that divided the international calls by the total calls and multiplied by 100 to get the international call percentage. I used the ROUND() function to round the output to 1 decimal place.
+    - Concepts Covered: Started by creating a CTE and doing a LEFT JOIN twice, once to join caller id on caller id and once to join receiver id on caller id. This allowed me to find the location of every person in the dataset. I then used a CASE statement in combination with the SUM() function to check for instances where the caller's country is not equal to the receiver's country, meaning it's an international call. I also used COUNT() to count the total number of calls. With that CTE complete, I wrote a query that divided the international calls by the total calls and multiplied by 100 to get the international call percentage. I used the ROUND() function to round the output to 1 decimal place
 2. Day 154 - May 2nd 2024: [Combine Two Tables from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day154.md)
     - Languages Used: Python
     - Question Difficulty: Easy
-    - Concepts Covered: Used the .merge() function to join the employee names on the employee locations, being sure to keep all employee names even if they don't exist in the location table. Used the .sort_values() function to order by first name alphabetically, then selected the first name, last name, and state from the dataframe.
+    - Concepts Covered: Used the .merge() function to join the employee names on the employee locations, being sure to keep all employee names even if they don't exist in the location table. Used the .sort_values() function to order by first name alphabetically, then selected the first name, last name, and state from the dataframe
+3. Day 155 - May 3rd 2024: [Big GDP from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day155.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Performed dataframe filtering to filter by GDP and used the .sort_values() function to order by the country name alphabetically, then selected the country from the dataframe
 
 </details>

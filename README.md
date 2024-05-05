@@ -61,9 +61,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: Used the WHERE keyword to filter by GDP and used the ORDER BY keyword to order by the country name alphabetically
 6. Day 6 - December 6th 2023: [Shopping Cart Conversions from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day6.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Performing calculations to engineer new features, rounding numbers in SQL and Python
+    - Concepts Covered: Performed a calculation to engineer a new feature, specifically the percentage of items that customers put in their cart that they actually bought. Used the ROUND() function to round to two decimal places and the ORDER BY keyword to order by customer id
 7. Day 7 - December 7th 2023: [Most Orders from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day7.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Medium
@@ -720,5 +720,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Performed dataframe filtering to filter by GDP and used the .sort_values() function to order by the country name alphabetically, then selected the country from the dataframe
+4. Day 156 - May 4th 2024: [Shopping Cart Conversions from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day156.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Performed a calculation to engineer a new feature, specifically the percentage of items that customers put in their cart that they actually bought. Used the .round() function to round to two decimal places and the .sort_values() function to sort by customer id
+
 
 </details>

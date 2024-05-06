@@ -65,9 +65,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: Performed a calculation to engineer a new feature, specifically the percentage of items that customers put in their cart that they actually bought. Used the ROUND() function to round to two decimal places and the ORDER BY keyword to order by customer id
 7. Day 7 - December 7th 2023: [Most Orders from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day7.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Using a subquery to filter in SQL, filtering a Pandas data frame in Python
+    - Concepts Covered: Used a subquery in the WHERE clause to filter to the customers with the MAX() number of orders
 8. Day 8 - December 8th 2023: [Duplicate Emails from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day8.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Medium
@@ -724,6 +724,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Performed a calculation to engineer a new feature, specifically the percentage of items that customers put in their cart that they actually bought. Used the .round() function to round to two decimal places and the .sort_values() function to sort by customer id
+5. Day 157 - May 5th 2024: [Most Orders from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day157.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the .max() function to find the maximum number of orders and stored it in a variable. Then filtered the dataframe to records where the max number of orders was equal to the number of orders.
 
 
 </details>

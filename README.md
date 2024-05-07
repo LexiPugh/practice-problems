@@ -69,9 +69,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Medium
     - Concepts Covered: Used a subquery in the WHERE clause to filter to the customers with the MAX() number of orders
 8. Day 8 - December 8th 2023: [Duplicate Emails from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day8.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Using the HAVING keyword to filter on aggregations and using the GROUP BY keyword in SQL, using the Pandas .groupby() method and filering a Pandas data frame in Python
+    - Concepts Covered: Used the COUNT() function and the GROUP BY keyword to count the number of emails and group by email. I then used the HAVING keyword to filter on the aggregation and find instances where the email count was greater than 1, singling out users with duplicate emails. I used the ORDER BY keyword to order the output by email alphabetically
 9. Day 9 - December 9th 2023: [Laptop vs. Mobile Viewership from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day9.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
@@ -727,7 +727,11 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 5. Day 157 - May 5th 2024: [Most Orders from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day157.md)
     - Languages Used: Python
     - Question Difficulty: Medium
-    - Concepts Covered: Used the .max() function to find the maximum number of orders and stored it in a variable. Then filtered the dataframe to records where the max number of orders was equal to the number of orders.
+    - Concepts Covered: Used the .max() function to find the maximum number of orders and stored it in a variable. Then filtered the dataframe to records where the max number of orders was equal to the number of orders
+6. Day 158 - May 6th 2024: [Duplicate Emails from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day158.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the .count() function and the .groupby() function to count the number of emails and group by email, also used the .reset_index() function and .rename() function to name the new column email_count. I then filtered the dataframe on email_count to find instances where the email count was greater than 1, singling out users with duplicate emails. I used the .sort_values() function to order the output by email alphabetically
 
 
 </details>

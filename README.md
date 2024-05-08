@@ -89,9 +89,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: Using the WHERE and IN keywords to filter on multiple values in SQL, using the OR operator to filter a Pandas data frame on multiple values in Python
 13. Day 13 - December 13th 2023: [Heart Attack Risk from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day13.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Using the AND keyword/symbol and comparison operators to filter on multiple values in SQL and Python
+    - Concepts Covered: Used the WHERE keyword, AND keyword, and inequalities to filter on multiple conditions that would put a patient at risk of a heart attack. Used the ORDER BY keyword to order by cholesterol descending since that's the most important indicator
 14. Day 14 - December 14th 2023: [Wealthy Customers from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day14.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Medium
@@ -732,6 +732,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Used the .count() function and the .groupby() function to count the number of emails and group by email, also used the .reset_index() function and .rename() function to name the new column email_count. I then filtered the dataframe on email_count to find instances where the email count was greater than 1, singling out users with duplicate emails. I used the .sort_values() function to order the output by email alphabetically
+7. Day 159 - May 7th 2024: [Heart Attack Risk from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day159.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the & symbol and inequalities to filter on multiple conditions that would put a patient at risk of a heart attack. Used the .sort_values() function to order by cholesterol descending since that's the most important indicator
 
 
 </details>

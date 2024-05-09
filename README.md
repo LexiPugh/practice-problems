@@ -93,9 +93,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: Used the WHERE keyword, AND keyword, and inequalities to filter on multiple conditions that would put a patient at risk of a heart attack. Used the ORDER BY keyword to order by cholesterol descending since that's the most important indicator
 14. Day 14 - December 14th 2023: [Wealthy Customers from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day14.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Using COUNT DISTINCT to count the unique number of customers in SQL, using the Pandas .nunique() method to achieve the same output with Python
+    - Concepts Covered: Used COUNT DISTINCT to count the unique number of customers and used the WHERE keyword to filter to customers that spent at least 500 dollars in a single order
 15. Day 15 - December 15th 2023: [Ice Cream Popularity from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day15.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
@@ -736,6 +736,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the & symbol and inequalities to filter on multiple conditions that would put a patient at risk of a heart attack. Used the .sort_values() function to order by cholesterol descending since that's the most important indicator
+8. Day 160 - May 8th 2024: [Wealthy Customers from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day160.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Filtered the dataframe to customers that spent at least 500 dollars in a single order, then used the .nunique() function to count the unique number of customers
 
 
 </details>

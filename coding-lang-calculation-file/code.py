@@ -49,11 +49,6 @@ patients = patients.sort_values(by='cholesterol', ascending=False)
 patients
 
 
-customers = customers[(customers['purchased_items'] == 'M&Ms') | (customers['purchased_items'] == 'Snickers') | (customers['purchased_items'] == 'Twizzlers')]
-
-customers[['customer_id']]
-
-
 transactions = transactions[transactions['bill_total'] > 500]
 
 transactions = transactions['customer_id'].nunique()
@@ -66,6 +61,11 @@ ice_cream = ice_cream[ice_cream['community_rating'] > ice_cream['official_rating
 ice_cream = ice_cream.sort_values(by='flavor')
 
 ice_cream[['flavor']]
+
+
+customers = customers[(customers['purchased_items'] == 'M&Ms') | (customers['purchased_items'] == 'Snickers') | (customers['purchased_items'] == 'Twizzlers')]
+
+customers[['customer_id']]
 
 
 first_three_letters = gamer_tags['first_name'].str[:3]

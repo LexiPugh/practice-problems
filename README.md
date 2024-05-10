@@ -85,9 +85,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: Utilizing a for loop for numeric calculations
 12. Day 12 - December 12th 2023: [Movie Theater from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day12.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Using the WHERE and IN keywords to filter on multiple values in SQL, using the OR operator to filter a Pandas data frame on multiple values in Python
+    - Concepts Covered: Used the WHERE and IN keywords together to filter on multiple values
 13. Day 13 - December 13th 2023: [Heart Attack Risk from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day13.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
@@ -740,6 +740,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Filtered the dataframe to customers that spent at least 500 dollars in a single order, then used the .nunique() function to count the unique number of customers
+9. Day 161 - May 9th 2024: [Movie Theater from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day161.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the | operator to filter a dataframe on multiple values
 
 
 </details>

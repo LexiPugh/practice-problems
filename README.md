@@ -97,9 +97,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Medium
     - Concepts Covered: Used COUNT DISTINCT to count the unique number of customers and used the WHERE keyword to filter to customers that spent at least 500 dollars in a single order
 15. Day 15 - December 15th 2023: [Ice Cream Popularity from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day15.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Using comparison operators to compare two fields for the purpose of filtering, using ORDER BY in SQL and .sort_values() in Python to order the output
+    - Concepts Covered: Used comparison operators and the WHERE keyword to compare two fields for the purpose of filtering. Used the ORDER BY keyword to order the output by ice cream flavor alphabetically
 16. Day 16 - December 16th 2023: [Gamer Tags from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day16.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Medium
@@ -744,6 +744,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the | operator to filter a dataframe on multiple values
+10. Day 162 - May 10th 2024: [Ice Cream Popularity from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day15.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used comparison operators to compare two fields for the purpose of filtering a dataframe. Used the .sort_values() function to order the output by ice cream flavor alphabetically
 
 
 </details>

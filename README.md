@@ -101,9 +101,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: Used comparison operators and the WHERE keyword to compare two fields for the purpose of filtering. Used the ORDER BY keyword to order the output by ice cream flavor alphabetically
 16. Day 16 - December 16th 2023: [Gamer Tags from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day16.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Using the LEFT function to select part of a string, the YEAR function to select part of a date, and the CONCAT function to combine them in SQL. Using slicing to select part of a string, the split() function to select part of a date, and performing concatenation in Python
+    - Concepts Covered: Used the LEFT function to select part of a string, the YEAR function to select part of a date, and the CONCAT function to combine them. Used the ORDER BY keyword to order by gamer tag
 17. Day 17 - December 17th 2023: [Teams Power Users from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day17.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
@@ -744,10 +744,14 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the | operator to filter a dataframe on multiple values
-10. Day 162 - May 10th 2024: [Ice Cream Popularity from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day15.md)
+10. Day 162 - May 10th 2024: [Ice Cream Popularity from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day162.md)
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used comparison operators to compare two fields for the purpose of filtering a dataframe. Used the .sort_values() function to order the output by ice cream flavor alphabetically
+11. Day 163 - May 11th 2024: [Gamer Tags from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day163.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Used string slicing to select part of a string, the .split() function to select part of a date, and performed string concatenation using the + symbol. Used the .sort_values() function to order the output by gamer tag
 
 
 </details>

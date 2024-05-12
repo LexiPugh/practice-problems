@@ -61,6 +61,13 @@ customers = customers[(customers['purchased_items'] == 'M&Ms') | (customers['pur
 customers[['customer_id']]
 
 
+ice_cream = ice_cream[ice_cream['community_rating'] > ice_cream['official_rating']]
+
+ice_cream = ice_cream.sort_values(by='flavor')
+
+ice_cream[['flavor']]
+
+
 first_three_letters = gamer_tags['first_name'].str[:3]
 
 year_of_birth = gamer_tags['birth_date'].str.split('/').str[2]
@@ -70,13 +77,6 @@ gamer_tags['gamer_tag'] = first_three_letters + year_of_birth
 gamer_tags = gamer_tags.sort_values(by='gamer_tag')
 
 gamer_tags[['first_name', 'last_name', 'gamer_tag']]
-
-
-ice_cream = ice_cream[ice_cream['community_rating'] > ice_cream['official_rating']]
-
-ice_cream = ice_cream.sort_values(by='flavor')
-
-ice_cream[['flavor']]
 
 
 country = country[(country['population'] > 50000000) & (country['population'] < 100000000)]

@@ -117,9 +117,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: Using a CASE statement within a calculation to engineer new a feature, using the ROUND() function to give output a uniform number of decimals, using the DATE_PART function and the WHERE keyword to filter to a specific year, using the GROUP BY keyword to group the aggregation by app
 20. Day 20 - December 20th 2023: [Medium Sized Countries from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day20.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Using the BETWEEN keyword in combination with the WHERE keyword to filter in SQL, filtering and sorting a Pandas data frame in Python
+    - Concepts Covered: Used the BETWEEN keyword in combination with the WHERE keyword to filter to countries that have a population within the specified range. Used the ORDER BY keyword to order by population
 21. Day 21 - December 21st 2023: [Million Dollar Store from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day21.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
@@ -752,6 +752,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Used string slicing to select part of a string, the .split() function to select part of a date, and performed string concatenation using the + symbol. Used the .sort_values() function to order the output by gamer tag
+12. Day 164 - May 12th 2024: [Medium Sized Countries from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day164.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the & operator in combination with inequalities to filter the dataframe to countries that have a population within the specified range. Used the .sort_values() function to order by population
 
 
 </details>

@@ -79,13 +79,6 @@ gamer_tags = gamer_tags.sort_values(by='gamer_tag')
 gamer_tags[['first_name', 'last_name', 'gamer_tag']]
 
 
-country = country[(country['population'] > 50000000) & (country['population'] < 100000000)]
-
-country = country.sort_values(by='population', ascending=True)
-
-country[['country', 'population']]
-
-
 stores = stores.groupby('store_id').mean().round(2).reset_index()
 
 stores = stores[stores['revenue'] > 1000000]
@@ -93,6 +86,13 @@ stores = stores[stores['revenue'] > 1000000]
 stores = stores.sort_values(by='store_id')
 
 stores[['store_id', 'revenue']]
+
+
+country = country[(country['population'] > 50000000) & (country['population'] < 100000000)]
+
+country = country.sort_values(by='population', ascending=True)
+
+country[['country', 'population']]
 
 
 countries = countries[(countries['square_kilometers'] >= 3000000) | (countries['population'] >= 100000000)]

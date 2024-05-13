@@ -121,9 +121,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: Used the BETWEEN keyword in combination with the WHERE keyword to filter to countries that have a population within the specified range. Used the ORDER BY keyword to order by population
 21. Day 21 - December 21st 2023: [Million Dollar Store from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day21.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Using the ROUND() function to round output, using the HAVING keyword to filter on an aggregation, and using the GROUP BY keyword to group yearly revenue by store in SQL. Using the .groupby(), .mean(), and .round() Pandas functions to accomplish the same output, as well as filtering and sorting a Pandas data frame in Python
+    - Concepts Covered: Used the ROUND() function to round output to two decimal places, used the HAVING keyword to filter on the average revenue, and used the GROUP BY keyword to group yearly revenue by store. Used the ORDER BY keyword to order by store id
 22. Day 22 - December 22nd 2023: [Big Countries from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day22.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
@@ -756,6 +756,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the & operator in combination with inequalities to filter the dataframe to countries that have a population within the specified range. Used the .sort_values() function to order by population
+13. Day 165 - May 13th 2024: [Million Dollar Store from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day165.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the .groupby() function to group the dataframe by store id, the .mean() function to find the average revenue, and the .round() function to round the output to 2 decimal places. I then filtered the dataframe by revenue and used the .sort_values() function to order the dataframe by store id
 
 
 </details>

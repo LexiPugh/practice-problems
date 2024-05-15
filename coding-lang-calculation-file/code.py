@@ -86,13 +86,6 @@ country = country.sort_values(by='population', ascending=True)
 country[['country', 'population']]
 
 
-countries = countries[(countries['square_kilometers'] >= 3000000) | (countries['population'] >= 100000000)]
-
-countries = countries.sort_values(by='country', ascending=True)
-
-countries[['country', 'square_kilometers', 'population']]
-
-
 stores = stores.groupby('store_id').mean().round(2).reset_index()
 
 stores = stores[stores['revenue'] > 1000000]
@@ -100,6 +93,13 @@ stores = stores[stores['revenue'] > 1000000]
 stores = stores.sort_values(by='store_id')
 
 stores[['store_id', 'revenue']]
+
+
+countries = countries[(countries['square_kilometers'] >= 3000000) | (countries['population'] >= 100000000)]
+
+countries = countries.sort_values(by='country', ascending=True)
+
+countries[['country', 'square_kilometers', 'population']]
 
 
 youtube_videos['like_ratio'] = (youtube_videos['thumbs_up'] / (youtube_videos['thumbs_up'] + youtube_videos['thumbs_down']) * 100)

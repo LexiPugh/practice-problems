@@ -125,9 +125,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: Used the ROUND() function to round output to two decimal places, used the HAVING keyword to filter on the average revenue, and used the GROUP BY keyword to group yearly revenue by store. Used the ORDER BY keyword to order by store id
 22. Day 22 - December 22nd 2023: [Big Countries from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day22.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Using the OR keyword/operator to filter to places that meet at least one of the specified conditions in both SQL and Python
+    - Concepts Covered: Used the OR keyword to filter to countries that met at least one of the specified conditions in the WHERE clause, used the ORDER BY keyword to order by country alphabetically
 23. Day 23 - December 23rd 2023: [Low Quality YouTube Video from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day23.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
@@ -760,6 +760,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the .groupby() function to group the dataframe by store id, the .mean() function to find the average revenue, and the .round() function to round the output to 2 decimal places. I then filtered the dataframe by revenue and used the .sort_values() function to order the dataframe by store id
+14. Day 166 - May 14th 2024: [Big Countries from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day166.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the | symbol to filter the dataframe to countries that met at least one of the specified conditions, used the .sort_values() function to order by country alphabetically
 
 
 </details>

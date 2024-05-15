@@ -129,9 +129,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: Used the OR keyword to filter to countries that met at least one of the specified conditions in the WHERE clause, used the ORDER BY keyword to order by country alphabetically
 23. Day 23 - December 23rd 2023: [Low Quality YouTube Video from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day23.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Performing calculations with pre-existing fields to engineer new features and then filtering on the feature in both SQL and Python
+    - Concepts Covered: Performed a calculation with pre-existing fields to engineer a new feature, the like percentage of a video. I then filtered on the like percentage by using the WHERE keyword and used the ORDER BY keyword to order the output by video id
 24. Day 24 - December 24th 2023: [Cards Issued Difference from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day24.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
@@ -764,6 +764,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the | symbol to filter the dataframe to countries that met at least one of the specified conditions, used the .sort_values() function to order by country alphabetically
+15. Day 167 - May 15th 2024: [Low Quality YouTube Video from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day167.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Performed a calculation with pre-existing fields to engineer a new feature, the like percentage of a video. I then filtered the dataframe based on the like percentage and used the .sort_values() function to order the output by video id
 
 
 </details>

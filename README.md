@@ -149,9 +149,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: Performing an INNER JOIN to combine data from two different tables, using the PostgreSQL Interval function to add a specified time interval to a date value
 28. Day 28 - December 28th 2023: [Device First Used from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day28.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Using the GROUP BY keyword and the MIN function to find the earliest occurence of a data point grouped by device with SQL, using the .groupby() function and .min() function to accomplish the same output with Python
+    - Concepts Covered: Used the GROUP BY keyword and the MIN() function to find the earliest date a game was played grouped by device. Used the WHERE keyword to filter by game and the ORDER BY keyword to order by the date
 29. Day 29 - December 29th 2023: [Tesla Models from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day29.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
@@ -768,6 +768,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Performed a calculation with pre-existing fields to engineer a new feature, the like percentage of a video. I then filtered the dataframe based on the like percentage and used the .sort_values() function to order the output by video id
-
+16. Day 168 - May 16th 2024: [Device First Used from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day168.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the .groupby() function and the .min() function to find the earliest date a game was played grouped by device. Filtered the dataframe by game and used the .sort_values() function to order by the date
 
 </details>

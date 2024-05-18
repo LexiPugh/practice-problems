@@ -153,9 +153,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: Used the GROUP BY keyword and the MIN() function to find the earliest date a game was played grouped by device. Used the WHERE keyword to filter by game and the ORDER BY keyword to order by the date
 29. Day 29 - December 29th 2023: [Tesla Models from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day29.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Performing calculations to engineer new features, using the ORDER BY and LIMIT keywords to grab the record with the highest profit with SQL, using .sort_values() and .head() to achieve the same output with Python
+    - Concepts Covered: Performed a calculation to engineer a new feature, the profit made selling a car. Used the ORDER BY and LIMIT keywords to grab the record with the highest profit
 30. Day 30 - December 30th 2023: [The Blunder from HackerRank](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/december2023/day30.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
@@ -772,5 +772,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the .groupby() function and the .min() function to find the earliest date a game was played grouped by device. Filtered the dataframe by game and used the .sort_values() function to order by the date
+17. Day 169 - May 17th 2024: [Tesla Models from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day169.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Performed a calculation to engineer a new feature, the profit made selling a car. Used the .sort_values() and .head() functions to grab the record with the highest profit
 
 </details>

@@ -177,9 +177,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 <br>
 
 1. Day 32 - January 1st 2024: [Profit Margin from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day32.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Performing calculations with existing fields to engineer new features, rounding numbers to a uniform number of decimals, and ordering output by multiple criteria
+    - Concepts Covered: Performed a calculation with existing fields to engineer a new feature, the profit margin for each product. Used the ROUND() keyword to format the numbers to a uniform number of decimals, and used the ORDER BY keyword to order by profit descending and product name ascending
 2. Day 33 - January 2nd 2024: [On The Way Out from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day33.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
@@ -776,5 +776,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Performed a calculation to engineer a new feature, the profit made selling a car. Used the .sort_values() and .head() functions to grab the record with the highest profit
+18. Day 170 - May 18th 2024: [Profit Margin from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day170.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Performed a calculation with existing fields to engineer a new feature, the profit margin for each product. Used the .round() function to format the numbers to a uniform number of decimals, and used the .sort_values() function to order by profit descending and product name ascending
 
 </details>

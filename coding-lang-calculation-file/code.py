@@ -120,13 +120,6 @@ devices = devices.sort_values(by='date_played', ascending=False)
 devices[['device_id', 'date_played']]
 
 
-products['profit'] = ((products['sales_price'] - products['purchase_price']) * 0.93).round(2)
-
-products = products.sort_values(['profit', 'product_name'], ascending=[False, True])
-
-products[['product_name', 'profit']]
-
-
 tesla_models['profit'] = (tesla_models['car_price'] - tesla_models['production_cost']) * tesla_models['cars_sold']
 
 tesla_models = tesla_models.sort_values(by = 'profit', ascending = False)
@@ -142,6 +135,12 @@ employees = employees.sort_values(by='birth_date', ascending=True)
 
 employees[['employee_id']].head(3)
 
+
+products['profit'] = ((products['sales_price'] - products['purchase_price']) * 0.93).round(2)
+
+products = products.sort_values(['profit', 'product_name'], ascending=[False, True])
+
+products[['product_name', 'profit']]
 
 phone_numbers = (phone_numbers[phone_numbers['numbers'].str[:3] == '701'])
 

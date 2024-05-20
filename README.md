@@ -185,9 +185,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: Used the ORDER BY and LIMIT keywords together to only output the three oldest employees working at a company
 3. Day 34 - January 3rd 2024: [Area Code from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day34.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Using the LEFT() function to check the first three characters of a string in SQL, using list slicing to accomplish the same output in Python
+    - Concepts Covered: Used the LEFT() function in combination with the WHERE keyword to filter to phone numbers that start with a specified area code
 4. Day 35 - January 4th 2024: [Most Reviewed Restaurant from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day35.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Medium
@@ -784,5 +784,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the pd.to_datetime() function to convert the birth date field to a datetime. I then used the .sort_values() and .head() functions together to only output the three oldest employees working at a company
+20. Day 172 - May 20th 2024: [Area Code from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day172.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the .str() function to perform string slicing with the purpose of filtering to phone numbers that start with a specified area code
 
 </details>

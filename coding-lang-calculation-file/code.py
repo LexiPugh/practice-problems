@@ -133,10 +133,6 @@ products = products.sort_values(['profit', 'product_name'], ascending=[False, Tr
 
 products[['product_name', 'profit']]
 
-phone_numbers = (phone_numbers[phone_numbers['numbers'].str[:3] == '701'])
-
-phone_numbers
-
 
 import pandas as pd
 
@@ -154,6 +150,11 @@ restaurant_reviews['avg_rating'] = restaurant_reviews.groupby('restaurant')['rat
 restaurant_reviews = restaurant_reviews.sort_values(by=['comment_count', 'avg_rating'], ascending=[False, False])
 
 restaurant_reviews[['restaurant', 'comment_count', 'avg_rating']].head(1)
+
+
+phone_numbers = (phone_numbers[phone_numbers['numbers'].str[:3] == '701'])
+
+phone_numbers
 
 
 ratings['rating_difference'] = abs(ratings['tomato_rating'] - ratings['user_rating'])

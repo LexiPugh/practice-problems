@@ -127,15 +127,6 @@ tesla_models = tesla_models.sort_values(by = 'profit', ascending = False)
 tesla_models.head(1)
 
 
-import pandas as pd
-
-employees['birth_date'] = pd.to_datetime(employees['birth_date'])
-
-employees = employees.sort_values(by='birth_date', ascending=True)
-
-employees[['employee_id']].head(3)
-
-
 products['profit'] = ((products['sales_price'] - products['purchase_price']) * 0.93).round(2)
 
 products = products.sort_values(['profit', 'product_name'], ascending=[False, True])
@@ -145,6 +136,15 @@ products[['product_name', 'profit']]
 phone_numbers = (phone_numbers[phone_numbers['numbers'].str[:3] == '701'])
 
 phone_numbers
+
+
+import pandas as pd
+
+employees['birth_date'] = pd.to_datetime(employees['birth_date'])
+
+employees = employees.sort_values(by='birth_date', ascending=True)
+
+employees[['employee_id']].head(3)
 
 
 restaurant_reviews['comment_count'] = restaurant_reviews.groupby('restaurant')['comment'].transform('count')

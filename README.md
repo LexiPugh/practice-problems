@@ -181,9 +181,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: Performed a calculation with existing fields to engineer a new feature, the profit margin for each product. Used the ROUND() keyword to format the numbers to a uniform number of decimals, and used the ORDER BY keyword to order by profit descending and product name ascending
 2. Day 33 - January 2nd 2024: [On The Way Out from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day33.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Using ORDER BY and LIMIT together to get the three oldest employees in SQL, using the pd.to_datetime() function, the .sort_values() function, and the .head() function to achieve the same output in Python
+    - Concepts Covered: Used the ORDER BY and LIMIT keywords together to only output the three oldest employees working at a company
 3. Day 34 - January 3rd 2024: [Area Code from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day34.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
@@ -780,5 +780,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Performed a calculation with existing fields to engineer a new feature, the profit margin for each product. Used the .round() function to format the numbers to a uniform number of decimals, and used the .sort_values() function to order by profit descending and product name ascending
+19. Day 171 - May 19th 2024: [On The Way Out from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day171.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the pd.to_datetime() function to convert the birth date field to a datetime. I then used the .sort_values() and .head() functions together to only output the three oldest employees working at a company
 
 </details>

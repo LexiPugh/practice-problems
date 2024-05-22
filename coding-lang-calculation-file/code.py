@@ -143,15 +143,6 @@ employees = employees.sort_values(by='birth_date', ascending=True)
 employees[['employee_id']].head(3)
 
 
-restaurant_reviews['comment_count'] = restaurant_reviews.groupby('restaurant')['comment'].transform('count')
-
-restaurant_reviews['avg_rating'] = restaurant_reviews.groupby('restaurant')['rating'].transform('mean')
-
-restaurant_reviews = restaurant_reviews.sort_values(by=['comment_count', 'avg_rating'], ascending=[False, False])
-
-restaurant_reviews[['restaurant', 'comment_count', 'avg_rating']].head(1)
-
-
 phone_numbers = (phone_numbers[phone_numbers['numbers'].str[:3] == '701'])
 
 phone_numbers
@@ -162,6 +153,15 @@ ratings['rating_difference'] = abs(ratings['tomato_rating'] - ratings['user_rati
 ratings = ratings.sort_values(by='rating_difference', ascending=False)
 
 ratings.head(1)
+
+
+restaurant_reviews['comment_count'] = restaurant_reviews.groupby('restaurant')['comment'].transform('count')
+
+restaurant_reviews['avg_rating'] = restaurant_reviews.groupby('restaurant')['rating'].transform('mean')
+
+restaurant_reviews = restaurant_reviews.sort_values(by=['comment_count', 'avg_rating'], ascending=[False, False])
+
+restaurant_reviews[['restaurant', 'comment_count', 'avg_rating']].head(1)
 
 
 inspections = inspections[inspections['minor_issues'] <= 3]

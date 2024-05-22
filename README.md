@@ -189,9 +189,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: Used the LEFT() function in combination with the WHERE keyword to filter to phone numbers that start with a specified area code
 4. Day 35 - January 4th 2024: [Most Reviewed Restaurant from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day35.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Using aggregations to engineer new features, using grouping to split up the aggregations by restaurant, and ordering the output by multiple criteria in both SQL and Python
+    - Concepts Covered: Used the COUNT() function to count the number of comments and the AVG() function to find the average rating. Used the GROUP BY keyword to group by restaurant, used the ORDER BY keyword to order by comment count and average rating descending, and used the LIMIT keyword to only output the most reviewed restaurant
 5. Day 36 - January 5th 2024: [Rotten Drama from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day36.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Medium
@@ -788,5 +788,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the .str() function to perform string slicing with the purpose of filtering to phone numbers that start with a specified area code
+21. Day 173 - May 21st 2024: [Most Reviewed Restaurant from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day173.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the .transform() function on the comment column to count the number of comments and the .transform() function on the rating column to find the mean/average rating. Used the .groupby() function while calculating both of those to group by restaurant, used the .sort_values() function to order by comment count and average rating descending, and used the .head() function to only output the most reviewed restaurant
 
 </details>

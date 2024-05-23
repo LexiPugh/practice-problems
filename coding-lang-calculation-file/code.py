@@ -148,13 +148,6 @@ phone_numbers = (phone_numbers[phone_numbers['numbers'].str[:3] == '701'])
 phone_numbers
 
 
-ratings['rating_difference'] = abs(ratings['tomato_rating'] - ratings['user_rating'])
-
-ratings = ratings.sort_values(by='rating_difference', ascending=False)
-
-ratings.head(1)
-
-
 restaurant_reviews['comment_count'] = restaurant_reviews.groupby('restaurant')['comment'].transform('count')
 
 restaurant_reviews['avg_rating'] = restaurant_reviews.groupby('restaurant')['rating'].transform('mean')
@@ -171,6 +164,13 @@ inspections = inspections[inspections['critical_issues'] < 1]
 inspections = inspections.sort_values(by='owner_name')
 
 inspections[['owner_name', 'vehicle']]
+
+
+ratings['rating_difference'] = abs(ratings['tomato_rating'] - ratings['user_rating'])
+
+ratings = ratings.sort_values(by='rating_difference', ascending=False)
+
+ratings.head(1)
 
 
 classes = classes.groupby(['class'])['grade'].mean().reset_index(name='average_grade')

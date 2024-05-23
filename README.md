@@ -193,9 +193,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Medium
     - Concepts Covered: Used the COUNT() function to count the number of comments and the AVG() function to find the average rating. Used the GROUP BY keyword to group by restaurant, used the ORDER BY keyword to order by comment count and average rating descending, and used the LIMIT keyword to only output the most reviewed restaurant
 5. Day 36 - January 5th 2024: [Rotten Drama from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day36.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Using the abs() function in both SQL and Python to make all output from a calculation positive, using ORDER BY and LIMIT to select the top record in SQL, using .sort_values() and .head() to accomplish the same output in Python
+    - Concepts Covered: Calculated the difference between Rotten Tomato ratings and user ratings, then used the ABS() function to make all output positive. Used the ORDER BY and LIMIT keywords together to select the biggest rating difference
 6. Day 37 - January 6th 2024: [Car Failure from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day37.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
@@ -792,5 +792,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Used the .transform() function on the comment column to count the number of comments and the .transform() function on the rating column to find the mean/average rating. Used the .groupby() function while calculating both of those to group by restaurant, used the .sort_values() function to order by comment count and average rating descending, and used the .head() function to only output the most reviewed restaurant
+22. Day 174 - May 22nd 2024: [Rotten Drama from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day174.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Calculated the difference between Rotten Tomato ratings and user ratings, then used the abs() function to make all output positive. Used the .sort_values() and .head() functions together to select the biggest rating difference
 
 </details>

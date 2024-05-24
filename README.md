@@ -197,9 +197,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Medium
     - Concepts Covered: Calculated the difference between Rotten Tomato ratings and user ratings, then used the ABS() function to make all output positive. Used the ORDER BY and LIMIT keywords together to select the biggest rating difference
 6. Day 37 - January 6th 2024: [Car Failure from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day37.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Filtering data on multiple conditions in both SQL and Python
+    - Concepts Covered: Used the AND keyword in combination with the WHERE keyword to filter on multiple conditions. Used the ORDER BY keyword to order by name alphabetically
 7. Day 38 - January 7th 2024: [Best Classes from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day38.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
@@ -796,5 +796,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Calculated the difference between Rotten Tomato ratings and user ratings, then used the abs() function to make all output positive. Used the .sort_values() and .head() functions together to select the biggest rating difference
+23. Day 175 - May 23rd 2024: [Car Failure from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day175.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used inequalities to filter a dataframe on multiple conditions. Used the .sort_values() keyword to order by name alphabetically
 
 </details>

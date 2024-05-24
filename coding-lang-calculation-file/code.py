@@ -157,15 +157,6 @@ restaurant_reviews = restaurant_reviews.sort_values(by=['comment_count', 'avg_ra
 restaurant_reviews[['restaurant', 'comment_count', 'avg_rating']].head(1)
 
 
-inspections = inspections[inspections['minor_issues'] <= 3]
-
-inspections = inspections[inspections['critical_issues'] < 1]
-
-inspections = inspections.sort_values(by='owner_name')
-
-inspections[['owner_name', 'vehicle']]
-
-
 ratings['rating_difference'] = abs(ratings['tomato_rating'] - ratings['user_rating'])
 
 ratings = ratings.sort_values(by='rating_difference', ascending=False)
@@ -178,6 +169,15 @@ classes = classes.groupby(['class'])['grade'].mean().reset_index(name='average_g
 classes = classes.sort_values(by='average_grade', ascending=False)
 
 classes
+
+
+inspections = inspections[inspections['minor_issues'] <= 3]
+
+inspections = inspections[inspections['critical_issues'] < 1]
+
+inspections = inspections.sort_values(by='owner_name')
+
+inspections[['owner_name', 'vehicle']]
 
 
 homes = homes[(homes['year'] >= 2012) & (homes['year'] <= 2017)]

@@ -201,9 +201,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: Used the AND keyword in combination with the WHERE keyword to filter on multiple conditions. Used the ORDER BY keyword to order by name alphabetically
 7. Day 38 - January 7th 2024: [Best Classes from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day38.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Using aggregations to engineer new features and grouping grades by different subjects to find the average grade for each subject
+    - Concepts Covered: Used the AVG() function to calculate the average grade, then used the GROUP BY keyword to group by class. Used the ORDER BY keyword to order by the average grade descending
 8. Day 39 - January 8th 2024: [Homes Built from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day39.md)
     - Languages Used: SQL and Python
     - Question Difficulty: Easy
@@ -800,5 +800,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used inequalities to filter a dataframe on multiple conditions. Used the .sort_values() keyword to order by name alphabetically
+24. Day 176 - May 24th 2024: [Best Classes from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day176.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the .mean() function to calculate the average grade and the .groupby() function to group by class. Used the .sort_values() function to order by the average grade descending
 
 </details>

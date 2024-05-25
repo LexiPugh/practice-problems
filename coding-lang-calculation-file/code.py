@@ -164,13 +164,6 @@ ratings = ratings.sort_values(by='rating_difference', ascending=False)
 ratings.head(1)
 
 
-classes = classes.groupby(['class'])['grade'].mean().reset_index(name='average_grade')
-
-classes = classes.sort_values(by='average_grade', ascending=False)
-
-classes
-
-
 inspections = inspections[inspections['minor_issues'] <= 3]
 
 inspections = inspections[inspections['critical_issues'] < 1]
@@ -178,6 +171,13 @@ inspections = inspections[inspections['critical_issues'] < 1]
 inspections = inspections.sort_values(by='owner_name')
 
 inspections[['owner_name', 'vehicle']]
+
+
+classes = classes.groupby(['class'])['grade'].mean().reset_index(name='average_grade')
+
+classes = classes.sort_values(by='average_grade', ascending=False)
+
+classes
 
 
 homes = homes[(homes['year'] >= 2012) & (homes['year'] <= 2017)]

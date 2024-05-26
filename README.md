@@ -213,9 +213,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: Using the RIGHT() function in combination with the the ORDER BY keyword to sort query output based off a specific part of a string
 10. Day 41 - January 10th 2024: [Costco Rotisserie Loss from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day41.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Using the SUM aggregation to engineer a new feature and using the ROUND() function to round to the nearest whole number in both SQL and Python, using the .astype() function in Python to convert the number from a float to an int and drop the decimal place
+    - Concepts Covered: Used the SUM() function to find the total revenue lost and used the ROUND() function to round to the nearest whole number
 11. Day 42 - January 11th 2024: [Senior Citizen Discount from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day42.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
@@ -808,5 +808,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the & symbol and inequalities to filter a dataframe on multiple conditions
+26. Day 178 - May 26th 2024: [Costco Rotisserie Loss from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day178.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the .sum() function to find the total revenue lost and used the .round() function to round to the nearest whole number. Also used the .astype() function in to convert the number from a float to an int and drop the decimal place
 
 </details>

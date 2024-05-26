@@ -205,9 +205,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: Used the AVG() function to calculate the average grade, then used the GROUP BY keyword to group by class. Used the ORDER BY keyword to order by the average grade descending
 8. Day 39 - January 8th 2024: [Homes Built from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day39.md)
-    - Languages Used: SQL and Python
+    - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Using the AND keyword in combination with the WHERE keyword to filter on multiple conditions in SQL, using the & operator to accomplish the same output in Python
+    - Concepts Covered: Used the AND keyword in combination with the WHERE keyword and inequalities to filter on multiple conditions
 9. Day 40 - January 9th 2024: [Higher Than 75 Marks from HackerRank](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day40.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
@@ -804,5 +804,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the .mean() function to calculate the average grade and the .groupby() function to group by class. Used the .sort_values() function to order by the average grade descending
+25. Day 177 - May 25th 2024: [Homes Built from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day177.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the & symbol and inequalities to filter a dataframe on multiple conditions
 
 </details>

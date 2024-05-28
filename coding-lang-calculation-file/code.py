@@ -190,17 +190,17 @@ sales = sales['lost_revenue_millions'].sum().round(0).astype(int)
 sales
 
 
+purchases = purchases['total_purchase'].groupby(purchases['gender']).mean().round(2).reset_index(name='avg_purchase_price')
+
+purchases
+
+
 import numpy as np
 
 players['skill_level'] = np.where(players['batting_average']>0.37, 'Great Hitter',
                          np.where(players['batting_average']<0.27, 'Below Average', 'Average'))
 
 players
-
-
-purchases = purchases['total_purchase'].groupby(purchases['gender']).mean().round(2).reset_index(name='avg_purchase_price')
-
-purchases
 
 
 patients['BMI'] = ((patients['weight_pounds'] / (patients['height_inches']**2)) * 703).round(1)

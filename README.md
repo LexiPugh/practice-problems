@@ -221,9 +221,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Medium
     - Concepts Covered: Using the TIMESTAMPDIFF() function to find the difference between two dates, which I then used to filter to customers over a certain age
 12. Day 43 - January 12th 2024: [Baseball Scouts from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day43.md)
-    - Languages Used: SQL & Python
+    - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Using a CASE statement to make a conditional column that has output based on specified values in SQL, using NumPy's .where() function to accomplish the same output in Python
+    - Concepts Covered: Used a CASE statement to make a skill level column that assigns players a level based on their batting average
 13. Day 44 - January 13th 2024: [Men vs Women from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day44.md)
     - Languages Used: SQL & Python
     - Question Difficulty: Easy
@@ -812,5 +812,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the .sum() function to find the total revenue lost and used the .round() function to round to the nearest whole number. Also used the .astype() function in to convert the number from a float to an int and drop the decimal place
+27. Day 179 - May 27th 2024: [Baseball Scouts from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day179.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the numpy .where() function to make a skill level column that assigns players a level based on their batting average
 
 </details>

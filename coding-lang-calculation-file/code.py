@@ -190,11 +190,6 @@ sales = sales['lost_revenue_millions'].sum().round(0).astype(int)
 sales
 
 
-purchases = purchases['total_purchase'].groupby(purchases['gender']).mean().round(2).reset_index(name='avg_purchase_price')
-
-purchases
-
-
 import numpy as np
 
 players['skill_level'] = np.where(players['batting_average']>0.37, 'Great Hitter',
@@ -208,6 +203,13 @@ patients['BMI'] = ((patients['weight_pounds'] / (patients['height_inches']**2)) 
 patients = patients[patients['BMI'] > 30]
 
 patients[['patient_id', 'BMI']]
+
+
+purchases = purchases['total_purchase'].groupby(purchases['gender']).mean().round(2).reset_index(name='avg_purchase_price')
+
+purchases.sort_values(by='gender', ascending=True)
+
+purchases
 
 
 candidates = candidates[(candidates['problem_solving'] == 'X') & 

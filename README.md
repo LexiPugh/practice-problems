@@ -225,9 +225,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: Used a CASE statement to make a skill level column that assigns players a level based on their batting average
 13. Day 44 - January 13th 2024: [Men vs Women from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day44.md)
-    - Languages Used: SQL & Python
+    - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Using the ROUND() function, AVG() function, and GROUP BY keyword to engineer a new feature, round it to two decimal places, and split up the values by gender in SQL. Using the .round() function, .mean() function, and .groupby() function to accomplish the same output in Python
+    - Concepts Covered: Used the AVG() function to calculate the average purchase price and the ROUND() function to round the output to 2 decimal places. Used the GROUP BY and ORDER BY keywords to group and order by gender
 14. Day 45 - January 14th 2024: [Obesity from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day45.md)
     - Languages Used: SQL & Python
     - Question Difficulty: Easy
@@ -816,5 +816,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the numpy .where() function to make a skill level column that assigns players a level based on their batting average
+28. Day 180 - May 28th 2024: [Men vs Women from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day180.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the .mean() function to calculate the average purchase price and the .round() function to round the output to 2 decimal places. Used the .groupby() and .sort_values() functions to group and order by gender
 
 </details>

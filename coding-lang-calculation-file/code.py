@@ -198,13 +198,6 @@ players['skill_level'] = np.where(players['batting_average']>0.37, 'Great Hitter
 players
 
 
-patients['BMI'] = ((patients['weight_pounds'] / (patients['height_inches']**2)) * 703).round(1)
-
-patients = patients[patients['BMI'] > 30]
-
-patients[['patient_id', 'BMI']]
-
-
 purchases = purchases['total_purchase'].groupby(purchases['gender']).mean().round(2).reset_index(name='avg_purchase_price')
 
 purchases.sort_values(by='gender', ascending=True)
@@ -218,3 +211,10 @@ candidates = candidates[(candidates['problem_solving'] == 'X') &
              ((candidates['python'] == 'X') | (candidates['r_programming'] == 'X'))]
 
 candidates[['candidate_id']]
+
+
+patients['BMI'] = ((patients['weight_pounds'] / (patients['height_inches']**2)) * 703).round(1)
+
+patients = patients[patients['BMI'] > 30]
+
+patients[['patient_id', 'BMI']]

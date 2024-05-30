@@ -229,9 +229,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: Used the AVG() function to calculate the average purchase price and the ROUND() function to round the output to 2 decimal places. Used the GROUP BY and ORDER BY keywords to group and order by gender
 14. Day 45 - January 14th 2024: [Obesity from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day45.md)
-    - Languages Used: SQL & Python
+    - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Calculated BMI, which involved using the POWER() function and ROUND() function to make the output uniform. Then used the BMI values to filter to obese patients in both SQL and Python
+    - Concepts Covered: Used the POWER() function and a formula to calculate BMI, used the ROUND() function to round the output to 2 decimal places. Then used the HAVING keyword to filter on BMI
 15. Day 46 - January 15th 2024: [Pharmacy Analytics (Part 1) from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day46.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
@@ -820,5 +820,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the .mean() function to calculate the average purchase price and the .round() function to round the output to 2 decimal places. Used the .groupby() and .sort_values() functions to group and order by gender
+29. Day 181 - May 29th 2024: [Obesity from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day181.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used a formula to calculate BMI, which included the use of the ** symbol to calculate a power. Used the .round() function to round the output to 2 decimal places and filtered the dataframe based on BMI
 
 </details>

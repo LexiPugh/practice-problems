@@ -329,9 +329,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Medium
     - Concepts Covered: Performed an aggregation to calculate total spending, used a CASE statement to code different outputs based on the amount of spending, used the GROUP BY keyword to group the spending by employee
 5. Day 67 - February 5th 2024: [Perfect Data Analyst from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day67.md)
-    - Languages Used: SQL & Python
+    - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: In SQL I used a combination of the AND, OR, and IS NOT NULL operators to identify candidates that met specific qualifications. In Python I checked the fields for a certain value to determine if a candidate was qualified and used the & and | comparison operators to filter the data frame, accomplishing the same output
+    - Concepts Covered: Used a combination of the AND, OR, and IS NOT NULL operators in the WHERE clause to identify candidates that met specific qualifications
 6. Day 68 - February 6th 2024: [Gmail Users from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day68.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
@@ -824,5 +824,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used a formula to calculate BMI, which included the use of the ** symbol to calculate a power. Used the .round() function to round the output to 2 decimal places and filtered the dataframe based on BMI
+30. Day 182 - May 30th 2024: [Perfect Data Analyst from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day182.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Checked the fields for a certain value to determine if a candidate met specific job qualifications and used the & and | comparison operators to filter the data frame
 
 </details>

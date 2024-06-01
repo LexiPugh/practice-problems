@@ -218,3 +218,8 @@ candidates = candidates[(candidates['problem_solving'] == 'X') &
              ((candidates['python'] == 'X') | (candidates['r_programming'] == 'X'))]
 
 candidates[['candidate_id']]
+
+
+chocolate_items = bakery_items[bakery_items['product_name'].str.contains("Chocolate")]
+
+chocolate_items

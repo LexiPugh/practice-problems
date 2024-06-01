@@ -828,5 +828,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Checked the fields for a certain value to determine if a candidate met specific job qualifications and used the & and | comparison operators to filter the data frame
+31. Day 183 - May 31st 2024: [Chocolate from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/may2024/day183.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the .str() function in combination with the .contains() function to filter the dataframe to all items that have the word chocolate anywhere in their name
 
 </details>

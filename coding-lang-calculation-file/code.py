@@ -223,3 +223,8 @@ candidates[['candidate_id']]
 chocolate_items = bakery_items[bakery_items['product_name'].str.contains("Chocolate")]
 
 chocolate_items
+
+
+customers = customers[(customers['age'] > 65) | (customers['total_purchase'] > 200)]
+
+print(customers[customers.columns[0]].count())

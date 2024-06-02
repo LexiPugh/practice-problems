@@ -12,6 +12,7 @@
     - [March 2024](#march-2024)
     - [April 2024](#april-2024)
     - [May 2024](#may-2024)
+    - [June 2024](#june-2024)
 
 <br>
 
@@ -832,5 +833,23 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the .str() function in combination with the .contains() function to filter the dataframe to all items that have the word chocolate anywhere in their name
+
+</details>
+
+
+
+### June 2024
+
+<details>
+
+<summary>June 2024 Practice Problems</summary>
+
+<br>
+
+1. Day 184 - June 1st 2024: [Apply Discount from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day184.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the | operator to filter the dataframe to customers that met the conditions for receiving a discount, then used the .columns attribute and the .count() function to count the number of customers that met the conditions
+
 
 </details>

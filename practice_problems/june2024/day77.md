@@ -1,0 +1,68 @@
+# **Practice Problem #184: Apply Discount**
+### June 1st, 2024
+### Languages Used: Python
+
+<br>
+
+*This is the [Apply Discount](https://www.analystbuilder.com/questions/apply-discount-RdWhb) practice problem from Analyst Builder. The question difficulty is Easy.*
+
+<br>
+
+**Table of Contents**
+
+-   [The Question](#the-question)
+-   [My Solution](#my-solution)
+  
+<br>
+
+## The Question
+
+A Computer store is offering a 25% discount for all new customers over the age of 65 or customers that spend more than $200 on their first purchase.
+
+The owner wants to know how many customers received that discount since they started the promotion.
+
+Write a query to see how many customers received that discount.
+
+<br>
+
+customers Table:
+
+| Field          | Data Type |
+| :------------- | :-------- |
+| customer_id    | int       |
+| age            | int       |
+| total_purchase | int       |
+
+customers Input:
+
+| customer_id | age | total_purchase |
+| :---------- | :-- | :------------- |
+| 1001        | 72  | 1053           |
+| 1002        | 86  | 826            |
+| 1003        | 37  | 713            |
+| 1004        | 61  | 923            |
+| 1005        | 50  | 90             |
+| 1006        | 45  | 1057           |
+| 1007        | 39  | 673            |
+| 1008        | 69  | 952            |
+| 1009        | 29  | 874            |
+| 1010        | 23  | 524            |
+| 1011        | 81  | 496            |
+| 1012        | 62  | 384            |
+| 1013        | 80  | 1059           |
+| 1014        | 99  | 1071           |
+| 1015        | 75  | 1015           |
+
+<br>
+
+# My Solution
+
+``` Python
+customers = customers[(customers['age'] > 65) | (customers['total_purchase'] > 200)]
+
+print(customers[customers.columns[0]].count())
+```
+
+Output:
+
+14

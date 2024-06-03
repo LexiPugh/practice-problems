@@ -849,7 +849,11 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 1. Day 184 - June 1st 2024: [Apply Discount from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day184.md)
     - Languages Used: Python
     - Question Difficulty: Easy
-    - Concepts Covered: Used the | operator to filter the dataframe to customers that met the conditions for receiving a discount, then used the .columns attribute and the .count() function to count the number of customers that met the conditions
+    - Concepts Covered: Used the | operator to filter the dataframe to customers that met the conditions for receiving a discount, then used the .count() function to count the number of customers that met the conditions
+2. Day 185 - June 2nd 2024: [Electric Bike Replacement from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day185.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Filtered the dataframe to filter to eletric bikes that need to be replaced due to a high level of battery usage, then used the .count() function to count how many bikes need to be replaced
 
 
 </details>

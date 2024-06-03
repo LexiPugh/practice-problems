@@ -227,4 +227,9 @@ chocolate_items
 
 customers = customers[(customers['age'] > 65) | (customers['total_purchase'] > 200)]
 
-print(customers[customers.columns[0]].count())
+customers['age'].count()
+
+
+bikes = bikes[bikes['miles'] >= 10000]
+
+bikes['miles'].count()

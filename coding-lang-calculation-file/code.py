@@ -233,3 +233,10 @@ customers['age'].count()
 bikes = bikes[bikes['miles'] >= 10000]
 
 bikes['miles'].count()
+
+
+revenue = revenue.groupby('store_id').mean('revenue_millions').reset_index()
+
+revenue = revenue.sort_values(by='revenue_millions', ascending=False)
+
+revenue[['store_id', 'revenue_millions']]

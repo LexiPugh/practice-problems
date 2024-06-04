@@ -854,6 +854,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Filtered the dataframe to filter to eletric bikes that need to be replaced due to a high level of battery usage, then used the .count() function to count how many bikes need to be replaced
+3. Day 186 - June 3rd 2024: [Average Revenue from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day186.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the .groupby(), .mean(), and .reset_index() functions to find the average revenue and group the average revenue by store id. I then used the .sort_values() function to order by average revenue so the top earning stores showed at the top of the output table
 
 
 </details>

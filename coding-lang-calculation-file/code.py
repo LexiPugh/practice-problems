@@ -240,3 +240,10 @@ revenue = revenue.groupby('store_id').mean('revenue_millions').reset_index()
 revenue = revenue.sort_values(by='revenue_millions', ascending=False)
 
 revenue[['store_id', 'revenue_millions']]
+
+
+students = students[(students['grade'] == 'A') | (students['grade'] == 'B')]
+
+students = students.sort_values(by=['first_name', 'last_name'], ascending=[True, True])
+
+students[['first_name', 'last_name']]

@@ -348,7 +348,7 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 9. Day 71 - February 9th 2024: [A/B Students from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day71.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Used the OR keyword in combination with the WHERE keyword to filter to students who got an A or B for their final exam, used the ORDER BY to order the output alphabetically
+    - Concepts Covered: Used the OR keyword in combination with the WHERE keyword to filter to students who got an A or B for their final exam, used the ORDER BY keyword to order the output alphabetically
 10. Day 72 - February 10th 2024: [Football Perfection from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day72.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
@@ -858,6 +858,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the .groupby(), .mean(), and .reset_index() functions to find the average revenue and group the average revenue by store id. I then used the .sort_values() function to order by average revenue so the top earning stores showed at the top of the output table
+4. Day 187 - June 4th 2024: [A/B Students from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day187.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the | operator to filter the dataframe to students who got an A or B for their final exam. Also used the .sort_values() function to order the output alphabetically
 
 
 </details>

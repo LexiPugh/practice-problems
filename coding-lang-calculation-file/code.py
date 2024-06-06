@@ -247,3 +247,10 @@ students = students[(students['grade'] == 'A') | (students['grade'] == 'B')]
 students = students.sort_values(by=['first_name', 'last_name'], ascending=[True, True])
 
 students[['first_name', 'last_name']]
+
+
+web_traffic = web_traffic.groupby('date_visited').nunique().reset_index()
+
+web_traffic = web_traffic.sort_values(by='date_visited', ascending=True)
+
+web_traffic

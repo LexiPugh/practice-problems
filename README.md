@@ -862,6 +862,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the | operator to filter the dataframe to students who got an A or B for their final exam. Also used the .sort_values() function to order the output alphabetically
+5. Day 188 - June 5th 2024: [Web Traffic from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day188.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the .groupby() function to group the dataframe by visit date and used the .nunique() function to get the distinct count of visitors. Used the .sort_values() function to order the output by date sequentially
 
 
 </details>

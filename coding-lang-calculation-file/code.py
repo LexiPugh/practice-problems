@@ -254,3 +254,8 @@ web_traffic = web_traffic.groupby('date_visited').nunique().reset_index()
 web_traffic = web_traffic.sort_values(by='date_visited', ascending=True)
 
 web_traffic
+
+
+football = football[(football['points_scored'] > 400) & (football['penalties'] <= 80)]
+
+football[['team']]

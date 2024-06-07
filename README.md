@@ -352,7 +352,7 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 10. Day 72 - February 10th 2024: [Football Perfection from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day72.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Used the AND keyword in combination with the WHERE keyword to filter to football teams that had both a high number of points scored and a low number of penalties scored
+    - Concepts Covered: Used the AND keyword in combination with the WHERE keyword to filter to football teams that had both a high number of points scored and a low number of penalties
 11. Day 73 - February 11th 2024: [Animals from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day73.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
@@ -866,6 +866,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the .groupby() function to group the dataframe by visit date and used the .nunique() function to get the distinct count of visitors. Used the .sort_values() function to order the output by date sequentially
+6. Day 189 - June 6th 2024: [Football Perfection from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day189.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the & symbol to filter the dataframe to football teams that had both a high number of points scored and a low number of penalties
 
 
 </details>

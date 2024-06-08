@@ -259,3 +259,12 @@ web_traffic
 football = football[(football['points_scored'] > 400) & (football['penalties'] <= 80)]
 
 football[['team']]
+
+
+import pandas as pd
+
+animals_main = pd.concat([animals_main, animals_secondary])
+
+animals_main = animals_main.sort_values(by='animal', ascending=True)
+
+animals_main

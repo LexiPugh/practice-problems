@@ -870,6 +870,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the & symbol to filter the dataframe to football teams that had both a high number of points scored and a low number of penalties
+7. Day 190 - June 7th 2024: [Animals from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day190.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the pd.concat() function to combine two datasets with common columns and remove any duplicates, used the .sort_values() function to order output alphabetically
 
 
 </details>

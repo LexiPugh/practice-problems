@@ -268,3 +268,16 @@ animals_main = pd.concat([animals_main, animals_secondary])
 animals_main = animals_main.sort_values(by='animal', ascending=True)
 
 animals_main
+
+
+import pandas as pd
+
+bread_table['key'] = 1
+
+meat_table['key'] = 1
+
+result = pd.merge(bread_table, meat_table, on ='key').drop("key", axis=1) 
+
+result = result.sort_values(by=['bread_name', 'meat_name'], ascending=[True, True])
+
+result[['bread_name', 'meat_name']]

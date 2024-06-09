@@ -874,6 +874,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the pd.concat() function to combine two datasets with common columns and remove any duplicates, used the .sort_values() function to order output alphabetically
+8. Day 191 - June 8th 2024: [Sandwich Generation from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day191.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Performed the equivalent of a SQL CROSS JOIN in Python. Accomplished this by making a new column in each dataframe with the same name and value, then used pd.merge() to join the dataframes on the new common column. I then used .drop() to drop the common column and used the .sort_values() function to order the output alphabetically on bread name and meat name
 
 
 </details>

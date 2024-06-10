@@ -878,6 +878,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Performed the equivalent of a SQL CROSS JOIN in Python. Accomplished this by making a new column in each dataframe with the same name and value, then used pd.merge() to join the dataframes on the new common column. I then used .drop() to drop the common column and used the .sort_values() function to order the output alphabetically on bread name and meat name
+9. Day 192 - June 9th 2024: [Unique from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day192.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the .drop_duplicates() function to drop any duplicate customer ids from the dataframe, then used the .sort_values() function to order the output alphabetically by customer id
 
 
 </details>

@@ -281,3 +281,10 @@ result = pd.merge(bread_table, meat_table, on ='key').drop("key", axis=1)
 result = result.sort_values(by=['bread_name', 'meat_name'], ascending=[True, True])
 
 result[['bread_name', 'meat_name']]
+
+
+transactions = transactions.drop_duplicates(subset=['customer_id'])
+
+transactions = transactions.sort_values(by='customer_id', ascending=True)
+
+transactions[['customer_id']]

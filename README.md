@@ -344,7 +344,7 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 8. Day 70 - February 8th 2024: [Uber High and Low from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day70.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Used the OR keyword in combination with the WHERE keyword to filter on two separate conditions, used the ORDER BY keyword to order output
+    - Concepts Covered: Used the OR keyword in combination with the WHERE keyword to filter on two separate conditions, used the ORDER BY keyword to order the output on income
 9. Day 71 - February 9th 2024: [A/B Students from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day71.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
@@ -882,6 +882,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the .drop_duplicates() function to drop any duplicate customer ids from the dataframe, then used the .sort_values() function to order the output alphabetically by customer id
+10. Day 193 - June 10th 2024: [Uber High and Low from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day193.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the | symbol to filter a dataframe on two separate conditions, used the .sort_values() function to order the output on income
 
 
 </details>

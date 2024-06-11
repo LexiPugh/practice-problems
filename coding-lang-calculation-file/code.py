@@ -288,3 +288,10 @@ transactions = transactions.drop_duplicates(subset=['customer_id'])
 transactions = transactions.sort_values(by='customer_id', ascending=True)
 
 transactions[['customer_id']]
+
+
+uber_income = uber_income[(uber_income['income'] <= 10000) | (uber_income['income'] > 65000)]
+
+uber_income = uber_income.sort_values(by='income', ascending=False)
+
+uber_income

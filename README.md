@@ -886,6 +886,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the | symbol to filter a dataframe on two separate conditions, used the .sort_values() function to order the output on income
+11. Day 194 - June 11th 2024: [Fire Them! from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day194.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the & symbol to filter a dataframe on multiple conditions and wrote a formula to calculate the proportion of tasks that each employee has completed for the purpose of filtering. Used the .sort_values() function to order the output alphabetically on name
 
 
 </details>

@@ -295,3 +295,10 @@ uber_income = uber_income[(uber_income['income'] <= 10000) | (uber_income['incom
 uber_income = uber_income.sort_values(by='income', ascending=False)
 
 uber_income
+
+
+employee_info = employee_info[(employee_info['end_of_year_review_rating'] <= 5) & ((employee_info['tasks_completed']/employee_info['tasks_assigned']) < 0.75)]
+
+employee_info = employee_info.sort_values(by='name', ascending=True)
+
+employee_info[['name']]

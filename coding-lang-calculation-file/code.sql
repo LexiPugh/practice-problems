@@ -1980,3 +1980,13 @@ SELECT
   ROUND((international_calls / total_calls) * 100.0, 1) AS international_calls_pct 
 FROM 
   calls_table
+
+
+SELECT 
+  company_name,
+  stock_symbol,
+  ROUND(share_price * shares_outstanding, 2) AS market_capitalization
+FROM 
+  companies
+ORDER BY
+  market_capitalization DESC

@@ -890,6 +890,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the & symbol to filter a dataframe on multiple conditions and wrote a formula to calculate the proportion of tasks that each employee has completed for the purpose of filtering. Used the .sort_values() function to order the output alphabetically on name
+12. Day 195 - June 12th 2024: [Market Caps from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day195.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Performed a calculation to calculate market capitalization and used the ROUND() function to round output to 2 decimal places. Used the ORDER BY keyword to order the output by market capitalization descending
 
 
 </details>

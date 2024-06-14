@@ -302,3 +302,10 @@ employee_info = employee_info[(employee_info['end_of_year_review_rating'] <= 5) 
 employee_info = employee_info.sort_values(by='name', ascending=True)
 
 employee_info[['name']]
+
+
+companies['market_capitalization'] = (companies['share_price'] * companies['shares_outstanding']).round(2)
+
+companies = companies.sort_values(by='market_capitalization', ascending=False)
+
+companies[['company_name', 'stock_symbol', 'market_capitalization']]

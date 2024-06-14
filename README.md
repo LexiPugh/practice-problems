@@ -894,6 +894,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Performed a calculation to calculate market capitalization and used the ROUND() function to round output to 2 decimal places. Used the ORDER BY keyword to order the output by market capitalization descending
+13. Day 196 - June 13th 2024: [Market Caps from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day196.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Performed a calculation to calculate market capitalization and used the .round() function to round output to 2 decimal places. Used the .sort_values() function to order the output by market capitalization descending
 
 
 </details>

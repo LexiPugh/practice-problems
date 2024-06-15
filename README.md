@@ -898,6 +898,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Performed a calculation to calculate market capitalization and used the .round() function to round output to 2 decimal places. Used the .sort_values() function to order the output by market capitalization descending
-
+14. Day 197 - June 14th 2024: [Shrink-flation from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day197.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Performed a calculation to calculate the percent difference in item size and price, using the ROUND() function to round the percentages to the nearest whole number. Used a CASE statement to output "True" if an item decreased in size and increased in price, and "False" otherwise. Used the ORDER BY keyword to order the output alphabetically by item name
 
 </details>

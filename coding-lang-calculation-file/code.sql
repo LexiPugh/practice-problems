@@ -1990,3 +1990,17 @@ FROM
   companies
 ORDER BY
   market_capitalization DESC
+
+
+SELECT 
+  product_name,
+  ROUND(((new_size/original_size)*100)-100, 0) AS size_change_percentage,
+  ROUND(((new_price/original_price)*100)-100, 0) AS price_change_percentage,
+  CASE 
+    WHEN (new_size < original_size) AND (new_price > original_price) 
+    THEN 'True' ELSE 'False' 
+  END AS shrinkflation_flag
+FROM 
+  products
+ORDER BY
+  product_name ASC

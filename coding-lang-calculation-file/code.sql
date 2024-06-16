@@ -2004,3 +2004,16 @@ FROM
   products
 ORDER BY
   product_name ASC
+
+
+SELECT 
+  country,
+  ROUND(national_debt, 0) AS national_debt
+FROM 
+  global_debts
+WHERE
+  year = (SELECT MAX(year) FROM global_debts)
+ORDER BY
+  national_debt DESC
+LIMIT 
+  3

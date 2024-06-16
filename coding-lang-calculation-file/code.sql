@@ -2017,3 +2017,17 @@ ORDER BY
   national_debt DESC
 LIMIT 
   3
+
+
+WITH calculator_sales AS
+(
+  SELECT 
+    SUM(CASE WHEN year = 2000 THEN calculator_sales ELSE 0 END) AS sales2000,
+    SUM(CASE WHEN year = 2023 THEN calculator_sales ELSE 0 END) AS sales2023
+  FROM 
+    calculators
+)
+SELECT
+  ROUND(((sales2023 - sales2000) / sales2000) * 100, 2) AS pct_change
+FROM
+  calculator_sales

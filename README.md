@@ -902,5 +902,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Performed a calculation to calculate the percent difference in item size and price, using the ROUND() function to round the percentages to the nearest whole number. Used a CASE statement to output "True" if an item decreased in size and increased in price, and "False" otherwise. Used the ORDER BY keyword to order the output alphabetically by item name
+15. Day 198 - June 15th 2024: [Biggest Country Debts from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day198.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used a subquery in the WHERE clause to filter to where the year is equal to the MAX() year in the dataset, allowing the query to work in the future without any manual adjustments. Used the ORDER BY keyword to order by national debt descending and used the LIMIT keyword to grab only the top 3 countries with the highest debt. Used the ROUND() function to round the national debt to the nearest whole number in the output table
 
 </details>

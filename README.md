@@ -906,5 +906,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used a subquery in the WHERE clause to filter to where the year is equal to the MAX() year in the dataset, allowing the query to work in the future without any manual adjustments. Used the ORDER BY keyword to order by national debt descending and used the LIMIT keyword to grab only the top 3 countries with the highest debt. Used the ROUND() function to round the national debt to the nearest whole number in the output table
+16. Day 199 - June 16th 2024: [Calculator Sales from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day199.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Started off by creating a CTE. In the CTE, I used the SUM() function and CASE statements to sum up the calculator sales for 2000 and 2023, storing both values in variables. In the outer query, I used the variables from the CTE to calculate the percent change in calculator sales between 2000 and 2023, using the ROUND() function to round the output to two decimal places
 
 </details>

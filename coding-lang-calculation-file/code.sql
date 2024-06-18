@@ -2031,3 +2031,11 @@ SELECT
   ROUND(((sales2023 - sales2000) / sales2000) * 100, 2) AS pct_change
 FROM
   calculator_sales
+
+
+SELECT 
+  CASE WHEN product_id > 0 THEN product_id ELSE NULL END AS product_id,
+  CASE WHEN quantity_sold > 0 THEN quantity_sold ELSE 0 END AS quantity_sold,
+  CASE WHEN revenue IS NOT NULL THEN revenue ELSE (SELECT AVG(revenue) FROM dirty_data) END AS revenue
+FROM 
+  dirty_data

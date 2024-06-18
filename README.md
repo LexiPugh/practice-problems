@@ -910,5 +910,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Started off by creating a CTE. In the CTE, I used the SUM() function and CASE statements to sum up the calculator sales for 2000 and 2023, storing both values in variables. In the outer query, I used the variables from the CTE to calculate the percent change in calculator sales between 2000 and 2023, using the ROUND() function to round the output to two decimal places
+17. Day 200 - June 17th 2024: [Make it Cleaner! from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day200.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Used multiple CASE statements to perform data cleaning on various columns. I first used a CASE statement to return NULL for product ids that were not greater than 0. I then used another CASE statement to return 0 for any values that were not greater than 0 in the quantity sold column. Finally, I used a CASE statement to plug in the dataset's average revenue for any NULL values in the revenue column. I used a small subquery within the CASE statement to SELECT the dataset's average revenue value
 
 </details>

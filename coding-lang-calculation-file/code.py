@@ -309,3 +309,10 @@ companies['market_capitalization'] = (companies['share_price'] * companies['shar
 companies = companies.sort_values(by='market_capitalization', ascending=False)
 
 companies[['company_name', 'stock_symbol', 'market_capitalization']]
+
+
+boss = boss.merge(boss[['employee_id', 'employee_name']], left_on='boss_id', right_on='employee_id', how='left')
+
+boss = boss.sort_values(by='employee_name_x', ascending=True)
+
+boss[['employee_name_x', 'employee_name_y']]

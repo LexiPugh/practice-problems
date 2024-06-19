@@ -914,5 +914,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Hard
     - Concepts Covered: Used multiple CASE statements to perform data cleaning on various columns. I first used a CASE statement to return NULL for product ids that were not greater than 0. I then used another CASE statement to return 0 for any values that were not greater than 0 in the quantity sold column. Finally, I used a CASE statement to plug in the dataset's average revenue for any NULL values in the revenue column. I used a small subquery within the CASE statement to SELECT the dataset's average revenue value
+18. Day 201 - June 18th 2024: [Boss from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day201.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the .merge() function to perform a self join and get employee names and boss names on the same row for the purpose of finding the boss for each employee. Performed a LEFT merge specifically to keep all employee data even if they don't have a boss. Used the .sort_values() function to get the output in alphabetical order
 
 </details>

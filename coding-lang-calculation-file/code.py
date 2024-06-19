@@ -316,3 +316,10 @@ boss = boss.merge(boss[['employee_id', 'employee_name']], left_on='boss_id', rig
 boss = boss.sort_values(by='employee_name_x', ascending=True)
 
 boss[['employee_name_x', 'employee_name_y']]
+
+
+sessions = sessions[sessions['activity'] == 'Gaming']
+
+sessions = sessions.groupby('user_id')['minutes_per_session'].mean().reset_index()
+
+sessions

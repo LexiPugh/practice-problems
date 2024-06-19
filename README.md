@@ -918,5 +918,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Used the .merge() function to perform a self join and get employee names and boss names on the same row for the purpose of finding the boss for each employee. Performed a LEFT merge specifically to keep all employee data even if they don't have a boss. Used the .sort_values() function to get the output in alphabetical order
+19. Day 202 - June 19th 2024: [Average Gaming Session from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day202.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Started by filtering the dataframe to gaming activities. I then used the .mean() function along with the .groupby() function to find average time spent on gaming grouped by user
 
 </details>

@@ -323,3 +323,8 @@ sessions = sessions[sessions['activity'] == 'Gaming']
 sessions = sessions.groupby('user_id')['minutes_per_session'].mean().reset_index()
 
 sessions
+
+
+member_percentage = (((customers['has_member_card']).count() / (customers['kroger_id']).count()) * 100).round(2)
+
+member_percentage

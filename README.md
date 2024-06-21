@@ -922,5 +922,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Started by filtering the dataframe to gaming activities. I then used the .mean() function along with the .groupby() function to find average time spent on gaming grouped by user
+20. Day 203 - June 20th 2024: [Kroger's Members from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day203.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Performed a calculation using the .count() function to calculate the percentage of Kroger shoppers that have a membership card, used the .round() function to round to two decimal places
 
 </details>

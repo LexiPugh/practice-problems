@@ -328,3 +328,12 @@ sessions
 member_percentage = (((customers['has_member_card']).count() / (customers['kroger_id']).count()) * 100).round(2)
 
 member_percentage
+
+
+big_pharma['money_lost'] = (big_pharma['money_made'] - big_pharma['money_spent']).abs().round(1)
+
+big_pharma = big_pharma[(big_pharma['money_made'] - big_pharma['money_spent']) < 0]
+
+big_pharma = big_pharma.sort_values(by='money_lost', ascending=False)
+
+big_pharma.head(3)

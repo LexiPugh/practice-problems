@@ -937,8 +937,10 @@ Fill in later (sick)
 
 Fill in later (still sick)
 
-Fill in later (STILL sick lol)
+Fill in later (STILL sick lol)    
 
 Fill in later (STILL sick somehow)
+
+Fill in later (still sick, turns out it's Covid lmao)
 
 </details>

@@ -337,3 +337,10 @@ big_pharma = big_pharma[(big_pharma['money_made'] - big_pharma['money_spent']) <
 big_pharma = big_pharma.sort_values(by='money_lost', ascending=False)
 
 big_pharma.head(3)
+
+
+gmail_users = gmail_users[gmail_users['email'].str.contains('@gmail\.com$')]
+
+gmail_users.sort_values(by='customer_id', ascending=True)
+
+gmail_users[['customer_id', 'name', 'email']]

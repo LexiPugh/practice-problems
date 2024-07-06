@@ -930,6 +930,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Performed a calculation to calculate the amount of money lost on different drugs. Used the .abs() function and .round() function to get the absolute value of money lost rounded to 1 decimal place, then filtered the dataframe to drugs that had a negative profit. I then returned the top three drugs that lost the most money by using the .head() function. There ended up being only two drugs that had lost money, so the final output table had two drugs
+22. Day 205 - June 22nd 2024: [Gmail Users from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day205.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Used .str.contains() method and a regular expression to select all users who use Gmail as their email provider, AKA all emails that end in @gmail.com
    
 Fill in later (sick)
 

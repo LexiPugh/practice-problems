@@ -292,7 +292,7 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 29. Day 60 - January 29th 2024: [LinkedIn Famous from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day60.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Performed a calculation to determine the populatiry score of LinkedIn posts based off their impressions and interactions, filtered and sorted by the popularity score to get posts only of a specified popularity level
+    - Concepts Covered: Performed a calculation to determine the popularity score of LinkedIn posts based off their impressions and interactions, filtered and sorted by the popularity score to get posts only of a specified popularity level
 30. Day 61 - January 30th 2024: [Intern Problems from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day61.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
@@ -933,7 +933,11 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 22. Day 205 - June 22nd 2024: [Gmail Users from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day205.md)
     - Languages Used: Python
     - Question Difficulty: Medium
-    - Concepts Covered: Used .str.contains() method and a regular expression to select all users who use Gmail as their email provider, AKA all emails that end in @gmail.com
+    - Concepts Covered: Used the .str.contains() method and a regular expression to select all users who use Gmail as their email provider, AKA all emails that end in @gmail.com
+23. Day 206 - June 23rd 2024: [LinkedIn Famous from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day206.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Performed a calculation to determine the popularity score of LinkedIn posts based off their impressions and interactions. I then filtered the dataframe and used the .sort_values() function to get posts only of a specified popularity level, sorted by popularity level descending
    
 Fill in later (sick)
 

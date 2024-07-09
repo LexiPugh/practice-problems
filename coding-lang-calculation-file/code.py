@@ -344,3 +344,12 @@ gmail_users = gmail_users[gmail_users['email'].str.contains('@gmail\.com$')]
 gmail_users.sort_values(by='customer_id', ascending=True)
 
 gmail_users[['customer_id', 'name', 'email']]
+
+
+linkedin_posts['popularity_score'] = (linkedin_posts['actions'] / linkedin_posts['impressions']) * 100
+
+linkedin_posts = linkedin_posts[linkedin_posts['popularity_score'] > 1]
+
+linkedin_posts = linkedin_posts.sort_values(by='popularity_score', ascending=False)
+
+linkedin_posts[['post_id', 'popularity_score']]

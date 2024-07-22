@@ -25,7 +25,8 @@ Starting on December 1st 2023, I'm going to do one practice problem per day! My 
 I'll continue doing these practice problems at least until I land a job as a data analyst, and possibly even after that! The practice questions will come from a variety of sources, such as:
 - [DataLemur](https://datalemur.com/) 
 - [Analyst Builder](https://www.analystbuilder.com/) 
-- [HackerRank](https://www.hackerrank.com/domains/sql)
+- [HackerRank](https://www.hackerrank.com)
+- [LeetCode](https://leetcode.com/)
 
 Some of the practice problems will be in SQL and some will be in Python. Thank you for taking the time to view my practice problems repository :D
 

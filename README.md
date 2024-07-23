@@ -13,6 +13,7 @@
     - [April 2024](#april-2024)
     - [May 2024](#may-2024)
     - [June 2024](#june-2024)
+    - [July 2024](#july-2024)
 
 <br>
 
@@ -940,5 +941,16 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Medium
     - Concepts Covered: Performed a calculation to determine the popularity score of LinkedIn posts based off their impressions and interactions. I then filtered the dataframe and used the .sort_values() function to get posts only of a specified popularity level, sorted by popularity level descending
    
+</details>
+
+
+
+### July 2024
+
+<details>
+
+<summary>July 2024 Practice Problems</summary>
+
+<br>
 
 </details>

@@ -945,6 +945,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Set up a conditional statement that outputted different messages based on a few different conditions. Used the modulo operator (%) to to evaluate if numbers were even or odd and used inequalities to determine the range of the numbers for the purpose of printing out the different messages
+25. Day 208 - June 25th 2024: [Arithmetic Operators from HackerRank](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day208.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Practiced the syntax for using the arithmetic operators in Python, including addition (+), subtraction (-), and multiplication (*)
    
 </details>
 

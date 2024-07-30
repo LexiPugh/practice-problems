@@ -941,6 +941,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Performed a calculation to determine the popularity score of LinkedIn posts based off their impressions and interactions. I then filtered the dataframe and used the .sort_values() function to get posts only of a specified popularity level, sorted by popularity level descending
+24. Day 207 - June 24th 2024: [Python If-Else from HackerRank](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day207.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Set up a conditional statement that outputted different messages based on a few different conditions. Used the modulo operator (%) to to evaluate if numbers were even or odd and used inequalities to determine the range of the numbers for the purpose of printing out the different messages
    
 </details>
 

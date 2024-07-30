@@ -364,3 +364,10 @@ elif (n >=6) and (n <= 20):
     print('Weird')
 else:
     print('Not Weird')
+
+
+a = int(input())
+b = int(input())
+print(a + b)
+print(a - b)
+print(a * b)

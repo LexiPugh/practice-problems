@@ -957,6 +957,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Practiced setting up for loops, printing out the square root of each number less than the number that a user inputted
+28. Day 211 - June 28th 2024: [Combine Two Tables from LeetCode](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day211.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the Pandas .merge() method to perform a left join on two different tables
    
 </details>
 

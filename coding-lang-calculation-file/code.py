@@ -377,3 +377,10 @@ a = int(input())
 b = int(input())
 print(a//b)
 print(a/b)
+
+
+n = int(input())
+i = 0
+while i < n:
+    print(i**2)
+    i+=1

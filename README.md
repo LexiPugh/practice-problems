@@ -953,6 +953,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Learned about the difference between integer division (//) and float division (/), and wrote code to practice the syntax for both
+27. Day 210 - June 27th 2024: [Loops from HackerRank](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day210.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Practiced setting up for loops, printing out the square root of each number less than the number that a user inputted
    
 </details>
 

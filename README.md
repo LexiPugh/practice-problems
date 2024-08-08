@@ -961,6 +961,11 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the Pandas .merge() method to perform a left join on two different tables
+29. Day 212 - June 29th 2024: [Duplicate Emails from LeetCode](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day212.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the Pandas .duplicated() method to select all duplicate emails in a dataframe, then used the .drop_duplicates() method to output each email that had a duplicate only once in the output table
+
    
 </details>
 

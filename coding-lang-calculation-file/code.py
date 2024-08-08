@@ -393,3 +393,10 @@ def combine_two_tables(person: pd.DataFrame, address: pd.DataFrame) -> pd.DataFr
     combined_table = pd.merge(person, address, on='personId', how='left')
 
     return combined_table[['firstName', 'lastName', 'city', 'state']]
+
+
+import pandas as pd
+
+def duplicate_emails(person: pd.DataFrame) -> pd.DataFrame:
+
+    return person[person.duplicated('email') == True][['email']].drop_duplicates()

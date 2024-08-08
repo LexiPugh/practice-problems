@@ -411,3 +411,12 @@ def find_customers(customers: pd.DataFrame, orders: pd.DataFrame) -> pd.DataFram
     customers = customers.rename(columns={'name': 'Customers'})
 
     return customers[['Customers']]
+
+
+import pandas as pd
+
+def big_countries(world: pd.DataFrame) -> pd.DataFrame:
+
+    world = world[(world['area'] >= 3000000) | (world['population'] >= 25000000)]
+
+    return world[['name', 'population', 'area']]

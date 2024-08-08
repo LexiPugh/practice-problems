@@ -14,6 +14,7 @@
     - [May 2024](#may-2024)
     - [June 2024](#june-2024)
     - [July 2024](#july-2024)
+    - [August 2024](#august-2024)
 
 <br>
 
@@ -965,6 +966,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the Pandas .duplicated() method to select all duplicate emails in a dataframe, then used the .drop_duplicates() method to output each email that had a duplicate only once in the output table
+30. Day 213 - June 30th 2024: [Customers Who Never Order from LeetCode](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day213.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the Pandas .isin() method in combination with the negation operator ~ to filter the dataframe to instances where a customer showed up in the customers table but not the orders table. I then used the Pandas .rename() method to rename the 'name' column to 'Customers' to match the desired output. Finally, I returned the Customers column from the dataframe
 
    
 </details>
@@ -979,5 +984,20 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 
 <br>
 
+
+
 </details>
 
+
+
+### August 2024
+
+<details>
+
+<summary>August 2024 Practice Problems</summary>
+
+<br>
+
+
+
+</details>

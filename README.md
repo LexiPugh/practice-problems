@@ -984,7 +984,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 
 <br>
 
-
+1. Day 214 - July 1st 2024: [Big Countries from LeetCode](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day214.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the | operator to filter a dataframe based on whether it met at least one of two criteria for a country to be considered big
 
 </details>
 

@@ -996,6 +996,11 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: For this problem, I needed to fix the capitalization of names in a table so that the first letter was uppercase and the rest were lowercase; I completed this in two different ways. For the first solution, I simply used the Python string .capitalize() method, which capitalizes the first character in a string and makes the rest lowercase. For the second solution, I used string slices combined with the string .upper() and .lower() methods to accomplish the same output. For both solutions, I used the .sort_values() function to order the output by user id ascending
+4. Day 217 - July 4th 2024: [Invalid Tweets from LeetCode](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day217.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: First I used the str.len() method to find the length of strings in a column. I then used that to filter the dataframe to strings with greater than 15 characters, grabbing invalid tweets that surpassed the character limit
+
 
 </details>
 

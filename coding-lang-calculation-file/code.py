@@ -453,3 +453,12 @@ def fix_names(users: pd.DataFrame) -> pd.DataFrame:
     users['name'] = users['name'].str[:1].str.upper() + users['name'].str[1:].str.lower()
 
     return users[['user_id', 'name']].sort_values(by='user_id', ascending=True)
+
+
+import pandas as pd
+
+def invalid_tweets(tweets: pd.DataFrame) -> pd.DataFrame:
+    
+    tweets = tweets[tweets['content'].str.len() > 15]
+
+    return tweets[['tweet_id']]

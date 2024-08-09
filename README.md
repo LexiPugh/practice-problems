@@ -1000,6 +1000,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: First I used the str.len() method to find the length of strings in a column. I then used that to filter the dataframe to strings with greater than 15 characters, grabbing invalid tweets that surpassed the character limit
+5. Day 218 - July 5th 2024: [Recyclable and Low Fat Products from LeetCode](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day218.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the & operator to filter to products that are both recyclable and low fat
 
 
 </details>

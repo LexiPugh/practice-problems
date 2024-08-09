@@ -1004,6 +1004,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the & operator to filter to products that are both recyclable and low fat
+6. Day 219 - July 6th 2024: [Calculate Special Bonus from LeetCode](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day219.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: For this question, employees are supposed to get a bonus worth 100% of their salary if their employee id is odd and their name does not start with M - otherwise, they get a bonus of 0. To accomplish this, I first defined the bonus column and set it equal to 0. Then I used the .loc[] method to find employees that met both conditions and inserted their salary into the bonus column. To find odd employee ids I used the modulo (%) operator, and to find names that do not start with M I used a combination of the str.startswith() method and the negation (~) operator. I then used the .sort_values() function to order the output by employee id
 
 
 </details>

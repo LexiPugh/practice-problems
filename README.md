@@ -992,6 +992,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: I started by filtering the dataframe to instances where the author id was equivalent to the viewer id to find instances where the author viewed one of their own articles. I then used the .unique() method on the author id column to grab each unique author that viewed at least one of their own articles, then used pd.DataFrame to convert the array of author ids to a dataframe. Finally, I used the .sort_values() function to sort the output table by the ids ascending
+3. Day 216 - July 3rd 2024: [Fix Names in a Table from LeetCode](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day216.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: For this problem, I needed to fix the capitalization of names in a table so that the first letter was uppercase and the rest were lowercase; I completed this in two different ways. For the first solution, I simply used the Python string .capitalize() method, which capitalizes the first character in a string and makes the rest lowercase. For the second solution, I used string slices combined with the string .upper() and .lower() methods to accomplish the same output. For both solutions, I used the .sort_values() function to order the output by user id ascending
 
 </details>
 

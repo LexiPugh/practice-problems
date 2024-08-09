@@ -471,3 +471,14 @@ def find_products(products: pd.DataFrame) -> pd.DataFrame:
     products = products[(products['low_fats'] == 'Y') & (products['recyclable'] == 'Y')]
 
     return products[['product_id']]
+
+
+import pandas as pd
+
+def calculate_special_bonus(employees: pd.DataFrame) -> pd.DataFrame:
+
+    employees['bonus'] = 0
+
+    employees.loc[(employees['employee_id'] % 2 == 1) & (~employees['name'].str.startswith('M')), 'bonus'] = employees['salary']
+    
+    return employees[['employee_id', 'bonus']].sort_values(by='employee_id', ascending=True)

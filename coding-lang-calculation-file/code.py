@@ -493,3 +493,12 @@ def employee_bonus(employee: pd.DataFrame, bonus: pd.DataFrame) -> pd.DataFrame:
     combined_df = combined_df[(combined_df['bonus'] < 1000) | (combined_df['bonus'].isna())]
 
     return combined_df[['name', 'bonus']]
+
+
+import pandas as pd
+
+def find_customer_referee(customer: pd.DataFrame) -> pd.DataFrame:
+
+    customer = customer[(customer['referee_id'] != 2) | (customer['referee_id'].isna())]
+
+    return customer[['name']]

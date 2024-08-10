@@ -1011,7 +1011,11 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 7. Day 220 - July 7th 2024: [Employee Bonus from LeetCode](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day220.md)
     - Languages Used: Python
     - Question Difficulty: Easy
-    - Concepts Covered: For this question, the goal was to output all employees with a bonus less than 1000. I started by using .merge() to perform an outer join on the employee and bonus table. I then performed dataframe filtering to select employees with bonuses less than 1000, making sure to use the .isna() method to also select employees with a bonus of 0
+    - Concepts Covered: For this question, the goal was to output all employees with a bonus less than 1000. I started by using .merge() to perform an outer join on the employee and bonus table. I then performed dataframe filtering to select employees with bonuses less than 1000, making sure to use the .isna() method in combination is the or (|) operator to also select employees with a bonus of 0
+8. Day 221 - July 8th 2024: [Find Customer Referee from LeetCode](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day221.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: For this question, the goal was to output all customers that were not referred by the customer with an id of 2. To accomplish this, I performed dataframe filtering using the or (|) operator to select customers that didn't have a 2 in the referee_id column, as well as using the .isna() method to select customers that didn't get referred by anyone and therefore had a NULL value in the referee_id column
 
 
 </details>

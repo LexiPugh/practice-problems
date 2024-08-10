@@ -482,3 +482,14 @@ def calculate_special_bonus(employees: pd.DataFrame) -> pd.DataFrame:
     employees.loc[(employees['employee_id'] % 2 == 1) & (~employees['name'].str.startswith('M')), 'bonus'] = employees['salary']
     
     return employees[['employee_id', 'bonus']].sort_values(by='employee_id', ascending=True)
+
+
+import pandas as pd
+
+def employee_bonus(employee: pd.DataFrame, bonus: pd.DataFrame) -> pd.DataFrame:
+
+    combined_df = employee.merge(bonus, how='outer')
+
+    combined_df = combined_df[(combined_df['bonus'] < 1000) | (combined_df['bonus'].isna())]
+
+    return combined_df[['name', 'bonus']]

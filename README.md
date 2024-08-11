@@ -1020,7 +1020,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: For this question, the goal was to find the first login date for all users in the dataset. I started by using the .groupby() method to group the dataframe by player id, then found the .min() of the event_date field. I then used .reset_index() to change the player id field back into a column and .rename() to change the name of the event date field to 'first_login'
-
+10. Day 223 - July 10th 2024: [Not Boring Movies from LeetCode](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day223.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: For this question, the goal was to find movies with an odd id and a description that doesn't say "boring". I found the odd movie ids using the modulo (%) operator, then used the and (&) operator to also filter to instances where the movie description was not equal (!=) to boring. I finished off the question by using the .sort_values() function to order the output by movie rating descending
 
 </details>
 

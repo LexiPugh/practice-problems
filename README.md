@@ -1092,6 +1092,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: In this question, user ID's and user first names were accidentally combined into one string. I used string slicing to make a separate field for the ID's and a separate field for the names
+28. Day 241 - July 28th 2024: [Ranking Students from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day241.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the .rank() function to assign students a rank number based on their grade, assigning students with the same grade value the same rank number by setting the method to dense. Used the .sort_values() method to order by both ranks descending and names alphabetically, that way students with the same ranks still have a defined order
 
 </details>
 

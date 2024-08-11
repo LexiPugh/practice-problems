@@ -264,7 +264,7 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 21. Day 52 - January 21st 2024: [Food Divides Us from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day52.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Used the GROUP BY keyword, ORDER BY keyword, and LIMIT keyword to group fast food spending by region, order the output based on total fast food spending per region, and grabbing the top spending region
+    - Concepts Covered: Used the GROUP BY keyword, ORDER BY keyword, and LIMIT keyword to group fast food spending by region, order the output based on total fast food spending per region, and grab the top spending region
 22. Day 53 - January 22nd 2024: [2022 Orders from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day53.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
@@ -1044,6 +1044,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Used a lambda function in combination with the .apply() method to make a new column that kept track of which storage type (SSD or HDD) was in the laptop name. Used the .sort_values() function to order by the laptop id ascending
+16. Day 229 - July 16th 2024: [Food Divides Us from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day229.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the .groupby() method, .sort_values() method, and .head() method to group the .sum() of fast food spending by region, order the output based on total spending per region descending, and grab the top spending region
 
 </details>
 

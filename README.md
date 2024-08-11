@@ -1072,6 +1072,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Used the .groupby() method to group the .mean() pollution concentration by pollutant, then used the .round() method to round the concetration values to two decimal places. I then filtered the dataframe to find pollutants wih a high concentration level and used the .sort_values() method to order by pollutant alphabetically
+23. Day 236 - July 23rd 2024: [Media Addicts from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day236.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the .merge() method to combine two datasets with information about how much time a user spent on social media and the name of each user. Then performed dataframe filtering to filter to users that spent more time on social media than the .mean(), returning the first name of users with above average usage in alphabetical order with the help of the .sort_values() keyword
 
 </details>
 

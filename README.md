@@ -1048,6 +1048,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Used the .groupby() method, .sort_values() method, and .head() method to group the .sum() of fast food spending by region, order the output based on total spending per region descending, and grab the top spending region
+17. Day 230 - July 17th 2024: [Biggest Country Debts from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day230.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Performed dataframe filtering to filter to where the year is equal to the .max() year in the dataset, allowing the query to work in the future without any manual adjustments. Then used the .sort_values method to order by national debt descending and used the .head() method to grab only the top 3 countries with the highest debt. Used the .round() function to round the national debt to the nearest whole number in the output table
 
 </details>
 

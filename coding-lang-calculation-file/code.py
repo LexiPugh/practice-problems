@@ -576,3 +576,12 @@ food_regions = food_regions.groupby('region')['fast_food_millions'].sum().reset_
 food_regions = food_regions.sort_values(by='fast_food_millions', ascending=False)
 
 food_regions[['region']].head(1)
+
+
+global_debts = global_debts[global_debts['year'] == global_debts['year'].max()]
+
+global_debts['national_debt'] = global_debts['national_debt'].round(0)
+
+global_debts = global_debts.sort_values(by='national_debt', ascending=False)
+
+global_debts[['country', 'national_debt']].head(3)

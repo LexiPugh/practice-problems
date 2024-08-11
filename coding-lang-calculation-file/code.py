@@ -613,3 +613,12 @@ football_attendance = football_attendance.groupby('year_played')['season_attenda
 football_attendance = football_attendance.sort_values(by='season_attendance', ascending=False)
 
 football_attendance.head(1)
+
+
+pollution = pollution.groupby('pollutant')['concentration'].mean().round(2).reset_index()
+
+pollution = pollution[pollution['concentration'] > 0.5]
+
+pollution = pollution.sort_values(by='pollutant', ascending=True)
+
+pollution

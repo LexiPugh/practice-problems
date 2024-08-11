@@ -1068,6 +1068,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Used the .groupby() method to group the attendance by season, used the .sum() aggregation to add up total season attendance, then used the .sort_values() and .head() methods together to only output the season with the top attendance
+22. Day 235 - July 22nd 2024: [Water Pollution from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day235.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the .groupby() method to group the .mean() pollution concentration by pollutant, then used the .round() method to round the concetration values to two decimal places. I then filtered the dataframe to find pollutants wih a high concentration level and used the .sort_values() method to order by pollutant alphabetically
 
 </details>
 

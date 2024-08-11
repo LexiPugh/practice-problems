@@ -1088,6 +1088,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Filtered the dataframe to pizza orders that had pepperoni as a topping, then performed a calculation using the .count() aggregation to calculate how much money a pizza restuarant would save by putting less pepperoni on their pizzas
+27. Day 240 - July 27th 2024: [Separation from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day240.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: In this question, user ID's and user first names were accidentally combined into one string. I used string slicing to make a separate field for the ID's and a separate field for the names
 
 </details>
 

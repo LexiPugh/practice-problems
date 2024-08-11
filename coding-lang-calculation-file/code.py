@@ -650,3 +650,10 @@ orders = orders[orders['pizza_order'] == 'Pepperoni']
 savings = (orders['pizza_order'].count()) * (0.5 * 0.5)
 
 print(savings)
+
+
+bad_data['first_name'] = bad_data['id'].str[5:]
+
+bad_data['id'] = bad_data['id'].str[:5]
+
+bad_data[['id', 'first_name']]

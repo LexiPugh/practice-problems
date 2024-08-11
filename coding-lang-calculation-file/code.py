@@ -684,3 +684,10 @@ combined_df[['user_id']].sort_values(by='user_id', ascending=True)
 employee = employee[~employee['employee_id'].isin(bonus['emp_id'])]
 
 employee[['employee_id', 'name']].sort_values(by='employee_id', ascending=True)
+
+
+purchases = purchases.groupby('customer_id')['product_id'].nunique().reset_index()
+
+purchases = purchases[purchases['product_id'] == 4]
+
+purchases[['customer_id']]

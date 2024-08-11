@@ -538,3 +538,12 @@ def sales_analysis(sales: pd.DataFrame, product: pd.DataFrame) -> pd.DataFrame:
     combined_df = sales.merge(product, how='inner')
 
     return combined_df[['product_name', 'year', 'price']]
+
+
+import pandas as pd
+
+def replace_employee_id(employees: pd.DataFrame, employee_uni: pd.DataFrame) -> pd.DataFrame:
+
+    combined_df = employees.merge(employee_uni, how='left')
+
+    return combined_df[['unique_id', 'name']]

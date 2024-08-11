@@ -511,3 +511,12 @@ def game_analysis(activity: pd.DataFrame) -> pd.DataFrame:
     activity = activity.groupby('player_id')[['event_date']].min().reset_index().rename(columns={'event_date':'first_login'})
 
     return activity
+
+
+import pandas as pd
+
+def not_boring_movies(cinema: pd.DataFrame) -> pd.DataFrame:
+
+    cinema = cinema[(cinema['id'] % 2 == 1) & (cinema['description'] != 'boring')]
+
+    return cinema.sort_values(by='rating', ascending=False)

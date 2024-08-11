@@ -1104,6 +1104,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Used the .isin() method in combination with the negation operator ~ to filter to employees who weren't found in the bonus table. Used the .sort_values() method to order the output by employee id ascending
+31. Day 244 - July 31st 2024: [Must Buy it All from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day244.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the .groupby() and .nunique() methods to count the unique product id grouped by customer id, then filtered the dataframe to customers that had bought all 4 available products
 
 </details>
 

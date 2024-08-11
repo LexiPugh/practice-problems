@@ -590,3 +590,12 @@ global_debts[['country', 'national_debt']].head(3)
 responses['response'] = responses['response'].replace({'Yes': 'Y', 'No': 'N'})
 
 responses
+
+
+combined_df = customers.merge(date_viewed, how='inner')
+
+combined_df = combined_df.groupby('name')['movie_id'].count().reset_index()
+
+combined_df = combined_df.sort_values(by='movie_id', ascending=False)
+
+combined_df[['name']].head(1)

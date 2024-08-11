@@ -1056,6 +1056,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Used the .replace() method to change 'Yes' to 'Y' and 'No' to 'N', making the column have uniform formatting throughout
+19. Day 232 - July 19th 2024: [Movie-aholic from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day232.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: First I used .merge() to join two dataframes with customer data and data on the movies they watched. Then I used .groupby() and .count() to count the number of movie ids grouped by customer name. Next, I used the .sort_values() method to order output by the number of movies descending. Finally, I used the .head() method to only return the name of the customer that had watched the most movies
 
 </details>
 

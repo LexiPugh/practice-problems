@@ -599,3 +599,10 @@ combined_df = combined_df.groupby('name')['movie_id'].count().reset_index()
 combined_df = combined_df.sort_values(by='movie_id', ascending=False)
 
 combined_df[['name']].head(1)
+
+
+tech_layoffs['pct_employees_fired'] = ((tech_layoffs['employees_fired'] / tech_layoffs['company_size']) * 100).round(2)
+
+tech_layoffs = tech_layoffs.sort_values(by='company', ascending=True)
+
+tech_layoffs[['company', 'pct_employees_fired']]

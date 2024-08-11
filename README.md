@@ -1060,6 +1060,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: First I used .merge() to join two dataframes with customer data and data on the movies they watched. Then I used .groupby() and .count() to count the number of movie ids grouped by customer name. Next, I used the .sort_values() method to order output by the number of movies descending. Finally, I used the .head() method to only return the name of the customer that had watched the most movies
+20. Day 233 - July 20th 2024: [Tech Layoffs from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day233.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Performed a calculation to find the percentage of the company that got laid off from their job and used the .round() function to clean up the output into a uniform number of decimals. Used the .sort_values() method to sort the output by company name alphabetically
 
 </details>
 

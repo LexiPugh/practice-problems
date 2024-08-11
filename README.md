@@ -1076,6 +1076,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Used the .merge() method to combine two datasets with information about how much time a user spent on social media and the name of each user. Then performed dataframe filtering to filter to users that spent more time on social media than the .mean(), returning the first name of users with above average usage in alphabetical order with the help of the .sort_values() keyword
+24. Day 237 - July 24th 2024: [Computer Replacement from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day237.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Used datetime.datetime and datetime.timedelta from the Python datetime module to subtract 5 years from the date 1/1/2023. I then used pd.to_datetime() to convert the data type of the date_activated field to datetime, then performed dataframe filtering to filter to computers that were activated over five years ago so they can be replaced
 
 </details>
 

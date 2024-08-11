@@ -638,3 +638,8 @@ computer_replacement['date_activated'] = pd.to_datetime(computer_replacement['da
 computer_replacement = computer_replacement[computer_replacement['date_activated'] < replace_date]
 
 computer_replacement[['computer_id']]
+
+
+customers['first_name'] = customers['full_name'].str.split(" ").str[0]
+
+customers[['customer_id', 'first_name']]

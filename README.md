@@ -424,7 +424,7 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 27. Day 89 - February 27th 2024: [TMI (Too Much Information) from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day89.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Used the SUBSTRING_INDEX() function to split a field with customer's first and last names into two based on the position of the space, then returning the first half of the string to only select first names
+    - Concepts Covered: Used the SUBSTRING_INDEX() function to split a field with customer's first and last names into two based on the position of the space, then returned the first half of the string to only select first names
 28. Day 90 - February 28th 2024: [Movie-aholic from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day90.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
@@ -1080,6 +1080,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Used datetime.datetime and datetime.timedelta from the Python datetime module to subtract 5 years from the date 1/1/2023. I then used pd.to_datetime() to convert the data type of the date_activated field to datetime, then performed dataframe filtering to filter to computers that were activated over five years ago so they can be replaced
+25. Day 238 - July 25th 2024: [TMI (Too Much Information) from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day238.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the .str.split() method to split a field with customer's first and last names into two based on the position of the space. Then used string indexing to return the first half of the string, only selecting the first names
 
 </details>
 

@@ -1032,6 +1032,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: In this question I used the .merge() method to perform an inner join on two tables, returning the product name, year, and price for each sale id that appeared in the sales table
+13. Day 226 - July 13th 2024: [Replace Employee ID With The Unique Identifier from LeetCode](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day226.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: In this question I used the .merge() method to perform a left join on two tables. Performing the left join allowed me to keep all the users in the output table even if the user didn't have a unique id
 
 </details>
 

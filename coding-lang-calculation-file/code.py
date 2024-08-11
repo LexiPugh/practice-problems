@@ -585,3 +585,8 @@ global_debts['national_debt'] = global_debts['national_debt'].round(0)
 global_debts = global_debts.sort_values(by='national_debt', ascending=False)
 
 global_debts[['country', 'national_debt']].head(3)
+
+
+responses['response'] = responses['response'].replace({'Yes': 'Y', 'No': 'N'})
+
+responses

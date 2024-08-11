@@ -664,3 +664,18 @@ grades['ranks'] = grades['grade'].rank(method='dense', ascending=False)
 grades = grades.sort_values(by=['ranks', 'student_name'], ascending=[True, True])
 
 grades
+
+
+import pandas as pd
+
+import datetime as dt
+
+combined_df = users.merge(orders, how='inner', left_on='user_id', right_on='buyer_id')
+
+combined_df['join_date'] = pd.to_datetime(combined_df['join_date'])
+
+combined_df['order_date'] = pd.to_datetime(combined_df['order_date'])
+
+combined_df = combined_df[(combined_df['join_date'].dt.year==2022) & (combined_df['order_date'].dt.year==2022)]
+
+combined_df[['user_id']].sort_values(by='user_id', ascending=True)

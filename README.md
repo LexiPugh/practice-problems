@@ -1096,6 +1096,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Used the .rank() function to assign students a rank number based on their grade, assigning students with the same grade value the same rank number by setting the method to dense. Used the .sort_values() method to order by both ranks descending and names alphabetically, that way students with the same ranks still have a defined order
+29. Day 242 - July 29th 2024: [2022 Orders from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day242.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the .merge() method to join two datasets on common columns. I then used pd.to_datetime() to convert the join_date and order_date columns to datetime columns. Then I used .dt.year from the datetime module to filter to instances where customers made an order in the same year they created their account. Finished by using the .sort_values() method to order by user id ascending
 
 </details>
 

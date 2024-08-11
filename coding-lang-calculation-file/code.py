@@ -529,3 +529,12 @@ def swap_salary(salary: pd.DataFrame) -> pd.DataFrame:
     salary['sex'] = salary['sex'].replace({'m': 'f', 'f': 'm'})
     
     return salary
+
+
+import pandas as pd
+
+def sales_analysis(sales: pd.DataFrame, product: pd.DataFrame) -> pd.DataFrame:
+
+    combined_df = sales.merge(product, how='inner')
+
+    return combined_df[['product_name', 'year', 'price']]

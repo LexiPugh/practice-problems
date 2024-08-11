@@ -1028,6 +1028,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: Used the .replace() method to swap all 'f' and 'm' values - values of 'f' became 'm', and values of 'm' became 'f'
+12. Day 225 - July 12th 2024: [Product Sales Analysis I from LeetCode](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day225.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: In this question I used the .merge() method to perform an inner join on two tables, returning the product name, year, and price for each sale id that appeared in the sales table
 
 </details>
 

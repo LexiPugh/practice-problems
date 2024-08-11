@@ -569,3 +569,10 @@ laptops['storage_type'] = laptops['laptop_name'].apply(lambda x: 'SSD' if 'SSD' 
 laptops.sort_values(by='laptop_id', ascending=True)
 
 laptops
+
+
+food_regions = food_regions.groupby('region')['fast_food_millions'].sum().reset_index()
+
+food_regions = food_regions.sort_values(by='fast_food_millions', ascending=False)
+
+food_regions[['region']].head(1)

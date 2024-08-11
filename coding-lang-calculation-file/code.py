@@ -691,3 +691,16 @@ purchases = purchases.groupby('customer_id')['product_id'].nunique().reset_index
 purchases = purchases[purchases['product_id'] == 4]
 
 purchases[['customer_id']]
+
+
+import pandas as pd
+
+import datetime as dt
+
+employee_turnover['date_left'] = pd.to_datetime(employee_turnover['date_left'])
+
+employee_turnover['year_is_2022'] = employee_turnover['date_left'].dt.year.apply(lambda x: 1 if x == 2022 else None)
+
+employee_turnover_pct = (employee_turnover['year_is_2022'].count() / employee_turnover['date_started'].count()) * 100
+
+print(employee_turnover_pct)

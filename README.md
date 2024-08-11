@@ -1125,5 +1125,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Started by using the pd.to_datetime() method to convert the date_left column to a datetime data type. I then used dt.year from the datetime module to select only the year in the date_left column and used .apply() in combination with a lambda function to make a new column that had a value of 1 if the year was 2022, and a value of None otherwise. Finally, I divided the .count() of employees that quit in 2022 by the .count() of all employees and multiplied by 100 to get the percentage of employees that quit in 2022
+2. Day 246 - August 2nd 2024: [Greenhouse Gases from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day246.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Used .groupby(), .sum(), .round(), .reset_index(), and .rename() to calculate total carbon emissions grouped by country, rounded to one decimal place and renamed to total_emissions. Then used the .sort_values() and .head() keywords to find the country with the most total carbon emissions
 
 </details>

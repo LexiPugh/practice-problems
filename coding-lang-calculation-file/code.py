@@ -643,3 +643,10 @@ computer_replacement[['computer_id']]
 customers['first_name'] = customers['full_name'].str.split(" ").str[0]
 
 customers[['customer_id', 'first_name']]
+
+
+orders = orders[orders['pizza_order'] == 'Pepperoni']
+
+savings = (orders['pizza_order'].count()) * (0.5 * 0.5)
+
+print(savings)

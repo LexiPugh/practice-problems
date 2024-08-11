@@ -606,3 +606,10 @@ tech_layoffs['pct_employees_fired'] = ((tech_layoffs['employees_fired'] / tech_l
 tech_layoffs = tech_layoffs.sort_values(by='company', ascending=True)
 
 tech_layoffs[['company', 'pct_employees_fired']]
+
+
+football_attendance = football_attendance.groupby('year_played')['season_attendance'].sum().reset_index()
+
+football_attendance = football_attendance.sort_values(by='season_attendance', ascending=False)
+
+football_attendance.head(1)

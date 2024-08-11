@@ -1064,6 +1064,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Performed a calculation to find the percentage of the company that got laid off from their job and used the .round() function to clean up the output into a uniform number of decimals. Used the .sort_values() method to sort the output by company name alphabetically
+21. Day 234 - July 21st 2024: [Football Attendance from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day234.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the .groupby() method to group the attendance by season, used the .sum() aggregation to add up total season attendance, then used the .sort_values() and .head() methods together to only output the season with the top attendance
 
 </details>
 

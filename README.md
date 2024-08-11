@@ -1024,6 +1024,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: For this question, the goal was to find movies with an odd id and a description that doesn't say "boring". I found the odd movie ids using the modulo (%) operator, then used the and (&) operator to also filter to instances where the movie description was not equal (!=) to boring. I finished off the question by using the .sort_values() function to order the output by movie rating descending
+11. Day 224 - July 11th 2024: [Swap Salary from LeetCode](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day224.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the .replace() method to swap all 'f' and 'm' values - values of 'f' became 'm', and values of 'm' became 'f'
 
 </details>
 

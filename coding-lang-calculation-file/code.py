@@ -562,3 +562,10 @@ def account_summary(users: pd.DataFrame, transactions: pd.DataFrame) -> pd.DataF
     result_df = result_df[result_df['balance'] > 10000]
 
     return result_df[['name', 'balance']].drop_duplicates()
+
+
+laptops['storage_type'] = laptops['laptop_name'].apply(lambda x: 'SSD' if 'SSD' in x else 'HDD')
+
+laptops.sort_values(by='laptop_id', ascending=True)
+
+laptops

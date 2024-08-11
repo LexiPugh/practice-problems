@@ -1040,6 +1040,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: For this question, the goal was to find bank accounts with a balance of over 10,000 across all transactions. I started by using the .merge() method to perform an inner join on the users and transactions tables. I then used .groupby() and .sum() to group the combined dataframe by account and add up the balance. Next, I used .merge() again to left join the balance dataframe to the combined dataframe on the account field. Finally, I filtered to accounts that had a balance of over 10,000 and used the .drop_duplicates() method to show each account only once
+15. Day 228 - July 15th 2024: [SuperCoolElectronicsStore.com from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day228.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Used a lambda function in combination with the .apply() method to make a new column that kept track of which storage type (SSD or HDD) was in the laptop name. Used the .sort_values() function to order by the laptop id ascending
 
 </details>
 

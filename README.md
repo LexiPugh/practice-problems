@@ -1016,6 +1016,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: For this question, the goal was to output all customers that were not referred by the customer with an id of 2. To accomplish this, I performed dataframe filtering using the or (|) operator to select customers that didn't have a 2 in the referee_id column, as well as using the .isna() method to select customers that didn't get referred by anyone and therefore had a NULL value in the referee_id column
+9. Day 222 - July 9th 2024: [Game Play Analysis I from LeetCode](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day222.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: For this question, the goal was to find the first login date for all users in the dataset. I started by using the .groupby() method to group the dataframe by player id, then found the .min() of the event_date field. I then used .reset_index() to change the player id field back into a column and .rename() to change the name of the event date field to 'first_login'
 
 
 </details>

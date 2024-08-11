@@ -1036,6 +1036,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Easy
     - Concepts Covered: In this question I used the .merge() method to perform a left join on two tables. Performing the left join allowed me to keep all the users in the output table even if the user didn't have a unique id
+14. Day 227 - July 14th 2024: [Bank Account Summary II from LeetCode](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day227.md)
+    - Languages Used: Python
+    - Question Difficulty: Easy
+    - Concepts Covered: For this question, the goal was to find bank accounts with a balance of over 10,000 across all transactions. I started by using the .merge() method to perform an inner join on the users and transactions tables. I then used .groupby() and .sum() to group the combined dataframe by account and add up the balance. Next, I used .merge() again to left join the balance dataframe to the combined dataframe on the account field. Finally, I filtered to accounts that had a balance of over 10,000 and used the .drop_duplicates() method to show each account only once
 
 </details>
 

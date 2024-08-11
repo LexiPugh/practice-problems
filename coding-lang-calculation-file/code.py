@@ -547,3 +547,18 @@ def replace_employee_id(employees: pd.DataFrame, employee_uni: pd.DataFrame) -> 
     combined_df = employees.merge(employee_uni, how='left')
 
     return combined_df[['unique_id', 'name']]
+
+
+import pandas as pd
+
+def account_summary(users: pd.DataFrame, transactions: pd.DataFrame) -> pd.DataFrame:
+
+    combined_df = users.merge(transactions, how='inner')
+
+    balance_df = combined_df.groupby('account')[['amount']].sum().reset_index().rename(columns={'amount' : 'balance'})
+
+    result_df = combined_df.merge(balance_df, on='account', how='left')
+
+    result_df = result_df[result_df['balance'] > 10000]
+
+    return result_df[['name', 'balance']].drop_duplicates()

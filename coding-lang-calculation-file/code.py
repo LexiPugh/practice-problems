@@ -679,3 +679,8 @@ combined_df['order_date'] = pd.to_datetime(combined_df['order_date'])
 combined_df = combined_df[(combined_df['join_date'].dt.year==2022) & (combined_df['order_date'].dt.year==2022)]
 
 combined_df[['user_id']].sort_values(by='user_id', ascending=True)
+
+
+employee = employee[~employee['employee_id'].isin(bonus['emp_id'])]
+
+employee[['employee_id', 'name']].sort_values(by='employee_id', ascending=True)

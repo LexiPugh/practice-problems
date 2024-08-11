@@ -1100,6 +1100,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Used the .merge() method to join two datasets on common columns. I then used pd.to_datetime() to convert the join_date and order_date columns to datetime columns. Then I used .dt.year from the datetime module to filter to instances where customers made an order in the same year they created their account. Finished by using the .sort_values() method to order by user id ascending
+30. Day 243 - July 30th 2024: [Bad Bonuses from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day243.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the .isin() method in combination with the negation operator ~ to filter to employees who weren't found in the bonus table. Used the .sort_values() method to order the output by employee id ascending
 
 </details>
 

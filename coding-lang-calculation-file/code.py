@@ -622,3 +622,10 @@ pollution = pollution[pollution['concentration'] > 0.5]
 pollution = pollution.sort_values(by='pollutant', ascending=True)
 
 pollution
+
+
+combined_df = user_time.merge(users, how='inner')
+
+combined_df = combined_df[combined_df['media_time_minutes'] > combined_df['media_time_minutes'].mean()]
+
+combined_df[['first_name']].sort_values(by='first_name', ascending=True)

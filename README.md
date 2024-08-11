@@ -1084,6 +1084,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Used the .str.split() method to split a field with customer's first and last names into two based on the position of the space. Then used string indexing to return the first half of the string, only selecting the first names
+26. Day 239 - July 26th 2024: [Pepperoni-flation from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day239.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Filtered the dataframe to pizza orders that had pepperoni as a topping, then performed a calculation using the .count() aggregation to calculate how much money a pizza restuarant would save by putting less pepperoni on their pizzas
 
 </details>
 

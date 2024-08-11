@@ -704,3 +704,8 @@ employee_turnover['year_is_2022'] = employee_turnover['date_left'].dt.year.apply
 employee_turnover_pct = (employee_turnover['year_is_2022'].count() / employee_turnover['date_started'].count()) * 100
 
 print(employee_turnover_pct)
+
+
+greenhouse_gases = greenhouse_gases.groupby('country')['carbon_emissions_millions'].sum().round(1).reset_index().rename(columns={'carbon_emissions_millions':'total_emissions'})
+
+greenhouse_gases = greenhouse_gases.sort_values(by='total_emissions', ascending=False).head(1)

@@ -657,3 +657,10 @@ bad_data['first_name'] = bad_data['id'].str[5:]
 bad_data['id'] = bad_data['id'].str[:5]
 
 bad_data[['id', 'first_name']]
+
+
+grades['ranks'] = grades['grade'].rank(method='dense', ascending=False)
+
+grades = grades.sort_values(by=['ranks', 'student_name'], ascending=[True, True])
+
+grades

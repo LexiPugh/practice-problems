@@ -775,3 +775,12 @@ purchases = sum_purchases.merge(count_orders, how='outer')
 purchases = purchases[(purchases['total_spending'] < 250) | (purchases['order_count'] <= 2)]
 
 purchases[['customer_id']]
+
+
+crew_spending = crew_spending.groupby('employee_id')['amount_spent'].sum().reset_index(name='total_amount_spent')
+
+crew_spending['amount_owed'] = crew_spending['total_amount_spent'].apply(lambda x: x-100 if x > 100 else 0)
+
+crew_spending = crew_spending.sort_values(by=['amount_owed', 'employee_id'], ascending=[False, True])
+
+crew_spending[['employee_id', 'total_amount_spent', 'amount_owed']]

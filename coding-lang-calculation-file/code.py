@@ -784,3 +784,10 @@ crew_spending['amount_owed'] = crew_spending['total_amount_spent'].apply(lambda 
 crew_spending = crew_spending.sort_values(by=['amount_owed', 'employee_id'], ascending=[False, True])
 
 crew_spending[['employee_id', 'total_amount_spent', 'amount_owed']]
+
+
+amazon_returns = amazon_returns.groupby('order_id').agg({'product_price': 'sum', 'estimated_return_price': 'sum'}).reset_index()
+
+amazon_returns = amazon_returns[amazon_returns['product_price'] * 0.15 <= amazon_returns['estimated_return_price']]
+
+amazon_returns[['order_id']]

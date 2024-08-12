@@ -808,3 +808,12 @@ companies = companies.groupby('company')['profit'].sum().reset_index()
 companies = companies[companies['profit'] > 20000000]
 
 companies[['company']].sort_values(by='company', ascending=True)
+
+
+products['size_change_percentage'] = (((products['new_size'] / products['original_size'])*100)-100).round(0)
+
+products['price_change_percentage'] = (((products['new_price'] / products['original_price'])*100)-100).round(0)
+
+products['shrinkflation_flag'] = products.apply(lambda x: 'True' if (x['new_size'] < x['original_size']) & (x['new_price'] > x['original_price']) else 'False', axis=1)
+
+products[['product_name', 'size_change_percentage', 'price_change_percentage', 'shrinkflation_flag']].sort_values(by='product_name', ascending=True)

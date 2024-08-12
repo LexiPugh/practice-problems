@@ -1165,5 +1165,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Used datetime.datetime and datetime.delta from the datetime module to subtract 3 years from a specified date. Used the pd.to_datetime() method to convert the year column to a datetime field, then filtered the dataframe to where the year column is from 3 years ago or later. I then used .groupby() and .sum() to calculate total profit grouped by company. Next, I filtered the dataframe again to only select companies with a profit of over 20 million. Finally, I used the .sort_values() method to order by company alphabetically
+12. Day 256 - August 12th 2024: [Shrink-flation from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day256.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Performed calculations to calculate the percent difference in item size and price, using the .round() method to round the percentages to the nearest whole number. Used the .apply() method in combination with a lambda function to output "True" if an item decreased in size and increased in price, and "False" otherwise. Used the .sort_values() method to order the output alphabetically by item name
 
 </details>

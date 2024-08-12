@@ -726,3 +726,10 @@ def increase_amount(row):
 employees['new_salary'] = employees.apply(increase_amount, axis=1)
 
 employees
+
+
+cloud_storage['fees'] = (200 - cloud_storage['storage_used']).abs()
+
+cloud_storage = cloud_storage[cloud_storage['storage_used'] > 200]
+
+cloud_storage[['customer_id', 'fees']].sort_values(by='fees', ascending=False)

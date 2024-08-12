@@ -1133,5 +1133,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Created a function that determined the new salary for each employee depending on the pay level they were on, then used the .apply() method to apply the function to the dataframe and engineer a new column. I made a separate function rather than using a lambda function in this case because I thought it looked cleaner and made the code a bit easier to read
+4. Day 248 - August 4th 2024: [Cloud Storage Fees from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day248.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Performed a calculation to see which users had gone over their alloted 200gb of cloud storage, then filtered the dataframe to those users so that they could pay a fee. Used the .abs() method to get the result in absolute value and used the .sort_values() method to order by fees descending
 
 </details>

@@ -1157,5 +1157,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Used .groupby(), .sum(), and .reset_index() to calculate the total amount spent grouped by employee_id and name the column total_amount_spent. I then created an amount_owed column by using the .apply() method in combination with a lambda function to calculate if employees spent over $100 for food. I finished off by using the .sort_values() method to order by amount_owed descending and employee_id ascending
+10. Day 254 - August 10th 2024: [Amazon Returns from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day254.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the .groupby() method to group by order id - each product bought had its own row even if they were part of the same order, so this was necessary to look at the order total as a whole rather than by each item. I then used the .agg() method to calculate the sum of both the product price and the estimated return price. Finally, I used those values to filter the dataframe to instances where the potential profit of the entire order was less than the estimated return price of the entire order
 
 </details>

@@ -292,7 +292,7 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 28. Day 59 - January 28th 2024: [Company Wide Increase from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day59.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Used a CASE statement to engineer a new feature that determines the new salary for each employee depending on the pay level they were on
+    - Concepts Covered: Used a CASE statement to engineer a new feature that determined the new salary for each employee depending on the pay level they were on
 29. Day 60 - January 29th 2024: [LinkedIn Famous from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day60.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
@@ -1129,5 +1129,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Used .groupby(), .sum(), .round(), .reset_index(), and .rename() to calculate total carbon emissions grouped by country, rounded to one decimal place and renamed to total_emissions. Then used the .sort_values() and .head() keywords to find the country with the most total carbon emissions
+3. Day 247 - August 3rd 2024: [Company Wide Increase from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day247.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Created a function that determined the new salary for each employee depending on the pay level they were on, then used the .apply() method to apply the function to the dataframe and engineer a new column. I made a separate function rather than using a lambda function in this case because I thought it looked cleaner and made the code a bit easier to read
 
 </details>

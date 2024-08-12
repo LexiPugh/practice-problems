@@ -740,3 +740,12 @@ inventory = inventory[(inventory['bike_sold'] =='Y') & (~inventory['bike_price']
 average_sale_price = inventory['bike_price'].mean().round(2)
 
 print(average_sale_price)
+
+
+employee_raise['row_num'] = employee_raise.sort_values(by='salary', ascending=True).groupby('department').cumcount() + 1
+
+employee_raise = employee_raise[employee_raise['row_num'] == 1]
+
+employee_raise['new_salary'] = (employee_raise['salary'] * 1.15).round(2)
+
+employee_raise[['employee_id', 'department', 'salary', 'new_salary']].sort_values(by='new_salary', ascending=False)

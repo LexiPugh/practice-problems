@@ -1141,5 +1141,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Started by filtering the dataframe to instances where the bike was sold, also used the .isna() method in combination with the not ~ operator to exclude bikes that were donated. I then used .mean() and .round() to find the average bike price rounded to 2 decimal places
+6. Day 250 - August 6th 2024: [Employee Raise from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day250.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Started by creating the row_num variable. I used .sort_values() to sort by salary ascending, .groupby() to group by department, and .cumcount() + 1 to assign a row number based on salary in each department. I then filtered the row_number variable to 1 to get the lowest paid employees of each department, and performed a calculation to give them a raise and determine their new salary. Used the ORDER BY keyword to sort the output by new salary descending
 
 </details>

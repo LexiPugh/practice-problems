@@ -631,6 +631,10 @@ combined_df = combined_df[combined_df['media_time_minutes'] > combined_df['media
 combined_df[['first_name']].sort_values(by='first_name', ascending=True)
 
 
+import pandas as pd
+
+import datetime
+
 replace_date = (datetime.datetime(2023, 1, 1) - datetime.timedelta(days=5*365))
 
 computer_replacement['date_activated'] = pd.to_datetime(computer_replacement['date_activated'])

@@ -791,3 +791,20 @@ amazon_returns = amazon_returns.groupby('order_id').agg({'product_price': 'sum',
 amazon_returns = amazon_returns[amazon_returns['product_price'] * 0.15 <= amazon_returns['estimated_return_price']]
 
 amazon_returns[['order_id']]
+
+
+import pandas as pd
+
+import datetime
+
+year_sub = datetime.datetime(2023, 1, 1) - datetime.timedelta(days= 3 * 365)
+
+companies['year'] = pd.to_datetime(companies['year'])
+
+companies = companies[companies['year'] >= year_sub]
+
+companies = companies.groupby('company')['profit'].sum().reset_index()
+
+companies = companies[companies['profit'] > 20000000]
+
+companies[['company']].sort_values(by='company', ascending=True)

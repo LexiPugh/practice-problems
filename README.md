@@ -1161,5 +1161,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Used the .groupby() method to group by order id - each product bought had its own row even if they were part of the same order, so this was necessary to look at the order total as a whole rather than by each item. I then used the .agg() method to calculate the sum of both the product price and the estimated return price. Finally, I used those values to filter the dataframe to instances where the potential profit of the entire order was less than the estimated return price of the entire order
+11. Day 255 - August 11th 2024: [Richie Rich from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day255.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Used datetime.datetime and datetime.delta from the datetime module to subtract 3 years from a specified date. Used the pd.to_datetime() method to convert the year column to a datetime field, then filtered the dataframe to where the year column is from 3 years ago or later. I then used .groupby() and .sum() to calculate total profit grouped by company. Next, I filtered the dataframe again to only select companies with a profit of over 20 million. Finally, I used the .sort_values() method to order by company alphabetically
 
 </details>

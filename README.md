@@ -268,7 +268,7 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 22. Day 53 - January 22nd 2024: [2022 Orders from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day53.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Used the INNER JOIN keyword to join two datasets on common columns, filtered by multiple conditions in the WHERE clause, used the YEAR() fuction to extract the year from a date for filtering purposes
+    - Concepts Covered: Used the INNER JOIN keyword to join two datasets on common columns, filtered by multiple conditions in the WHERE clause, used the YEAR() function to extract the year from a date for filtering purposes
 23. Day 54 - January 23rd 2024: [Bad Bonuses from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day54.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
@@ -276,7 +276,7 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 24. Day 55 - January 24th 2024: [Pepperoni-flation from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day55.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Performed a calculation in the SELECT statement combined with using the WHERE keyword to calculate how much money a pizza restuarant would save by putting less pepperoni on their pizzas
+    - Concepts Covered: Performed a calculation in the SELECT statement combined with using the WHERE keyword to calculate how much money a pizza restaurant would save by putting less pepperoni on their pizzas
 25. Day 56 - January 25th 2024: [Kroger's Members from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/january2024/day56.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
@@ -364,7 +364,7 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 12. Day 74 - February 12th 2024: [Electric Bike Replacement from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day74.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Used the WHERE keyword to filter to eletric bikes that need to be replaced due to a high level of battery usage, then used the COUNT() function to count how many bikes need to be replaced
+    - Concepts Covered: Used the WHERE keyword to filter to electric bikes that need to be replaced due to a high level of battery usage, then used the COUNT() function to count how many bikes need to be replaced
 13. Day 75 - February 13th 2024: [Chocolate from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day75.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
@@ -540,7 +540,7 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 24. Day 115 - March 24th 2024: [Investment Properties from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day115.md)
     - Languages Used: SQL
     - Question Difficulty: Hard
-    - Concepts Covered: Started by calculating profit on home sales by subtracting the purchase price from the sale price. I then used that query as a subquery and used a window fuction to get a rolling total for the SUM() of profit
+    - Concepts Covered: Started by calculating profit on home sales by subtracting the purchase price from the sale price. I then used that query as a subquery and used a window function to get a rolling total for the SUM() of profit
 25. Day 116 - March 25th 2024: [Hotel Guests from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/march2024/day116.md)
     - Languages Used: SQL
     - Question Difficulty: Hard
@@ -628,7 +628,7 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 12. Day 134 - April 12th 2024: [Consecutive Visits from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day134.md)
     - Languages Used: SQL
     - Question Difficulty: Very Hard
-    - Concepts Covered: Started off by creating a CTE. Within the CTE, I joined the two datasets on customer id, selected all the columns, and used the DATEDIFF() function to find the difference between the visit date and the last visit date. The last visit date was calulated using the LAG() window function on visit date, using the PARTITION BY keyword to group by customer id and the ORDER BY keyword to order on the visit date. I then made a query that selected everything from that CTE, along with a CASE() statement that used the SUM() function to add up cases where the days between visits were equal to 1, meaning the visit was consecutive. I also had to add 1 to the CASE statement's results to count the first visit. With all that done, I used that query as a subquery to grab the MAX() of the consecutive visits
+    - Concepts Covered: Started off by creating a CTE. Within the CTE, I joined the two datasets on customer id, selected all the columns, and used the DATEDIFF() function to find the difference between the visit date and the last visit date. The last visit date was calculated using the LAG() window function on visit date, using the PARTITION BY keyword to group by customer id and the ORDER BY keyword to order on the visit date. I then made a query that selected everything from that CTE, along with a CASE() statement that used the SUM() function to add up cases where the days between visits were equal to 1, meaning the visit was consecutive. I also had to add 1 to the CASE statement's results to count the first visit. With all that done, I used that query as a subquery to grab the MAX() of the consecutive visits
 13. Day 135 - April 13th 2024: [Biggest Spenders from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day135.md)
     - Languages Used: SQL
     - Question Difficulty: Very Hard
@@ -857,7 +857,7 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 2. Day 185 - June 2nd 2024: [Electric Bike Replacement from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day185.md)
     - Languages Used: Python
     - Question Difficulty: Easy
-    - Concepts Covered: Filtered the dataframe to filter to eletric bikes that need to be replaced due to a high level of battery usage, then used the .count() function to count how many bikes need to be replaced
+    - Concepts Covered: Filtered the dataframe to filter to electric bikes that need to be replaced due to a high level of battery usage, then used the .count() function to count how many bikes need to be replaced
 3. Day 186 - June 3rd 2024: [Average Revenue from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/june2024/day186.md)
     - Languages Used: Python
     - Question Difficulty: Easy
@@ -1071,7 +1071,7 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 22. Day 235 - July 22nd 2024: [Water Pollution from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day235.md)
     - Languages Used: Python
     - Question Difficulty: Medium
-    - Concepts Covered: Used the .groupby() method to group the .mean() pollution concentration by pollutant, then used the .round() method to round the concetration values to two decimal places. I then filtered the dataframe to find pollutants wih a high concentration level and used the .sort_values() method to order by pollutant alphabetically
+    - Concepts Covered: Used the .groupby() method to group the .mean() pollution concentration by pollutant, then used the .round() method to round the concentration values to two decimal places. I then filtered the dataframe to find pollutants wih a high concentration level and used the .sort_values() method to order by pollutant alphabetically
 23. Day 236 - July 23rd 2024: [Media Addicts from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day236.md)
     - Languages Used: Python
     - Question Difficulty: Medium
@@ -1087,7 +1087,7 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 26. Day 239 - July 26th 2024: [Pepperoni-flation from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day239.md)
     - Languages Used: Python
     - Question Difficulty: Medium
-    - Concepts Covered: Filtered the dataframe to pizza orders that had pepperoni as a topping, then performed a calculation using the .count() aggregation to calculate how much money a pizza restuarant would save by putting less pepperoni on their pizzas
+    - Concepts Covered: Filtered the dataframe to pizza orders that had pepperoni as a topping, then performed a calculation using the .count() aggregation to calculate how much money a pizza restaurant would save by putting less pepperoni on their pizzas
 27. Day 240 - July 27th 2024: [Separation from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/july2024/day240.md)
     - Languages Used: Python
     - Question Difficulty: Medium

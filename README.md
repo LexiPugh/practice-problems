@@ -320,7 +320,7 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 1. Day 63 - February 1st 2024: [Buying Less from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day63.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Used the GROUP BY keyword to group all orderS by customer id, then used the HAVING keyword to filter on total amount of money spent and total number of orders made with the purpose of targeting advertising to customers that don't spend as much
+    - Concepts Covered: Used the GROUP BY keyword to group all orders by customer id, then used the HAVING keyword to filter on total amount of money spent and total number of orders made with the purpose of targeting advertising to customers that don't spend as much
 2. Day 64 - February 2nd 2024: [Greenhouse Gases from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/february2024/day64.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
@@ -1149,5 +1149,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Started by using datetime.datetime from the datetime module to store the current date in a variable. I then used pd.to_datetime() to convert the birth date column to a datetime data type, then subtracted the birth date from the current date. I then used dt.days on that calculation and divided by 365 to calculate how old each person in the dataset was. Finally, I used dataframe filtering to filter to customers 55 and above and used the .sort_values() method to order the output by customer_id ascending
+8. Day 252 - August 8th 2024: [Buying Less from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day252.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Made two different dataframes, both grouped by customer_id, but one that uses .sum() on the order total column and one that uses .count() on the order total column. I then used .merge() to perform an outer join on these two dataframes, getting the total spending and number of orders into one dataframe. Finally, I used those variables to filter to customers that don't buy as much as the company would like
 
 </details>

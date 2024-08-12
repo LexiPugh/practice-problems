@@ -709,3 +709,16 @@ print(employee_turnover_pct)
 greenhouse_gases = greenhouse_gases.groupby('country')['carbon_emissions_millions'].sum().round(1).reset_index().rename(columns={'carbon_emissions_millions':'total_emissions'})
 
 greenhouse_gases = greenhouse_gases.sort_values(by='total_emissions', ascending=False).head(1)
+
+
+def increase_amount(row):
+  if row['pay_level'] == 1:
+    return row['salary'] * 1.1
+  elif row['pay_level'] == 2:
+    return row['salary'] * 1.15
+  else:
+    return row['salary'] * 3
+
+employees['new_salary'] = employees.apply(increase_amount, axis=1)
+
+employees

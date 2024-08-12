@@ -764,3 +764,14 @@ customers['age'] = (current_date - customers['birth_date']).dt.days / 365
 customers = customers[customers['age'] >= 55]
 
 customers[['customer_id']].sort_values(by='customer_id', ascending=True)
+
+
+sum_purchases = purchases.groupby('customer_id')['order_total'].sum().reset_index(name='total_spending')
+
+count_orders = purchases.groupby('customer_id')['order_total'].count().reset_index(name='order_count')
+
+purchases = sum_purchases.merge(count_orders, how='outer')
+
+purchases = purchases[(purchases['total_spending'] < 250) | (purchases['order_count'] <= 2)]
+
+purchases[['customer_id']]

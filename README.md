@@ -1145,5 +1145,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Started by creating the row_num variable. I used .sort_values() to sort by salary ascending, .groupby() to group by department, and .cumcount() + 1 to assign a row number based on salary in each department. I then filtered the row_number variable to 1 to get the lowest paid employees of each department, and performed a calculation to give them a raise and determine their new salary. Used the ORDER BY keyword to sort the output by new salary descending
+7. Day 251 - August 7th 2024: [Senior Citizen Discount from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day251.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Started by using datetime.datetime from the datetime module to store the current date in a variable. I then used pd.to_datetime() to convert the birth date column to a datetime data type, then subtracted the birth date from the current date. I then used dt.days on that calculation and divided by 365 to calculate how old each person in the dataset was. Finally, I used dataframe filtering to filter to customers 55 and above and used the .sort_values() method to order the output by customer_id ascending
 
 </details>

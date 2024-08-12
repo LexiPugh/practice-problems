@@ -749,3 +749,18 @@ employee_raise = employee_raise[employee_raise['row_num'] == 1]
 employee_raise['new_salary'] = (employee_raise['salary'] * 1.15).round(2)
 
 employee_raise[['employee_id', 'department', 'salary', 'new_salary']].sort_values(by='new_salary', ascending=False)
+
+
+import pandas as pd
+
+import datetime
+
+current_date = datetime.datetime(2023, 1, 1)
+
+customers['birth_date'] = pd.to_datetime(customers['birth_date'])
+
+customers['age'] = (current_date - customers['birth_date']).dt.days / 365
+
+customers = customers[customers['age'] >= 55]
+
+customers[['customer_id']].sort_values(by='customer_id', ascending=True)

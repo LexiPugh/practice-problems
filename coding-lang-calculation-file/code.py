@@ -733,3 +733,10 @@ cloud_storage['fees'] = (200 - cloud_storage['storage_used']).abs()
 cloud_storage = cloud_storage[cloud_storage['storage_used'] > 200]
 
 cloud_storage[['customer_id', 'fees']].sort_values(by='fees', ascending=False)
+
+
+inventory = inventory[(inventory['bike_sold'] =='Y') & (~inventory['bike_price'].isna())]
+
+average_sale_price = inventory['bike_price'].mean().round(2)
+
+print(average_sale_price)

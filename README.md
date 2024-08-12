@@ -1153,5 +1153,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Made two different dataframes, both grouped by customer_id, but one that uses .sum() on the order total column and one that uses .count() on the order total column. I then used .merge() to perform an outer join on these two dataframes, getting the total spending and number of orders into one dataframe. Finally, I used those variables to filter to customers that don't buy as much as the company would like
+9. Day 253 - August 9th 2024: [Crew Overspending from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day253.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Used .groupby(), .sum(), and .reset_index() to calculate the total amount spent grouped by employee_id and name the column total_amount_spent. I then created an amount_owed column by using the .apply() method in combination with a lambda function to calculate if employees spent over $100 for food. I finished off by using the .sort_values() method to order by amount_owed descending and employee_id ascending
 
 </details>

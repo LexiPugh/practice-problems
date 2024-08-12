@@ -1137,5 +1137,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Performed a calculation to see which users had gone over their alloted 200gb of cloud storage, then filtered the dataframe to those users so that they could pay a fee. Used the .abs() method to get the result in absolute value and used the .sort_values() method to order by fees descending
+5. Day 249 - August 5th 2024: [Bike Price from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day249.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Started by filtering the dataframe to instances where the bike was sold, also used the .isna() method in combination with the not ~ operator to exclude bikes that were donated. I then used .mean() and .round() to find the average bike price rounded to 2 decimal places
 
 </details>

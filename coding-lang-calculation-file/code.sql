@@ -2039,3 +2039,16 @@ SELECT
   CASE WHEN revenue IS NOT NULL THEN revenue ELSE (SELECT AVG(revenue) FROM dirty_data) END AS revenue
 FROM 
   dirty_data
+
+
+SELECT 
+  country,
+  AVG(average_height) AS average_height
+FROM 
+  heights
+GROUP BY
+  country
+HAVING
+  average_height > (SELECT AVG(average_height) FROM heights)
+ORDER BY
+  average_height DESC

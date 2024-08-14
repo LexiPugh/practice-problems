@@ -1169,5 +1169,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Performed calculations to calculate the percent difference in item size and price, using the .round() method to round the percentages to the nearest whole number. Used the .apply() method in combination with a lambda function to output "True" if an item decreased in size and increased in price, and "False" otherwise. Used the .sort_values() method to order the output alphabetically by item name
+13. Day 257 - August 13th 2024: [Above Average from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day257.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the AVG() function in combination with the GROUP BY keyword to find the average height for each country in the dataset. Then added a HAVING clause and used a small subquery to filter to instances where the average height of a country was larger than the overall average height in the dataset. Finished off with the ORDER BY keyword to order the output by average country height descending
 
 </details>

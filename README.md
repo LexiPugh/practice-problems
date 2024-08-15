@@ -1173,5 +1173,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used the AVG() function in combination with the GROUP BY keyword to find the average height for each country in the dataset. Then added a HAVING clause and used a small subquery to filter to instances where the average height of a country was larger than the overall average height in the dataset. Finished off with the ORDER BY keyword to order the output by average country height descending
+14. Day 258 - August 14th 2024: [Taxes from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day258.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Calculated the taxes owed by each company by multiplying their taxable income by the tax rate. Then added a WHERE clause and used a small subquery to filter to instances where the fiscal year was equal to the MAX() fiscal year in the dataset, allowing me to view only the data for the most recent year. Finished off with the ORDER BY keyword to order the output by taxes owed descending
 
 </details>

@@ -2052,3 +2052,15 @@ HAVING
   average_height > (SELECT AVG(average_height) FROM heights)
 ORDER BY
   average_height DESC
+
+
+SELECT 
+  company_name,
+  fiscal_year,
+  (taxable_income * tax_rate) AS taxes_owed
+FROM 
+  company_financials
+WHERE
+  fiscal_year = (SELECT MAX(fiscal_year) FROM company_financials)
+ORDER BY
+  taxes_owed DESC

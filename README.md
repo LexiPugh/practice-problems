@@ -1177,5 +1177,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Calculated the taxes owed by each company by multiplying their taxable income by the tax rate. Then added a WHERE clause and used a small subquery to filter to instances where the fiscal year was equal to the MAX() fiscal year in the dataset, allowing me to view only the data for the most recent year. Finished off with the ORDER BY keyword to order the output by taxes owed descending
+15. Day 259 - August 15th 2024: [Traffic Control from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day259.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the UNION keyword to combine two datasets on domestic flights and international flights. Made sure to grab the columns from the domestic flights dataset first so that the names of the columns in the output table followed the naming scheme of that dataset. Also used the WHERE keyword to filter the second dataset to a specific international zone
 
 </details>

@@ -1185,5 +1185,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Hard
     - Concepts Covered: Used a window function to find the AVG() of daily sales with a PARTITION BY store id and an ORDER BY sale date ascending, giving me the running average of sales for each store. Used the ORDER BY keyword to order by store id and sale date ascending
+17. Day 261 - August 17th 2024: [Different Averages from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day261.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: In this problem I calculated the average of sales data that includes NULL values three different ways. First I simply used AVG() to calculate the average without accounting for the NULL values. Next, I used a CASE statement in combination with the IS NULL keyword to insert a 0 for NULL values, then divided the SUM() of the sales by the COUNT() of that CASE statement to calculate the average. Finally, I used a small subquery within a CASE statement to insert the MIN() sale amount for each null value, then used AVG() on that CASE statement to calculate the average
 
 </details>

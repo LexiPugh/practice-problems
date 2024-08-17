@@ -2087,3 +2087,14 @@ WHERE
   international_zone = 'Zone A'
 ORDER BY
   flight_id ASC
+
+
+SELECT 
+  sale_date,
+  store_id,
+  AVG(daily_sales) OVER(PARTITION BY store_id ORDER BY sale_date ASC) AS running_average
+FROM 
+  sales_records
+ORDER BY
+  store_id,
+  sale_date

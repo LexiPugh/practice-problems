@@ -1181,5 +1181,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used the UNION keyword to combine two datasets on domestic flights and international flights. Made sure to grab the columns from the domestic flights dataset first so that the names of the columns in the output table followed the naming scheme of that dataset. Also used the WHERE keyword to filter the second dataset to a specific international zone
+16. Day 260 - August 16th 2024: [Running Average from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day260.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: Used a window function to find the AVG() of daily sales with a PARTITION BY store id and an ORDER BY sale date ascending, giving me the running average of sales for each store. Used the ORDER BY keyword to order by store id and sale date ascending
 
 </details>

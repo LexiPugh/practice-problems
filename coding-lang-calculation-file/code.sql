@@ -2098,3 +2098,11 @@ FROM
 ORDER BY
   store_id,
   sale_date
+
+
+SELECT 
+  AVG(sale_amount) AS avg_excluding_nulls,
+  SUM(sale_amount) / COUNT(CASE WHEN sale_amount IS NULL THEN 0 ELSE 1 END) AS avg_including_nulls,
+  AVG(CASE WHEN sale_amount IS NULL THEN (SELECT MIN(sale_amount) FROM missing_values) ELSE sale_amount END) AS avg_including_min
+FROM 
+  missing_values

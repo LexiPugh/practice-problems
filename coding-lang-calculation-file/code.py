@@ -817,3 +817,10 @@ products['price_change_percentage'] = (((products['new_price'] / products['origi
 products['shrinkflation_flag'] = products.apply(lambda x: 'True' if (x['new_size'] < x['original_size']) & (x['new_price'] > x['original_price']) else 'False', axis=1)
 
 products[['product_name', 'size_change_percentage', 'price_change_percentage', 'shrinkflation_flag']].sort_values(by='product_name', ascending=True)
+
+
+heights = heights[heights['average_height'] > heights['average_height'].mean()]
+
+heights = heights.sort_values(by='average_height', ascending=False)
+
+heights

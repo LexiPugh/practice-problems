@@ -1172,7 +1172,7 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 13. Day 257 - August 13th 2024: [Above Average from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day257.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: Used the AVG() function in combination with the GROUP BY keyword to find the average height for each country in the dataset. Then added a HAVING clause and used a small subquery to filter to instances where the average height of a country was larger than the overall average height in the dataset. Finished off with the ORDER BY keyword to order the output by average country height descending
+    - Concepts Covered: Used a HAVING clause and used a small subquery to filter to instances where the average height of a country was larger than the overall average height in the dataset. Finished off with the ORDER BY keyword to order the output by average country height descending
 14. Day 258 - August 14th 2024: [Taxes from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day258.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
@@ -1189,5 +1189,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Hard
     - Concepts Covered: In this problem I calculated the average of sales data that includes NULL values three different ways. First I simply used AVG() to calculate the average without accounting for the NULL values. Next, I used a CASE statement in combination with the IS NULL keyword to insert a 0 for NULL values, then divided the SUM() of the sales by the COUNT() of that CASE statement to calculate the average. Finally, I used a small subquery within a CASE statement to insert the MIN() sale amount for each null value, then used AVG() on that CASE statement to calculate the average
+18. Day 262 - August 18th 2024: [Above Average from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day262.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the .mean() function to filter the dataframe to instances where the average height of a country was larger than the overall average height in the dataset. Finished off with the .sort_values() function to order the output by average country height descending
 
 </details>

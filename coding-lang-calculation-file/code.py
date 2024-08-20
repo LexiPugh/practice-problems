@@ -837,3 +837,16 @@ combined_df = resolved_calls.merge(total_calls)
 combined_df['pct_resolved'] = (combined_df['resolved_calls'] / combined_df['call_count']) * 100
 
 combined_df[['employee_name', 'pct_resolved']].sort_values(by='employee_name', ascending=True)
+
+
+import pandas as pd
+
+import datetime 
+
+profits['date'] = pd.to_datetime(profits['date'])
+
+profits['month'] = profits['date'].dt.month
+
+profits = profits.groupby('month')['profit'].sum().reset_index(name='total_profit')
+
+profits = profits[(profits['month'] <= 6) & (profits['total_profit'] > 0)].sort_values(by='total_profit', ascending=False)

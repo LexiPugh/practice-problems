@@ -1193,5 +1193,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Used the .mean() function to filter the dataframe to instances where the average height of a country was larger than the overall average height in the dataset. Finished off with the .sort_values() function to order the output by average country height descending
+19. Day 263 - August 19th 2024: [Help Desk Manager from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day263.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: Performed dataframe filtering then used the .groupby() function in combination with the .count() function to tally the number of calls that had been resolved. I then used the .groupby() and .count() functions on the unfiltered dataframe to tally the total number of calls. Then I used .merge() to combine the dataframes with the resolved callsa and total calls together, then calculated the percentage of calls resolved. I finished off by using the .sort_values() function to order the output alphabetically by employee name
 
 </details>

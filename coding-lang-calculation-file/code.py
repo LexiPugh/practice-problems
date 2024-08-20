@@ -824,3 +824,16 @@ heights = heights[heights['average_height'] > heights['average_height'].mean()]
 heights = heights.sort_values(by='average_height', ascending=False)
 
 heights
+
+
+import pandas as pd
+
+resolved_calls = help_desk_manager[help_desk_manager['call_outcome'] == 'Y'].groupby('employee_name')['call_outcome'].count().reset_index(name='resolved_calls')
+
+total_calls = help_desk_manager.groupby('employee_name')['call_outcome'].count().reset_index(name='call_count')
+
+combined_df = resolved_calls.merge(total_calls)
+
+combined_df['pct_resolved'] = (combined_df['resolved_calls'] / combined_df['call_count']) * 100
+
+combined_df[['employee_name', 'pct_resolved']].sort_values(by='employee_name', ascending=True)

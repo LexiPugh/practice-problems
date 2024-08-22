@@ -1201,5 +1201,11 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: Used the pd.to_datetime() function to convert the date column to a datetime data type, then used .dt.month from the datetime module to extract the month from the date field and store it in a new column. I then used the .groupby() function to group by the new month column and used .sum() to add up the profit for each month. Next, I used dataframe filtering to filter to the first six months of the year and to months where profit was positive. Finally, I used the .sort_values() function to order the output descending by profit
+21. Day 265 - August 21st 2024: [Unions from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day265.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: I started off by using the .rename() method to rename the columns in the med_list table to match the naming scheme of the medication_information table so that the two would have common columns. I then used the pd.concat() method to union the two tables and used the .sort_values() function to order the output alphabetically by medication name
+
+    REMOVE THIS
 
 </details>

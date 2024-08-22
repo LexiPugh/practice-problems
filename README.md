@@ -1206,6 +1206,4 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Medium
     - Concepts Covered: I started off by using the .rename() method to rename the columns in the med_list table to match the naming scheme of the medication_information table so that the two would have common columns. I then used the pd.concat() method to union the two tables and used the .sort_values() function to order the output alphabetically by medication name
 
-    REMOVE THIS
-
 </details>

@@ -1205,5 +1205,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: Python
     - Question Difficulty: Medium
     - Concepts Covered: I started off by using the .rename() method to rename the columns in the med_list table to match the naming scheme of the medication_information table so that the two would have common columns. I then used the pd.concat() method to union the two tables and used the .sort_values() function to order the output alphabetically by medication name
+22. Day 266 - August 22nd 2024: [Full Time Jobs from Analyst Builder](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day266.md)
+    - Languages Used: Python
+    - Question Difficulty: Medium
+    - Concepts Covered: I used the .rename() method to rename the columns in the job_two table to match the naming scheme of the job_one table so that the two would have common columns. I then used the pd.concat() method to union the two tables, then performed dataframe filtering to filter to only full-time jobs. I then used the .groupby() method to group the dataframe by name and the .count() function to count the number of full-time jobs per person. Finally, I filtered the dataframe to find the employees that have more than one full-time job
 
 </details>

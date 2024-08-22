@@ -861,3 +861,16 @@ combined_df = pd.concat([medication_information, med_list])
 combined_df = combined_df.sort_values(by='medication', ascending=True)
 
 combined_df[['medication', 'rec_dosage']]
+
+
+import pandas as pd
+
+job_two = job_two.rename(columns={"employee_name":"name"})
+
+combined_df = pd.concat([job_one, job_two])
+
+combined_df = combined_df[combined_df['full_time'] == 'Y']
+
+combined_df = combined_df.groupby('name')['full_time'].count().reset_index()
+
+combined_df = combined_df[combined_df['full_time'] > 1]

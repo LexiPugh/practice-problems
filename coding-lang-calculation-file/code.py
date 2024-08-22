@@ -850,3 +850,14 @@ profits['month'] = profits['date'].dt.month
 profits = profits.groupby('month')['profit'].sum().reset_index(name='total_profit')
 
 profits = profits[(profits['month'] <= 6) & (profits['total_profit'] > 0)].sort_values(by='total_profit', ascending=False)
+
+
+import pandas as pd
+
+med_list = med_list.rename(columns={'medication_name': 'medication', 'recommended_dosage': 'rec_dosage'})
+
+combined_df = pd.concat([medication_information, med_list])
+
+combined_df = combined_df.sort_values(by='medication', ascending=True)
+
+combined_df[['medication', 'rec_dosage']]

@@ -874,3 +874,12 @@ combined_df = combined_df[combined_df['full_time'] == 'Y']
 combined_df = combined_df.groupby('name')['full_time'].count().reset_index()
 
 combined_df = combined_df[combined_df['full_time'] > 1]
+
+
+sales2000 = calculators.apply(lambda x: x['calculator_sales'] if x['year'] == 2000 else 0, axis=1).sum()
+
+sales2023 = calculators.apply(lambda x: x['calculator_sales'] if x['year'] == 2023 else 0, axis=1).sum()
+
+calculators['pct_change'] = (((sales2023 - sales2000) / sales2000) * 100).round(2)
+
+calculators[['pct_change']].drop_duplicates()

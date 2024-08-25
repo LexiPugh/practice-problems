@@ -883,3 +883,18 @@ sales2023 = calculators.apply(lambda x: x['calculator_sales'] if x['year'] == 20
 calculators['pct_change'] = (((sales2023 - sales2000) / sales2000) * 100).round(2)
 
 calculators[['pct_change']].drop_duplicates()
+
+
+import pandas as pd
+
+products2022 = products[products['year'] == 2022].groupby('company_name').size().reset_index(name='count_2022')
+
+products2023 = products[products['year'] == 2023].groupby('company_name').size().reset_index(name='count_2023')
+
+combined_df = pd.merge(products2022, products2023, how='outer')
+
+combined_df = combined_df.fillna(0)
+
+combined_df['difference'] = combined_df['count_2023'] - combined_df['count_2022']
+
+combined_df[['company_name', 'difference']].sort_values(by='company_name', ascending=True)

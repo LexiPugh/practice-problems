@@ -1218,5 +1218,6 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Medium
     - Concepts Covered: I started by performing dataframe filtering to create two separate dataframes filtered to 2022 and 2023. I then used .groupby(), .size(), and .reset_index() together to group the dataframes by company name and count the products launched. I then used pd.merge() to perform an outer join on the 2022 dataframe and the 2023 dataframe, getting the values for both years into one dataframe. Next, I used the .fillna() function to change any null values to 0. With that done, I was able to subtract the number of product launches in 2022 from the number of product launches in 2023 and store it in a new column called difference. I finished off by returning the company name column and difference column and using the .sort_values() function to order the output by company name alphabetically
 
+Fill in later
 
 </details>

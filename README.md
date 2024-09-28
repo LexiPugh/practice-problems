@@ -1221,7 +1221,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Performed a self JOIN with the employees table on the employee id and manager id. I then used the WHERE keyword to filter to instances where the employee salary was greater than the manager salary
-
-I forgot to make a branch for the last one but I want my branches to align with the day number so I'll commit this real quick lol
+26. Day 270 - August 26th 2024: [Classes More Than 5 Students from LeetCode](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day270.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the HAVING keyword in combination with the COUNT() function to filter to instances where a class had at least 5 students
 
 </details>

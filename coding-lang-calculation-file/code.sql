@@ -2113,3 +2113,13 @@ FROM
     ON b.id = e.managerId
 WHERE
     e.salary > b.salary
+
+  
+SELECT
+    class
+FROM
+    courses
+GROUP BY
+    class
+HAVING
+    COUNT(student) >= 5

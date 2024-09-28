@@ -2149,3 +2149,12 @@ GROUP BY
 ORDER BY
     travelled_distance DESC,
     name ASC
+
+
+SELECT
+    *
+FROM
+    patients
+WHERE
+    conditions LIKE "DIAB1%"
+    OR conditions LIKE "% DIAB1%"

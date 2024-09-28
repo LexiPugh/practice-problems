@@ -1222,5 +1222,6 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: Performed a self JOIN with the employees table on the employee id and manager id. I then used the WHERE keyword to filter to instances where the employee salary was greater than the manager salary
 
+I forgot to make a branch for the last one but I want my branches to align with the day number so I'll commit this real quick lol
 
 </details>

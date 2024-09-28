@@ -1225,5 +1225,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Used the HAVING keyword in combination with the COUNT() function to filter to instances where a class had at least 5 students
+27. Day 271 - August 27th 2024: [Customer Placing the Largest Number of Orders from LeetCode](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day271.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the ORDER BY keyword to sort the output table by the COUNT() of orders descending, then used the LIMIT keyword to grab the customer with the most orders
 
 </details>

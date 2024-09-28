@@ -29,6 +29,7 @@ I'll continue doing these practice problems at least until I land a job as a dat
 - [Analyst Builder](https://www.analystbuilder.com/) 
 - [HackerRank](https://www.hackerrank.com)
 - [LeetCode](https://leetcode.com/)
+- [PostgreSQL Exercises](https://pgexercises.com/)
 
 Some of the practice problems will be in SQL and some will be in Python. Thank you for taking the time to view my practice problems repository :D
 
@@ -1237,5 +1238,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Used the LIKE keyword to select all rows where the condition column includes the 'DIAB1' prefix, meaning the patient has Type 1 diabetes
+30. Day 274 - August 30th 2024: [Retrieve Everything From a Table from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day274.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the * symbol to retrieve all columns and rows from a dataset
 
 </details>

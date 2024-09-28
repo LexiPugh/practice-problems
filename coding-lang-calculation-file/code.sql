@@ -2158,3 +2158,9 @@ FROM
 WHERE
     conditions LIKE "DIAB1%"
     OR conditions LIKE "% DIAB1%"
+
+
+SELECT 
+	*
+FROM
+	cd.facilities

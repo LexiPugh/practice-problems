@@ -1241,6 +1241,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 30. Day 274 - August 30th 2024: [Retrieve Everything From a Table from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day274.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: Used the * symbol to retrieve all columns and rows from a dataset
+    - Concepts Covered: Used the * symbol to retrieve all columns and rows from the facilities dataset
+31. Day 275 - August 31st 2024: [Retrieve Specific Columns From a Table from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day275.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the SELECT keyword to output the name and member cost for each facility in the facilities table
 
 </details>

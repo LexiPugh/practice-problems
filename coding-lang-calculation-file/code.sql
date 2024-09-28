@@ -2135,3 +2135,17 @@ ORDER BY
     COUNT(order_number) DESC
 LIMIT
     1
+
+
+SELECT
+    name,
+    COALESCE(SUM(distance), 0) AS travelled_distance
+FROM
+    users AS u LEFT JOIN rides AS r
+    ON u.id = r.user_id
+GROUP BY
+    name,
+    user_id
+ORDER BY
+    travelled_distance DESC,
+    name ASC

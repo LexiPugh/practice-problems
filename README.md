@@ -1229,5 +1229,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Used the ORDER BY keyword to sort the output table by the COUNT() of orders descending, then used the LIMIT keyword to grab the customer with the most orders
+28. Day 272 - August 28th 2024: [Top Travellers from LeetCode](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/august2024/day272.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Started off by performing a LEFT JOIN, keeping all data from the users table and matching data from the rides table. I then used the SUM() function to calculate the total travel distance, then did a GROUP BY name and user_id to see the travel distance for each user. I used the COALESCE() function to replace NULL travel distances with 0, then used the ORDER BY keyword to sort the output by travel distance descending and name ascending
 
 </details>

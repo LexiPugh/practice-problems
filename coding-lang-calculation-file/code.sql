@@ -2104,3 +2104,12 @@ SELECT
   AVG(CASE WHEN sale_amount IS NULL THEN (SELECT MIN(sale_amount) FROM missing_values) ELSE sale_amount END) AS avg_including_min
 FROM 
   missing_values
+
+
+SELECT 
+    e.name AS Employee
+FROM 
+    employee AS b JOIN employee AS e
+    ON b.id = e.managerId
+WHERE
+    e.salary > b.salary

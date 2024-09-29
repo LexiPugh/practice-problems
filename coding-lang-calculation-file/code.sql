@@ -2171,3 +2171,11 @@ SELECT
      membercost
 FROM
      cd.facilities
+
+
+SELECT
+     *
+FROM
+     cd.facilities
+WHERE
+     membercost > 0

@@ -15,6 +15,7 @@
     - [June 2024](#june-2024)
     - [July 2024](#july-2024)
     - [August 2024](#august-2024)
+    - [September 2024](#september-2024)
 
 <br>
 
@@ -1246,5 +1247,22 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Used the SELECT keyword to output the name and member cost for each facility in the facilities table
+
+</details>
+
+
+
+### September 2024
+
+<details>
+
+<summary>September 2024 Practice Problems</summary>
+
+<br>
+
+1. Day 276 - September 1st 2024: [Control Which Rows Are Retrieved from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day276.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the WHERE keyword to filter to facilities that have a membership fee
 
 </details>

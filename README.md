@@ -1276,5 +1276,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Used the IN keyword in combination with the WHERE keyword to filter to facilities with specific id numbers
+5. Day 280 - September 5th 2024: [Classify Results Into Buckets from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day280.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Used a CASE statement to create a new column that says 'expensive' or 'cheap' depending on the monthly maintenance fee
 
 </details>

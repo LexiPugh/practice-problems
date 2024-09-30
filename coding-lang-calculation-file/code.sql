@@ -2179,3 +2179,15 @@ FROM
      cd.facilities
 WHERE
      membercost > 0
+
+
+SELECT
+     facid,
+     name,
+     membercost,
+     monthlymaintenance
+FROM
+     cd.facilities
+WHERE
+     membercost < (monthlymaintenance / 50)
+     AND membercost > 0

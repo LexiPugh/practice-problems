@@ -1264,5 +1264,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Used the WHERE keyword to filter to facilities that have a membership fee
+2. Day 277 - September 2nd 2024: [Control Which Rows Are Retrieved - Part 2 from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day277.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: I started off by using the WHERE keyword to filter to facilities that have a membership fee. I then used the AND keyword and performed a calculation to filter to facilities whose membership fee are less than 1/50th of the monthly maintenance cost
 
 </details>

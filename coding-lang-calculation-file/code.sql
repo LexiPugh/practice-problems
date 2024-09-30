@@ -2191,3 +2191,11 @@ FROM
 WHERE
      membercost < (monthlymaintenance / 50)
      AND membercost > 0
+
+
+SELECT
+     *
+FROM
+     cd.facilities
+WHERE
+     name LIKE '%Tennis%'

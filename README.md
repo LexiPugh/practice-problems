@@ -1268,5 +1268,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: I started off by using the WHERE keyword to filter to facilities that have a membership fee. I then used the AND keyword and performed a calculation to filter to facilities whose membership fee are less than 1/50th of the monthly maintenance cost
+3. Day 278 - September 3rd 2024: [Basic String Searches from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day278.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the LIKE keyword in combination with the wildcard symbol % to filter to facilities that have the word Tennis anywhere in its name
 
 </details>

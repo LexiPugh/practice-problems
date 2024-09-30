@@ -1272,5 +1272,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Used the LIKE keyword in combination with the wildcard symbol % to filter to facilities that have the word Tennis anywhere in its name
+4. Day 279 - September 4th 2024: [Matching Against Multiple Possible Values from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day279.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the IN keyword in combination with the WHERE keyword to filter to facilities with specific id numbers
 
 </details>

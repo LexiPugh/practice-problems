@@ -2214,3 +2214,14 @@ SELECT
      CASE WHEN monthlymaintenance > 100 THEN 'expensive' ELSE 'cheap' END AS cost
 FROM
      cd.facilities
+
+
+SELECT
+     memid, 
+     surname, 
+     firstname,
+     joindate
+FROM
+     cd.members
+WHERE
+     DATE_TRUNC('month', joindate) >= '2012-09-01 00:00'

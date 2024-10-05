@@ -1285,5 +1285,7 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: Used the DATE_TRUNC() function in the WHERE clause to filter to members who joined in or after September 2012
   
+   Fill in later
+  
 
 </details>

@@ -2246,3 +2246,9 @@ SELECT
      name
 FROM
      cd.facilities
+
+
+SELECT
+     MAX(joindate) AS latest
+FROM
+     cd.members

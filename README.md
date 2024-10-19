@@ -1292,29 +1292,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Used the UNION keyword to combine the output of two queries
+9. Day 284 - September 9th 2024: [Simple Aggregation from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day284.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the MAX() keyword to find the singup date of the member who joined most recently
   
-   Add in later
-
-   Add in later
-
-   Add in later
-
-   Add in later
-
-   Add in later
-
-   Add in later
-
-   Add in later
-
-   Add in later
-
-   Add in later
-
-   Add in later
-
-   Add in later
-
-   Add in later
 
 </details>

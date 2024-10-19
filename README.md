@@ -1284,6 +1284,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Used the DATE_TRUNC() function in the WHERE clause to filter to members who joined in or after September 2012
+7. Day 282 - September 7th 2024: [Removing Duplicates and Ordering Results from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day282.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the DISTINCT() keyword to grab each unique member surname, then used the ORDER BY keyword to sort the output table alphabetically and the LIMIT keyword to grab the first 10 surnames
   
    Add in later
 

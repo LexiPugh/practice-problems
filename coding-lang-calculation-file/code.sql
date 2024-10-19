@@ -2225,3 +2225,13 @@ FROM
      cd.members
 WHERE
      DATE_TRUNC('month', joindate) >= '2012-09-01 00:00'
+
+
+SELECT
+     DISTINCT(surname)
+FROM
+     cd.members
+ORDER BY
+     surname
+LIMIT
+     10

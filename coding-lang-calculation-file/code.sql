@@ -2235,3 +2235,14 @@ ORDER BY
      surname
 LIMIT
      10
+
+
+SELECT
+     surname
+FROM
+     cd.members
+UNION
+SELECT
+     name
+FROM
+     cd.facilities

@@ -1288,6 +1288,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Used the DISTINCT() keyword to grab each unique member surname, then used the ORDER BY keyword to sort the output table alphabetically and the LIMIT keyword to grab the first 10 surnames
+8. Day 283 - September 8th 2024: [Combining Results From Multiple Queries from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day283.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: Used the UNION keyword to combine the output of two queries
   
    Add in later
 

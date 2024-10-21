@@ -1369,7 +1369,7 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: This problem required formatting the names of members by concatenating the surname and first name fields using the || operator, presenting names in the format "Surname, Firstname"
 28. Day 303 – September 28th 2024: [Find Facilities by a Name Prefix](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day303.md)
-    - Language Used: SQL
+    - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: This problem involved finding facilities with names starting with "Tennis." I used the ILIKE operator to perform a search for names matching the 'Tennis%' prefix
 

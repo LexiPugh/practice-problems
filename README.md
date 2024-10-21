@@ -1296,6 +1296,87 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: Used the MAX() keyword to find the singup date of the member who joined most recently
+10. Day 285 – September 10th 2024: [More Aggregation from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day285.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: This problem required identifying the most recent member(s) who joined. I used a subquery to find the maximum joindate from the members table, then filtered the main query to return only those members whose joindate matched this maximum. This approach demonstrated the use of aggregation functions and subqueries to perform targeted filtering within a query
+11. Day 286 – September 11th 2024: [Count the Number of Facilities from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day286.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: This problem involved counting the total number of facilities in the facilities table. I used the COUNT() function to return the total number of rows in the table
+12. Day 287 – September 12th 2024: [Count the Number of Expensive Facilities from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day287.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: This problem involved counting the number of facilities where the guest cost is 10 or more. I used the COUNT() function with a WHERE clause to filter the rows where guestcost is greater than or equal to 10 before performing the count
+13. Day 288 – September 13th 2024: [Count the Number of Recommendations Each Member Makes from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day288.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: This problem involved counting how many recommendations each member has made. I used the COUNT() function with a WHERE clause to filter out rows where recommendedby is NULL, then grouped by recommendedby to count the recommendations per member and ordered the result by member ID
+14. Day 289 – September 14th 2024: [List the Total Slots Booked Per Facility from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day289.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: This problem involved listing the total number of slots booked per facility. I used the SUM() function to aggregate the number of slots for each facility (facid), grouping by facid and ordering the results by facility ID
+15. Day 290 – September 15th 2024: [List the Total Slots Booked per Facility in a Given Month from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day290.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: This problem required listing the total number of slots booked per facility for September 2012. I used the SUM() function on the slots column, grouping by facid and restricting the data to September 2012 using DATE_TRUNC(). The results were ordered by the total number of slots
+16. Day 291 – September 16th 2024: [List the Total Slots Booked Per Facility Per Month from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day291.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: This problem required listing the total slots booked per facility for each month in 2012. I used the SUM() function to aggregate slots, grouping by both facid and the month, which I extracted from the starttime field by using the DATE_PART() function. I then used the DATE_TRUNC() function to filter to 2012 and sorted by facid and month
+17. Day 292 – September 17th 2024: [Find the Count of Members Who Have Made at Least One Booking from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day292.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: This problem required counting the number of unique members who have made at least one booking. I used the COUNT() function with the DISTINCT() keyword to return the total number of distinct member IDs
+18. Day 293 – September 18th 2024: [List Facilities with More Than 1000 Slots Booked from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day293.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: This problem required listing facilities with more than 1000 total slots booked. I used the SUM() function to aggregate slots per facility and applied the HAVING clause to filter results, ensuring only facilities with over 1000 slots were included
+19. Day 294 – September 19th 2024: [Find the Total Revenue of Each Facility from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day294.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: This problem involved calculating the total revenue for each facility. I performed a JOIN to join the facilities table with the bookings table on the facid field. I then used the SUM() function with a CASE statement to account for different costs for members and guests, grouping the results by facility name and sorting by revenue
+20. Day 295 – September 20th 2024: [Find Facilities with a Total Revenue Less Than 1000 from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day295.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: This problem required finding facilities with a total revenue under 1000. I used a WITH clause to create a CTE, used a JOIN to join the facilities and bookings table, calculated revenue using a CASE statement, and then filtered the results for those under 1000 outside the CTE
+21. Day 296 – September 21st 2024: [Output the Facility ID That Has the Highest Number of Slots Booked from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day296.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: This problem involved finding the facility with the most slots booked. I used the WITH keyword to create a CTE that calculated total slots per facility and assigned rankings using the ROW_NUMBER() window function. I then used that CTE in another query to filter for the top-ranked facility using the WHERE keyword
+22. Day 297 – September 22nd 2024: [Retrieve the Start Times of Members' Bookings from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day297.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: This problem required retrieving the start times for bookings made by David Farrell. I performed an INNER JOIN between the bookings and members tables, filtering for rows WHERE the member's first name is 'David' and the last name is 'Farrell'
+23. Day 298 – September 23rd 2024: [Work Out the Start Times of Bookings for Tennis Courts from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day298.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: This problem required retrieving start times for bookings of two specific tennis courts on a given day. I used an INNER JOIN between the bookings and facilities tables, then used the WHERE keyword to filter. I leveraged DATE_TRUNC() to filter by day and the IN keyword to filter for specific court names. The results were ordered by start time
+24. Day 299 – September 24th 2024: [Produce a List of All Members Who Have Recommended Another Member](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day299.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: This problem involved using an INNER JOIN on the members table to find members who have recommended another member. I used the DISTINCT keyword to ensure each recommender appeared only once and sorted the results by surname and first name
+25. Day 300 – September 25th 2024: [Produce a List of All Members, Along with Their Recommender](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day300.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: This problem required listing all members along with their recommender, so I performed self join with the members table on the recommendedby field being equal to the memid field. I used a LEFT JOIN to account for members without a recommender and ordered the results by the member’s surname and first name
+26. Day 301 – September 26th 2024: [Produce a List of All Members Who Have Used a Tennis Court](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day301.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: This problem involved using multiple INNER JOINs to find members who have used a tennis court. I joined the members, bookings, and facilities tables, and used the IN keyword in combination with the WHERE keyword to filter for tennis courts. I used the || operator to concatenate the first and last names of members into a full name field, then used the DISTINCT() keyword to ensure each member only appears once per court they used
+27. Day 302 – September 27th 2024: [Format the Names of Members](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day302.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: This problem required formatting the names of members by concatenating the surname and first name fields using the || operator, presenting names in the format "Surname, Firstname"
+28. Day 303 – September 28th 2024: [Find Facilities by a Name Prefix](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day303.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: This problem involved finding facilities with names starting with "Tennis." I used the ILIKE operator to perform a search for names matching the 'Tennis%' prefix
+
+
+
+
+
   
 
 </details>

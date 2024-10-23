@@ -675,6 +675,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: Used the RANK() window function with a PARTITION BY user id, using the ORDER BY keyword to order by the transaction date descending, resulting in the most recent transaction date for each user being assigned a rank number of 1. I then used the COUNT() function on the product id column to count the number of purchases since some customers made more than one purchase in a day. I used the WHERE keyword to filter the rank number to 1 and the GROUP BY keyword to group by transaction date and user id
+23. Day 145 - April 23rd 2024: [Histogram of Users and Purchases from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day145.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: Used the RANK() window function with a PARTITION BY user id, using the ORDER BY keyword to order by the transaction date descending, resulting in the most recent transaction date for each user being assigned a rank number of 1. I then used the COUNT() function on the product id column to count the number of purchases since some customers made more than one purchase in a day. I used the WHERE keyword to filter the rank number to 1 and the GROUP BY keyword to group by transaction date and user id
 24. Day 146 - April 24th 2024: [Highest-Grossing Items from DataLemur](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/april2024/day146.md)
     - Languages Used: SQL
     - Question Difficulty: Medium

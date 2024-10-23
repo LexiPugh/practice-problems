@@ -2262,3 +2262,9 @@ FROM
 	cd.members
 WHERE
 	joindate = (SELECT MAX(joindate) FROM cd.members)
+
+
+SELECT
+	COUNT(*)
+FROM
+	cd.facilities

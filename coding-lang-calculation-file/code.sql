@@ -2289,3 +2289,14 @@ GROUP BY
 	recommendedby
 ORDER BY
 	recommendedby
+
+
+SELECT
+	facid,
+	SUM(slots) AS total_slots
+FROM
+	cd.bookings
+GROUP BY
+	facid
+ORDER BY
+	facid

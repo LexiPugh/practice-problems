@@ -2300,3 +2300,32 @@ GROUP BY
 	facid
 ORDER BY
 	facid
+
+
+SELECT
+	facid,
+	SUM(slots) AS total_slots
+FROM
+	cd.bookings
+WHERE
+	DATE_TRUNC('month', starttime) = '2012-09-01 00:00:00'
+GROUP BY
+	facid
+ORDER BY
+	total_slots
+
+
+SELECT
+	facid,
+	DATE_PART('month', starttime) AS month,
+	SUM(slots) AS total_slots
+FROM
+	cd.bookings
+WHERE
+	DATE_TRUNC('year', starttime) = '2012-01-01 00:00:00'
+GROUP BY
+	facid,
+	month
+ORDER BY
+	facid,
+	month

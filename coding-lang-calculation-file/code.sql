@@ -2329,3 +2329,9 @@ GROUP BY
 ORDER BY
 	facid,
 	month
+
+
+SELECT 
+	COUNT(DISTINCT(memid))
+FROM
+	cd.bookings

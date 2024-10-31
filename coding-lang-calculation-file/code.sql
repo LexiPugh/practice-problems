@@ -2348,3 +2348,18 @@ HAVING
 	SUM(slots) > 1000
 ORDER BY
 	facid
+
+
+SELECT
+	name,
+	SUM(CASE
+		WHEN memid > 0 THEN (slots * membercost)
+	  	ELSE (slots * guestcost)
+	END) AS revenue
+FROM
+	cd.facilities AS f JOIN cd.bookings AS b
+	ON f.facid = b.facid
+GROUP BY
+	name
+ORDER BY
+	revenue

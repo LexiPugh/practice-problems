@@ -2363,3 +2363,27 @@ GROUP BY
 	name
 ORDER BY
 	revenue
+
+
+WITH revenue_table AS (
+  SELECT
+	  name,
+	  SUM(CASE
+		  WHEN memid > 0 THEN (slots * membercost)
+		  ELSE (slots * guestcost)
+	  END) AS revenue
+  FROM
+	  cd.facilities AS f JOIN cd.bookings AS b
+	  ON f.facid = b.facid
+  GROUP BY
+	  name
+  ORDER BY
+	  revenue
+)
+SELECT
+	name, 
+	revenue
+FROM
+	revenue_table
+WHERE
+	revenue < 1000

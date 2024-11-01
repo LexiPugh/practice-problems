@@ -2387,3 +2387,22 @@ FROM
 	revenue_table
 WHERE
 	revenue < 1000
+
+
+WITH row_num_table AS (
+  SELECT
+	  facid,
+	  SUM(slots) AS total_slots,
+	  ROW_NUMBER() OVER(ORDER BY SUM(slots) DESC) AS row_num
+  FROM
+	  cd.bookings
+  GROUP BY
+	  facid
+ )
+SELECT
+	facid,
+	total_slots
+FROM
+	row_num_table
+WHERE
+	row_num = 1

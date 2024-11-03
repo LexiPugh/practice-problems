@@ -2406,3 +2406,13 @@ FROM
 	row_num_table
 WHERE
 	row_num = 1
+
+
+SELECT
+	starttime
+FROM
+	cd.bookings AS b INNER JOIN cd.members AS m
+	ON b.memid = m.memid
+WHERE
+	firstname = 'David' 
+	AND surname = 'Farrell'

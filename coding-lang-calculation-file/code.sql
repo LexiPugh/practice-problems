@@ -2416,3 +2416,16 @@ FROM
 WHERE
 	firstname = 'David' 
 	AND surname = 'Farrell'
+
+
+SELECT
+	starttime AS start,
+	name
+FROM
+	cd.bookings AS b INNER JOIN cd.facilities AS f
+	ON b.facid = f.facid
+WHERE
+	DATE_TRUNC('day', starttime) = '2012-09-21 00:00:00'
+	AND name IN ('Tennis Court 1', 'Tennis Court 2')
+ORDER BY
+	start

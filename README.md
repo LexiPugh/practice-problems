@@ -1356,23 +1356,23 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: This problem required retrieving start times for bookings of two specific tennis courts on a given day. I used an INNER JOIN between the bookings and facilities tables, then used the WHERE keyword to filter. I leveraged DATE_TRUNC() to filter by day and the IN keyword to filter for specific court names. The results were ordered by start time
-24. Day 299 – September 24th 2024: [Produce a List of All Members Who Have Recommended Another Member](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day299.md)
+24. Day 299 – September 24th 2024: [Produce a List of All Members Who Have Recommended Another Member from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day299.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: This problem involved using an INNER JOIN on the members table to find members who have recommended another member. I used the DISTINCT keyword to ensure each recommender appeared only once and sorted the results by surname and first name
-25. Day 300 – September 25th 2024: [Produce a List of All Members, Along with Their Recommender](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day300.md)
+25. Day 300 – September 25th 2024: [Produce a List of All Members, Along with Their Recommender from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day300.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: This problem required listing all members along with their recommender, so I performed self join with the members table on the recommendedby field being equal to the memid field. I used a LEFT JOIN to account for members without a recommender and ordered the results by the member’s surname and first name
-26. Day 301 – September 26th 2024: [Produce a List of All Members Who Have Used a Tennis Court](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day301.md)
+26. Day 301 – September 26th 2024: [Produce a List of All Members Who Have Used a Tennis Court from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day301.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: This problem involved using multiple INNER JOINs to find members who have used a tennis court. I joined the members, bookings, and facilities tables, and used the IN keyword in combination with the WHERE keyword to filter for tennis courts. I used the || operator to concatenate the first and last names of members into a full name field, then used the DISTINCT() keyword to ensure each member only appears once per court they used
-27. Day 302 – September 27th 2024: [Format the Names of Members](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day302.md)
+27. Day 302 – September 27th 2024: [Format the Names of Members from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day302.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: This problem required formatting the names of members by concatenating the surname and first name fields using the || operator, presenting names in the format "Surname, Firstname"
-28. Day 303 – September 28th 2024: [Find Facilities by a Name Prefix](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day303.md)
+28. Day 303 – September 28th 2024: [Find Facilities by a Name Prefix from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day303.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: This problem involved finding facilities with names starting with "Tennis." I used the ILIKE operator to perform a search for names matching the 'Tennis%' prefix

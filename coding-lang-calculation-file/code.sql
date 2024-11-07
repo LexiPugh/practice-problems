@@ -2453,3 +2453,18 @@ FROM
 ORDER BY
 	memsname,
 	memfname
+
+
+SELECT
+	DISTINCT(firstname || ' ' || surname) AS member,
+	name AS facility
+FROM
+	cd.members AS m INNER JOIN cd.bookings AS b
+	ON m.memid = b.memid
+	INNER JOIN cd.facilities AS f
+	ON b.facid = f.facid
+WHERE
+	name IN ('Tennis Court 1', 'Tennis Court 2')
+ORDER BY
+	member,
+	facility

@@ -2468,3 +2468,9 @@ WHERE
 ORDER BY
 	member,
 	facility
+
+
+SELECT
+	surname || ', ' || firstname AS name
+FROM
+	cd.members

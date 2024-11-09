@@ -2474,3 +2474,11 @@ SELECT
 	surname || ', ' || firstname AS name
 FROM
 	cd.members
+
+
+SELECT
+	*
+FROM
+	cd.facilities
+WHERE
+	name ILIKE 'Tennis%'

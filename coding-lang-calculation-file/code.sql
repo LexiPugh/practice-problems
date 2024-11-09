@@ -2482,3 +2482,11 @@ FROM
 	cd.facilities
 WHERE
 	name ILIKE 'Tennis%'
+
+
+SELECT
+	*
+FROM
+	cd.facilities
+WHERE
+	UPPER(name) ILIKE 'TENNIS%'

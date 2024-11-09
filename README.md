@@ -1376,6 +1376,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: This problem involved finding facilities with names starting with "Tennis." I used the ILIKE operator to perform a search for names matching the 'Tennis%' prefix
+29. Day 304 – September 29th 2024: [Perform a Case-Insensitive Search from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day304.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: This problem involved finding facilities with names starting with "Tennis" again, but with a case-insensitive search this time. Though the ILIKE operator automatically performs case insensitive searches, I also used the UPPER() function to demonstrate an alternate way that a case insensitive search can be done.
 
 
 

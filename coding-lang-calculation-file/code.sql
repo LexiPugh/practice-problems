@@ -2490,3 +2490,14 @@ FROM
 	cd.facilities
 WHERE
 	UPPER(name) ILIKE 'TENNIS%'
+
+
+SELECT
+	memid,
+	telephone
+FROM
+	cd.members
+WHERE
+	telephone ILIKE '(%'
+ORDER BY
+	memid

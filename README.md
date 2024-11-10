@@ -1380,6 +1380,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: This problem involved finding facilities with names starting with "Tennis" again, but with a case-insensitive search this time. Though the ILIKE operator automatically performs case insensitive searches, I also used the UPPER() function to demonstrate an alternate way that a case insensitive search can be done.
+30. Day 305 – September 30th 2024: [Find Telephone Numbers With Parentheses from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day305.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: This problem involved finding telephone numbers that had parentheses around the first three numbers. I used the ILIKE operator here to search for records that started with a parenthesis.
 
 
 

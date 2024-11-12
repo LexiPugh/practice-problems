@@ -16,6 +16,7 @@
     - [July 2024](#july-2024)
     - [August 2024](#august-2024)
     - [September 2024](#september-2024)
+    - [October 2024](#october-2024)
 
 <br>
 
@@ -1385,9 +1386,21 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Question Difficulty: Easy
     - Concepts Covered: This problem involved finding telephone numbers that had parentheses around the first three numbers. I used the ILIKE operator here to search for records that started with a parenthesis.
 
+</details>
 
 
 
-  
+### October 2024
+
+<details>
+
+<summary>October 2024 Practice Problems</summary>
+
+<br>
+
+1. Day 306 – October 1st 2024: [Pad Zip Codes With Leading Zeroes from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day306.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: For this question, I needed to make zip codes of varying lengths a uniform 5 characters by padding any codes shorter than 5 characters with leading zeros. I used the PostgreSQL LPAD() function to complete this along with the CAST() function to change the integer zip codes into a character field.
 
 </details>

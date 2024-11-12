@@ -2501,3 +2501,11 @@ WHERE
 	telephone ILIKE '(%'
 ORDER BY
 	memid
+
+
+SELECT
+	LPAD(CAST(zipcode as char(5)),5,'0') AS zip
+FROM
+	cd.members
+ORDER BY
+	zip

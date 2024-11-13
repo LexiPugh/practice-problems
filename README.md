@@ -1380,11 +1380,11 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 29. Day 304 – September 29th 2024: [Perform a Case-Insensitive Search from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day304.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: This problem involved finding facilities with names starting with "Tennis" again, but with a case-insensitive search this time. Though the ILIKE operator automatically performs case insensitive searches, I also used the UPPER() function to demonstrate an alternate way that a case insensitive search can be done.
+    - Concepts Covered: This problem involved finding facilities with names starting with "Tennis" again, but with a case-insensitive search this time. Though the ILIKE operator automatically performs case insensitive searches, I also used the UPPER() function to demonstrate an alternate way that a case insensitive search can be done
 30. Day 305 – September 30th 2024: [Find Telephone Numbers With Parentheses from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/september2024/day305.md)
     - Languages Used: SQL
     - Question Difficulty: Easy
-    - Concepts Covered: This problem involved finding telephone numbers that had parentheses around the first three numbers. I used the ILIKE operator here to search for records that started with a parenthesis.
+    - Concepts Covered: This problem involved finding telephone numbers that had parentheses around the first three numbers. I used the ILIKE operator here to search for records that started with a parenthesis
 
 </details>
 
@@ -1401,6 +1401,10 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
 1. Day 306 – October 1st 2024: [Pad Zip Codes With Leading Zeroes from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day306.md)
     - Languages Used: SQL
     - Question Difficulty: Medium
-    - Concepts Covered: For this question, I needed to make zip codes of varying lengths a uniform 5 characters by padding any codes shorter than 5 characters with leading zeros. I used the PostgreSQL LPAD() function to complete this along with the CAST() function to change the integer zip codes into a character field.
+    - Concepts Covered: For this question, I needed to make zip codes of varying lengths a uniform 5 characters by padding any codes shorter than 5 characters with leading zeros. I used the PostgreSQL LPAD() function to complete this along with the CAST() function to change the integer zip codes into a character field
+2. Day 307 – October 2nd 2024: [Count the Number of Members Whose Surname Starts With Each Letter of the Alphabet from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day307.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: For this question, I needed to count the number of members by the first letter of their surname. I used the COUNT() function to count the number of members, then I used the LEFT() function to extract the first letter of each surname. I did a GROUP BY each letter, then used the HAVING keyword to exclude letters without any members. Finally, I used the ORDER BY keyword to sort the output by letter alphabetically
 
 </details>

@@ -2509,3 +2509,16 @@ FROM
 	cd.members
 ORDER BY
 	zip
+
+
+SELECT
+	LEFT(surname, 1) AS letter,
+	COUNT(*) AS count
+FROM
+	cd.members
+GROUP BY
+	letter
+HAVING
+	COUNT(*) > 0
+ORDER BY
+	letter

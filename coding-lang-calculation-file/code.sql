@@ -2522,3 +2522,12 @@ HAVING
 	COUNT(*) > 0
 ORDER BY
 	letter
+
+
+SELECT
+	memid,
+	REGEXP_REPLACE(telephone, '[-() ]', '', 'g') AS telephone
+FROM
+	cd.members
+ORDER BY
+	memid

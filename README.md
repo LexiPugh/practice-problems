@@ -1406,5 +1406,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: For this question, I needed to count the number of members by the first letter of their surname. I used the COUNT() function to count the number of members, then I used the LEFT() function to extract the first letter of each surname. I did a GROUP BY each letter, then used the HAVING keyword to exclude letters without any members. Finally, I used the ORDER BY keyword to sort the output by letter alphabetically
+3. Day 308 – October 3rd 2024: [Clean Up Telephone Numbers from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day308.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: This problem required removing special characters from the telephone numbers of each member. I used the REGEXP_REPLACE() function to replace characters like hyphens, parentheses, and spaces with an empty string, effectively cleaning the phone numbers. The output was ordered by member id
 
 </details>

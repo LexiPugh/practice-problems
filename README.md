@@ -1410,5 +1410,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Medium
     - Concepts Covered: This problem required removing special characters from the telephone numbers of each member. I used the REGEXP_REPLACE() function to replace characters like hyphens, parentheses, and spaces with an empty string, effectively cleaning the phone numbers. The output was ordered by member id
+4. Day 309 – October 4th 2024: [Produce a Timestamp for 1 A.M. on the 31st of August 2012 from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day309.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: This problem required generating a specific timestamp. I used the TIMESTAMP literal to produce a timestamp for 1 a.m. on August 31st, 2012, directly specifying the date and time
 
 </details>

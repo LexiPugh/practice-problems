@@ -1414,5 +1414,9 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: This problem required generating a specific timestamp. I used the TIMESTAMP literal to produce a timestamp for 1 a.m. on August 31st, 2012, directly specifying the date and time
+5. Day 310 – October 5th 2024: [Subtract Timestamps from Each Other from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day310.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: This problem required calculating the difference between two timestamps. I used the subtraction operator (-) between two TIMESTAMP literals to determine the interval between them
 
 </details>

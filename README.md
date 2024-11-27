@@ -17,6 +17,7 @@
     - [August 2024](#august-2024)
     - [September 2024](#september-2024)
     - [October 2024](#october-2024)
+    - [November 2024](#november-2024)
 
 <br>
 
@@ -1418,5 +1419,141 @@ Some of the practice problems will be in SQL and some will be in Python. Thank y
     - Languages Used: SQL
     - Question Difficulty: Easy
     - Concepts Covered: This problem required calculating the difference between two timestamps. I used the subtraction operator (-) between two TIMESTAMP literals to determine the interval between them 
+6. Day 311 – October 6th 2024: [Generate a List of All the Dates in October 2012 from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day311.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: I used the GENERATE_SERIES() function to produce a list of all dates between October 1st and October 31st, 2012, with a step interval of one day
+7. Day 312 – October 7th 2024: [Get the Day of the Month from a Timestamp from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day312.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: This problem required extracting the day of the month from a timestamp. I used the DATE_PART() function with the 'day' parameter to retrieve the day value
+8. Day 313 – October 8th 2024: [Work Out the Number of Seconds Between Timestamps from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day313.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: I used the EXTRACT(EPOCH) function to calculate the difference in seconds between two timestamps and rounded the result using ROUND()
+9. Day 314 – October 9th 2024: [Work Out the Number of Days in Each Month of 2012 from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day314.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: I generated a series of months using GENERATE_SERIES() and calculated the number of days in each month by subtracting the start of the month from the start of the next month
+10. Day 315 – October 10th 2024: [Work Out the Number of Days Remaining in the Month from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day315.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: I calculated the remaining days in the month by subtracting the current day’s timestamp from the last day of the month, determined using DATE_TRUNC() and intervals
+11. Day 316 – October 11th 2024: [Work Out the End Time of Bookings from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day316.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: I calculated booking end times by adding intervals based on the number of slots to the start times. I used INTERVAL arithmetic and ordered the results by endtime and starttime
+12. Day 317 – October 12th 2024: [Return a Count of Bookings for Each Month from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day317.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: I grouped bookings by month using DATE_TRUNC() and counted rows with COUNT() to get the total bookings per month, ordering results chronologically
+13. Day 318 – October 13th 2024: [Work Out the Utilisation Percentage for Each Facility by Month from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day318.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: I used a WITH clause to calculate total slots per facility per month and computed utilisation as a percentage by dividing slots by available hours, rounding with ROUND()
+14. Day 319 – October 14th 2024: [Produce a List of Costly Bookings from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day319.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: I identified bookings over a specific cost using a CASE statement for cost calculation, JOINs to merge tables, and filtered results with WHERE. Results were sorted by cost in descending order
+15. Day 320 – October 15th 2024: [Produce a List of All Members, Along with Their Recommender, Using No Joins from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day320.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: I used a subquery to retrieve each member’s recommender without performing a join. The query included DISTINCT to avoid duplicates and ordered results by member names
+16. Day 321 – October 16th 2024: [Produce a List of Costly Bookings, Using a Subquery from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day321.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: I used a WITH clause to create a subquery calculating booking costs, then filtered the results for specific dates and costs greater than 30. The query included INNER JOINs for member and facility data
+17. Day 322 – October 17th 2024: [Insert Some Data into a Table from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day322.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: I performed an INSERT INTO operation to add a new row to the facilities table, specifying all required column values
+18. Day 323 – October 18th 2024: [Insert Multiple Rows of Data into a Table from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day323.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: I used the INSERT INTO statement to add multiple rows to the facilities table, specifying values for all required columns
+19. Day 324 – October 19th 2024: [Insert Calculated Data into a Table from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day324.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: I used a subquery in an INSERT INTO statement to calculate the next facility ID dynamically, ensuring no duplication in the facilities table
+20. Day 325 – October 20th 2024: [Update Some Existing Data from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day325.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: I performed an UPDATE operation to modify a single row in the facilities table, setting the initialoutlay value for a specific facility
+21. Day 326 – October 21st 2024: [Update Multiple Rows and Columns at the Same Time from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day326.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: I updated multiple rows in the facilities table, modifying membercost and guestcost for specific facilities using the IN keyword
+22. Day 327 – October 22nd 2024: [Update a Row Based on the Contents of Another Row from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day327.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: I used a correlated subquery within an UPDATE statement to modify the membercost and guestcost of one row based on the values in another
+23. Day 328 – October 23rd 2024: [Delete All Bookings from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day328.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: I used the DELETE statement to remove all rows from the bookings table
+24. Day 329 – October 24th 2024: [Delete a Member from the cd.members Table from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day329.md)
+    - Languages Used: SQL
+    - Question Difficulty: Easy
+    - Concepts Covered: I deleted a specific member from the members table using a WHERE clause to match the memid
+25. Day 330 – October 25th 2024: [Delete Based on a Subquery from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day330.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: I deleted rows from the members table where memid did not exist in the bookings table, using a subquery in the WHERE clause
+26. Day 331 – October 26th 2024: [List the Total Slots Booked per Facility per Month, Part 2 from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day331.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: I used the ROLLUP operator in a GROUP BY clause to calculate total slots booked per facility and month, including subtotals and grand totals
+27. Day 332 – October 27th 2024: [List the Total Hours Booked per Named Facility from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day332.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: I joined the bookings and facilities tables to calculate the total hours booked per facility, formatting the output with TO_CHAR() and ordering results by facility ID
+28. Day 333 – October 28th 2024: [List Each Member's First Booking After September 1st 2012 from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day333.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: I used MIN() to find each member's earliest booking after a specific date, grouping by member details and sorting by memid
+29. Day 334 – October 29th 2024: [Produce a List of Member Names, with Each Row Containing the Total Member Count from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day334.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: I used a subquery to calculate the total member count, including it in every row alongside member names, and sorted results by join date
+30. Day 335 – October 30th 2024: [Produce a Numbered List of Members from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day335.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: I used the ROW_NUMBER() window function to create a numbered list of members, ordering results by join date
+31. Day 336 – October 31st 2024: [Output the Facility ID That Has the Highest Number of Slots Booked, Again from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/october2024/day336.md)
+    - Languages Used: SQL
+    - Question Difficulty: Medium
+    - Concepts Covered: I used RANK() to rank facilities by total slots booked and filtered for the top-ranked facility using a WHERE clause
+
+</details>
+
+
+### November 2024
+
+<details>
+
+<summary>November 2024 Practice Problems</summary>
+
+<br>
+
+1. Day 337 – November 1st 2024: [Rank Members by (Rounded) Hours Used from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/november2024/day337.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: I calculated hours used by members with arithmetic expressions, ranked them using RANK(), and sorted by rank, surname, and first name
+2. Day 338 – November 2nd 2024: [Find the Top Three Revenue Generating Facilities from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/november2024/day338.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: I used RANK() within a subquery to rank facilities based on their total revenue, calculated with a CASE statement. I filtered for the top three ranked facilities and ordered results by rank
+3. Day 339 – November 3rd 2024: [Classify Facilities by Value from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/november2024/day339.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: I used NTILE() within a subquery to divide facilities into three groups based on revenue, then used a CASE statement to assign classifications of 'high', 'average', or 'low'. Results were ordered by classification and name
+4. Day 340 – November 4th 2024: [Calculate the Payback Time for Each Facility from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/november2024/day340.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: I calculated payback time for each facility by dividing the initial outlay by the adjusted net revenue per month, using a CASE statement for revenue and grouping by facility ID.
+5. Day 341 – November 5th 2024: [Calculate a Rolling Average of Total Revenue from PostgreSQL Exercises](https://github.com/LexiPugh/practice-problems/blob/main/practice_problems/november2024/day341.md)
+    - Languages Used: SQL
+    - Question Difficulty: Hard
+    - Concepts Covered: I used a GENERATE_SERIES() to create daily dates, and a correlated subquery to calculate a rolling 15-day revenue average for each date. The subquery included CASE statements for revenue calculation and interval-based filtering.
 
 </details>

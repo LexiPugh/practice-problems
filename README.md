@@ -3,7 +3,7 @@
 <br>      
      
 **Table of Contents**
- 
+  
 -   [Introduction](#introduction)
 -   [List of Questions](#list-of-questions)
     - [December 2023](#december-2023)
